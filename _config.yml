@@ -1,0 +1,29 @@
+title: Rocket.Chat
+description: The portal for all your Rocket.Chat documentation needs
+
+url: https://rocketchat.github.io/www.rocket.chat
+permalink: pretty
+
+# bump if alterting styles
+version: 1
+
+# set default template for posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+plugins_dir:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

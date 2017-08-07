@@ -1,0 +1,3 @@
+# Mailer
+
+Use with caution!

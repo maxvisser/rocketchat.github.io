@@ -1,0 +1,24 @@
+- name: Spinups by Whogloo
+  description: Spinup Rocket.Chat - The Business Chat Platform
+  website: https://products.spinups.io/spinups-rocket
+  logo: /images/partners/spinups.png
+
+- name: Layershift PaaS
+  description: Instantly deploy your Rocket.Chat on next generation auto-scaling PaaS.
+  website: http://jps.layershift.com/rocketchat/deploy.html
+  logo: /images/partners/layershift.png
+
+- name: RocketChatLauncher
+  description: The best team chat app in the galaxy, with no servers or code.
+  website: https://rocketchatlauncher.com/
+  logo: /images/partners/rocketchatlaucher.png
+
+- name: NETWAYS Web Services
+  description: Launch your own Rocket.Chat. Hosted in Germany.
+  website: https://nws.netways.de/contracts/new?product_id=14-rocketchat
+  logo: /images/partners/netways.png
+
+- name: Containership
+  description: The Hyperprovider for Multi-Cloud Containers.
+  website: https://containership.io/app/rocket.chat?cs_campaign_source=partner&cs_campaign_id=rocket.chat
+  logo: /images/partners/containership.png

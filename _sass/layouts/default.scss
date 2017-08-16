@@ -10,7 +10,7 @@ $body-font-family:
   "Segoe UI", Helvetica, Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-$content-width: 920px;
+$content-width: 960px;
 $content-padding: 25px;
 
 $wrapper-background: #ffffff;
@@ -152,8 +152,8 @@ body {
   background: $wrapper-background;
 }
 
-header, .main, footer {
-  padding: $content-padding 0;
+header, .main {
+  padding: $content-padding;
 }
 
 header {
@@ -221,17 +221,18 @@ footer {
 
   .callout {
     clear: both;
+    padding: $content-padding;
+  }
 
-    .button {
-      margin: 55px 0 0 10px;
-    }
+  .social {
+    padding: $content-padding;
+    border-top: 1px solid #e1e3e4;
   }
 
   .links {
     clear: both;
     border-top: 1px solid #e1e3e4;
-    margin-top: 40px;
-    padding-top: 40px;
+    padding: 40px $content-padding 0;
 
     h4 {
       text-transform: uppercase;
@@ -243,6 +244,8 @@ footer {
     ul {
       list-style: none;
       float: left;
+      width: 20%;
+      padding: 0;
     }
 
     li {

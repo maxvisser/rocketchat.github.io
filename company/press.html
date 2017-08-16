@@ -39,7 +39,7 @@ class: press
 
  <div class="">
    <div class="left">
-     <img src="{{ site.url }}/images/team/gabriel-engle/large.png" alt="Gabriel Engel">
+     <img src="{{ site.url }}/images/team/gabriel-engel/large.jpg" alt="Gabriel Engel">
    </div>
   <div class="right">
     <h2>Gabriel Engel</h2>
@@ -111,33 +111,17 @@ class: press
    </p>
  </div>
 
- <div>
-   <h2>In the Press</h2>
-   <p>
-     <a href="http://www.wired.com/2016/03/open-source-devs-racing-build-better-versions-slack/" target="_blank">
-       Open Sourcers Race to Build Better Versions of Slack
-     </a>
-     <span class="source">WIRED Magazine</span>
-   </p>
-   <p>
-     <a href="https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year" target="_blank">
-       Black Duck Announces Open Source “Rookies of the Year”
-     </a>
-     <span class="source">Black Duck Software</span>
-   </p>
-   <p>
-     <a href="http://www.theregister.co.uk/2016/03/17/no_slack_for_open_sourcers/">
-       Slack smackback: There is no IRC in team (software), say open-sourcers
-     </a>
-     <span class="source">The Register</span>
-   </p>
-   <p>
-     <a href="http://venturebeat.com/2015/11/27/5-open-source-alternatives-to-slack/">
-       5 open-source alternatives to Slack
-     </a>
-     <span class="source">Venture Beat</span>
-   </p>
- </div>
+<div>
+  <h2>In the Press</h2>
+  <ul>
+  {% for article in site.data.company.press %}
+    <li>
+      <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
+      <span>{{ article.publisher }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
 
 <div>
   <div class="left">

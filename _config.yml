@@ -7,13 +7,22 @@ permalink: pretty
 # bump if alterting styles
 version: 1
 
+# custom collections, likse posts, for larger data
+collections:
+  jobs:
+    output: true
+    permalink: /:collection/:name
+
 # set default template for posts
 defaults:
   - scope:
-      path: ""
       type: posts
     values:
       layout: post
+  - scope:
+      type: jobs
+    values:
+      layout: job
 
 sass:
   style: compressed

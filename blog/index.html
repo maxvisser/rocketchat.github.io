@@ -5,9 +5,11 @@ class: blog
 
 <h2>Blog</h2>
 
-start by importing content form old site
-
+<ul>
 {% for post in site.posts %}
-  <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <li>
+    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  </li>
 {% endfor %}
+</ul>

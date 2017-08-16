@@ -3,4 +3,14 @@ layout: default
 class: jobs
 ---
 
-jobs, start by importing content form old site
+<h1>Jobs</h1>
+
+<ul>
+{% for job in site.jobs %}
+  <li>
+    <h2>{{ job.title }}</h2>
+    <p>{{ job.content | truncatewords: 50 }}</p>
+    <a href="{{ job.url }}">Find out more</a>
+  </li>
+{% endfor %}
+</ul>

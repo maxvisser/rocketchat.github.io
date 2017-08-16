@@ -180,13 +180,17 @@ header {
     padding-right: 18px;
   }
 
+  li.button  {
+    padding-right: 0;
+  }
+
   a, a:visited {
     text-decoration: none;
     color: $heading-color;
 
     &.button {
       color: #fff;
-      padding: 4px 12px;
+      padding: 3px 9px;
     }
   }
 

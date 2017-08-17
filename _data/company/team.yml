@@ -1,0 +1,221 @@
+- name: Gabriel Engel
+  title: CEO
+  department:
+  reports: Board of Directors
+  responsibilities:
+  username:
+  joined:
+  city: Porto Alegre
+  country: Brazil
+  
+- name: Marcelo Schmidt
+  title: COO
+  department: Operations
+  reports: CEO
+  responsibilities: People Operations, General Operations, Accounting
+  username: marcelo.schmidt
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Rodrigo Nascimento
+  title: CTO
+  department: Technology
+  reports: CEO
+  responsibilities: Technology, Engineering
+  username: rodrigo.nascimento
+  joined:
+  city: Três Coroas
+  country: Brazil
+
+- name: Sing-Li
+  title: VP of Partnerships
+  department: Sales
+  reports: CEO
+  responsibilities:
+  username:
+  joined:
+  city:
+  country: Canada
+    
+- name: Aaron Ogle
+  title: VP of Cloud Engineering
+  department: Cloud
+  reports: CEO
+  responsibilities: Cloud Hosting and Deployment
+  username: aaron.ogle
+  joined:
+  city: Houston, Texas
+  country: United States
+
+- name: Rafael Kellermann Streit
+  title: VP of Mobile Engineering
+  department: Mobile
+  reports: CTO
+  responsibilities: Android, iOS and mobile web clients
+  username: rafael.kellermann
+  joined:
+  city: Taquara
+  country: Brazil
+
+- name: Sean Packham
+  title: VP of Marketing
+  department: Marketing
+  reports: CEO
+  responsibilities: Product and Content Marketing, Community Development
+  username: sean.packham
+  joined: 2017-06-26
+  city: London
+  country: United Kingdom
+
+- name: Martin Schoeler
+  title: Full Stack Engineer
+  department: Technology
+  reports: CTO
+  responsibilities: Issues triage, End-to-end Tests, Front end & Back end Issues
+  username: martin.schoeler
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Guilherme Gazzo
+  title: Full Stack Engineer
+  department:
+  reports:
+  responsibilities: Front end & Back end Issues
+  username: guilherme.gazzo
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Diego Sampaio
+  title: Software Engineer
+  department:
+  reports: CTO
+  responsibilities: Rocket.Chat features
+  username: diego.sampaio
+  joined:
+  city: Porto Alegre
+  country: Brazil
+    
+- name: Bradley Hilton
+  title:
+  department: Technology
+  reports: CEO
+  responsibilities: APIs
+  username: bradley.hilton
+  joined:
+  city: Memphis, Tennessee
+  country: United States
+
+- name: Gabriel Delavald
+  title: Front End Engineer
+  department: Technology
+  reports: CTO
+  responsibilities: Front end, Electron App
+  username: gabriel.delavald
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Karl Prieb
+  title: Front End Engineer
+  department: Technology
+  reports: CTO
+  responsibilities: Front end, Web client
+  username: karl.prieb
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Leonardo Aramaki
+  title: Android Engineer
+  department: Mobile
+  reports: VP of Mobile Engineering
+  responsibilities: Android app
+  username: leonardo.aramaki
+  joined:
+  city: Niterói
+  country: Brazil
+
+- name: Lucio Maciel
+  title: Android Engineer
+  department: Mobile
+  reports: VP of Mobile Engineering
+  responsibilities: Android app, Java SDK
+  username: lucio.maciel
+  joined:
+  city: Colônia del Sacramento
+  country: Uruguay
+
+- name: Patricia Ferreira
+  title: Administrative Coordinator
+  department: Admin
+  reports: CEO
+  responsibilities:
+  username: patriciaferreira
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Júlia Grala
+  title: Business Development Representative
+  department: Sales, Marketing
+  reports: VP of Marketing
+  responsibilities: Outbound Sales, Events, Partnerships, Marketing Strategy & Content
+  username: julia.grala
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Ramon Nobre
+  title: Sales Intern
+  department: Sales
+  reports: VP of Partnerships
+  responsibilities: Project Managment, Customers Relationship, Sales Content
+  username: ramon.nobre
+  joined:
+  city: Porto Alegre
+  country: Brazil
+
+- name: Arthur Della Giustina
+  title: UX and Graphic Designer
+  department: Marketing
+  reports: VP of Marketing
+  responsibilities: UI and UX Design, Illustraions, Video
+  username: arthur.giustina
+  joined:
+  city: Guaporé
+  country: Brazil
+    
+- name: Bernardo Trevisan
+  title: Operations Intern
+  department: Operations
+  reports: COO
+  responsibilities: Marketing Development
+  username: bernardo.trevisan
+  joined:
+  city: Porto Alegre
+  country: Brazil
+    
+- name: Diego Dorgam
+  hide: true
+  title:
+  department:
+  reports:
+  responsibilities:
+  username:
+  joined:
+  city: Brasilia
+  country: Brazil
+
+- name: Filipe Brito
+  hide: true
+  title:
+  department:
+  reports:
+  responsibilities:
+  username:
+  joined:
+  city: Salvador
+  country: Brazil

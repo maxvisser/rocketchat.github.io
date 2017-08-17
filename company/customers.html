@@ -7,13 +7,13 @@ class: customers
 
 <div>
   <ul>
-  {% for customer in site.data.company.customers %}
+    {% for customer in site.data.company.customers %}
     <li>
       <h2>{{ customer.name }}</h2>
       <p>{{ customer.description }}</p>
       <a href="{{ customer.website }}" target="_blank">Website</a>
       <div style="background-image: url('{{ site.url }}{{ customer.logo }}')"></div>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
 </div>

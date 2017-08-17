@@ -1,0 +1,11 @@
+- name: Rocket.Chat Logo
+  file: 512x512
+
+- name: Rocket.Chat Wordmark
+  file: logo
+
+- name: Rocket.Chat Wordmark Dark
+  file: logo-dark
+
+- name: Rocket.Cat
+  file: rocketcat

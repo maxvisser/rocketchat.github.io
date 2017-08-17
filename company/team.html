@@ -3,4 +3,15 @@ layout: default
 class: team
 ---
 
-team, new page
+<h1>Team</h1>
+
+<ul>
+  {% for member in site.data.company.team %}
+  <li>
+    <div style="background-image: url('{{ site.url }}/images/company/team/{{ member.name | slugify }}')/small.png"></div>
+    <h3>{{ member.name }}</h3>
+    <p>{{ member.title }}</p>
+    <p>{{ member.reports }}</p>
+  </li>
+  {% endfor %}
+</ul>

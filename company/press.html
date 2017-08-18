@@ -3,6 +3,8 @@ layout: default
 class: press
 ---
 
+<h1>Press</h1>
+
 <section>
   <p>
     We welcome inquiries from the press, and will do our best to ensure we give you a
@@ -12,7 +14,7 @@ class: press
 </section>
 
 
-<section>
+<section class="company">
   <div class="left">
     <h2>Rocket.Chat</h2>
     <p>
@@ -37,10 +39,11 @@ class: press
   <div class="right">
     <img src="{{ site.url }}/images/company/press/logos/512x512.png" alt="Rocket.Chat Logo">
   </div>
+  <div class="clear"></div>
 </section>
 
 
-<section>
+<section class="gabriel">
   <div class="left">
     <img src="{{ site.url }}/images/company/team/gabriel-engel/large.jpg" alt="Gabriel Engel">
   </div>
@@ -55,6 +58,7 @@ class: press
       the company in mid 2015, because he saw a gap in the market for [what].
     </p>
   </div>
+  <div class="clear"></div>
 </section>
 
 
@@ -79,18 +83,20 @@ class: press
     For more artwork, check out our
     <a href="https://github.com/RocketChat/Rocket.Chat.Artwork" target="_blank">Artwork Repository</a>
   </p>
+  <div class="clear"></div>
 </section>
 
 
-<section>
+<section class="blog">
   <h2>Recent News</h2>
   <p>
     For recent news, please visit our <a href="{{ site.url }}/blog/">blog</a>.
   </p>
+  <div class="clear"></div>
 </section>
 
 
-<section>
+<section class="articles">
   <h2>In the Press</h2>
   <ul>
     {% for article in site.data.company.press %}
@@ -100,10 +106,11 @@ class: press
     </li>
     {% endfor %}
   </ul>
+  <div class="clear"></div>
 </section>
 
 
-<section>
+<section class="contact">
   <div class="left">
     <img src="{{ site.url }}/images/company/press/press.svg">
   </div>
@@ -114,4 +121,5 @@ class: press
       please contact us at: <a href="mailto: press@rocket.chat">press@rocket.chat</a>
     </p>
   </div>
+  <div class="clear"></div>
 </section>

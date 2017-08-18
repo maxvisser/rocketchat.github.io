@@ -1,18 +1,44 @@
 ---
 layout: default
-class: products
+class: solutions
 ---
 
-<h1>Rocket.Chat solutions</h1>
+<h1>Rocket.Chat Solutions</h1>
 
-<p>
-  Table comparing Self Hosted versus Cloud.
-</p>
+{% assign solutions = site.data.product.solutions %}
 
-<p>
-  Mention other hosting partners.
-</p>
+<section>
+  
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th><h2>{{ solutions.community.name }}</h2></th>
+        <th><h2>{{ solutions.download.name }}</h2></th>
+        <th><h2>{{ solutions.cloud.name }}</h2></th>
+      </tr>
+    </thead>
+    <tbody>
 
-<p>
-  Mention other services.
-</p>
+      {% for key in solutions.keys %}
+      
+      {% assign k = key[0] %}
+
+      <tr>
+      {% unless solutions.download[k] %}
+        <td class="section" colspan="4">
+          <h3>{{ key[1] }}</h3>
+        </td>
+      {% else %}
+        <td>{{ key[1] }}</td>
+        <td>{{ solutions.community[k] }}</td>
+        <td>{{ solutions.download[k]] }}</td>
+        <td>{{ solutions.cloud[k] }}</td>
+      {% endunless %}
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+
+</section>

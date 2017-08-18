@@ -1,0 +1,126 @@
+keys:
+  description:
+  setup: Setup Time
+
+  users: Users and external guests
+  internal: Users
+  external: External guests
+  
+  communication: Communication
+  public: Public channels
+  private: Private channels
+  messages: Messages
+  search: Searchable messages
+  uploads: File uploads
+  calls: Voice & video calls
+  screens: Screensharing
+  livechat: LiveChat
+  
+  translation: Translation
+  ui: UI languages
+  auto: Message translation
+
+  authentication: User authentication
+  2fa: 2 Factor Authentication
+  oauth: OAuth access
+  ldap: LDAP Group Sync
+  sso: Single Sign On
+  
+  service: Other services
+  support: Support
+    
+
+community:
+  name: Community
+  description: |
+    <div>
+      Use the free Rocket.Chat Open Community Server.
+    </div>
+    <a class="button highlight" href="https://open.rocket.chat">Join Community</a>
+  setup: Instant
+  
+  internal: Unlimited
+  external: Unlimted
+  
+  public: Unlimited (Community Shared)
+  private: Unlimited
+  messages: Unlimited
+  search: Unlimted
+  uploads: Unlimted
+  calls: <span class="yes"></span>
+  screens: <span class="yes"></span>
+  livechat:
+    
+  ui: 22 languages
+  auto: <span class="yes"></span>
+
+  2fa: <span class="yes"></span>
+  oauth: <span class="yes"></span>
+  ldap:
+  sso:
+
+  support: Basic support
+      
+  
+download:
+  name: On Premise
+  description: |
+    <div>
+      Download, install and run Rocket.Chat on your own server.
+    </div>
+    <a class="button highlight" href="../../download/">Download</a>
+  setup: Less than 5 minutes
+
+  internal: Unlimited
+  external: Unlimted
+
+  public: Unlimited
+  private: Unlimited
+  messages: Unlimited
+  search: Unlimted
+  uploads: Unlimted
+  calls: <span class="yes"></span>
+  screens: <span class="yes"></span>
+  livechat: <span class="yes"></span>
+
+  ui: 22 languages
+  auto: <span class="yes"></span>
+  
+  2fa: <span class="yes"></span>
+  oauth: <span class="yes"></span>
+  ldap: <span class="yes"></span>
+  sso: <span class="yes"></span>
+
+  support: Basic support
+
+
+cloud:
+  name: Rocket Cloud
+  description: |
+    <div>
+      Your own private, hosted and manged server on the Rocket.Chat Cloud.
+    </div>
+    <a class="button highlight" href="#">Start Trial</a>
+  setup: Instant
+  
+  internal: Unlimited
+  external: Unlimted
+
+  public: Unlimited
+  private: Unlimited
+  messages: Unlimited
+  search: Unlimted
+  uploads: 50 GB - 5 TB
+  calls: <span class="yes"></span>
+  screens: <span class="yes"></span>
+  livechat: <span class="yes"></span>
+
+  ui: 22 languages
+  auto: <span class="yes"></span>
+    
+  2fa: <span class="yes"></span>
+  oauth: <span class="yes"></span>
+  ldap: <span class="yes"></span>
+  sso: <span class="yes"></span>
+
+  support: 24/7 support<br>2 hour response time

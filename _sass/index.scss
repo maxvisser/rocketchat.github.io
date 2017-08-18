@@ -1,21 +1,69 @@
 
-section {
-  margin-top: 50px;
+body.index {
   
-  .left, .right {
-    width: 46%;
+  section {
+    margin-top: 50px;
+    
+    .left, .right {
+      width: 46%;
+    }
+    
+    .left {
+      float: left;
+    }
+    
+    .right {
+      float: right;
+    }
+    
+    img {
+      max-width: 300px;
+    }
   }
   
-  .left {
-    float: left;
+  .hero {
+    margin-bottom: 100px;
+    
+    .prepare {
+      font-size: 32px;
+    }
+    
+    h1 {
+      margin-bottom: 8px;
+      font-size: 42px;
+    }
+    
+    .experience {
+      font-size: 22px;
+    }
+    
+  }
+
+  .community img {
+    margin-top: -25px;
+  }
+
+  .features img {
+    max-width: 340px;
+    margin-top: 20px;
   }
   
-  .right {
-    float: right;
+  .translation img {
+    margin-top: -25px;
   }
   
-  i {
-    display: block;
-    margin-top: 100px;
+  .clients img {
+    max-width: 320px;
   }
+  
+  .run img {
+    max-width: 340px;
+    margin-top: 20px;
+  }
+  
+  .own img {
+    max-width: 350px;
+    margin-top: 25px;
+  }
+
 }

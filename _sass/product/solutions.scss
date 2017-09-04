@@ -40,11 +40,17 @@ body.solutions {
     min-height: 100px;
   }
   
+  td a {
+    display: block;
+    margin-top: 15px;
+  }
+  
   td a.button {
     padding: 7px 8px;
     min-width: 150px;
+    margin-top: 0;
   }
-  
+
   td:nth-child(1) {
     border: none;
     text-align: left;

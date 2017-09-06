@@ -97,7 +97,7 @@ download:
 
 
 cloud:
-  name: Rocket Cloud
+  name: Cloud
   description: |
     <div>
       Your own private, hosted and manged server on the Rocket.Chat Cloud.

@@ -1,0 +1,88 @@
+keys:
+  description:
+  self-help: Self help resources
+  ticket: Online ticket creation
+  coverage: 24x7 support coverage
+  on-boarding: Account on-boarding
+  migration: Support for migration from Slack or HipChat
+  end-users: Support for end users
+  updates: Updates and version upgrades
+  priority: Priority access to hotfixes
+  product: Direct access to product team
+  phone: Screen-sharing and collaborative phone calls
+  private: Access to private discussion channel
+  advice: Installation and deployment advisory
+  health: Health checks
+  performance: Performance tuning
+  training: Product training
+
+    
+basic:
+  name: Basic
+  description: |
+    <div>
+      Get essential support for your Rocket.Chat isntance.
+      Included with Rocket.Chat Cloud.
+    </div>
+  self-help: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  coverage: <span class="yes"></span>
+  on-boarding:
+  migration:
+  end-users:
+  updates:
+  priority:
+  product:
+  phone:
+  private:
+  advice:
+  health:
+  performance:
+  training:
+
+        
+premium:
+  name: Premium
+  description: |
+    <div>
+      Premium support
+    </div>
+  self-help: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  coverage: <span class="yes"></span>
+  on-boarding: <span class="yes"></span>
+  migration: <span class="yes"></span>
+  end-users:
+  updates:
+  priority:
+  product:
+  phone:
+  private:
+  advice:
+  health:
+  performance:
+  training:
+    
+
+enterprise:
+  name: Enterprise
+  description: |
+    <div>
+      Enterprise support
+    </div>
+  self-help: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  coverage: <span class="yes"></span>
+  on-boarding: <span class="yes"></span>
+  migration: <span class="yes"></span>
+  end-users: <span class="yes"></span>
+  updates: <span class="yes"></span>
+  priority: <span class="yes"></span>
+  product: <span class="yes"></span>
+  phone: <span class="yes"></span>
+  private: <span class="yes"></span>
+  advice: <span class="yes"></span>
+  health: <span class="yes"></span>
+  performance: <span class="yes"></span>
+  training: 15 hours
+    

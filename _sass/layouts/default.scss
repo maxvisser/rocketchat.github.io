@@ -267,6 +267,11 @@ footer {
   }
 }
 
+.testimonials ul {
+  list-style: none;
+  padding: 0;
+}
+
 // tablet
 
 @media all and (max-width: 800px) {

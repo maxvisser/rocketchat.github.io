@@ -1,0 +1,59 @@
+keys:
+  description:
+  self-help: Self help resources
+  ticket: Online ticket creation
+  chat: 24x7 chat support
+  phone: 24x7 phone support
+  on-boarding: Account on-boarding
+  migration: Support for migration from Slack or HipChat
+  end-users: Support for end users
+  product: Direct access to product team
+
+    
+basic:
+  name: Basic
+  description: |
+    <div>
+      Get essential support for your Rocket.Chat isntance.
+      Included with Rocket.Chat Cloud.
+    </div>
+  self-help: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  chat: <span class="yes"></span>
+  phone:
+  on-boarding:
+  migration:
+  end-users:
+  product:
+
+        
+premium:
+  name: Premium
+  description: |
+    <div>
+      Premium support
+    </div>
+  self-help: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  chat: <span class="yes"></span>
+  phone: <span class="yes"></span>
+  on-boarding: <span class="yes"></span>
+  migration:
+  end-users:
+  product:
+    
+
+enterprise:
+  name: Enterprise
+  description: |
+    <div>
+      Enterprise support
+    </div>
+  self-help: <span class="yes"></span>
+  ticket: <span class="yes"></span>
+  chat: <span class="yes"></span>
+  phone: <span class="yes"></span>
+  on-boarding: <span class="yes"></span>
+  migration: <span class="yes"></span>
+  end-users: <span class="yes"></span>
+  product: <span class="yes"></span>    

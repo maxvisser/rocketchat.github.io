@@ -1,10 +1,67 @@
 ---
-layout: default
+layout: en/default
 class: support
 ---
 
-<h1>Support</h1>
+<div class="center">
+  <h1>Rocket.Chat Support</h1>
+  <p>We will keep your team communicating</p>
+  <em>
+    A photo of some our team members a customer quote
+  </em>
+</div>
 
-<p>
-  Table comparing our basic and premium enterprise support.
-</p>
+{% assign support = site.data.product.support %}
+
+<section>
+  
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th><h2>{{ support.basic.name }}</h2></th>
+        <th><h2>{{ support.premium.name }}</h2></th>
+        <th><h2>{{ support.enterprise.name }}</h2></th>
+      </tr>
+    </thead>
+    <tbody>
+
+      {% for key in support.keys %}
+      
+      {% assign k = key[0] %}
+
+      <tr>
+      {% unless support.enterprise[k] %}
+        <td class="section" colspan="4">
+          <h3>{{ key[1] }}</h3>
+        </td>
+      {% else %}
+        <td>{{ key[1] }}</td>
+        <td>{{ support.basic[k] }}</td>
+        <td>{{ support.premium[k]] }}</td>
+        <td>{{ support.enterprise  [k] }}</td>
+      {% endunless %}
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+
+</section>
+
+<section>
+  <h2>Custom Support Needs</h2>
+  <p>
+    We know every organization is different, and some might have special
+    support cases. We offer tailored support service to make sure we offer you
+    the best possible service. Contact us and tell more about your needs.
+  </p>
+</section>
+
+<section>
+  <h2>FAQ</h2>
+
+  <ol>    
+  </ol>
+  
+</section>

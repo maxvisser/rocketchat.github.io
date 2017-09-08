@@ -37,6 +37,7 @@ community:
       Use the free Rocket.Chat Open Community Server.
     </div>
     <a class="button highlight" href="https://open.rocket.chat">Join Community</a>
+    <a href="../community/">Find out more</a>
   setup: Instant
   
   internal: Unlimited
@@ -51,7 +52,7 @@ community:
   screens: <span class="yes"></span>
   livechat:
     
-  ui: 22 languages
+  ui: 37 languages
   auto: <span class="yes"></span>
 
   2fa: <span class="yes"></span>
@@ -69,6 +70,7 @@ download:
       Download, install and run Rocket.Chat on your own server.
     </div>
     <a class="button highlight" href="../../download/">Download</a>
+    <a href="../on-premise/">Find out more</a>
   setup: Less than 5 minutes
 
   internal: Unlimited
@@ -83,7 +85,7 @@ download:
   screens: <span class="yes"></span>
   livechat: <span class="yes"></span>
 
-  ui: 22 languages
+  ui: 37 languages
   auto: <span class="yes"></span>
   
   2fa: <span class="yes"></span>
@@ -95,12 +97,13 @@ download:
 
 
 cloud:
-  name: Rocket Cloud
+  name: Cloud
   description: |
     <div>
       Your own private, hosted and manged server on the Rocket.Chat Cloud.
     </div>
     <a class="button highlight" href="#">Start Trial</a>
+    <a href="../cloud/">Find out more</a>
   setup: Instant
   
   internal: Unlimited
@@ -115,7 +118,7 @@ cloud:
   screens: <span class="yes"></span>
   livechat: <span class="yes"></span>
 
-  ui: 22 languages
+  ui: 37 languages
   auto: <span class="yes"></span>
     
   2fa: <span class="yes"></span>
@@ -123,4 +126,4 @@ cloud:
   ldap: <span class="yes"></span>
   sso: <span class="yes"></span>
 
-  support: 24/7 support<br>2 hour response time
+  support: 24/7 support<br>4 hour response time

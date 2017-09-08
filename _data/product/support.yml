@@ -7,15 +7,7 @@ keys:
   on-boarding: Account on-boarding
   migration: Support for migration from Slack or HipChat
   end-users: Support for end users
-  # updates: Updates and version upgrades
-  # priority: Priority access to hotfixes
   product: Direct access to product team
-  # phone: Screen-sharing and collaborative phone calls
-  # private: Access to private discussion channel
-  # advice: Installation and deployment advisory
-  # health: Health checks
-  # performance: Performance tuning
-  # training: Product training
 
     
 basic:
@@ -32,15 +24,7 @@ basic:
   on-boarding:
   migration:
   end-users:
-  updates:
-  priority:
   product:
-  # phone:
-  private:
-  advice:
-  health:
-  performance:
-  training:
 
         
 premium:
@@ -56,15 +40,7 @@ premium:
   on-boarding: <span class="yes"></span>
   migration:
   end-users:
-  updates:
-  priority:
   product:
-  # phone:
-  private:
-  advice:
-  health:
-  performance:
-  training:
     
 
 enterprise:
@@ -80,13 +56,4 @@ enterprise:
   on-boarding: <span class="yes"></span>
   migration: <span class="yes"></span>
   end-users: <span class="yes"></span>
-  updates: <span class="yes"></span>
-  priority: <span class="yes"></span>
-  product: <span class="yes"></span>
-  phone: <span class="yes"></span>
-  private: <span class="yes"></span>
-  advice: <span class="yes"></span>
-  health: <span class="yes"></span>
-  performance: <span class="yes"></span>
-  training: 15 hours
-    
+  product: <span class="yes"></span>    

@@ -41,13 +41,13 @@ community:
   setup: Instant
   
   internal: Unlimited
-  external: Unlimted
+  external: Unlimited
   
   public: Unlimited (Community Shared)
   private: Unlimited
   messages: Unlimited
-  search: Unlimted
-  uploads: Unlimted
+  search: Unlimited
+  uploads: Unlimited
   calls: <span class="yes"></span>
   screens: <span class="yes"></span>
   livechat:
@@ -74,13 +74,13 @@ download:
   setup: Less than 5 minutes
 
   internal: Unlimited
-  external: Unlimted
+  external: Unlimited
 
   public: Unlimited
   private: Unlimited
   messages: Unlimited
-  search: Unlimted
-  uploads: Unlimted
+  search: Unlimited
+  uploads: Unlimited
   calls: <span class="yes"></span>
   screens: <span class="yes"></span>
   livechat: <span class="yes"></span>
@@ -107,12 +107,12 @@ cloud:
   setup: Instant
   
   internal: Unlimited
-  external: Unlimted
+  external: Unlimited
 
   public: Unlimited
   private: Unlimited
   messages: Unlimited
-  search: Unlimted
+  search: Unlimited
   uploads: 50 GB - 5 TB
   calls: <span class="yes"></span>
   screens: <span class="yes"></span>

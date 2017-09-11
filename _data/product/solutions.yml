@@ -36,6 +36,8 @@ community:
   description: |
     <div>
       Use the free Rocket.Chat Open Community Server.
+      <br>
+      <a href="https://open.rocket.chat">open.rocket.chat</a>  
     </div>
     <a class="button highlight" href="https://open.rocket.chat">Join Community</a>
     <a href="../community/">Find out more</a>

@@ -1,6 +1,8 @@
 keys:
   description:
   pricing: Pricing (billed annually)
+  response: Response time
+  critical: Critical support SLA
   self-help: Self help resources
   ticket: Online ticket creation
   chat: 24x7 chat support
@@ -20,6 +22,8 @@ basic:
     </div>
     <a class="button highlight" href="#">Contact Sales</a>
   pricing: From <span>$299</span>/month
+  response: 1 business day
+  critical: 1 hour
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
   chat: <span class="yes"></span>
@@ -38,6 +42,8 @@ premium:
     </div>
     <a class="button highlight" href="#">Contact Sales</a>
   pricing: From <span>$549</span>/month
+  response: 8 hour business day
+  critical: 1 hour
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
   chat: <span class="yes"></span>
@@ -56,6 +62,8 @@ enterprise:
     </div>
     <a class="button highlight" href="#">Contact Sales</a>
   pricing: From <span>$749</span>/month
+  response: 4 hour business day
+  critical: 30 min
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
   chat: <span class="yes"></span>

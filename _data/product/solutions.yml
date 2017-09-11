@@ -29,7 +29,6 @@ keys:
   
   service: Other services
   support: Support
-    
 
 community:
   name: Community
@@ -37,7 +36,7 @@ community:
     <div>
       Use the free Rocket.Chat Open Community Server.
       <br>
-      <a href="https://open.rocket.chat">open.rocket.chat</a>  
+      <a href="https://open.rocket.chat">open.rocket.chat</a>
     </div>
     <a class="button highlight" href="https://open.rocket.chat">Join Community</a>
     <a href="../community/">Find out more</a>
@@ -64,8 +63,7 @@ community:
   ldap:
   sso:
 
-  support: Basic support
-      
+  support: Support via GitHub Issues
   
 download:
   name: On Premise
@@ -74,7 +72,7 @@ download:
       Download, install and run Rocket.Chat on your own server.
     </div>
     <a class="button highlight" href="../../download/">Download</a>
-    <a href="../on-premise/">Find out more</a>
+    <a href="https://github.com/RocketChat/Rocket.Chat">Rocket.Chat on GitHub</a>
   pricing: <span>Free</span>
   setup: Less than 5 minutes
 
@@ -98,8 +96,7 @@ download:
   ldap: <span class="yes"></span>
   sso: <span class="yes"></span>
 
-  support: Basic support
-
+  support: Basic, Premium &amp; Enterprise <br>Support Plans Available
 
 cloud:
   name: Cloud
@@ -132,4 +129,5 @@ cloud:
   ldap: <span class="yes"></span>
   sso: <span class="yes"></span>
 
-  support: 24/7 support<br>4 hour response time
+  support: |
+    Basic Support Plan Included<br>Premium &amp; Enterprise Upgrades

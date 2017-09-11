@@ -30,11 +30,11 @@ class: solutions
     <tbody>
 
       {% for key in solutions.keys %}
-      
+            
       {% assign k = key[0] %}
 
       <tr>
-      {% unless solutions.download[k] %}
+      {% unless solutions.cloud[k] %}
         <td class="section" colspan="4">
           <h3>{{ key[1] }}</h3>
         </td>

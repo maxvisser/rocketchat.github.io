@@ -1,5 +1,6 @@
 keys:
   description:
+  pricing: Pricing (billed annually)
   self-help: Self help resources
   ticket: Online ticket creation
   chat: 24x7 chat support
@@ -17,6 +18,8 @@ basic:
       Get essential support for your Rocket.Chat isntance.
       Included with Rocket.Chat Cloud.
     </div>
+    <a class="button highlight" href="#">Contact Sales</a>
+  pricing: From <span>$299</span>/month
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
   chat: <span class="yes"></span>
@@ -33,6 +36,8 @@ premium:
     <div>
       Premium support
     </div>
+    <a class="button highlight" href="#">Contact Sales</a>
+  pricing: From <span>$549</span>/month
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
   chat: <span class="yes"></span>
@@ -49,6 +54,8 @@ enterprise:
     <div>
       Enterprise support
     </div>
+    <a class="button highlight" href="#">Contact Sales</a>
+  pricing: From <span>$749</span>/month
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
   chat: <span class="yes"></span>
@@ -56,4 +63,4 @@ enterprise:
   on-boarding: <span class="yes"></span>
   migration: <span class="yes"></span>
   end-users: <span class="yes"></span>
-  product: <span class="yes"></span>    
+  product: <span class="yes"></span>

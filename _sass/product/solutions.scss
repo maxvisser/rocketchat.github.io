@@ -56,6 +56,17 @@ body.solutions {
     text-align: left;
   }
   
+  tr:nth-child(2) {
+    td:nth-child(2), td:nth-child(3), td:nth-child(4) {
+      font-size: 18px;
+      
+      span {
+        font-size: 28px;
+        font-weight: bold;
+      }
+    }
+  }
+  
   .section {
     padding: 15px 12px;
     background: #f7f8fa;

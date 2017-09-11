@@ -1,5 +1,6 @@
 keys:
   description:
+  pricing: Pricing
   setup: Setup Time
 
   users: Users and external guests
@@ -38,6 +39,7 @@ community:
     </div>
     <a class="button highlight" href="https://open.rocket.chat">Join Community</a>
     <a href="../community/">Find out more</a>
+  pricing: <span>Free</span>
   setup: Instant
   
   internal: Unlimited
@@ -71,6 +73,7 @@ download:
     </div>
     <a class="button highlight" href="../../download/">Download</a>
     <a href="../on-premise/">Find out more</a>
+  pricing: <span>Free</span>
   setup: Less than 5 minutes
 
   internal: Unlimited
@@ -104,6 +107,7 @@ cloud:
     </div>
     <a class="button highlight" href="#">Start Trial</a>
     <a href="../cloud/">Find out more</a>
+  pricing: From <span>$50</span>/month
   setup: Instant
   
   internal: Unlimited

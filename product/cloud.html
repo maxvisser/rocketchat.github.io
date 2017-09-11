@@ -3,45 +3,56 @@ layout: en/default
 class: cloud
 ---
 
-{% capture content %}
+<div class="center">
+  <h1>Rocket.Chat Cloud</h1>
+  <p>Let us take of hosting and scaling your team chat</p>
+  <em>
 
-### How does Rocket.Chat cloud save you time and money.
-### When is Rocket.Chat Cloud right for you.
+  </em>
+</div>
 
-## Causes we support
+{% assign cloud = site.data.product.cloud %}
 
-We offer special prices for people that are doing good things around the world.
+<section>
+  
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th><h2>{{ cloud.small.name }}</h2></th>
+        <th><h2>{{ cloud.medium.name }}</h2></th>
+        <th><h2>{{ cloud.large.name }}</h2></th>
+      </tr>
+    </thead>
+    <tbody>
 
-## Non-Profits
+      {% for key in cloud.keys %}
+      
+      {% assign k = key[0] %}
 
-What is the offer:
-Eligible nonprofits have free access to our platform up to 5.000 subscription and 200 active users. When the organization requires more space off the Rocket.Chat’s Cloud Hosting, we offer 80% of discount to upgrade.
+      <tr>
+      {% unless cloud.large[k] %}
+        <td class="section" colspan="4">
+          <h3>{{ key[1] }}</h3>
+        </td>
+      {% else %}
+        <td>{{ key[1] }}</td>
+        <td>{{ cloud.small[k] }}</td>
+        <td>{{ cloud.medium[k]] }}</td>
+        <td>{{ cloud.large[k] }}</td>
+      {% endunless %}
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
 
-Eligibility to get special prices:
+</section>
 
-1. Hold a valid charitable status and proof it with legal documents.
-1. Have a major purpose that improve life quality.
-1. The organization must not commit with discrimination by gender, race, ethnicity, religion, political affiliation, sexual orientation, national origin or any other kind.
+<section>
+  <h2>FAQ</h2>
 
-Organizations that are not included:  private foundations; government offices; legislative or political activity organizations; organizations that aim to influence public opinion; churches or other type of religious association;
-
-See the complete terms of service before applying.
-If your company fits all this requirements, fill in this application form.
-
-
-Educational Institutions
-
-What is the offer:
-Eligible eduacational institutions have 60% of discount on our our platform up to 5.000 subscription and 200 active users. When the organization requires more space off the Rocket.Chat’s Cloud Hosting, we offer 50% of discount to upgrade the plan.
-
-Eligibility to get special prices:
-
-1. Accredited educational institutions.
-1. Primary, secondary and tertiary institutions.
-1. Student organizations, organizations that are directly affiliated with an educational institution, school districts and regional service agencies.
-
-Please review the complete terms of service before applying. There are special policies according to local governments.
-If your company fits all this requirements, fill in this application form.
-
-{% endcapture %}
-{{ content | markdownify }}
+  <ol>
+  </ol>
+  
+</section>

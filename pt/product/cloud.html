@@ -5,44 +5,48 @@ class: cloud
 
 <section class="center">
   <h1>Rocket.Chat Cloud</h1>
-  <p>The worry free way to affordably host, manage and scale Rocket.Chat</p>
+  <p>Livre-se de preocupações: hospede, gerencie e escale a Rocket.Chat</p>
 </section>
 
 <section>
   <p>
-    Rocket.Chat's robust and scalable Cloud, built on Docker and Kubernetes,
-    gives you the benefits of an open source communication platform
-    without having to manage and scale your own infrastructure and dedicated support team -
-    saving you time and money so that you can keep bringing value to your customers.
+    A nuvem robusta e escalável da Rocket.Chat, construída no Docker e Kubernetes, 
+    oferece os benefícios de uma plataforma de comunicação de código aberto sem que você
+    tenha que gerenciar e dimensionar a plataforma para caber na sua própria infra-estrutura 
+    e alocar sua equipe de suporte para cuidar disso - economizando tempo e dinheiro para
+    que a sua empresa possa continuar trazendo valor para seus clientes.
   </p>
   <h3>Easy</h3>
   <p>
-    Rocket.Chat Cloud is the easiest way to install and setup Rocket.Chat.
-    It requires no technical knowledge about managing and securing servers, we take care of that got you, and
-    can be completed in a couple of minutes.
+    Rocket.Chat Cloud é a maneira mais fácil de instalar e configurar o Rocket.Chat.
+    Sua instalação não requer conhecimentos técnicos sobre como gerenciar e proteger servidores, 
+    nós cuidamos disso para que você consiga completar esse processo em poucos minutos.
   </p>
   <h3>Affordable</h3>
   <p>
-    We believe in charging a fair rate for the resources your need rather than every user,
-    giving you affordable and scalable team chat solution for tens of thousands of users.
+    Acreditamos em taxas justas e que você só deve ser cobrado pela sua necessidade, em vez de cobrar por
+    todos os seus usuários, nós oferecemos uma solução para melhorar a sua comunicação de forma acessível 
+    e escalável para dezenas de milhares de usuários.
   </p>
   <p>
-    Rocket.Chat Cloud requires no long term infrastructure or dedicated support team commitments
-    giving you the most flexible affordable enterprise team chat solution.
+    A Rocket.Chat Cloud não requer infra-estrutura de longo prazo ou o compromisso da sua equipe de suporte
+    entregando uma solução de comunicação empresarial mais flexível e acessível.
   </p>
   <h3>Secure</h3>
   <p>
-    Every cloud instance runs in it's own set of Docker containers with it's own database - isolated from other cloud instances.
-    Under the hood day-to-day database operations are performed with restricted access to minimize risk.
+    Toda instância da nuvem é executada em seu próprio conjunto de contêineres Docker com seu próprio banco 
+    de dados - isolado de outras instâncias da nuvem. Sob o capô, as operações do banco de dados do dia-a-dia 
+    são realizadas com acesso restrito para minimizar o risco.
   </p>
   <p>
-    We perform 24x7 monitoring on every instance and have configured hundreds of safety alerts to keep your team chat secure and fast.
-    Your data up is backed-up up to every hour, to give you peace of mind in the case of an emergency.
+    Realizamos um monitoramento 24x7 em cada instância e configuramos centenas de alertas de segurança para 
+    manter a plataforma de comunicação da sua equipe segura e rápida. O backup é realizado até a cada hora, 
+    para lhe dar tranquilidade no caso de uma emergência.
   </p>
 </section>
 
 <section class="center">
-  <h2>Start your free trial now and give your team <br>the most advanced open source communication platform on the market</h2>
+  <h2>Inicie sua versão de teste agora e entregue para o seu time <br>a melhor e mais avançada plataforma de comunicação open source do mercado </h2>
 </section>
 
 {% assign cloud = site.data.product.cloud %}
@@ -52,9 +56,9 @@ class: cloud
     <thead>
       <tr>
         <th></th>
-        <th><h2>{{ cloud.small.name }}</h2></th>
-        <th><h2>{{ cloud.medium.name }}</h2></th>
-        <th><h2>{{ cloud.large.name }}</h2></th>
+        <th><h2>{{ cloud.Pequeno.name }}</h2></th>
+        <th><h2>{{ cloud.Médio.name }}</h2></th>
+        <th><h2>{{ cloud.Grande.name }}</h2></th>
       </tr>
     </thead>
     <tbody>
@@ -70,9 +74,9 @@ class: cloud
         </td>
       {% else %}
         <td>{{ key[1] }}</td>
-        <td>{{ cloud.small[k] }}</td>
-        <td>{{ cloud.medium[k]] }}</td>
-        <td>{{ cloud.large[k] }}</td>
+        <td>{{ cloud.Pequeno[k] }}</td>
+        <td>{{ cloud.Médio[k]] }}</td>
+        <td>{{ cloud.Grande[k] }}</td>
       {% endunless %}
       </tr>
       {% endfor %}
@@ -82,60 +86,61 @@ class: cloud
 </section>
 
 <section>
-  <h2>Non-profits and Educational institutes</h2>
+  <h2>Organizações sem fins lucrativos e Instituições de Ensino</h2>
   
   <p>
-    If you run or work for a <a href="/product/concession">non-profit or educational institute</a>
-    you may be eligible for up to 80% discount on Rocket.Chat Cloud.
+    Se você dirige ou trabalha uma <a href="/product/concession">Organização sem fins lucrativos ou Insituição de ensino</a>
+    você pode ser elegível para até 80% de desconto no serviço da Rocket.Chat Cloud.
   </p>
 </section>
 
 <section>
-  <h2>FAQ</h2>
+  <h2>Perguntas Frequentes</h2>
 
   <ol>
     <li>
-      <h3>How long will Rocket.Chat Cloud be in beta?</h3>
+      <h3>Por quanto tempo o Rocket.Chat Cloud ficará na versão beta?</h3>
       <p>
-        We are close to bringing Rocket.Chat Cloud out of beta,
-        while in beta Rocket.Chat cloud is completely free.
+        Estamos perto de trazer o Rocket.Chat Cloud para fora da versão beta,
+        enquanto isso, desfrute desse serviço gratuitamente.
       </p>
     </li>
     
     <li>
-      <h3>How long do Rocket.Chat Cloud free trials last?</h3>
+      <h3>Por quanto tempo posso utilizar a versão gratuíta do Rocket.Chat Cloud?</h3>
       <p>
-        Every plan has a 30 day free trial. You can choose to cancel your plan anytime during the trial.
+        Todos os planos oferecem 30 dias de hospedagem gratuíta para teste. Permitindo que você
+        experimente esse serviço sem compromissos e, caso deseje, continue ou cancele ele em qualquer momento. 
       </p>
     </li>
     
     <li>
-      <h3>When will I be billed after my trial finishes?</h3>
+      <h3>Como ocorre a cobrança depois do período de teste?</h3>
       <p>
-        You won't be billed automatically when your trial ends.
-        Explicit permission to bill you and continue the plan will be requested.
+        Você não será cobrado automaticamente quando a sua versão de teste acabar.
+        Nós requisitamos sua permissão para lhe cobrar e continuar com o plano desejado.
       </p>
     </li>
     
     <li>
-      <h3>What is the billing period?</h3>
+      <h3>Qual é o período de cobrança?</h3>
       <p>
-        All plans are billed monthly.
+        Todos os planos são cobrados mensalmente.
       </p>
     </li>
     
     <li>
-      <h3>When can I cancel a plan?</h3>
+      <h3>Quando posso cancelar o plano?</h3>
       <p>
-        You can cancel a plan at anytime and can continue to use your plan for the remaineder of your billing month.
+        Você pode cancelar o plano em qualquer momento, no mê vigente você ainda poderá utilizar a plataforma. 
       </p>
     </li>
     
     <li>
-      <h3>Can I upgrade from a Basic support plan to a Premium or Enterprise</h3>
+      <h3>Posso trocar a cobertura Básica de Suporte para a cobertura de Premium de Suporte?</h3>
       <p>
-        Yes you can upgrade to a Premium or Enterprise support plan,
-        please <a href="mailto:sales@rocket.chat?subject=Upgrade Cloud Support">contact sales</a> with your enquiry.
+        Sim, você pode melhorar a sua cobertura de suporte, para isso, 
+        <a href="mailto:sales@rocket.chat?subject=Upgrade Cloud Support">contate o time de vendas</a> com o seu pedido.
       </p>
     </li>
   </ol>

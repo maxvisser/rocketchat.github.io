@@ -1,0 +1,42 @@
+
+body.community {
+
+  .connect {
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    li {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+  .involved {
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    li {
+      width: 30%;
+      float: left;
+      margin-right: 5%;
+      margin-bottom: 15px;
+    }
+    
+    li:nth-child(3), li:nth-child(6) {
+      margin-right: 0;
+    }
+    
+    li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+      height: 200px;
+    }
+  }
+
+  section {
+    margin: 0 0 45px;
+  }
+    
+}

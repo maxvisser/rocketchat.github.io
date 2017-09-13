@@ -1,72 +1,6 @@
 
 body.cloud {
   
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 14px;
-    
-    h2 {
-      font-size: 32px;
-      font-weight: bold;
-      vertical-align: top;
-    }
-  }
-  
-  tr {
-    width: 100%;
-    border-top: 1px solid #ccc;
-  }
-  
-  tr:nth-child(1) {
-    border: none;
-  }
-      
-  th, td {
-    width: 26%;
-    padding: 12px 12px;
-  }
-  
-  th:nth-child(1), td:nth-child(1) {
-    width: 22%;
-  }
-  
-  td {
-    border-left: 1px solid #ccc;
-    text-align: center;
-  }
-  
-  td div {
-    min-height: 100px;
-  }
-  
-  td a {
-    display: block;
-    margin-top: 15px;
-  }
-  
-  td a.button {
-    padding: 7px 8px;
-    min-width: 150px;
-    margin-top: 0;
-  }
-
-  td:nth-child(1), {
-    border: none;
-    text-align: left;
-  }
-  
-  tr:nth-child(2) {
-    td:nth-child(2), td:nth-child(3), td:nth-child(4) {
-      font-size: 18px;
-      
-      span {
-        font-size: 28px;
-        font-weight: bold;
-      }
-    }
-  }
-  
   .section {
     padding: 15px 12px;
     background: #f7f8fa;
@@ -75,46 +9,6 @@ body.cloud {
       margin: 0;
       font-size: 16px;
     }
-  }
-
-  span.yes:before {
-    position: absolute;
-    width:3px;
-    height:9px;
-    background-color:#ccc;
-    left:11px;
-    top:6px;
-  }
-
-  span.yes:before {
-    content: '';
-    height: 5px;
-    background-color: green;
-    position: relative;
-    display: block;
-    top: 50%;
-    left: 50%;
-    width: 9px;
-    margin-left: -15px;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  
-  span.yes:after {
-    content: '';
-    height: 5px;
-    background-color: green;
-    position: relative;
-    display: block;
-    top: 50%;
-    left: 50%;
-    width: 20px;
-    margin-left: -11px;
-    margin-top: -6px;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
   }
   
   section {

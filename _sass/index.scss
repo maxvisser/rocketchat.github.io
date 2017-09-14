@@ -22,7 +22,7 @@ body.index {
   }
   
   .hero {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     
     .prepare {
       font-size: 32px;
@@ -35,6 +35,15 @@ body.index {
     
     .experience {
       font-size: 22px;
+    }
+    
+    .center {
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    .button {
+      width: 180px;
     }
   }
   
@@ -81,9 +90,10 @@ body.index {
     margin-top: 20px;
   }
   
-  .own img {
-    max-width: 350px;
-    margin-top: 25px;
+  .testimonials {
+    .classuite, .procempa, .gomoney {
+      display: none;
+    }
   }
 
 }

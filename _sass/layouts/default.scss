@@ -147,6 +147,10 @@ body {
   line-height: $body-line-height;
 }
 
+section {
+  clear: both;
+}
+
 // wrap header and .main, give it a white background
 .wrapper {
   background: $wrapper-background;
@@ -156,16 +160,23 @@ header, .main {
   padding: $content-padding;
 }
 
+.header-wrapper {
+  background-color: #444;
+}
+
 header {
   max-width: $content-width;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
   font-size: $header-font-size;
 
   h2 {
     margin: 0;
     display: inline-block;
     font-size: $header-logo-font-size;
+    color: #fff;
   }
 
   ul {
@@ -181,12 +192,12 @@ header {
   }
 
   li.button  {
-    padding-right: 0;
+    padding-right: 5px;
   }
 
   a, a:visited {
     text-decoration: none;
-    color: $heading-color;
+    color: #fff;
 
     &.button {
       color: #fff;

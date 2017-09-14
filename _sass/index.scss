@@ -29,14 +29,26 @@ body.index {
     }
     
     h1 {
-      margin-bottom: 8px;
+      margin-bottom: 75px;
       font-size: 42px;
     }
     
     .experience {
       font-size: 22px;
     }
+  }
+  
+  .download-clients {
+    margin-bottom: 50px;
     
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+    
+    li {
+      float: left;
+    }
   }
   
   .preview {

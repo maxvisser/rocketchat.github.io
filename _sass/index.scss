@@ -60,6 +60,16 @@ body.index {
     }
   }
   
+  .cta {
+    text-align: center;
+    font-size: 26px;
+    margin: 75px 0;
+    
+    a {
+      color: $background-highlight;
+    }
+  }
+  
   .preview {
     margin-bottom: 100px;
     

@@ -283,6 +283,20 @@ footer {
   padding: 0;
 }
 
+.center {
+  text-align: center;
+}
+
+section {
+  margin: 0 0 45px;
+}
+
+.faq {
+  ol {
+    padding-left: 18px;
+    margin: 0;
+  }
+}
 
 table {
   border-collapse: collapse;
@@ -295,6 +309,15 @@ table {
     vertical-align: top;
   }
   
+  .section {
+    padding: 15px 12px;
+    background: #f7f8fa;
+    
+    h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+  }
   
   tr {
     width: 100%;
@@ -323,7 +346,7 @@ table {
     min-height: 100px;
   }
   
-  td a {
+  td a.block {
     display: block;
     margin-top: 15px;
   }

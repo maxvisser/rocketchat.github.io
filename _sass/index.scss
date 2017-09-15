@@ -41,9 +41,18 @@ body.index {
       margin-top: 40px;
       text-align: center;
     }
-    
-    .button {
-      width: 180px;
+
+    .left {
+      .button {
+        width: 115px;
+        margin-right: 4px;
+      }
+    }
+        
+    .right {
+      .button {
+        width: 185px;
+      }
     }
   }
   

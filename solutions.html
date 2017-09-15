@@ -3,26 +3,23 @@ layout: en/default
 class: solutions
 ---
 
-<div class="center">
+<section class="center">
   <h1>Rocket.Chat Solutions</h1>
   <p>
     Find the Rocket.Chat solution that is right for you
   </p>
-  <em>
-    illustration with various industries, on the far left non-profits, on the
-    far right global enterprises
-  </em>
-</div>
+  <p>
+    todo: needs pitch and illustration
+  </p>
+</section>
 
-{% assign solutions = site.data.product.solutions %}
+{% assign solutions = site.data.solutions %}
 
 <section>
-  
   <table>
     <thead>
       <tr>
         <th></th>
-        <th><h2>{{ solutions.community.name }}</h2></th>
         <th><h2>{{ solutions.download.name }}</h2></th>
         <th><h2>{{ solutions.cloud.name }}</h2></th>
       </tr>
@@ -40,7 +37,6 @@ class: solutions
         </td>
       {% else %}
         <td>{{ key[1] }}</td>
-        <td>{{ solutions.community[k] }}</td>
         <td>{{ solutions.download[k]] }}</td>
         <td>{{ solutions.cloud[k] }}</td>
       {% endunless %}
@@ -49,12 +45,9 @@ class: solutions
       
     </tbody>
   </table>
-
 </section>
 
-
 <section class="testimonials">
-  <h2>Testimonials</h2>
   <ul>
     <li class="4linux">
       <h3>4Linux - <span>Technology and Educational Services</span></h3>
@@ -70,52 +63,29 @@ class: solutions
   </ul>
 </section>
 
-
-<section>
+<section class="faq">
   <h2>FAQ</h2>
-
   <ol>
     <li>
-      <h3>What is Rocket.Chat Community?</h3>
-      <p>
-        Rocket.Chat Community is a free and shared SaaS Rocket.Chat server for
-        people all over the world to connect and communicate.
-        With over 150,000 users, many who are technical, Community is the
-        perfect place to seek help for your technical project.
-      </p>
-    </li>
-
-    <li>
-      <h3>Can I use Rocket.Chat Community for my company?</h3>
-      <p>
-        Yes you can but be aware that public channels are shared with everyone.
-        Private channels are still private with whoever you share them with.
-      </p>
-    </li>
-
-    <li>
-      <h3>What is the difference between Rocket.Chat On Premise and Cloud?</h3>
+      <h3>What is the difference between Rocket.Chat On-Premise and Cloud?</h3>
       <p>
         Rocket.Chat On Premise is completely free to run on your own server.
         Rocket.Chat Cloud is our paid for hosted managed solution where we take care
         of hosting, security, upgrades, backups and more.
       </p>
     </li>
-    
     <li>
-      <h3>Is Rocket.Chat On Premise completely free?</h3>
+      <h3>Is Rocket.Chat On-Premise completely free?</h3>
       <p>
         Yes, you don't have to pay anything to run Rocket.Chat on your own server.
       </p>
     </li>
-
     <li>
       <h3>Do you have special prices for non-profits and educational institues?</h3>
       <p>
         Yes, please see our <a href="/product/concession">eligibility policy</a>.
       </p>
     </li>
-
     <li>
       <h3>How I can set up a new server on Rocket.Chat Cloud?</h3>
       <p>
@@ -123,23 +93,11 @@ class: solutions
         That’s it. Your own server is already on, now you just need to invite your teammates to create their user or import yourself their data.
       </p>
     </li>
-
     <li>
       <h3>How I can I install Rocket.Chat on my own server?</h3>
       <p>
         We have over <a href="/download">33 supports methods</a> to install Rocket.Chat on your server.
       </p>
     </li>
-
   </ol>
-
-</section>
-
-<section>
-  <h2>Non-profits and Educational institutes</h2>
-  
-  <p>
-    If you run or work for a <a href="/product/concession">non-profit or educational institute</a>
-    you may be eligible for up to 80% discount on Rocket.Chat Cloud.
-  </p>
 </section>

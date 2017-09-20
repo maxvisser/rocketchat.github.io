@@ -5,13 +5,22 @@ class: team
 
 <h1>Team</h1>
 
+<p>
+  What started simply as a proof of concept code published to GitHub almost
+  two years ago has exploded into the ever-evolving open source platform
+  Rocket.Chat is today. While we have the developer community as a whole to
+  thank for that, our core team members have worked zealously to spur on growth
+  and keep Rocket.Chat always aimed towards the next level. Get to know each of
+  them below.
+</p>
+
 <ul>
-  {% for member in site.data.company.team %}
+  {% for member in site.data.team %}
   <li>
-    <div style="background-image: url('{{ site.url }}/images/company/team/{{ member.name | slugify }}')/small.png"></div>
+    <div style="background-image: url('{{ site.url }}/images/team/{{ member.name | slugify }}')/small.png"></div>
     <h3>{{ member.name }}</h3>
     <p>{{ member.title }}</p>
-    <p>{{ member.reports }}</p>
+    <p>{{ member.department }}</p>
   </li>
   {% endfor %}
 </ul>

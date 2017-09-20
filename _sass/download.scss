@@ -1,11 +1,31 @@
 
 body.download {
   
-  .clients {
-    margin-bottom: 40px;
+  .desktop {
+    width: 55%;
+    float: left;
+    
+    li {
+      width: 33.3%;
+    }
+  }
+  
+  .mobile {
+    width: 40%;
+    float: right;
+    
+    li {
+      width: 50%;
+    }
+  }
+  
+  .desktop, .mobile {
+    display: block;
+    margin-bottom: 60px;
     
     h2 {
       margin-bottom: 40px;
+      text-align: center;
     }
     
     img {
@@ -28,7 +48,6 @@ body.download {
     
     li {
       float: left;
-      width: 20%;
       text-align: center;
       
       div {
@@ -38,30 +57,26 @@ body.download {
   }
   
   .servers {
+    margin-bottom: 40px;
+    
     h2 {
       margin-bottom: 30px;
     }
-        
-    .left {
-      float: left;
-      width: 46%;
-      margin-right: 4%;
-      
-      code {
-        display: block;
-        padding: 15px;
-      }
-    }
     
-    .right {
-      float: left;
-      width: 48%;
+    code {
+      font-size: 18px;
+      background-color: #fff;
     }
-    
+
     a {
       display: block;
     }
-    
+
+    img {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+
     ul {
       list-style: none;
       padding: 0;
@@ -70,12 +85,8 @@ body.download {
     li {
       text-align: center;
       float: left;
-      width: 50%;
-    }
-    
-    img {
-      width: 80px;
-      margin-bottom: 15px;
+      width: 150px;
     }
   }
+  
 }

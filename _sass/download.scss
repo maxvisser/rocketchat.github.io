@@ -56,16 +56,47 @@ body.download {
     }
   }
   
-  .servers {
+  .snap {
     margin-bottom: 40px;
     
     h2 {
       margin-bottom: 30px;
+      text-align: center;
+    }
+        
+    code {
+      color: #fff;
+      display: block;
+      background-color: #300a24;
+      padding: 8px 6px;
+      height: 160px;
+      margin: 20px 30px;
+      
+      .user {
+        color: #7ae234;
+      }
+      
+      .tilde {
+        color: #729fcf;
+      }
     }
     
-    code {
-      font-size: 18px;
-      background-color: #fff;
+    .left {
+      float: left;
+      width: 56%;
+    }
+    
+    .right {
+      float: right;
+      width: 40%;
+    }
+  }
+  
+  .source {
+    margin-bottom: 40px;
+    
+    h2 {
+      margin-bottom: 30px;
     }
 
     a {

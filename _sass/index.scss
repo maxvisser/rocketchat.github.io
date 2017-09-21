@@ -2,8 +2,6 @@
 body.index {
   
   section {
-    margin-top: 50px;
-    
     .left, .right {
       width: 46%;
     }
@@ -25,7 +23,7 @@ body.index {
     margin-bottom: 60px;
     
     .prepare {
-      font-size: 32px;
+      font-size: 30px;
     }
     
     h1 {
@@ -64,8 +62,7 @@ body.index {
         
     .right {
       .button {
-        width: 195px;
-        background-color: #c1272d;
+        width: 230px;
       }
     }
   }
@@ -85,11 +82,21 @@ body.index {
   
   .cta {
     text-align: center;
-    font-size: 26px;
-    margin: 75px 0;
+    font-size: 18px;
+    background-color: $cta-background;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 50px 0 55px;
     
-    a {
-      color: $background-highlight;
+    h2 {
+      font-size: 42px;
+      font-weight: 400;
+      margin: 0;
+    }
+    
+    .button {
+      margin-top: 12px;
+      font-size: 20px;
     }
   }
   

@@ -62,7 +62,7 @@ body.download {
   }
   
   .server {
-    background-color: #f7f7f7;
+    background-color: $cta-background;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 50px 0 55px;
@@ -78,12 +78,11 @@ body.download {
       padding: 0 40px;
               
       code {
-        color: #fff;
         display: block;
-        background-color: #300a24;
-        padding: 8px 6px;
+        padding: 10px 15px;
         font-size: 18px;
         margin-top: 25px;
+        border: 1px solid #bbb;
       }
     }
     

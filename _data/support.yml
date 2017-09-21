@@ -1,6 +1,5 @@
 keys:
   description:
-  pricing: Pricing (billed annually)
   response: Response time
   critical: Critical support SLA
   self-help: Self help resources
@@ -8,8 +7,7 @@ keys:
   chat: 24x7 chat support
   phone: 24x7 phone support
   on-boarding: Account on-boarding
-  migration: Support for migration from Slack or HipChat
-  end-users: Support for end users
+  migration: Migration assistance
   product: Direct access to product team
 
     
@@ -17,11 +15,10 @@ basic:
   name: Basic
   description: |
     <div>
-      Get essential support for your Rocket.Chat instance.
-      Included with Rocket.Chat Cloud.
+      Get Basic support and have the Rocket.Chat experts on-hand in case of an emergency
     </div>
     <a class="button highlight" href="#">Contact Sales</a>
-  pricing: From <span>$299</span>/month
+    <div class="pricing">From <span>$299</span>/month</div>
   response: 1 business day
   critical: 1 hour
   self-help: <span class="yes"></span>
@@ -30,19 +27,18 @@ basic:
   phone:
   on-boarding:
   migration:
-  end-users:
   product:
 
         
-premium:
-  name: Premium
+plus:
+  name: Plus
   description: |
     <div>
-      Premium support
+      For larger teams who need quicker responses and 24x7 phone support
     </div>
     <a class="button highlight" href="#">Contact Sales</a>
-  pricing: From <span>$549</span>/month
-  response: 8 hour business day
+    <div class="pricing">From <span>$549</span>/month</div>
+  response: 8 hour, business day
   critical: 1 hour
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
@@ -50,19 +46,18 @@ premium:
   phone: <span class="yes"></span>
   on-boarding: <span class="yes"></span>
   migration:
-  end-users:
   product:
     
 
-enterprise:
-  name: Enterprise
+premium:
+  name: Premium
   description: |
     <div>
-      Enterprise support
+      For larger teams who need quicker responses and 24x7 phone support
     </div>
     <a class="button highlight" href="#">Contact Sales</a>
-  pricing: From <span>$749</span>/month
-  response: 4 hour business day
+    <div class="pricing">From <span>$749</span>/month</div>
+  response: 4 hour, business day
   critical: 30 min
   self-help: <span class="yes"></span>
   ticket: <span class="yes"></span>
@@ -70,5 +65,4 @@ enterprise:
   phone: <span class="yes"></span>
   on-boarding: <span class="yes"></span>
   migration: <span class="yes"></span>
-  end-users: <span class="yes"></span>
   product: <span class="yes"></span>

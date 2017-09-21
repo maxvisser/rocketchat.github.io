@@ -1,6 +1,5 @@
 keys:
   description:
-  pricing: Pricing
   setup: Setup Time
 
   users: Users and external guests
@@ -37,8 +36,8 @@ download:
       Download, install and run Rocket.Chat on your own server.
     </div>
     <a class="button highlight" href="../../download/">Download</a>
-    <a class="block" href="https://github.com/RocketChat/Rocket.Chat">Rocket.Chat on GitHub</a>
-  pricing: <span>Free</span>
+    <a class="block" href="../download/">Find out more</a>
+    <div class="pricing"><span>Free</span></div>
   setup: Less than 5 minutes
 
   internal: Unlimited
@@ -53,7 +52,7 @@ download:
   screens: <span class="yes"></span>
   livechat: <span class="yes"></span>
 
-  ui: 37 languages
+  ui: 37
   auto: <span class="yes"></span>
   
   2fa: <span class="yes"></span>
@@ -62,9 +61,9 @@ download:
   sso: <span class="yes"></span>
 
   support: |
-    Basic, Premium &amp; Enterprise
+    Basic &amp; Premium
     <br>
-    <a href="../support/">Support Plans</a> Available
+    <a href="../download/index.html#support">Support Plans</a> Available
 
 cloud:
   name: Cloud
@@ -74,7 +73,7 @@ cloud:
     </div>
     <a class="button highlight" href="#">Start Trial</a>
     <a class="block" href="../cloud/">Find out more</a>
-  pricing: From <span>$50</span>/month
+    <div class="pricing">From <span>$50</span>/month</div>
   setup: Instant
   
   internal: Unlimited
@@ -89,7 +88,7 @@ cloud:
   screens: <span class="yes"></span>
   livechat: <span class="yes"></span>
 
-  ui: 37 languages
+  ui: 37
   auto: <span class="yes"></span>
     
   2fa: <span class="yes"></span>

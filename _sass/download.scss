@@ -1,6 +1,6 @@
 
 body.download {
-  
+    
   .desktop {
     width: 55%;
     float: left;
@@ -61,68 +61,56 @@ body.download {
     }
   }
   
-  .snap {
-    margin-bottom: 40px;
+  .server {
+    background-color: #f7f7f7;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 50px 0 55px;
     
     h2 {
       margin-bottom: 30px;
       text-align: center;
-    }
-        
-    code {
-      color: #fff;
-      display: block;
-      background-color: #300a24;
-      padding: 8px 6px;
-      height: 160px;
-      margin: 20px 30px;
-      
-      .user {
-        color: #7ae234;
-      }
-      
-      .tilde {
-        color: #729fcf;
-      }
     }
     
     .left {
       float: left;
       width: 56%;
+      padding: 0 40px;
+              
+      code {
+        color: #fff;
+        display: block;
+        background-color: #300a24;
+        padding: 8px 6px;
+        font-size: 18px;
+      }
     }
     
     .right {
       float: right;
       width: 40%;
+      
+      a {
+        display: block;
+      }
+
+      img {
+        width: 70px;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      li {
+        text-align: center;
+        float: left;
+        width: 33.3%;
+        padding-top: 15px;
+      }
     }
   }
-  
-  .source {
-    margin-bottom: 40px;
-    
-    h2 {
-      margin-bottom: 30px;
-    }
 
-    a {
-      display: block;
-    }
-
-    img {
-      width: 80px;
-      margin-bottom: 15px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    
-    li {
-      text-align: center;
-      float: left;
-      width: 150px;
-    }
-  }
-  
 }

@@ -5,9 +5,9 @@ class: download
 
 <section class="center">
   <h1>Download Rocket.Chat</h1>
-  <p>
+  <em>
     Download Rocket.Chat for your desktop, mobile or server.
-  </p>
+  </em>
 </section>
 
 <section class="desktop">
@@ -64,50 +64,50 @@ class: download
 
 <div class="clear"></div>
 
-<section class="snap">
-  <h2>Server Snap</h2>
-  <div class="left">
-    <code>
-      <span class="user">cat@rocket</span>:<span class=tilde>~</span>$ snap install rocketchat-server
-    </code>
-  </div>
-  <div class="right">
-    <p>
-      On Ubuntu 16.04 LTS run the following shell command.
-    </p>
-    <p>
-      <a target="_blank" href="https://snapcraft.io/">Snaps</a> offer a secure easy way to install and manage apps and their dependencies.
-    </p>
-    <p>
-      Support for snaps is being added to multiple Linux distros,
-      see the <a target="_blank" href="http://snapcraft.io/docs/core/install">snapcraft.io docs</a> for more info.
-    </p>
+</div> <!-- end outer wrapper -->
+
+<section class="server">
+  <div class="main">
+    <div class="left">
+      <h2>Server Snap</h2>
+      <p>
+        <a target="_blank" href="https://snapcraft.io/">Snaps</a> are an easy and secure way to install and manage apps and their dependencies.
+        See <a target="_blank" href="http://snapcraft.io/">snapcraft.io</a> for more info.
+      </p>
+      <p>
+        On Ubuntu 16.04 or other supported systems run:
+      </p>
+      <code>
+        $ snap install rocketchat-server
+      </code>
+    </div>
+    <div class="right">
+      <h2>Server Source</h2>
+      <ul>
+        <li>
+          <img src="{{ site.url }}/images/download/rocket.svg">
+          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/releases/latest">Latest Stable</a>
+        </li>
+        <li>
+          <img src="{{ site.url }}/images/download/ruler.svg">
+          <a href="https://github.com/RocketChat/Rocket.Chat/archive/release-candidate.zip">Beta</a>
+        </li>
+        <li>
+          <img src="{{ site.url }}/images/download/ruler.svg">
+          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/releases">Past Releases</a>
+        </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
   </div>
 </section>
 
-<div class="clear"></div>
 
-<section class="source">
-  <h2>Server Release</h2>
-  <ul>
-    <li>
-      <img src="{{ site.url }}/images/download/rocket.svg">
-      <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/releases/latest">Latest stable</a>
-      <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/releases">Past releases</a>
-    </li>
-    <li>
-      <img src="{{ site.url }}/images/download/ruler.svg">
-      <a href="https://github.com/RocketChat/Rocket.Chat/archive/release-candidate.zip">Beta</a>
-    </li>
-  </ul>
-  <div class="clear"></div>
-</section>
+<div class="main"> <!-- restart wrapper -->
 
-<div class="clear"></div>
-
-<section class="center">
+<section id="support" class="center">
   <h1>Get support for your Rocket.Chat server</h1>
-  <p>We keep your team communicating</p>
+  <em>We keep your team communicating</em>
 </section>
 
 {% assign support = site.data.support %}
@@ -119,7 +119,6 @@ class: download
         <th></th>
         <th><h2>{{ support.basic.name }}</h2></th>
         <th><h2>{{ support.premium.name }}</h2></th>
-        <th><h2>{{ support.enterprise.name }}</h2></th>
       </tr>
     </thead>
     <tbody>
@@ -129,15 +128,14 @@ class: download
       {% assign k = key[0] %}
 
       <tr>
-      {% unless support.enterprise[k] %}
+      {% unless support.premium[k] %}
         <td class="section" colspan="4">
           <h3>{{ key[1] }}</h3>
         </td>
       {% else %}
         <td>{{ key[1] }}</td>
         <td>{{ support.basic[k] }}</td>
-        <td>{{ support.premium[k]] }}</td>
-        <td>{{ support.enterprise[k] }}</td>
+        <td>{{ support.premium[k] }}</td>
       {% endunless %}
       </tr>
       {% endfor %}

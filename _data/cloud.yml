@@ -1,6 +1,5 @@
 keys:
   description:
-  pricing: Pricing (billed monthly)
 
   users: Users
   total: Total users
@@ -20,10 +19,10 @@ small:
   name: Small
   description: |
     <div>
-      For new teams or communities
+      For new teams or small communities
     </div>
     <a class="button highlight" href="#">Start Trial</a>
-  pricing: <span>$50</span>/month
+    <div class="pricing"><span>$50</span>/month</div>
   total: 500
   concurrent: Up to 50
   storage: 50 GB
@@ -31,8 +30,8 @@ small:
   backup: Daily backup
   monitoring: 24x7
   reporting: Weekly
-  support: Basic Plan
-    
+  support: Rocket.Chat Cloud SLA
+
 medium:
   name: Medium
   description: |
@@ -40,7 +39,7 @@ medium:
       For growing teams or communities with increased activity
     </div>
     <a class="button highlight" href="#">Start Trial</a>
-  pricing: <span>$200</span>/month
+    <div class="pricing"><span>$200</span>/month</div>
   total: 5,000
   concurrent: Up to 200
   storage: 1 TB
@@ -48,21 +47,21 @@ medium:
   backup: Twice daily backup
   monitoring: 24x7
   reporting: Daily
-  support: Basic Plan
-    
+  support: Rocket.Chat Cloud SLA
+
 large:
   name: Large
   description: |
     <div>
-      For global enterprises or communities with a high number of active users and increased storage needs
+      For active or large enterprises or communities
     </div>
     <a class="button highlight" href="#">Start Trial</a>
-  pricing: <span>$500</span>/month
+    <div class="pricing"><span>$500</span>/month</div>
   total: 50,000
   concurrent: Up to 500
   storage: 5 TB
   messages: Unlimited
   backup: Hourly backup
   monitoring: 24x7
-  reporting: Weekly
-  support: Basic Plan
+  reporting: Hourly
+  support: Rocket.Chat Cloud SLA

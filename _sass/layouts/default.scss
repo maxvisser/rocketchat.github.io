@@ -10,13 +10,13 @@ $body-font-family:
   "Segoe UI", Helvetica, Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-$content-width: 1000px;
+$content-width: 1050px;
 $content-padding: 25px;
 
 $wrapper-background: #ffffff;
 
-$header-font-size: 15px;
-$header-logo-font-size: 16px;
+$header-font-size: 17px;
+$header-logo-font-size: 18px;
 
 $footer-font-size: 14px;
 $footer-color: #929db3;
@@ -70,6 +70,7 @@ a.button {
   border-radius: 2px;
   background-color: $background-primary;
   color: $button-color;
+  font-weight: bold;
 
   &.highlight {
     background-color: $background-highlight;
@@ -163,16 +164,15 @@ header, .main {
 header {
   max-width: $content-width;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 16px $content-padding;
   color: #fff;
   font-size: $header-font-size;
 
-  h2 {
-    margin: 0;
+  a.logo img {
+    margin: -5px 0 -12px;
     display: inline-block;
-    font-size: $header-logo-font-size;
     color: #fff;
+    height: 40px;
   }
 
   ul {
@@ -180,6 +180,7 @@ header {
     padding: 0;
     list-style: none;
     float: right;
+    line-height: 32px;
   }
 
   li {

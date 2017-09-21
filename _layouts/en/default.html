@@ -6,7 +6,9 @@ class: index
 <div class="wrapper">
   <div class="header-wrapper">
     <header>
-      <h2><a href="{{ site.url }}">{{ site.title }}</a></h2>
+      <a class="logo" href="{{ site.url }}">
+        <img src="{{ site.url }}/images/default/logo.svg" alt="Rocket.CHat">
+      </a>
       <ul>
         <li><a {% if page.class == 'solutions' %}class="active"{%endif%} href="{{ site.url }}/solutions/">Solutions</a></li>
         <li><a {% if page.class == 'download' %}class="active"{%endif%} href="{{ site.url }}/download/">Download</a></li>

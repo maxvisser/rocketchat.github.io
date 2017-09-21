@@ -33,6 +33,14 @@ body.index {
       font-size: 42px;
     }
     
+    h2 {
+      font-size: 32px;
+    }
+    
+    p {
+      font-size: 18px;
+    }
+    
     .experience {
       font-size: 22px;
     }
@@ -44,14 +52,20 @@ body.index {
 
     .left {
       .button {
-        width: 115px;
+        width: 150px;
         margin-right: 4px;
       }
+    }
+    
+    .button {
+      font-size: 18px;
+      padding: 13px 20px;
     }
         
     .right {
       .button {
-        width: 185px;
+        width: 195px;
+        background-color: #c1272d;
       }
     }
   }

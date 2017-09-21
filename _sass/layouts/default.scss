@@ -212,6 +212,16 @@ header {
   margin: 0 auto;
 }
 
+.left {
+  float: left;
+  width: 45%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
 footer {
   max-width: $content-width;
   margin: 0 auto;

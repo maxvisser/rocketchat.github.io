@@ -3,20 +3,14 @@ layout: en/default
 class: press
 ---
 
-<h1>Press</h1>
-
-<section>
-  <p>
-    We welcome inquiries from the press, and will do our best to ensure we give you a
-    rapid response. For press enquiries, please email:
-    <a href="mailto:press@rocket.chat" target="_blank">press@rocket.chat</a>
-  </p>
+<section class="center">
+  <h1>Rocket.Chat in the Press</h1>
 </section>
 
 
 <section class="company">
   <div class="left">
-    <h2>Rocket.Chat</h2>
+    <h2>Company</h2>
     <p>
       Rocket.Chat is a company built on open source values and a love of efficiency. The
       company is driven by our amazing community of contributors, with the facilitation
@@ -30,10 +24,6 @@ class: press
         Black Duck’s Open Source Rookies of the Year
       </a> in 2016. We are based in Brazil, but the vast majority of our team
       work remotely. Our main competitors are products like Slack and HipChat.
-    </p>
-    <p>
-      Rocket.Chat is open source. You can find
-      <a href="https://rocket.chat/docs" target="_blank">our documentation here</a>
     </p>
   </div>
   <div class="right">
@@ -63,34 +53,32 @@ class: press
 
 
 <section class="logos">
-  <h2>Images &amp; Logos</h2>
+  <h2>Logos</h2>
 
   <ul>
-    {% for logo in site.data.company.logos %}
+    {% for logo in site.data.logos %}
     <li>
-      <img src="{{ site.url }}/images/press/logos/{{ logo.file }}.png" alt="{{ logo.name }}">
-      <h3>Rocket.Cat</h3>
+      <div class="img-wrapper">
+        <img src="{{ site.url }}/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
+      </div>
+      <h3>{{ logo.name }}</h3>
       <div class="download">
-        <a href="{{ site.url }}/images/press/logos/{{ logo.file }}.jpg" target="_blank" title="{{ logo.name }} JPG">JPG</a>
-        <a href="{{ site.url }}/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
-        <a href="{{ site.url }}/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
+        {% if logo.png %}
+        <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
+        {% endif %}
+        {% if logo.svg %}
+        <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
+        {% endif %}
       </div>
     </li>
     {% endfor %}
   </ul>
 
+  <div class="clear"></div>
+  <br>
   <p>
     For more artwork, check out our
-    <a href="https://github.com/RocketChat/Rocket.Chat.Artwork" target="_blank">Artwork Repository</a>
-  </p>
-  <div class="clear"></div>
-</section>
-
-
-<section class="blog">
-  <h2>Recent News</h2>
-  <p>
-    For recent news, please visit our <a href="{{ site.url }}/blog/">blog</a>.
+    <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Artwork" target="_blank">Artwork Repository</a>
   </p>
   <div class="clear"></div>
 </section>
@@ -99,7 +87,7 @@ class: press
 <section class="articles">
   <h2>In the Press</h2>
   <ul>
-    {% for article in site.data.company.press %}
+    {% for article in site.data.press %}
     <li>
       <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
       <span>{{ article.publisher }}</span>

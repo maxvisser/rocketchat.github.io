@@ -3,26 +3,45 @@ body.press {
 
   .company {
     img {
-      margin: 80px auto 0;
-      max-width: 200px;
+      margin: 40px auto 0;
+      max-width: 260px;
     }
   }
   
   .gabriel {
     img {
-      max-width: 280px;
+      max-width: 260px;
     }
   }
   
   .logos {
+    text-align: center;
+
     ul {
       list-style: none;
       padding: 0;
     }
     
+    li {
+      float: left;
+      width: 25%;
+    }
+    
+    .img-wrapper {
+      height: 80px;
+      line-height: 80px;
+      margin: 20px 5px;
+    }
+    
+    li:nth-child(2) .img-wrapper {
+      background-color: #0f354c;
+    }
+    
     img {
-      max-width: 80px;
-      margin: 0;
+      display: inline-block;
+      max-height: 60px;
+      max-width: 200px;
+      vertical-align: middle;
     }
   }
     

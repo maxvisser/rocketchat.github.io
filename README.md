@@ -1,8 +1,8 @@
 # www.rocket.chat
 
-The Rocket.Chat website, documentation and handbook.
+The Rocket.Chat website and handbook (todo).
 
-In development, latest `master` viewable on [GitHub Pages](https://rocketchat.github.io/www.rocket.chat) 
+In development, latest `master` viewable on [GitHub Pages](https://rocketchat.github.io/www.rocket.chat)
 
 ## Site structure
 

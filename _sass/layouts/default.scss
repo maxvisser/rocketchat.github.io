@@ -237,6 +237,10 @@ footer {
   color: $footer-color;
   font-size: $footer-font-size;
 
+  .main {
+    padding: $content-padding 0;
+  }
+
   .left {
     float: left;
     max-width: 40%;

@@ -1,33 +1,21 @@
 
 body.index {
   
-  section {
-    .left, .right {
-      width: 46%;
-    }
-    
-    .left {
-      float: left;
-    }
-    
-    .right {
-      float: right;
-    }
-    
-    img {
-      max-width: 300px;
-    }
+  .wrapper > .main {
+    padding: 0;
   }
-  
+
   .hero {
-    margin-bottom: 60px;
+    height: 360px;
+    background-color: #abcdff;
+    padding: 0;
+    margin-bottom: 20px;
     
     .prepare {
       font-size: 30px;
     }
     
     h1 {
-      margin-bottom: 75px;
       font-size: 42px;
     }
     
@@ -38,46 +26,61 @@ body.index {
     p {
       font-size: 18px;
     }
-    
-    .experience {
-      font-size: 22px;
-    }
-    
+
     .center {
       margin-top: 40px;
       text-align: center;
     }
-
+  }
+  
+  .solutions {
+    .button {
+      text-align: center;
+      font-size: 18px;
+      padding: 13px 20px;
+      margin-top: 10px;
+    }
+    
     .left {
       .button {
         width: 150px;
         margin-right: 4px;
       }
     }
-    
-    .button {
-      font-size: 18px;
-      padding: 13px 20px;
-    }
-        
-    .right {
+            
+    .right .right {
       .button {
         width: 230px;
       }
     }
+    
+    .left .left, .right .left {
+      width: 12%;
+    }
+    
+    .left .right, .right .right {
+      width: 84%;
+    }
   }
   
-  .download-clients {
-    margin-bottom: 50px;
-    
-    ul {
-      padding: 0;
-      list-style: none;
-    }
-    
-    li {
-      float: left;
-    }
+  .clouds {
+    height: 100%;
+    display: block;
+    background-repeat: repeat-x;
+  }
+  
+  .clouds.back {
+    background-image: url('images/index/clouds-back.svg');
+    background-position-y: 140px;
+  }
+  
+  .clouds.rocket {
+    // background-image: url('images/index/rocket.svg');
+  }
+
+  .clouds.front {
+    background-image: url('images/index/clouds-front.svg');
+    background-position-y: 200px;
   }
   
   .cta {
@@ -107,33 +110,51 @@ body.index {
       max-width: 90%;
     }
   }
+  
+  .focus {
+    width: 875px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+    img {
+      height: 300px;
+    }
+    
+    h2, p {
+      padding: 0 25px;
+    }
+  }
 
-  .community img {
-    margin-top: -25px;
+  .community {
+    
+    img {
+      margin-top: -40px;
+    }
   }
 
   .features img {
-    max-width: 340px;
-    margin-top: 20px;
+    margin-top: -30px;
+  }
+  
+  .livechat img {
+    height: 310px;
+    margin-top: -40px;
   }
   
   .translation img {
-    margin-top: -25px;
+    margin-top: -45px;
   }
   
-  .clients img {
-    max-width: 320px;
-  }
-  
-  .run img {
-    max-width: 340px;
-    margin-top: 20px;
-  }
-  
-  .testimonials {
-    .classuite, .procempa, .gomoney {
-      display: none;
+  .clients {
+    margin-bottom: 85px;
+    
+    img {
+      margin-top: -45px;
     }
+  }
+  
+  .own img {
+    margin-top: -65px;
   }
 
 }

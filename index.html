@@ -3,29 +3,57 @@ layout: en/default
 class: index
 ---
 
+</div>
+
 <section class="hero">
-  <span class="prepare">Prepare to take off with</span>
-  <h1>The leading open source team chat platform</h1>
+  <div class="clouds back">
+    <div class="clouds rocket">
+      
+      <div class="clouds front">
+        <div class="main">
+    
+          <span class="prepare">Prepare to take off with</span>
+          <h1>The leading open source team chat platform</h1>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<div class="main">
+  
+<section class="solutions">
   <div class="left">
-    <h2>On your infrastructure</h2>
-    <p>
-      Install and run the Rocket.Chat on your own PC, Mac or Linux computer or
-      server and be in complete control of your communication platform and data.
-    </p>
-    <div class="center">
+    <div class="left">
+      <img src="{{ site.url }}/images/index/download.svg" alt="">
+    </div>
+    <div class="right">
+      <h2>On your infrastructure</h2>
+      <p>
+        Install and run the Rocket.Chat on your own
+        server and be in complete control of your communication platform and data.
+      </p>
       <a class="button highlight" href="{{ site.url }}/download/">Download</a>
       <a class="button highlight" href="{{ site.url }}/download/index.html#support">Get Support</a>
     </div>
+    <div class="clear"></div>
   </div>
+  
   <div class="right">
-    <h2>On Rocket.Chat Cloud</h2>
-    <p>
-      Run Rocket.Chat on our purpose built scalable and secure cloud and get the
-      benefits of an open source without the burden of managing infrastructure.
-    </p>
-    <div class="center">
+    <div class="left">
+      <img src="{{ site.url }}/images/index/cloud.svg" alt="">
+    </div>
+    <div class="right">
+      <h2>On Rocket.Chat Cloud</h2>
+      <p>
+        Run Rocket.Chat on our scalable and secure cloud, get the
+        benefits of an open source without the burden of infrastructure.
+      </p>
       <a class="button red" href="{{ site.url }}/trial/">Start Your Free Trial</a>
     </div>
+    <div class="clear"></div>
   </div>
   <div class="clear"></div>
 </section>
@@ -34,7 +62,7 @@ class: index
   <img src="{{ site.url }}/images/index/interface.png" alt="">
 </section>
 
-<section class="community">
+<section class="focus community">
   <div class="left">
     <h2>Open source &amp; community focussed</h2>
     <p>
@@ -49,15 +77,15 @@ class: index
     </p>
   </div>
   <div class="right">
-    <img src="{{ site.url }}/images/index/community.png" alt="">
+    <img src="{{ site.url }}/images/index/community.svg" alt="">
   </div>
   <div class="clear"></div>
 </section>
 
 
-<section class="features">
+<section class="focus features">
   <div class="left">
-    <img src="{{ site.url }}/images/index/screensharing.png" alt="">
+    <img src="{{ site.url }}/images/index/features.svg" alt="">
   </div>
   <div class="right">
     <h2>Enterprise features for free</h2>
@@ -86,13 +114,13 @@ class: index
     <div class="">
       No credit card required, no commitments, stop at anytime
     </div>
-    <a class="button red" href="#">Start You Free Trial Today</a>
+    <a class="button red" href="{{ site.url }}/trial">Start You Free Trial Today</a>
   </div>
 </section>
 
 <div class="main">
 
-<section class="livechat">
+<section class="focus livechat">
   <div class="left">
     <h2>LiveChat widgets</h2>
     <p>
@@ -105,14 +133,14 @@ class: index
     </p>
   </div>
   <div class="right">
-    <img src="{{ site.url }}/images/index/livechat.png" alt="">
+    <img src="{{ site.url }}/images/index/livechat.svg" alt="">
   </div>
   <div class="clear"></div>
 </section>
 
-<section class="translation">
+<section class="focus translation">
   <div class="left">
-    <img src="{{ site.url }}/images/index/roles.png" alt="">
+    <img src="{{ site.url }}/images/index/translation.svg" alt="">
   </div>
   <div class="right">
     <h2>Real-time message translation</h2>
@@ -128,7 +156,7 @@ class: index
   <div class="clear"></div>
 </section>
 
-<section class="clients">
+<section class="focus clients">
   <div class="left">
     <h2>Web, desktop &amp; mobile clients</h2>
     <p>
@@ -141,14 +169,14 @@ class: index
     </p>
   </div>
   <div class="right">
-    <img src="{{ site.url }}/images/index/filesharing.png" alt="">
+    <img src="{{ site.url }}/images/index/clients.svg" alt="">
   </div>
   <div class="clear"></div>
 </section>
 
-<section class="own">
+<section class="focus own">
   <div class="left">
-    <img src="{{ site.url }}/images/index/roles.png" alt="">
+    <img src="{{ site.url }}/images/index/business.svg" alt="">
   </div>
   <div class="right">
     <h2>Customize &amp; make it your own</h2>
@@ -178,7 +206,6 @@ class: index
 <div class="main">
 
 <section class="testimonials">
-  <h2>What our customers think about Rocket.Chat</h2>
   <ul>
     <li class="classuite">
       <h3>Classuite - <span>Education</span></h3>
@@ -195,13 +222,18 @@ class: index
     </li>
     
     <li class="bsa">
-      <h3>Brazilian Space Agency - <span>Aerospace</span></h3>
-      <h4>Flávio Silva - <span>Technology Researcher</span></h4>
-      <p>
-        We have used Rocket.Chat for a year and a half, we love that we can host
-        it on our own infrastructure, giving us confidence about our data security
-        and application control.
-      </p>
+      <div class="left">
+        <img src="{{ site.url }}/images/testimonials/bsa.jpg" alt="">
+      </div>
+      <div class="right">
+        <h3>Brazilian Space Agency - <span>Aerospace</span></h3>
+        <h4>Flávio Silva - <span>Technology Researcher</span></h4>
+        <p>
+          We have used Rocket.Chat for a year and a half, we love that we can host
+          it on our own infrastructure, giving us confidence about our data security
+          and application control.
+        </p>
+      </div>
     </li>
         
     <li class="gomoney">

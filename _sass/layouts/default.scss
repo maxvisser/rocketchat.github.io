@@ -245,6 +245,7 @@ footer {
   .right {
     float: right;
     max-width: 60%;
+    text-align: right;
   }
 
   .callout {
@@ -291,10 +292,42 @@ footer {
   }
 }
 
-.testimonials ul {
-  list-style: none;
-  padding: 0;
+.testimonials {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0 50px;
+  
+  h3 {
+    font-size: 32px;
+  }
+  
+  h4 {
+    font-size: 26px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+      
+  p {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .left {
+    width: 200px;
+  }
+  
+  .right {
+    width: 550px;
+  }
+  
+  .classuite, .gomoney {
+    display: none;
+  }
 }
+
 
 .center {
   text-align: center;

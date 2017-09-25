@@ -11,11 +11,16 @@ body.index {
     margin-bottom: 75px;
     color: #fff;
     
+    .main {
+      max-width: 1200px;
+      margin-bottom: 0;
+    }
+    
     h1 {
       font-weight: bold;
-      font-size: 44px;
+      font-size: 42px;
       line-height: 50px;
-      margin-bottom: 10px;
+      margin: 35px 0;
       color: #fff;
       
       span {
@@ -38,7 +43,7 @@ body.index {
     }
    
     .left {
-      width: 30%;
+      width: 35%;
     }
 
     .right {
@@ -48,16 +53,12 @@ body.index {
       img {
         width: 110%;
         max-width: 110%;
-        margin-top: -70px;
+        margin-bottom: -20px;
       }
     }
-    
-    .heading .left, .heading .right {
-      width: 50%;
-    }
-    
+        
     .solution {
-      margin: 20px 0 30px;
+      margin: 20px 0 40px;
     }
   }
   

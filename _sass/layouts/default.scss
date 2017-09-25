@@ -2,7 +2,7 @@
 // variables
 
 $body-color: #6c727a;
-$body-background: #f7f8fa;
+$body-background: #2c3d57;
 $body-line-height: 1.58;
 $body-font-size: 15px;
 $body-font-family:
@@ -19,8 +19,8 @@ $header-font-size: 15px;
 $header-logo-font-size: 18px;
 
 $footer-font-size: 14px;
-$footer-color: #929db3;
-$footer-background: #f7f7f7;
+$footer-color: #ffffff;
+$footer-background: #2c3d57;
 $footer-heading-font-size: 11px;
 $footer-heading-color: #bcc5d6;
 
@@ -166,7 +166,7 @@ header, .main {
 }
 
 .header-wrapper {
-  background-color: #444;
+  background-color: #2c3d57;
 }
 
 header {
@@ -232,13 +232,15 @@ header {
 
 footer {
   border-top: 1px solid #ccc;
-  margin: 0 auto 25px;
+  margin: 0 auto;
+  // padding: 25px 0;
   background-color: $footer-background;
   color: $footer-color;
   font-size: $footer-font-size;
 
   .main {
-    padding: 0;
+    // padding: 0;
+    // max-width: 1000px;
   }
 
   .left {
@@ -252,18 +254,17 @@ footer {
     text-align: right;
   }
 
-  .callout {
-    clear: both;
-    padding: $content-padding;
-  }
-
   .social {
     padding: 20px $content-padding 5px;
+    
+    h4, a, a:visited {
+      color: $footer-color;
+    }
   }
 
   .links {
     clear: both;
-    border-top: 1px solid #e1e3e4;
+    // border-top: 1px solid #666;
     padding: 20px $content-padding 0;
 
     h4 {

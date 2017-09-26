@@ -6,10 +6,12 @@ class: blog
 <h2>Blog</h2>
 
 <ul>
-{% for post in site.posts %}
-  <li>
-    <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  </li>
-{% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url }}">Read more</a>
+    </li>
+  {% endfor %}
 </ul>

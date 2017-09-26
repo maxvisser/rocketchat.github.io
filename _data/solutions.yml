@@ -71,7 +71,7 @@ cloud:
     <div>
       Your own private, hosted and manged server on the Rocket.Chat Cloud.
     </div>
-    <a class="button highlight" href="#">Start Trial</a>
+    <a class="button red" href="#">Start Trial</a>
     <a class="block" href="../cloud/">Find out more</a>
     <div class="pricing">From <span>$50</span>/month</div>
   setup: Instant

@@ -1,0 +1,32 @@
+
+body.contact {
+
+  label, input, textarea {
+    display: block;
+    margin-bottom: 5px;
+    font-size: $body-font-size;
+  }
+
+  label {
+    margin-top: 8px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    min-height: 344px;
+    border: 1px solid #ddd;
+  }
+  
+  input[type=submit] {
+    margin-top: 10px;
+    float: right;
+  }
+
+}

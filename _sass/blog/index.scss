@@ -1,0 +1,24 @@
+
+body.blog {
+
+  ul.posts {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-gap: 20px;
+    
+    li {
+      margin-bottom: 15px;
+    }
+    
+    .post:nth-child(odd) {
+      padding-right: 18px;
+    }
+
+    .post:nth-child(even) {
+      padding-left: 18px;
+    }
+  }
+  
+}

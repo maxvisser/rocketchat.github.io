@@ -2,7 +2,7 @@ title: Rocket.Chat
 description: The portal for all your Rocket.Chat documentation needs
 
 url: https://rocketchat.github.io/www.rocket.chat
-permalink: pretty
+permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 2
 

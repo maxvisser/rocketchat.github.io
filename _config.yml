@@ -2,18 +2,12 @@ title: Rocket.Chat
 description: The portal for all your Rocket.Chat documentation needs
 
 url: https://rocketchat.github.io/www.rocket.chat
-permalink: /:year/:month/:day/:title/
+# permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 2
 
 # bump if alterting styles
 version: 5
-
-# custom collections, likse posts, for larger data
-collections:
-  jobs:
-    output: true
-    permalink: /:collection/:name
 
 # set default template for posts
 defaults:
@@ -21,10 +15,6 @@ defaults:
       type: posts
     values:
       layout: post
-  - scope:
-      type: jobs
-    values:
-      layout: job
 
 sass:
   style: compressed

@@ -3,6 +3,8 @@ description: The portal for all your Rocket.Chat documentation needs
 
 url: https://rocketchat.github.io/www.rocket.chat
 permalink: /:year/:month/:day/:title/
+paginate_path: /blog/page/:num/
+paginate: 2
 
 # bump if alterting styles
 version: 5
@@ -20,6 +22,7 @@ sass:
 
 plugins_dir:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-redirect-from
 
 exclude:

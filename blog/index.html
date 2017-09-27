@@ -6,13 +6,27 @@ class: blog
 <h2>Rocket.Chat Blog</h2>
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <li class="post">
-      <h2><a href="{{ post.url | remove: "index.html" }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ site.url }}{{ post.url | remove: "index.html" }}">{{ post.title }}</a></h2>
       <small>{{ post.date | date: "%b %-d, %Y" }}</small>
       <p>{{ post.excerpt | strip_html | truncatewords: 45 }}</p>
-      <a href="{{ post.url | remove: "index.html" }}">Read more</a>
+      <a href="{{ site.url }}{{ post.url | remove: "index.html" }}">Read more</a>
     </li>
   {% endfor %}
 </ul>
 <div class="clear"></div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

@@ -1,0 +1,27 @@
+
+body.team {
+  
+  .left {
+    padding-right: 50px;
+  }
+  
+  .right img {
+    margin-top: -60px;
+  }
+  
+  ul.team {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr);
+    grid-gap: 20px;
+
+    li {
+      border: 1px solid #eee !important;
+      border-radius: 2px;
+      padding: 10px;
+      height: 200px;
+    }
+  }
+
+}

@@ -3,24 +3,40 @@ layout: en/default
 class: team
 ---
 
-<h1>Team</h1>
+<section class="header">
+  <h1>Team Rocket.Chat</h1>
+  <em>The core team keeping the rockets firing</em>
+</section>
 
-<p>
-  What started simply as a proof of concept code published to GitHub almost
-  two years ago has exploded into the ever-evolving open source platform
-  Rocket.Chat is today. While we have the developer community as a whole to
-  thank for that, our core team members have worked zealously to spur on growth
-  and keep Rocket.Chat always aimed towards the next level. Get to know each of
-  them below.
-</p>
+<section>
+  <div class="left">
+    <p>
+      What started simply as a proof of concept code published to GitHub almost
+      two years ago has exploded into the ever-evolving open source platform
+      Rocket.Chat is today.
+    </p>
+    <p>
+      While we have the developer community as a whole to
+      thank for that, our core team members have worked zealously to spur on growth
+      and keep Rocket.Chat always aimed towards the next level. Get to know each of
+      them below.
+    </p>
+  </div>
+  <div class="right">
+    <img src="{{ site.url }}/images/index/community.svg" alt="">
+  </div>
+  <div class="clear"></div>
+</section>
 
-<ul>
-  {% for member in site.data.team %}
-  <li>
-    <div style="background-image: url('{{ site.url }}/images/team/{{ member.name | slugify }}')/small.png"></div>
-    <h3>{{ member.name }}</h3>
-    <p>{{ member.title }}</p>
-    <p>{{ member.department }}</p>
-  </li>
-  {% endfor %}
-</ul>
+<section>
+  <ul class="team">
+    {% for member in site.data.team %}
+    <li>
+      <div style="background-image: url('{{ site.url }}/images/team/{{ member.name | slugify }}')/small.png"></div>
+      <h3>{{ member.name }}</h3>
+      <p>{{ member.title }}</p>
+      <p>{{ member.department }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

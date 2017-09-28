@@ -2,7 +2,9 @@
 layout: post
 title:  Automatic channel creation
 date:   2017-09-12 10:00:00
-categories: jekyll update
+author: Sean Packham
+categories: hello, world
+summary: The journey begins, the open road awaits
 ---
 
 Karan Batra fell in love with coding after his first college project and knew then that it was where he wanted his career to go. Now studying a for a Bachelors in Engineering and Netaji Subhas Institute of Technology (University of Delhi), Karan is looking to inspire others to get into open source who may have struggled previously.

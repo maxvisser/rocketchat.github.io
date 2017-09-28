@@ -2,22 +2,65 @@
 body.blog {
 
   ul.posts {
+    margin: 0;
     list-style: none;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(2, 48%);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 30px;
     
     li {
-      margin-bottom: 15px;
+      border: 1px solid #eee !important;
+      border-radius: 2px;
+      height: 400px;
+      
+      .header {
+        display: block;
+        height: 180px;
+        width: 100%;
+        background-position: 50% 50%;
+        filter: opacity(0.75);
+      }
+      
+      .content {
+        padding: 15px;
+        
+        h2 {
+          margin-bottom: 5px;
+        }
+        
+        .meta {
+          font-size: small;
+          height: 1.8em;
+        }
+        
+        .date {
+          float: right;
+        }
+                
+        .top {
+          height: 160px;
+        }
+      }
+    }
+  }
+  
+  .pagination {
+    margin-top: 2em;
+    text-align: center;
+    
+    .next, .previous {
+      width: 100px;
     }
     
-    .post:nth-child(odd) {
-      padding-right: 18px;
+    .previous {
+      float: left;
+      text-align: left;
     }
-
-    .post:nth-child(even) {
-      padding-left: 18px;
+    
+    .next {
+      float: right;
+      text-align: right;
     }
   }
   

@@ -3,15 +3,35 @@ layout: en/default
 class: blog
 ---
 
-<h2>Rocket.Chat Blog</h2>
+<section class="header">
+  <h1>Rocket.Chat Blog</h1>
+  <em>Find out what the Rocket.Chat team and community have been up to</em>
+</section>
 
 <ul class="posts">
   {% for post in paginator.posts %}
     <li class="post">
-      <h2><a href="{{ site.url }}{{ post.url | remove: "index.html" }}">{{ post.title }}</a></h2>
-      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-      <p>{{ post.excerpt | strip_html | truncatewords: 45 }}</p>
-      <a href="{{ site.url }}{{ post.url | remove: "index.html" }}">Read more</a>
+      <a class="header" href="{{ site.url }}{{ post.url | remove: "index.html" }}"
+        style="background-image: url('{{ site.url }}/images/blog/post.png')">
+      </a>
+      <div class="content">
+        <div class="top">
+          <h2><a href="{{ site.url }}{{ post.url | remove: "index.html" }}">{{ post.title }}</a></h2>
+          <p class="summary">
+            {{ post.summary | strip_html }}
+          </p>
+        </div>
+        <div class="bottom">
+          <div class="meta">
+            <span class="author">{{ post.author }}</span> -
+            <span class="read">
+              {% assign words = content | number_of_words %}
+              {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+            </span>
+            <span class="date"> {{ post.date | date: "%b %-d, %Y" }}</span>
+          </div>
+        </div>
+      </div>
     </li>
   {% endfor %}
 </ul>
@@ -23,10 +43,11 @@ class: blog
   {% else %}
     <span class="previous">Previous</span>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span class="page ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
     <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
   {% else %}
-    <span class="next ">Next</span>
+    <span class="next">Next</span>
   {% endif %}
 </div>
+<div class="clear"></div>

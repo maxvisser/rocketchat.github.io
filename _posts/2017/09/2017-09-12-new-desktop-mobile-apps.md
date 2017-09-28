@@ -2,7 +2,9 @@
 layout: post
 title:  New desktop and mobile apps released
 date:   2017-09-12 10:00:00
-categories: jekyll update
+author: Sean Packham
+categories: hello, world
+summary: The journey begins, the open road awaits
 ---
 Today we are happy to announce the new release of the Rochet.Chat+ Desktop App, version 2.9.0 for Windows, Linux and MacOs; bringing our users new features and much anticipated fixes. All the new Desktop Apps are available for download immediately.
 

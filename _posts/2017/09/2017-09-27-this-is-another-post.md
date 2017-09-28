@@ -2,7 +2,9 @@
 layout: post
 title:  This is another post
 date:   2017-09-26 10:00:00
-categories: jekyll update
+author: Sean Packham
+categories: hello, world
+summary: The journey begins, the open road awaits
 ---
 Rocket.Chat and Tokenly announced that they have partnered to bring a new type of communication channel to team chat called token channels.
 

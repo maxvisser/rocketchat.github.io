@@ -1,14 +1,23 @@
 ---
 layout: en/default
-class: blog
+class: post
 ---
 
-<small>
-  {{ page.date | date: "%b %-d, %Y" }} -
-  {% assign words = content | number_of_words %}
-  {% if words < 360 %} 1 min {% else %} {{ words | divided_by:120 }} mins {% endif %} read
-</small>
+<div class="post">
+  <section class="header">
+    <div class="meta">
+      <span class="author">{{ page.author }}</span> -
+      <span class="read">
+        {% assign words = content | number_of_words %}
+        {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+      </span>
+      <span class="date"> {{ page.date | date: "%b %-d, %Y" }}</span>
+    </div>
+    <h1>{{ page.title | escape }}</h1>
+  </section>
 
-<h1>{{ page.title | escape }}</h1>
+  <div class="contet">
+    {{ content }}
+  </div>
 
-{{ content }}
+</div>

@@ -15,7 +15,10 @@ $serif-font-family:
   medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
 
 
-$content-width: 1050px;
+$wrapper-width: 1050px;
+$content-width: 900px;
+$post-width: 800px;
+
 $content-padding: 25px;
 
 $wrapper-background: #ffffff;
@@ -137,10 +140,6 @@ code, pre {
   color: $code-color;
   font-family: $code-font-family;
   font-size: $code-font-size;
-
-  @media(max-width: $content-width) {
-    overflow-x: scroll;
-  }
 }
 
 pre {
@@ -180,6 +179,7 @@ body {
 
 // wrap header and .main, give it a white background
 .wrapper {
+  padding-bottom: 3em;
   background: $wrapper-background;
 }
 
@@ -187,34 +187,28 @@ header, footer {
   font-family: $ui-font-family;
 }
 
-header, .main {
-  padding: $content-padding;
-}
-
 .header-wrapper {
   background-color: #2c3d57;
 }
 
 header {
-  max-width: $content-width;
+  max-width: $wrapper-width;
   margin: 0 auto;
-  padding: 12px $content-padding;
+  padding: 12px 1em 8px;
   color: #fff;
   font-size: $header-font-size;
 
   a.logo img {
-    margin: 0 0 -12px;
     display: inline-block;
     color: #fff;
     height: 28px;
   }
 
   ul {
-    margin: 0;
+    margin: 4px 0;
     padding: 0;
     list-style: none;
     float: right;
-    line-height: 28px;
   }
 
   li {
@@ -243,10 +237,15 @@ header {
   a.active {
     text-decoration: underline;
   }
+  
+  .main {
+    padding: $content-padding;
+  }
 }
 
 .main {
   max-width: $content-width;
+  padding: 0 1em;
   margin: 0 auto;
 }
 
@@ -263,16 +262,15 @@ header {
 }
 
 footer {
-  border-top: 1px solid #ccc;
   margin: 0 auto;
-  // padding: 25px 0;
   background-color: $footer-background;
   color: $footer-color;
   font-size: $footer-font-size;
+  padding: 0 1em;
 
   .main {
     padding: $content-padding 0;
-    // max-width: 1000px;
+    max-width: $wrapper-width;
   }
 
   .left {
@@ -329,9 +327,8 @@ footer {
 }
 
 .testimonials {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 20px 0 50px;
   
   h3 {
     font-size: 32px;
@@ -375,7 +372,7 @@ section {
   padding: 20px 0;
   
   &.header {
-    margin-bottom: 3em;
+    margin: 1em 0 3em;
 
     em {
       display: block;
@@ -387,7 +384,7 @@ section {
 }
 
 .faq {
-  max-width: 900px;
+  max-width: $content-width;
   margin: 0 auto;
 
   ol {
@@ -397,7 +394,7 @@ section {
 }
 
 table {
-  max-width: 900px;
+  max-width: $content-width;
   margin: 0 auto;
   border-collapse: collapse;
   width: 100%;
@@ -524,21 +521,23 @@ table {
 // tablet
 
 @media all and (max-width: 800px) {
-  header {
-    h2 {
-      display: block;
-    }
-
-    ul {
-      float: left;
-    }
-
-    li {
-      padding-left: 0;
-      padding-right: 18px;
-    }
+  
+  header ul {
+    float: none;
   }
-
+  
+  .left {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .right {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  
   footer {
     .links ul:first-child {
       padding-left: 0;

@@ -3,7 +3,7 @@ body.post {
 
   .post {
     margin: 0 auto;
-    width: 800px;
+    max-width: $post-width;
     min-height: 500px;
     margin-bottom: 3em;
   }
@@ -28,7 +28,11 @@ body.post {
     font-style: normal;
     font-size: 20px;
     line-height: 1.58;
-    letter-spacing: -.003em;;
+    letter-spacing: -.003em;
+    
+    img {
+      max-width: $post-width;
+    }
   }
 
 }

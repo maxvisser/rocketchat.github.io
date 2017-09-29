@@ -1,5 +1,9 @@
 
 body.community {
+  
+  .header {
+    margin-bottom: 4em;
+  }
 
   .connect {
     ul {
@@ -28,22 +32,16 @@ body.community {
   }
 
   .involved {
+    margin-bottom: 0;
+    
     ul {
       list-style: none;
       padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 0.33fr);
+      grid-gap: 40px;
     }
-    
-    li {
-      width: 28%;
-      float: left;
-      margin-right: 7%;
-      margin-bottom: 2em;
-    }
-    
-    li:nth-child(3), li:nth-child(6) {
-      margin-right: 0;
-    }
-        
+            
     img {
       max-width: 38px;
       float: left;
@@ -59,6 +57,26 @@ body.community {
     p {
       clear: both;
     }
+  }
+  
+  @media all and (max-width: 900px) {
+    
+    .header {
+      margin: 0;
+    }
+    
+    .right img {
+      display: none;
+    }
+    
+    .connect {
+      margin: 0;
+    }
+    
+    .involved ul {
+      display: block;
+    }
+    
   }
     
 }

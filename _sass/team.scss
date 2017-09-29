@@ -1,6 +1,10 @@
 
 body.team {
   
+  .header {
+    margin-bottom: 4em;
+  }
+  
   .left {
     padding-right: 50px;
   }
@@ -17,10 +21,43 @@ body.team {
     grid-gap: 20px;
 
     li {
-      border: 1px solid #eee !important;
-      border-radius: 2px;
-      padding: 10px;
-      height: 200px;
+      margin-bottom: 15px;
+      
+      h3 {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 3px;
+      }
+      
+      .title {
+        font-size: 12px;
+        height: 24px;
+        text-align: center;
+      }
+      
+      img {
+        filter: grayscale(1);
+        max-width: 120px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  
+  @media all and (max-width: 800px) {
+    
+    .header {
+      margin: 0;
+    }
+    
+    .right img {
+      display: none;
+    }
+    
+    ul.team {
+      grid-template-columns: repeat(2, 0.5fr);
+      grid-gap: 10px;
+      
     }
   }
 

@@ -3,13 +3,12 @@ layout: en/default
 class: partners
 ---
 
-<h1>Partnerships</h1>
+<section class="header center">
+  <h1>Rocket.Chat Partners</h1>
+  <em></em>
+</section>
 
-<p>
-  To do: Add info on partner program.
-</p>
-
-<ul>
+<ul class="partners">
   {% for partner in site.data.partners %}
   <li>
     <div style="background-image: url('{{ site.url }}{{ partner.logo }}')"></div>

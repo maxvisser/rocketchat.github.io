@@ -3,7 +3,7 @@ layout: en/default
 class: team
 ---
 
-<section class="header">
+<section class="header center">
   <h1>Team Rocket.Chat</h1>
   <em>The core team keeping the rockets firing</em>
 </section>
@@ -34,8 +34,14 @@ class: team
     <li>
       <div style="background-image: url('{{ site.url }}/images/team/{{ member.name | slugify }}')/small.png"></div>
       <h3>{{ member.name }}</h3>
-      <p>{{ member.title }}</p>
-      <p>{{ member.department }}</p>
+      <div class="title">{{ member.title }}</div>
+      {% if member.github_uid %}
+        <a href="https://github/{{ member.github_username }}">
+          <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
+        </a>
+      {% else %}
+        <img src="https://github.com/identicons/{{ member.name | replace: ' ', '' }}.png" alt="">
+      {% endif %}
     </li>
     {% endfor %}
   </ul>

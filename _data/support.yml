@@ -17,7 +17,7 @@ basic:
     <div>
       Get Basic support and have the Rocket.Chat experts on-hand in case of an emergency
     </div>
-    <a class="button highlight" href="#">Contact Us</a>
+    <a class="button highlight" href="../contact/index.html#message">Contact Us</a>
     <div class="pricing">From <span>$299</span>/month</div>
   response: 1 business day
   critical: 1 hour
@@ -36,7 +36,7 @@ plus:
     <div>
       For larger teams who need quicker responses and 24x7 phone support
     </div>
-    <a class="button highlight" href="#">Contact Us</a>
+    <a class="button highlight" href="../contact/index.html#message">Contact Us</a>
     <div class="pricing">From <span>$549</span>/month</div>
   response: 8 hour, business day
   critical: 1 hour

@@ -64,4 +64,25 @@ body.blog {
     }
   }
   
+  @media all and (max-width: 900px) {
+    
+    ul.posts {
+      display: block;
+      
+      li {
+        height: 300px;
+        
+        .header {
+          height: 120px;
+        }
+        
+        .content .top {
+          height: 130px;
+        }
+      }
+      
+      
+    }
+  }
+  
 }

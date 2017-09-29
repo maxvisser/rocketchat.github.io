@@ -32,7 +32,6 @@ class: team
   <ul class="team">
     {% for member in site.data.team %}
     <li>
-      <div style="background-image: url('{{ site.url }}/images/team/{{ member.name | slugify }}')/small.png"></div>
       <h3>{{ member.name }}</h3>
       <div class="title">{{ member.title }}</div>
       {% if member.github_uid %}

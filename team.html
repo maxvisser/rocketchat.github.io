@@ -33,7 +33,7 @@ class: team
     {% for member in site.data.team %}
     <li>
       {% if member.github_uid %}
-        <a href="https://github/{{ member.github_username }}">
+        <a href="https://github.com/{{ member.github_username }}">
           <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
         </a>
       {% else %}

@@ -24,7 +24,12 @@ sass:
   style: compressed
   sass_dir: _sass
 
-plugins_dir:
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  
+whitelist:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from

@@ -32,9 +32,9 @@ body.contact {
     border: 1px solid #ddd;
   }
   
-  input[type=submit] {
+  input[type=button] {
     margin-top: 10px;
-    float: right;
+    display: inline-block;
   }
 
 }

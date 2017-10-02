@@ -37,28 +37,8 @@ class: contact
 
 <section id="message">
   <h2>Send us a message</h2>
-  <form class="" action="" method="post">
-    <div class="left">
-      <label for="name">Name:</label>
-      <input type="text" name="name" value="">
-      <label for="email">Email:</label>
-      <input type="text" name="email" value="">
-      <label for="company">Company:</label>
-      <input type="text" name="company" value="">
-      <label for="role">Role:</label>
-      <input type="text" name="role" value="">
-      <label for="phone">Phone number (optional):</label>
-      <input type="text" name="phone" value="">
-    </div>
-    <div class="right">
-      <label for="message">Message:</label>
-      <textarea name="message"></textarea>
-      <input type="submit" value="Send Message">
-    </div>
-    <div class="clear"></div>
-  </form>
-  
-  Email us at <a href="mailto: contact@rocket.chat" title="contact@rocket.chat" target="_blank">contact@rocket.chat</a>
+
+  <input onclick="message()" type="button" value="Start Chatting"> or email us at <a href="mailto: contact@rocket.chat" title="contact@rocket.chat" target="_blank">contact@rocket.chat</a>
   or <a href="mailto: sales@rocket.chat" title="sales@rocket.chat" target="_blank">sales@rocket.chat</a>
 </section>
 
@@ -70,3 +50,14 @@ class: contact
     <h2>R&amp;D Address</h2> Rua Carvalho Monteiro, 234, Porto Alegre / RS, Brazil
   </p>
 </section>
+
+<script>
+  window.intercomSettings = {
+    app_id: "byo2ivr0"
+  };
+  
+  function message() {
+    Intercom('showNewMessage');
+  }
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/byo2ivr0';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>

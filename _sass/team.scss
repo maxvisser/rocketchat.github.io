@@ -20,13 +20,11 @@ body.team {
     grid-template-columns: repeat(4, 0.25fr);
     grid-gap: 20px;
 
-    li {
-      margin-bottom: 15px;
-      
+    li {      
       h3 {
         font-size: 15px;
         text-align: center;
-        margin-bottom: 3px;
+        margin: 3px 0;
       }
       
       .title {

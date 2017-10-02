@@ -20,21 +20,21 @@
   username: rodrigo.nascimento
 
 - name: Sing-Li
-  title: VP of Partnerships
+  title: Senior VP of Partnerships and Opportunities
   github_uid: 122633
   github_username: Sing-Li
   department: Sales
   username:
     
 - name: Aaron Ogle
-  title: VP of Cloud Engineering
+  title: Cloud Engineering Specialist
   github_uid: 51996
   github_username: geekgonecrazy
   department: Cloud
   username: aaron.ogle
 
 - name: Rafael Kellermann Streit
-  title: VP of Mobile Engineering
+  title: iOS Developer
   github_uid: 551004
   github_username: rafaelks
   department: Mobile
@@ -62,14 +62,14 @@
   username: guilherme.gazzo
 
 - name: Diego Sampaio
-  title: VP of Engineering
+  title: Lead Engineer
   github_uid: 8591547
   github_username: sampaiodiego
   department:
   username: diego.sampaio
     
 - name: Bradley Hilton
-  title: Backend Engineer
+  title: Interconnectivity Specialist
   github_uid: 850391
   github_username: graywolf336
   department: Technology
@@ -83,7 +83,7 @@
   username: gabriel.delavald
 
 - name: Karl Prieb
-  title: Front End Engineer
+  title: Front End Lead Engineer
   github_uid: 9200155
   github_username: karlprieb
   department: Technology
@@ -111,7 +111,7 @@
   username: patriciaferreira
 
 - name: Júlia Grala
-  title: Business Development Representative
+  title: Business Development
   github_uid: 30629556
   github_username: juliagrala
   department: Sales
@@ -125,29 +125,36 @@
   username: ramon.nobre
 
 - name: Arthur Della Giustina
-  title: Graphic Designer
+  title: Designer
   github_uid: 30700871
   github_username: RamonNobre
   department: Sales
   username: arthur.giustina
     
 - name: Bernardo Trevisan
-  title: Operations Intern
+  title: Marketing Intern
   github_uid: 31044115
   github_username: bernardoetrevisan
   department: Operations
   username: bernardo.trevisan
     
 - name: Diego Dorgam
-  title: Engineer
+  title: Bots Engineer
   github_uid: 12052193
   github_username: diegodorgam
   department: Development
   username:
 
 - name: Filipe Brito
-  title: Engineer
+  title: Android Engineer
   github_uid: 11776825
   github_username: filipedelimabrito
   department: Development
-  username:
+  username: filipe.brito
+    
+- name: Matheus Cardoso
+  title: iOS Developer
+  github_uid: 5606812
+  github_username: cardoso
+  department: Mobile
+  username: matheus.cardoso

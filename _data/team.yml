@@ -34,7 +34,7 @@
   username: aaron.ogle
 
 - name: Rafael Kellermann Streit
-  title: iOS Developer
+  title: Lead Mobile Engineer
   github_uid: 551004
   github_username: rafaelks
   department: Mobile
@@ -62,7 +62,7 @@
   username: guilherme.gazzo
 
 - name: Diego Sampaio
-  title: Lead Engineer
+  title: Lead Full Stack Engineer
   github_uid: 8591547
   github_username: sampaiodiego
   department:
@@ -83,7 +83,7 @@
   username: gabriel.delavald
 
 - name: Karl Prieb
-  title: Front End Lead Engineer
+  title: Lead Front End Engineer
   github_uid: 9200155
   github_username: karlprieb
   department: Technology
@@ -153,7 +153,7 @@
   username: filipe.brito
     
 - name: Matheus Cardoso
-  title: iOS Developer
+  title: iOS Engineer
   github_uid: 5606812
   github_username: cardoso
   department: Mobile

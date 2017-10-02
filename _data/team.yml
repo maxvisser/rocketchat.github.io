@@ -69,7 +69,7 @@
   username: diego.sampaio
     
 - name: Bradley Hilton
-  title:
+  title: Backend Engineer
   github_uid: 850391
   github_username: graywolf336
   department: Technology
@@ -111,7 +111,7 @@
   username: patriciaferreira
 
 - name: Júlia Grala
-  title: BDR
+  title: Business Development Representative
   github_uid: 30629556
   github_username: juliagrala
   department: Sales
@@ -139,14 +139,14 @@
   username: bernardo.trevisan
     
 - name: Diego Dorgam
-  title: Developer
+  title: Engineer
   github_uid: 12052193
   github_username: diegodorgam
   department: Development
   username:
 
 - name: Filipe Brito
-  title: Developer
+  title: Engineer
   github_uid: 11776825
   github_username: filipedelimabrito
   department: Development

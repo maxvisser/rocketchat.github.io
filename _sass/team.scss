@@ -20,7 +20,7 @@ body.team {
     grid-template-columns: repeat(4, 0.25fr);
     grid-gap: 20px;
 
-    li {      
+    li {
       h3 {
         font-size: 15px;
         text-align: center;
@@ -34,7 +34,7 @@ body.team {
       }
       
       img {
-        filter: grayscale(1);
+        // filter: grayscale(0.5);
         max-width: 120px;
         border-radius: 50%;
       }

@@ -32,12 +32,20 @@ class: team
   <ul class="team">
     {% for member in site.data.team %}
     <li>
-      {% if member.github_uid %}
-        <a href="https://github/{{ member.github_username }}">
-          <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
+      {% if member.github_username %}
+        <a href="https://github.com/{{ member.github_username }}">
+          {% if member.photo %}
+            <img src="{{ site.url }}/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
+          {% else %}
+            <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
+          {% endif %}
         </a>
       {% else %}
-        <img src="https://github.com/identicons/{{ member.name | replace: ' ', '' }}.png" alt="">
+        {% if member.photo %}
+          <img src="{{ site.url }}/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
+        {% else %}
+          <img src="https://github.com/identicons/RocketChat.png" alt="">
+        {% endif %}
       {% endif %}
       <h3>{{ member.name }}</h3>
       <div class="title">{{ member.title }}</div>

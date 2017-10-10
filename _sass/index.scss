@@ -4,9 +4,13 @@ $focus-padding: 12em;
 body.index {
   
   .hero {
-    margin-bottom: $focus-padding;
+    background-image: url('images/index/clouds.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin-bottom: 6em;
     background-color: #2f343e;
-    padding: 6em 0;
+    padding: 6em 0 10em;
     color: #fff;
     
     .main {
@@ -60,28 +64,6 @@ body.index {
     .solution {
       margin: 20px 0 32px;
     }
-  }
-  
-  .clouds {
-    // background-repeat: repeat-x;
-    // background-size: 120% 20%;
-    height: 100%;
-    display: block;
-    background-repeat: repeat-x;
-  }
-  
-  .clouds.back {
-    // background-image: url('images/index/clouds-back.svg');
-    // background-position-y: bottom;
-  }
-  
-  .clouds.rocket {
-    // background-image: url('images/index/rocket.svg');
-  }
-
-  .clouds.front {
-    // background-image: url('images/index/clouds-front.svg');
-    // background-position-y: bottom;
   }
   
   .focus {

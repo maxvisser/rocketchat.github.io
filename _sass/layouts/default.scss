@@ -29,7 +29,7 @@ $header-logo-font-size: 18px;
 
 $footer-font-size: 14px;
 $footer-color: #ffffff;
-$footer-background: #2c3d57;
+$footer-background: #2f343e;
 $footer-heading-font-size: 11px;
 $footer-heading-color: #bcc5d6;
 
@@ -117,9 +117,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: $serif-font-family;
+  font-family: $ui-font-family;
   letter-spacing: .01rem;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-size: 3.2em;
   line-height: 1.2em;
@@ -189,7 +189,7 @@ header, footer {
 }
 
 .header-wrapper {
-  background-color: #2c3d57;
+  background-color: #1f2329;
 }
 
 header {
@@ -198,6 +198,8 @@ header {
   padding: 16px 1em 12px;
   color: #fff;
   font-size: $header-font-size;
+  font-weight: 600;
+  text-transform: uppercase;
 
   a.logo img {
     display: inline-block;
@@ -234,9 +236,10 @@ header {
       padding: 3px 9px;
     }
   }
-
-  a.active {
-    text-decoration: underline;
+  
+  a:hover, a.active {
+    color: #929db3;
+    text-decoration: none;
   }
   
   .main {
@@ -374,14 +377,13 @@ section {
   
   &.header {
     margin: 1em 0 3em;
-
-    em {
-      display: block;
-      font-size: 1.4em;
-      font-style: normal;
-    }
   }
-  
+
+  em {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+  }
 }
 
 .faq {
@@ -399,7 +401,7 @@ table {
   margin: 0 auto;
   border-collapse: collapse;
   width: 100%;
-  color: #444;
+  color: #1f2329;
   
   h2 {
     font-size: 32px;
@@ -419,7 +421,7 @@ table {
   
   tr {
     width: 100%;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #eef0f3;
   }
   
   tr:nth-child(1) {
@@ -438,7 +440,7 @@ table {
   td {
     width: 26%;
     padding: 12px 12px;
-    border-left: 1px solid #ccc;
+    border-left: 1px solid #eef0f3;
     text-align: center;
   }
   
@@ -489,8 +491,8 @@ table {
 
   span.yes:before {
     content: '';
-    height: 5px;
-    background-color: green;
+    height: 3px;
+    background-color: #26d198;
     position: relative;
     display: block;
     top: 50%;
@@ -504,8 +506,8 @@ table {
   
   span.yes:after {
     content: '';
-    height: 5px;
-    background-color: green;
+    height: 3px;
+    background-color: #26d198;
     position: relative;
     display: block;
     top: 50%;

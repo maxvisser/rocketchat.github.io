@@ -2,6 +2,16 @@
 body.cloud {
   min-width: 1000px;
 
+  .header {
+    margin-top: 6em;
+       
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #000;
+    }
+  }
+
   .testimonials img {
     max-width: 150px;
   }
@@ -10,5 +20,9 @@ body.cloud {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    
+    p {
+      color: #929db3;
+    }
   }
 }

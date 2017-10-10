@@ -181,11 +181,13 @@ body.index {
     ul {
       list-style: none;
       padding: 0;
+      color: #000;
     }
     
     li {
       width: 50%;
       float: left;
+      margin-bottom: 5px;
     }
     
     li:nth-child(4) {
@@ -194,11 +196,18 @@ body.index {
     
     .right {
       margin-top: 2em;
+      
+      img {
+        text-align: left;
+        display: inline;
+        margin-bottom: -12px;
+      }
     }
   }
 
   .livechat {
     padding-top: $focus-padding;
+    padding-bottom: 6em;
 
     .left {
       margin-top: 6em;

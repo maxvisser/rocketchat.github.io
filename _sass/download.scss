@@ -5,7 +5,16 @@ body.download {
     background-color: #1e232a;
     text-align: center;
     color: #fff;
+    padding-bottom: 0;
     margin-bottom: 8em;
+    
+    .main {
+      padding-bottom: 20em;
+      background-image: url("../images/download/devices.png");
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: contain;
+    }
     
     h1 {
       margin-top: 2em;
@@ -17,7 +26,7 @@ body.download {
     }
     
     a.button {
-      margin-bottom: 18em;
+      margin-bottom: 2em;
     }
   }
   
@@ -160,6 +169,11 @@ body.download {
     em {
       
     }
+  }
+
+  .testimonials {
+    margin-top: 6em;
+    margin-bottom: 4em;
   }
 
 }

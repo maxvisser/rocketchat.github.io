@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24/uploads--dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-911.000000, -2040.000000)" id="enterprise-features">
+            <g transform="translate(0.000000, 1514.000000)">
+                <g id="Group-17" transform="translate(728.000000, 120.000000)">
+                    <g id="Group-33" transform="translate(182.000000, 404.000000)">
+                        <g id="24x24/uploads--dark">
+                            <g>
+                                <g id="Group-7" transform="translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) translate(2.000000, 3.000000)" stroke-width="1.5" stroke="#414852">
+                                    <polyline id="Rectangle" transform="translate(10.000000, 6.000000) rotate(-315.000000) translate(-10.000000, -6.000000) " points="13 3 13 9 7 9"></polyline>
+                                    <path d="M10,8.5 L10,0.5" id="Line" stroke-linecap="square"></path>
+                                    <path d="M16.8754883,18 C19.0846273,18 20,16.209139 20,14 C20,11.790861 18.209139,10 16,10 C16,8.34314575 14.6568542,7 13,7 C12.2524033,7 11.5686759,7.27345718 11.0433869,7.72580245 C10.2196198,6.6751084 8.9386499,6 7.5,6 C5.01471863,6 3,8.01471863 3,10.5 C3,11.0259531 3.09023133,11.5308316 3.25605856,12 L3,12 C1.34314575,12 0,13.3431458 0,15 C0,16.6568542 1.34314575,18 3,18" id="Combined-Shape" transform="translate(10.000000, 12.000000) rotate(-180.000000) translate(-10.000000, -12.000000) "></path>
+                                </g>
+                                <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

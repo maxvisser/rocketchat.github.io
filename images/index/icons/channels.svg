@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>24x24/at--dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-730.000000, -2004.000000)" id="enterprise-features">
+            <g transform="translate(0.000000, 1514.000000)">
+                <g id="Group-17" transform="translate(728.000000, 120.000000)">
+                    <g id="Group-33" transform="translate(0.000000, 368.000000)">
+                        <g id="24x24/at--dark">
+                            <g>
+                                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                                <circle id="Oval" stroke="#414852" stroke-width="1.5" cx="12" cy="12" r="4"></circle>
+                                <path d="M15.4449407,20.3171374 C14.3838117,20.7571475 13.2202665,21 12,21 C7.02943725,21 3,16.9705627 3,12 C3,7.02943725 7.02943725,3 12,3 C16.9705627,3 21,7.02943725 21,12 L21,13.5501579" id="Oval" stroke="#414852" stroke-width="1.5"></path>
+                                <path d="M21,13.4906996 C21,14.876548 19.8903379,16 18.5,16 L18.5,16 C17.1192881,16 16,14.8876343 16,13.4906996 L16,8 L16,8" id="Rectangle-7" stroke="#414852" stroke-width="1.5"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

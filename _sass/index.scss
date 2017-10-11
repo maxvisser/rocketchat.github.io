@@ -169,7 +169,17 @@ body.index {
     li {
       width: 50%;
       float: left;
-      margin-bottom: 5px;
+      height: 32px;
+
+      .img-wrapper {
+        display: inline-block;
+        width: 38px;
+      }
+
+      img {
+        margin-bottom: -4px;
+        text-align: left;
+      }
     }
     
     li:nth-child(4) {
@@ -178,12 +188,6 @@ body.index {
     
     .right {
       margin-top: 2em;
-      
-      img {
-        text-align: left;
-        display: inline;
-        margin-bottom: -12px;
-      }
     }
   }
 

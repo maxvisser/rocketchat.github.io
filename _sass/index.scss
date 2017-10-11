@@ -234,6 +234,7 @@ body.index {
   .clients {
     text-align: center;
     padding: 50px 0;
+    line-height: 5em;
     
     .main {
       max-width: $content-width;
@@ -270,7 +271,7 @@ body.index {
 
   .cta {
     background-color: #1d74f5;
-    width: $content-width;
+    max-width: $content-width;
     margin: 0 auto;
     text-align: center;
     font-size: 18px;
@@ -305,9 +306,28 @@ body.index {
     
     .focus {
       margin: 0;
+      padding: 2em 0;
+      
+      .left {
+        float: none;
+        width: 100%;
+        padding: 0;
+      }
+      
+      .right {
+        float: none;
+        width: 100%;
+        padding: 0;
+      }
     }
     
     .hero {
+      padding: 1em 0 6em;
+      
+      h1 {
+        margin: 0 0 1em;
+      }
+      
       br {
         content: " ";
         display: none;
@@ -326,14 +346,36 @@ body.index {
       }
     }
     
+    .cta {
+      margin-bottom: 0;
+    }
+    
     .clients {
       margin: 0;
     }
     
+    .testimonials {
+      margin-bottom: 0;
+    }
+    
+    .apps-wrapper {
+      background: none;
+      padding: 0 1em;
+    }
+    
     .community, .features, .livechat, .translation, .apps, .own {
+            
+      .left, .right {
+        margin-top: 0;
+      }
+
       img {
         margin: 0;
         display: none;
+      }
+      
+      li img {
+        display: inline;
       }
     }
   }

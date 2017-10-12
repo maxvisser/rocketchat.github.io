@@ -14,7 +14,7 @@ keys:
 basic:
   name: Basic
   description: |
-    <div>
+    <div class="description">
       Get Basic support and have the Rocket.Chat experts on-hand in case of an emergency
     </div>
     <a class="button highlight" href="../contact/index.html#message">Contact Us</a>
@@ -33,7 +33,7 @@ basic:
 plus:
   name: Plus
   description: |
-    <div>
+    <div class="description">
       For larger teams who need quicker responses and 24x7 phone support
     </div>
     <a class="button highlight" href="../contact/index.html#message">Contact Us</a>
@@ -52,7 +52,7 @@ plus:
 premium:
   name: Premium
   description: |
-    <div>
+    <div class="description">
       For larger teams who need quicker responses and 24x7 phone support
     </div>
     <a class="button highlight" href="#">Contact Us</a>

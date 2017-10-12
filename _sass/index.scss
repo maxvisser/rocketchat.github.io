@@ -1,6 +1,4 @@
 
-$focus-padding: 12em;
-
 body.index {
   
   .hero {
@@ -8,97 +6,51 @@ body.index {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    margin-bottom: 6em;
-    background-color: #1f2329;
-    padding: 4em 0 11em;
+    background-color: $color-dark;
+    padding: 4em 0 12em;
     color: #fff;
-    
-    .main {
-      max-width: $wrapper-width;
-      margin-bottom: 0;
-    }
-    
-    h1, h2 {
-      letter-spacing: .01rem;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
+                        
     h1 {
-      font-family: $ui-font-family;
-      font-size: 44px;
-      font-weight: 600;
-      line-height: 1.2em;
+      font-size: 2.5em;
       margin-bottom: 2em;
-      color: #fff;
     }
     
     h2 {
-      font-size: 20px;
-      font-weight: 600;
-      color: #fff;
-      margin: 40px 0 10px 0;
+      margin: 2em 0 0;
     }
-    
+        
     p {
-      margin-top: 0;
-      padding-right: 15px;
       color: #ccc;
-    }
-
-    .button {
-      margin-top: 12px;
-      margin-right: 5px;
     }
    
     .left {
       width: 38%;
-      padding: 0
+      padding-bottom: 1em;
     }
 
     .right {
       width: 62%;
       padding: 0;
     }
-        
-    .solution {
-      margin: 20px 0 32px;
-    }
   }
   
   .focus {
-    max-width: $content-width;
-    margin: 0 auto;
-    padding: 0 0 $focus-padding;
-    
-    h2 {
-      font-size: 32px;
-    }
-    
-    p.highlight {
-      color: $highlight-color;
+    em {
+      color: $color-primary;
+      font-style: normal;
       font-weight: 600;
     }
+
     img {
       max-height: 400px;
-    }
-    
-    .left, .right {
-      padding: 0 25px;
     }
   }
   
   .community {
+    padding-bottom: 3em;
     
     .left {
-      margin-top: 5em;
-    }
-    
-    .right {
-      img {
-        margin-top: 2em;
-        height: inherit;
-      }
+      margin-top: 4em;
     }
     
     .github {
@@ -109,15 +61,15 @@ body.index {
       }
       
       a, a:visited {
-        color: #000;
+        color: $color-dark;
       }
       
       a:hover {
-        color: $link-color;
+        color: $color-secondary;
       }
       
       svg {
-        fill: #222;
+        fill: $color-dark;
         margin-bottom: -8px;
         margin-right: 10px;
       }
@@ -137,12 +89,11 @@ body.index {
         text-transform: uppercase;
         font-weight: 800;
         text-align: center;
-        font-size: 12px;
+        font-size: 0.75em;
         
         .top {
           padding-bottom: 0.75em;
           margin-bottom: 0.75em;
-          border-bottom: 1px solid #fff;
         }
 
         span {
@@ -155,10 +106,6 @@ body.index {
     }
   }
   
-  .features-wrapper {
-    background-color: #f7f8fa;
-  }
-  
   .features {
     ul {
       list-style: none;
@@ -169,7 +116,11 @@ body.index {
     li {
       width: 50%;
       float: left;
-      height: 32px;
+      height: 2em;
+      
+      &:nth-child(4) {
+        float: right;
+      }
 
       .img-wrapper {
         display: inline-block;
@@ -182,18 +133,14 @@ body.index {
       }
     }
     
-    li:nth-child(4) {
-      float: right;
-    }
-    
     .right {
-      margin-top: 2em;
+      margin-top: 4em;
     }
   }
 
   .livechat {
-    padding-top: $focus-padding;
-    padding-bottom: 6em;
+    background-color: #f7f8fa;
+    padding-bottom: 0;
 
     .left {
       margin-top: 6em;
@@ -205,27 +152,26 @@ body.index {
   }
   
   .translation {
-    .right {
-      margin-top: 6em;
-    }
-  }
+    padding-top: 6em;
+    background-color: #f7f8fa;
 
-  .apps-wrapper {
-    background-image: url("images/index/clients.png");
-    background-position: right;
-    background-repeat: no-repeat;
+    .right {
+      margin-top: 8em;
+    }
   }
   
   .apps {
-    padding-top: $focus-padding;
-
+    background-image: url("images/index/clients.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 12em;
+    
     .left {
       margin-top: 5em;
     }
   }
   
   .own {
-
     .right {
       margin-top: 7em;
     }
@@ -233,19 +179,14 @@ body.index {
   
   .clients {
     text-align: center;
-    padding: 50px 0;
-    line-height: 5em;
-    
-    .main {
-      max-width: $content-width;
-    }
-    
+    padding: 0;
+    line-height: 6em;
+        
     img {
       margin-top: -20px;
       display: inline-block;
       max-width: 140px;
       margin-right: 35px;
-      // filter: grayscale(100%);
     }
     
     .steadymd {
@@ -270,21 +211,22 @@ body.index {
   }
 
   .cta {
-    background-color: #1d74f5;
-    max-width: $content-width;
-    margin: 0 auto;
     text-align: center;
-    font-size: 18px;
     color: #fff;
-    margin-bottom: 8em;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    padding: 0;
     
-    .grey {
-      margin-left: 20px;
-      background-color: #272b33;
-      padding: 3em 2em 3.5em;
+    .wrapper, .content {
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px;
+    }
+    
+    .wrapper {
+      background-color: $color-primary;
+      padding: 0 0 0 1.5em;
+    }
+    
+    .content {
+      background-color: $color-dark;
+      padding: 4em 0;
     }
     
     h2 {
@@ -299,78 +241,47 @@ body.index {
       font-size: 20px;
     }
   }
-  
-  
       
   @media all and (max-width: 900px) {
     
-    .focus {
-      margin: 0;
-      padding: 2em 0;
+    .hero {
+      padding: 4em 0;
       
       .left {
         float: none;
         width: 100%;
-        padding: 0;
       }
       
       .right {
         float: none;
         width: 100%;
-        padding: 0;
       }
-    }
-    
-    .hero {
-      padding: 1em 0 6em;
       
       h1 {
-        margin: 0 0 1em;
+        margin-bottom: 1em;
       }
       
       br {
         content: " ";
         display: none;
       }
-      
-      .left {
-        float: none;
-        width: 100%;
-        padding: 0;
-      }
-      
-      .right {
-        float: none;
-        width: 100%;
-        padding: 0;
-      }
+    }
+
+    .focus {
+      padding: 3em 0;
     }
     
-    .cta {
-      margin-bottom: 0;
-    }
-    
-    .clients {
-      margin: 0;
-    }
-    
-    .testimonials {
-      margin-bottom: 0;
-    }
-    
-    .apps-wrapper {
-      background: none;
-      padding: 0 1em;
+    .apps {
+      background-image: none;
     }
     
     .community, .features, .livechat, .translation, .apps, .own {
-            
+
       .left, .right {
-        margin-top: 0;
+        margin: 0;
       }
 
       img {
-        margin: 0;
         display: none;
       }
       

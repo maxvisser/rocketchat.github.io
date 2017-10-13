@@ -4,11 +4,12 @@ date: 2017-07-06 00:01:31
 author: Sing Li
 cover: /images/posts/2017/07/naman-gupta-smaller-faster-and-more-bandwidthefficient-client-with-pwa/gsocprofile.png
 ---
-<i>This series of blogs brings you a little closer to our active student contributors for the&nbsp;<a href="https://rocket.chat/docs/contributing/google-summer-of-code">Google Summer of Code 2017</a>&nbsp;summer season. You will see their ongoing work featured throughout our&nbsp;<a href="https://github.com/RocketChat">GitHub repositories</a>&nbsp;. Feel free to drop by and say "hello", or start collaborating on any of the projects.&nbsp;</i>
+
+_This series of blogs brings you a little closer to our active student contributors for the [Google Summer of Code 2017](https://rocket.chat/docs/contributing/google-summer-of-code) summer season. You will see their ongoing work featured throughout our [GitHub repositories](https://github.com/RocketChat) . Feel free to drop by and say "hello", or start collaborating on any of the projects._
 
 Even as a young child, academic pursuits came naturally to our Google Summer of Code student Naman Gupta. He initially dreamed of becoming an automobile designer, but realized that &nbsp;computer science was his true calling. Naman particularly enjoys applying logic to solve problems, a skill he will be using during his work on the lightweight PWA web client project with Rocket.Chat.
 
-Naman is working towards a B.Tech in Computer Science Engineering at the <a href="http://www.gtbit.org/">Guru Tegh Bahadur Institute of Technology</a> , India. He enjoys the social aspect of the course as well as being part of such a reputable institution. Naman is passionate about coding, during the application and interview process we were hugely impressed by the breadth of his knowledge as well as his desire to learn.
+Naman is working towards a B.Tech in Computer Science Engineering at the [Guru Tegh Bahadur Institute of Technology](http://www.gtbit.org/) , India. He enjoys the social aspect of the course as well as being part of such a reputable institution. Naman is passionate about coding, during the application and interview process we were hugely impressed by the breadth of his knowledge as well as his desire to learn.
 
 In addition to his coding skills, Naman's passion for open source makes him a good fit for Rocket.Chat. He explains: "I believe in sharing knowledge. I always compare knowledge with breathing. We inhale and then exhale without any intention of storing oxygen. Similarly, I &nbsp;think we should interact, spread knowledge and help other coders regardless of competition."
 

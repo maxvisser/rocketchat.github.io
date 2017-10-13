@@ -3,104 +3,108 @@ layout: en/default
 class: press
 ---
 
-<section class="center">
-  <h1>Rocket.Chat in the Press</h1>
+<section class="hero">
+  <div class="wrapper">
+    <h1>Rocket.Chat in the Press</h1>
+    <em>What people have been saying about us</em>
+  </div>
 </section>
-
 
 <section class="company">
-  <div class="left">
-    <h2>Company</h2>
-    <p>
-      Rocket.Chat is a company built on open source values and a love of efficiency. The
-      company is driven by our amazing community of contributors, with the facilitation
-      of a talented team, who work tirelessly to keep the code to a high standard
-      and make contributors’ lives easier, led by founder Gabriel Engel.
-    </p>
-    <p>
-      Rocket.Chat was named the top project at
-      <a href="https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year"
-        target="_blank">
-        Black Duck’s Open Source Rookies of the Year
-      </a> in 2016. We are based in Brazil, but the vast majority of our team
-      work remotely. Our main competitors are products like Slack and HipChat.
-    </p>
+  <div class="wrapper">
+    <div class="left">
+      <h2>Company</h2>
+      <p>
+        Rocket.Chat is a company built on open source values and a love of efficiency. The
+        company is driven by our amazing community of contributors, with the facilitation
+        of a talented team, who work tirelessly to keep the code to a high standard
+        and make contributors’ lives easier, led by founder Gabriel Engel.
+      </p>
+      <p>
+        Rocket.Chat was named the top project at
+        <a href="https://www2.blackducksoftware.com/news/releases/black-duck-announces-open-source-rookies-of-the-year"
+          target="_blank">
+          Black Duck’s Open Source Rookies of the Year
+        </a> in 2016. We are based in Brazil, but the vast majority of our team
+        work remotely. Our main competitors are products like Slack and HipChat.
+      </p>
+    </div>
+    <div class="right">
+      <img src="{{ site.url }}/images/press/logos/512x512.png" alt="Rocket.Chat Logo">
+    </div>
+    <div class="clear"></div>
   </div>
-  <div class="right">
-    <img src="{{ site.url }}/images/press/logos/512x512.png" alt="Rocket.Chat Logo">
-  </div>
-  <div class="clear"></div>
 </section>
-
 
 <section class="gabriel">
-  <div class="left">
-    <img src="{{ site.url }}/images/team/gabriel-engel/large.jpg" alt="Gabriel Engel">
+  <div class="wrapper">
+    <div class="left">
+      <img src="{{ site.url }}/images/team/member/gabriel-engel-02.jpg" alt="Gabriel Engel">
+    </div>
+    <div class="right">
+      <h2>Gabriel Engel</h2>
+      <p>
+        He is the founder of Rocket.Chat. Passionate about collaborations tools, open source
+        and new tech. He is also a co-founder of Konecty, and worked as Product Manager
+        for Business Innovation and Mobile Applications at Vodafone Global Enterprise.</p>
+      <p>Gabriel, the founder of Rocket.Chat, is keen to speak with members of the press
+        about his experiences and success with the company so far. Gabriel founded
+        the company in mid 2015, because he saw a gap in the market for [what].
+      </p>
+    </div>
+    <div class="clear"></div>
   </div>
-  <div class="right">
-    <h2>Gabriel Engel</h2>
-    <p>
-      He is the founder of Rocket.Chat. Passionate about collaborations tools, open source
-      and new tech. He is also a co-founder of Konecty, and worked as Product Manager
-      for Business Innovation and Mobile Applications at Vodafone Global Enterprise.</p>
-    <p>Gabriel, the founder of Rocket.Chat, is keen to speak with members of the press
-      about his experiences and success with the company so far. Gabriel founded
-      the company in mid 2015, because he saw a gap in the market for [what].
-    </p>
-  </div>
-  <div class="clear"></div>
 </section>
-
 
 <section class="logos">
-  <h2>Logos</h2>
-
-  <ul>
-    {% for logo in site.data.logos %}
-    <li>
-      <div class="img-wrapper">
-        <img src="{{ site.url }}/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
-      </div>
-      <h3>{{ logo.name }}</h3>
-      <div class="download">
-        {% if logo.png %}
-        <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
-        {% endif %}
-        {% if logo.svg %}
-        <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
-        {% endif %}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <div class="clear"></div>
-  <br>
-  <p>
-    For more artwork, check out our
-    <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Artwork" target="_blank">Artwork Repository</a>
-  </p>
-  <div class="clear"></div>
-</section>
-
-<section class="contact">
-  <div class="left">
-    <h2>In the Press</h2>
+  <div class="wrapper">
+    <h2>Logos</h2>
     <ul>
-      {% for article in site.data.press %}
+      {% for logo in site.data.logos %}
       <li>
-        <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
-        <span>{{ article.publisher }}</span>
+        <div class="img-wrapper">
+          <img src="{{ site.url }}/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
+        </div>
+        <h3>{{ logo.name }}</h3>
+        <div class="download">
+          {% if logo.png %}
+          <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
+          {% endif %}
+          {% if logo.svg %}
+          <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
+          {% endif %}
+        </div>
       </li>
       {% endfor %}
     </ul>
-  </div>
-  <div class="right">
-    <h2>Press Contact</h2>
-    <p>
-      For comments, interviews, image and video files, or to speak with our media liaison,
-      please contact us at: <a href="mailto: press@rocket.chat">press@rocket.chat</a>
+    <div class="clear"></div>
+    <p class="more">
+      For more artwork, check out our
+      <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat.Artwork" target="_blank">Artwork Repository</a>
     </p>
   </div>
-  <div class="clear"></div>
+</section>
+
+<section class="contact">
+  <div class="wrapper">
+    <div class="left">
+      <h2>In the Press</h2>
+      <ul>
+        {% for article in site.data.press %}
+        <li>
+          <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
+          <span>{{ article.publisher }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="right">
+      <h2>Press Contact</h2>
+      <p>
+        For comments, interviews, image and video files, or to speak with our media liaison,
+        please contact us at: <a href="mailto: press@rocket.chat">press@rocket.chat</a>
+      </p>
+    </div>
+    <div class="clear"></div>
+  </div>
 </section>

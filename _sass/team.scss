@@ -1,16 +1,12 @@
 
 body.team {
-  
-  .header {
-    margin-bottom: 4em;
-  }
-  
-  .left {
-    padding-right: 50px;
-  }
-  
-  .right img {
-    margin-top: -60px;
+
+  .message {
+    padding-bottom: 3em;
+    
+    .left {
+      padding-top: 5em;
+    }
   }
   
   ul.team {
@@ -46,6 +42,12 @@ body.team {
     
     .header {
       margin: 0;
+    }
+
+    .message {
+      .left {
+        padding-top: 0;
+      }
     }
     
     .right img {

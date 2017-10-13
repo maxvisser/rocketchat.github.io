@@ -1,40 +1,20 @@
 
 body.contact {
   
+  .hero {
+    padding-bottom: 12em;
+  }
+  
   section {
-    margin-bottom: 0;
+    padding-bottom: 6em;
+  }
+  
+  #message {
+    padding-top: 0;
     
-    &.header {
-      margin-bottom: 3em;
+    .address {
+      padding-top: 3em;
     }
-  }
-
-  label, input, textarea {
-    display: block;
-    margin-bottom: 5px;
-    font-size: $font-size;
-  }
-
-  label {
-    margin-top: 8px;
-  }
-  
-  input[type=text] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
-  
-  textarea {
-    width: 100%;
-    padding: 10px;
-    min-height: 344px;
-    border: 1px solid #ddd;
-  }
-  
-  input[type=button] {
-    margin-top: 10px;
-    display: inline-block;
   }
 
 }

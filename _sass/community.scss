@@ -1,11 +1,17 @@
 
 body.community {
   
-  .header {
-    margin-bottom: 4em;
+  .hero {
+    padding-bottom: 12em;
   }
-
+  
+  section {
+    padding-bottom: 6em;
+  }
+  
   .connect {
+    padding-bottom: 1em;
+    
     ul {
       list-style: none;
       padding: 0;
@@ -27,13 +33,7 @@ body.community {
     }
   }
   
-  .left {
-    margin-top: 4em;
-  }
-
   .involved {
-    margin-bottom: 0;
-    
     ul {
       list-style: none;
       padding: 0;
@@ -60,11 +60,6 @@ body.community {
   }
   
   @media all and (max-width: 900px) {
-    
-    .header {
-      margin-bottom: 0;
-    }
-    
     .right img {
       display: none;
     }
@@ -76,7 +71,6 @@ body.community {
     .involved ul {
       display: block;
     }
-    
   }
     
 }

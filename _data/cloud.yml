@@ -21,7 +21,7 @@ small:
     <div class="description">
       For new teams or small communities
     </div>
-    <a class="button red" href="https://cloud.rocket.chat/trial/small">Start Trial</a>
+    <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Start Trial</a>
     <div class="pricing"><span>$50</span>/month</div>
   total: 500
   concurrent: Up to 50
@@ -38,7 +38,7 @@ medium:
     <div class="description">
       For growing teams or communities with increased activity
     </div>
-    <a class="button red" href="https://cloud.rocket.chat/trial/medium">Start Trial</a>
+    <a class="button secondary" href="https://cloud.rocket.chat/trial/medium">Start Trial</a>
     <div class="pricing"><span>$200</span>/month</div>
   total: 5,000
   concurrent: Up to 200
@@ -55,7 +55,7 @@ large:
     <div class="description">
       For active or large enterprises or communities
     </div>
-    <a class="button red" href="https://cloud.rocket.chat/trial/large">Start Trial</a>
+    <a class="button secondary" href="https://cloud.rocket.chat/trial/large">Start Trial</a>
     <div class="pricing"><span>$500</span>/month</div>
   total: 50,000
   concurrent: Up to 500

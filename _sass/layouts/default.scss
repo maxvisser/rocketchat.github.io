@@ -188,8 +188,20 @@ section {
   padding: 9em 0;
   
   &.hero {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    background-color: $color-dark;
+    padding: 6em 0 12em;
+    text-align: center;
+    color: #fff;
+
     h1 {
       font-size: 2.2em;
+    }
+    
+    em {
+      font-style: normal;
     }
   }
 }
@@ -241,15 +253,15 @@ table {
     
     td {
       padding: 0 1em 1em;
-      font-size: 1.25em;
     }
 
     .description {
-      min-height: 100px;
+      min-height: 80px;
       vertical-align: top;
     }
     
     .pricing {
+      margin-top: 1em;
       font-size: 1.25em;
       
       span {
@@ -332,8 +344,12 @@ table {
 
   section {
     padding: 3em 0;
+    
+    &.hero {
+      padding-bottom: 6em;
+    }
   }
-  
+    
   .left {
     float: none;
     width: 100%;

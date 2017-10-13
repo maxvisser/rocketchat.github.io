@@ -3,18 +3,24 @@ layout: en/default
 class: partners
 ---
 
-<section class="header center">
-  <h1>Rocket.Chat Partners</h1>
-  <em></em>
+<section class="hero">
+  <div class="wrapper">
+    <h1>Rocket.Chat Partners</h1>
+    <em>Let's work together to improve communication and collaboration</em>
+  </div>
 </section>
 
-<ul class="partners">
-  {% for partner in site.data.partners %}
-  <li>
-    <div style="background-image: url('{{ site.url }}{{ partner.logo }}')"></div>
-    <h2>{{ partner.name }}</h2>
-    <p>{{ partner.description }}</p>
-    <a href="{{ partner.website }}">Website</a>
-  </li>
-  {% endfor %}
-</ul>
+<section>
+  <div class="wrapper">
+    <ul class="partners">
+      {% for partner in site.data.partners %}
+      <li>
+        <div style="background-image: url('{{ site.url }}{{ partner.logo }}')"></div>
+        <h2>{{ partner.name }}</h2>
+        <p>{{ partner.description }}</p>
+        <a href="{{ partner.website }}">Website</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,144 +1,87 @@
 
 // variables
 
-$body-color: #6c727a;
-$body-background: #2f343e;
-$body-line-height: 1.58;
-$body-font-size: 16px;
-$content-font-family:
-   medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
-
 $ui-font-family:
-  medium-ui-sans-serif-text-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
+  medium-ui-sans-serif-text-font,-apple-system,BlinkMacSystemFont,"Segoe UI",
+  oboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif!important;
 
-$serif-font-family:
-  medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
+$post-font-family:
+   medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode",
+   "Lucida Sans",Geneva,Arial,sans-serif!important;
 
-$highlight-color: #175cc4;
-
-$wrapper-width: 1100px;
+$code-font-family:
+  "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  
 $content-width: 1100px;
 $post-width: 800px;
 
-$content-padding: 25px;
+$line-height: 1.58;
+$font-size: 16px;
 
-$wrapper-background: #ffffff;
+$color-primary: #1d74f5;
+$color-secondary: #c1272d;
 
-$header-font-size: 15px;
-$header-logo-font-size: 18px;
+$color-dark: #1f2329;
+$color-light: #929db3;
 
-$footer-font-size: 14px;
-$footer-color: #ffffff;
-$footer-background: #2f343e;
-$footer-heading-font-size: 11px;
-$footer-heading-color: #bcc5d6;
+$padding: 2em;
 
-$heading-color: #414852;
-$heading-color-hover: #414852;
-
-$link-color: #1d74f5;
-$link-hover-color: #6c727a;
-
-$code-background: #eee8d5;
-$code-color: #555555;
-$code-border-color: #555555;
-$code-font-size: 15px;
-$code-font-family:
-  "Consolas", "Monaco", "Ubuntu Monospace",
-  "Courier New", monospace;
-
-$cta-background: #1f2329;
-
-$button-color: #ffffff;
-
-// dark grey
-$background-primary: #414852;
-// light grey
-$background-secondary: #f7f8fa;
-// blue, same as link-color
-$background-highlight: #1d74f5;
-// rocket red
-$background-red: #c1272d;
-
-
-// elements
+// box model
 
 * {
   box-sizing: border-box;
 }
 
+// typography
+
+body, label, input {
+  font-family: $ui-font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2em;
+  margin: 0 0 1rem 0;
+
+  a, a:visited {
+    text-decoration: none;
+    color: $color-dark;
+  }
+}
+
+code, pre {
+  font-family: $code-font-family;
+  color: $color-light;
+}
+
 a, a:visited {
-  color: $link-color;
+  color: $color-primary;
   text-decoration: none;
 }
 
 a:hover {
-  color: $link-hover-color;
+  color: $color-secondary;
   text-decoration: underline;
 }
 
-a.button, input[type=submit], input[type=button] {
-  border: 0;
-  display: inline-block;
-  padding: 8px 14px;
-  border-radius: 2px;
-  background-color: $background-primary;
-  color: $button-color;
-  font-weight: bold;
+// structure
 
-  &.highlight {
-    background-color: $background-highlight;
-  }
-  
-  &.red {
-    background-color: $background-red;
-  }
+body {
+  background: $color-dark;
+  padding: 0;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $ui-font-family;
-  margin: 0 0 15px;
-  font-weight: 600;
-  letter-spacing: -0.03em;
-  color: $heading-color;
-  
-  letter-spacing: -.02em;
-  font-weight: 700;
-  font-style: normal;
-
-  a, a:visited {
-    text-decoration: none;
-    color: $heading-color-hover;
-  }
-
-  code {
-    font-size: inherit;
-  }
-}
-
-ul {
-  margin: 0 0 15px;
-}
-
-blockquote {
-  margin: 1.5em 0;
-  padding: 0 1em;
-  font-style: italic;
-  font-size: 20px;
-}
-
-code, pre {
-  background: $code-background;
-  color: $code-color;
-  font-family: $code-font-family;
-  font-size: $code-font-size;
-}
-
-pre {
-  margin: 20px 0;
-  padding: 8px 10px;
-  border-top: 1px solid $code-border-color;
-  border-bottom: 1px solid $code-border-color;
+ul, ol {
+  padding: 0 0 0 1.5em;
+  margin: 0 0 1.5em;
 }
 
 img {
@@ -147,353 +90,200 @@ img {
   margin: 0 auto;
 }
 
-.clear {
-  clear: both;
+blockquote {
+  margin: 2em 0;
+  font-style: italic;
+  font-size: 2em;
 }
 
-// structure
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-// use same background as footer to blend on short pages
-body {
-  background: $body-background;
-  color: $body-color;
-  font-family: $ui-font-family;
-  font-size: $body-font-size;
-  line-height: $body-line-height;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
-
-// wrap header and .main, give it a white background
-.wrapper {
-  padding-bottom: 3em;
-  background: $wrapper-background;
-}
-
-header, footer {
-  font-family: $ui-font-family;
-}
-
-.header-wrapper {
-  background-color: #1f2329;
-}
-
-header {
-  max-width: $wrapper-width;
-  margin: 0 auto;
-  padding: 16px 1em 12px;
-  color: #fff;
-  font-size: $header-font-size;
+a.button, input[type=submit], input[type=button] {
+  display: inline-block;
+  margin: 0.25em 0.25em 0.25em 0;
+  padding: 0.5em 1em;
+  background-color: $color-light;
   font-weight: 600;
-  text-transform: uppercase;
+  color: #fff;
+  border: 0;
 
-  a.logo img {
-    display: inline-block;
-    color: #fff;
-    height: 28px;
-  }
-
-  ul {
-    margin: 4px 0;
-    padding: 0;
-    list-style: none;
-    float: right;
-  }
-
-  li {
-    display: inline-block;
-    padding-right: 18px;
+  &.primary {
+    background-color: $color-primary;
   }
   
-  li:last-child {
-    padding-right: 0;
+  &.secondary {
+    background-color: $color-secondary;
   }
-
-  li.button  {
-    padding-right: 5px;
-  }
-
-  a, a:visited {
-    text-decoration: none;
-    color: #fff;
-
-    &.button {
-      color: #fff;
-      padding: 3px 9px;
-    }
-  }
-  
-  a:hover, a.active {
-    color: #929db3;
-    text-decoration: none;
-  }
-  
-  .main {
-    padding: $content-padding;
-  }
-}
-
-.main {
-  max-width: $content-width;
-  padding: 0 1em;
-  margin: 0 auto;
 }
 
 .left {
   float: left;
   width: 50%;
-  padding-right: 25px;
+  padding-right: $padding;
 }
 
 .right {
   float: right;
   width: 50%;
-  padding-left: 25px;
+  padding-left: $padding;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+header {
+  padding: 1em 0;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  .wrapper {
+    line-height: 28px;
+    height: 28px;
+  }
+
+  .logo {
+    display: inline-block;
+  
+    img {
+      display: inline-block;
+      color: #fff;
+      height: 28px;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+
+    li {
+      display: inline-block;
+      padding-right: 18px;
+      
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+
+  a, a:visited {
+    color: #fff;
+  }
+  
+  a:hover, a.active {
+    color: $color-light;
+  }
+}
+
+section {
+  background-color: #fff;
+  margin: 0;
+  padding: 9em 0;
+  
+  &.hero {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    background-color: $color-dark;
+    padding: 6em 0 12em;
+    text-align: center;
+    color: #fff;
+
+    h1 {
+      font-size: 2.2em;
+    }
+    
+    em {
+      font-style: normal;
+    }
+  }
 }
 
 footer {
-  margin: 0 auto;
-  background-color: $footer-background;
-  color: $footer-color;
-  font-size: $footer-font-size;
-  padding: 0 1em;
+  padding: 4em 0 3em;
+  background-color: $color-dark;
+  color: #fff;
 
-  .main {
-    padding: $content-padding 0;
-    max-width: $wrapper-width;
-  }
-
-  .left {
+  ul {
+    width: 20%;
     float: left;
-    max-width: 40%;
-  }
-
-  .right {
-    float: right;
-    max-width: 60%;
-    text-align: right;
-  }
-
-  .social {
-    padding: 20px $content-padding 5px;
-    
-    h4, a, a:visited {
-      color: $footer-color;
-    }
-  }
-
-  .links {
-    clear: both;
-    // border-top: 1px solid #666;
-    padding: 20px $content-padding 0;
-
-    h4 {
-      text-transform: uppercase;
-      letter-spacing: 0.05px;
-      font-size: $footer-heading-font-size;
-      color: $footer-heading-color;
-    }
-
-    ul {
-      list-style: none;
-      float: left;
-      width: 20%;
-      padding: 0;
-    }
+    padding: 0;
+    list-style: none;
 
     li {
       line-height: 2;
     }
-
-    a, a:visited {
-      color: $footer-color;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: $body-color;
-    }
   }
-}
 
-.testimonials {
-  max-width: 800px;
-  margin: 4em auto 6em;
-  
-  h3 {
-    font-size: 32px;
-    margin-bottom: 10px;
+  a, a:visited {
+    color: #fff;
   }
-  
-  h4 {
-    font-size: 24px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-      
-  p {
-    font-size: 16px;
-    color: #777;
-  }
-  
-  .left {
-    width: 200px;
-  }
-  
-  .right {
-    width: 550px;
-  }
-  
-  .classuite, .gomoney {
-    display: none;
-  }
-}
 
-
-.center {
-  text-align: center;
-}
-
-section {
-  margin-bottom: 2.6em;
-  padding: 20px 0;
-  
-  em {
-    display: block;
-    font-size: 20px;
-    font-style: normal;
-  }
-}
-
-.hero {
-  margin-bottom: 8em;
-}
-
-section.header {
-  margin-top: 6em;
-     
-  h1 {
-    font-size: 2.2em;
-    margin-bottom: 10px;
-    color: #000;
-    letter-spacing: .01rem;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 1.2em;
-  }
-}
-
-.faq {
-  max-width: $content-width;
-  margin: 0 auto;
-
-  ol {
-    padding-left: 18px;
-    margin: 0;
+  a:hover {
+    color: #fff;
   }
 }
 
 table {
-  max-width: $content-width;
-  margin: 0 auto;
-  border-collapse: collapse;
   width: 100%;
-  color: #1f2329;
-  
-  h2 {
-    font-size: 32px;
-    font-weight: bold;
-    vertical-align: top;
-  }
-  
-  .section {
-    padding: 15px 12px;
-    background: #f7f8fa;
-    
-    h3 {
-      margin: 0;
-      font-size: 16px;
-    }
-  }
+  border-collapse: collapse;
+  color: $color-dark;
   
   tr {
     width: 100%;
     border-top: 1px solid #eef0f3;
   }
   
-  tr:nth-child(1) {
-    border: none;
-    
-    td {
-      padding: 12px 20px;
-      font-size: 18px;
-    }
-  }
-  
-  th h2 {
-    margin: 0;
-  }
-      
   td {
     width: 26%;
-    padding: 12px 12px;
+    padding: 0.75em;
     border-left: 1px solid #eef0f3;
     text-align: center;
   }
   
-  th:nth-child(1), td:nth-child(1) {
+  tr:nth-child(1) {
+    border: none;
+    
+    td {
+      padding: 0 1em 1em;
+    }
+
+    .description {
+      min-height: 80px;
+      vertical-align: top;
+    }
+    
+    .pricing {
+      margin-top: 1em;
+      font-size: 1.25em;
+      
+      span {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: $color-dark;
+      }
+    }
+  }
+
+  td:nth-child(1) {
     width: 22%;
-  }
-
-  a.block {
-    display: block;
-    margin-bottom: 12px;
-  }
-
-  a.button {
-    margin: 20px;
-    padding: 7px 8px;
-    min-width: 150px;
-  }
-
-  td:nth-child(1), {
     border: none;
     text-align: left;
   }
   
-  div {
-    min-height: 80px;
+  .seperator {
+    background: #f7f8fa;
+    font-size: 1.2em;
+    font-weight: 600;
   }
-
-  .pricing {
-    font-size: 20px;
-    margin-bottom: 15px;
-    min-height: inherit;
-    
-    span {
-      font-size: 32px;
-      font-weight: bold;
-      color: #222;
-    }
-  }
-  
-  span.yes:before {
-    position: absolute;
-    width:3px;
-    height:9px;
-    background-color:#ccc;
-    left:11px;
-    top:6px;
-  }
-
+      
   span.yes:before {
     content: '';
     height: 3px;
@@ -526,20 +316,40 @@ table {
   }
 }
 
-// tablet
-
-@media all and (max-width: 900px) {
-  .hero {
-    margin-bottom: 0;
+.testimonials {
+  .wrapper {
+    max-width: 800px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .left {
+    width: 200px;
+  }
+  
+  .right {
+    width: 550px;
   }
 }
 
-@media all and (max-width: 800px) {
+// tablet
+
+@media all and (max-width: 900px) {
   
   header ul {
     float: none;
   }
-  
+
+  section {
+    padding: 3em 0;
+    
+    &.hero {
+      padding-bottom: 6em;
+    }
+  }
+    
   .left {
     float: none;
     width: 100%;
@@ -551,30 +361,19 @@ table {
     width: 100%;
     padding: 0;
   }
-  
-  footer {
-    .links ul:first-child {
-      padding-left: 0;
-    }
-
-    .callout .button {
-      margin: 15px 10px 0 0;
-    }
-  }
-  
+    
   .testimonials {
     margin: 0;
   }
-  
 }
 
 // mobile
 
 @media all and (max-width: 600px) {
   footer {
-    .links ul {
-        float: none;
-        padding-left: 0;
+    ul {
+      width: 50%;
+      padding-left: 0;
     }
   }
 }

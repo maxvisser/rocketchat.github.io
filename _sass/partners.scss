@@ -5,8 +5,11 @@ body.partners {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
-    grid-gap: 30px;
-
+    grid-gap: 50px;
+    
+    h2 {
+      margin-top: 0.5em;
+    }
 
     div {
       height: 180px;

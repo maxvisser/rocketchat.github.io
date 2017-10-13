@@ -1,6 +1,10 @@
 
 body.press {
-
+  
+  section {
+    padding-bottom: 3em;
+  }
+  
   .company {
     img {
       margin: 40px auto 0;
@@ -10,7 +14,7 @@ body.press {
   
   .gabriel {
     img {
-      max-width: 260px;
+      max-width: 300px;
     }
   }
   
@@ -24,6 +28,7 @@ body.press {
     
     li {
       float: left;
+      padding: 0 1em;
       width: 25%;
     }
     
@@ -43,14 +48,40 @@ body.press {
       max-width: 200px;
       vertical-align: middle;
     }
+    
+    .more {
+      margin-top: 2em;
+    }
   }
     
   .contact {
-    margin-bottom: 0;
-    padding-bottom: 3em;
+    padding-bottom: 6em;
     
     img {
       max-width: 150px;
     }
+  }
+  
+  @media all and (max-width: 800px) {
+    
+    .company .right {
+      display: none;
+    }
+    
+    .gabriel {
+      padding-top: 0;
+      
+      img {
+        margin-bottom: 3em;
+      }
+    }
+    
+    .logos {
+      li {
+        float: none;
+        width: 100%;
+      }
+    }
+    
   }
 }

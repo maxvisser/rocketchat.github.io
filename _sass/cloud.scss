@@ -1,22 +1,12 @@
 
 body.cloud {
   min-width: 600px;
-
-  .testimonials {
-    margin-top: 6em;
   
-    img {
-      max-width: 150px;
-    }
+  .hero {
+    padding-bottom: 12em;
   }
   
-  .message {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    p {
-      color: #929db3;
-    }
+  section {
+    padding-bottom: 6em;
   }
 }

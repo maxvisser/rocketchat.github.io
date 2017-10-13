@@ -3,81 +3,78 @@ layout: en/default
 class: download
 ---
 
-</div>
-
 <section class="hero">
-  <div class="main">
-  <h1>Download Rocket.Chat</h1>
-  <em>
-    Download Rocket.Chat for your desktop, mobile or server.
-  </em>
-  <a class="button highlight" href="#">Download</a>
-  <img src="{{ site.url }}/images/download/clients.svg" alt="">
-</div>
+  <div class="wrapper">
+    <h1>Download Rocket.Chat</h1>
+    <em>
+      Download Rocket.Chat for your desktop, mobile or server.
+    </em>
+    <a class="button highlight" href="#">Download</a>
+    <img src="{{ site.url }}/images/download/clients.svg" alt="">
+  </div>
 </section>
 
-<div class="main">
+<section class="apps">
+  <div class="wrapper">
+    <div class="desktop">
+      <h2>Desktop Client</h2>
+      <ul>
+        <li>
+          <div>
+            <img src="{{ site.url }}/images/download/windows.svg">
+          </div>
+          <h4>Windows</h4>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-setup-{{ site.data.download.desktop.version }}.exe">Installer</a>
+        </li>
+        <li>
+          <div>
+            <img src="{{ site.url }}/images/download/finder.svg">
+          </div>
+          <h4>MacOS</h4>
+          <a href="https://itunes.apple.com/app/rocket.chat/id1086818840"><img src="{{ site.url }}/images/download/mac-store.svg"></a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.dmg">dmg</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.pkg">pkg</a>
+        </li>
+        <li>
+          <div>
+            <img src="{{ site.url }}/images/download/linux.svg">
+          </div>
+          <h4>Linux</h4>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_amd64.deb">deb(x64)</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_i386.deb">deb(x86)</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.x86_64.rpm">rpm(x64)</a>
+          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.i686.rpm">rpm(x86)</a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
 
-<section class="desktop">
-  <h2>Desktop Client</h2>
-  <ul>
-    <li>
-      <div>
-        <img src="{{ site.url }}/images/download/windows.svg">
-      </div>
-      <h4>Windows</h4>
-      <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-setup-{{ site.data.download.desktop.version }}.exe">Installer</a>
-    </li>
-    <li>
-      <div>
-        <img src="{{ site.url }}/images/download/finder.svg">
-      </div>
-      <h4>MacOS</h4>
-      <a href="https://itunes.apple.com/app/rocket.chat/id1086818840"><img src="{{ site.url }}/images/download/mac-store.svg"></a>
-      <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.dmg">dmg</a>
-      <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.pkg">pkg</a>
-    </li>
-    <li>
-      <div>
-        <img src="{{ site.url }}/images/download/linux.svg">
-      </div>
-      <h4>Linux</h4>
-      <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_amd64.deb">deb(x64)</a>
-      <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_i386.deb">deb(x86)</a>
-      <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.x86_64.rpm">rpm(x64)</a>
-      <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.i686.rpm">rpm(x86)</a>
-    </li>
-  </ul>
+    <div class="mobile">
+      <h2>Mobile Client</h2>
+      <ul>
+        <li>
+          <div>
+            <img src="{{ site.url }}/images/download/android.svg">
+          </div>
+          <h4>Android</h4>
+          <a href="https://play.google.com/store/apps/details?id=chat.rocket.android"><img src="{{ site.url }}/images/download/google-play.svg"></a>
+        </li>
+        <li>
+          <div>
+            <img src="{{ site.url }}/images/download/apple.svg">
+          </div>
+          <h4>iOS</h4>
+          <a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="{{ site.url }}/images/download/itunes-store.svg"></a>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
   <div class="clear"></div>
 </section>
 
-<section class="mobile">
-  <h2>Mobile Client</h2>
-  <ul>
-    <li>
-      <div>
-        <img src="{{ site.url }}/images/download/android.svg">
-      </div>
-      <h4>Android</h4>
-      <a href="https://play.google.com/store/apps/details?id=chat.rocket.android"><img src="{{ site.url }}/images/download/google-play.svg"></a>
-    </li>
-    <li>
-      <div>
-        <img src="{{ site.url }}/images/download/apple.svg">
-      </div>
-      <h4>iOS</h4>
-      <a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="{{ site.url }}/images/download/itunes-store.svg"></a>
-    </li>
-  </ul>
-  <div class="clear"></div>
-</section>
-
-<div class="clear"></div>
-
-</div> <!-- end outer wrapper -->
-
-<section id="server" class="server">
-  <div class="main">
+<section id="server">
+  <div class="wrapper">
     <div class="left">
       <h2>Server Snap</h2>
       <p>
@@ -91,7 +88,7 @@ class: download
       </code>
     </div>
     <div class="right">
-      <h3>Server Source</h3>
+      <h2>Server Source</h2>
       <ul>
         <li>
           <img src="{{ site.url }}/images/download/rocket.svg">
@@ -111,67 +108,61 @@ class: download
   </div>
 </section>
 
-
-<div class="main"> <!-- restart wrapper -->
-
-<section id="support" class="header center">
-  <h2>Get support for your Rocket.Chat</h2>
-  <em>Support from the experts to keep your team communicating</em>
-</section>
-
 {% assign support = site.data.support %}
 
-<section>
-  <table>
-    <thead>
-      <tr>
-        <th></th>
-        <th><h2>{{ support.basic.name }}</h2></th>
-        <th><h2>{{ support.premium.name }}</h2></th>
-      </tr>
-    </thead>
-    <tbody>
+<section id="support">
+  <div class="wrapper">
+    <div class="header">
+      <h2>Get support for your Rocket.Chat</h2>
+      <em>Support from the experts to keep your team communicating</em>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th><h2>{{ support.basic.name }}</h2></th>
+          <th><h2>{{ support.premium.name }}</h2></th>
+        </tr>
+      </thead>
+      <tbody>
 
-      {% for key in support.keys %}
-      
-      {% assign k = key[0] %}
+        {% for key in support.keys %}
+        
+        {% assign k = key[0] %}
 
-      <tr>
-      {% unless support.premium[k] %}
-        <td class="section" colspan="4">
-          <h3>{{ key[1] }}</h3>
-        </td>
-      {% else %}
-        <td>{{ key[1] }}</td>
-        <td>{{ support.basic[k] }}</td>
-        <td>{{ support.premium[k] }}</td>
-      {% endunless %}
-      </tr>
-      {% endfor %}
-      
-    </tbody>
-  </table>
+        <tr>
+        {% unless support.premium[k] %}
+          <td class="section" colspan="4">
+            <h3>{{ key[1] }}</h3>
+          </td>
+        {% else %}
+          <td>{{ key[1] }}</td>
+          <td>{{ support.basic[k] }}</td>
+          <td>{{ support.premium[k] }}</td>
+        {% endunless %}
+        </tr>
+        {% endfor %}
+        
+      </tbody>
+    </table>
+  </div>
 </section>
 
 <section class="testimonials">
-  <ul>
-    <li class="sicoob">
-      <div class="left">
-        <img src="{{ site.url }}/images/testimonials/sicoob.gif" alt="">
-      </div>
-      <div class="right">
-        <h3>Sicoob Credipinho</h3>
-        <h4>Guilherme Corrêa - <span>Technology Supervisor</span></h4>
-        <p>
-          I found Rocket.Chat when I was looking for an alternate team chat solution.
-          I installed it in less than 5 minutes and since then our
-          communication problems have been resolved. The platform is exceptional!
-          Safe, fast, easy to use and with excellent support from the developer team and community.
-        </p>
-      </div>
-      <div class="clear">
-        
-      </div>
-    </li>
-  </ul>
+  <div class="wrapper">
+    <div class="left">
+      <img src="{{ site.url }}/images/testimonials/sicoob.gif" alt="">
+    </div>
+    <div class="right">
+      <h3>Sicoob Credipinho</h3>
+      <h4>Guilherme Corrêa - <span>Technology Supervisor</span></h4>
+      <p>
+        I found Rocket.Chat when I was looking for an alternate team chat solution.
+        I installed it in less than 5 minutes and since then our
+        communication problems have been resolved. The platform is exceptional!
+        Safe, fast, easy to use and with excellent support from the developer team and community.
+      </p>
+    </div>
+    <div class="clear">
+  </div>
 </section>

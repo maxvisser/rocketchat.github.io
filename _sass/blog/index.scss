@@ -12,14 +12,14 @@ body.blog {
     li {
       border: 1px solid #eee !important;
       border-radius: 2px;
-      height: 400px;
+      height: 460px;
       
       .header {
         display: block;
-        height: 180px;
+        height: 240px;
         width: 100%;
         background-position: 50% 50%;
-        filter: opacity(0.75);
+        filter: opacity(0.5);
       }
       
       .content {

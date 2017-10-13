@@ -3,10 +3,9 @@ layout: en/default
 class: post
 ---
 
-{{ page.meta_description }}
-
-<div class="post">
-  <section class="header">
+<section class="post">
+  <div class="wrapper">
+    
     <div class="meta">
       <span class="author">{{ page.author }}</span> -
       <span class="read">
@@ -16,10 +15,10 @@ class: post
       <span class="date"> {{ page.date | date: "%b %-d, %Y" }}</span>
     </div>
     <h1>{{ page.title | escape }}</h1>
-  </section>
 
-  <div class="contet">
-    {{ content }}
+    <div class="content">
+      {{ content }}
+    </div>
+    
   </div>
-
-</div>
+</section>

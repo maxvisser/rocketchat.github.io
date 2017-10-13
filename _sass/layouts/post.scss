@@ -1,20 +1,20 @@
 
 body.post {
 
-  .post {
+  .post .wrapper {
     margin: 0 auto;
     max-width: $post-width;
     min-height: 500px;
     margin-bottom: 3em;
   }
   
-  .header {
-    margin-bottom: 1em;
+  h1 {
+    padding: 0.5em 0 0.75em;
+    font-size: 3em;
   }
   
   .meta {
     font-size: small;
-    height: 1.8em;
     
     .date {
       float: right;
@@ -31,7 +31,7 @@ body.post {
     letter-spacing: -.003em;
     
     img {
-      max-width: $post-width;
+      max-width: $post-width - 34px;
     }
   }
 

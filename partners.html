@@ -15,7 +15,7 @@ class: partners
     <ul class="partners">
       {% for partner in site.data.partners %}
       <li>
-        <div style="background-image: url('{{ site.url }}{{ partner.logo }}')"></div>
+        <div style="background-image: url('{{ partner.logo }}')"></div>
         <h2>{{ partner.name }}</h2>
         <p>{{ partner.description }}</p>
         <a href="{{ partner.website }}">Website</a>

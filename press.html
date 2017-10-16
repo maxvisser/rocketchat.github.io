@@ -30,7 +30,7 @@ class: press
       </p>
     </div>
     <div class="right">
-      <img src="{{ site.url }}/images/press/logos/512x512.png" alt="Rocket.Chat Logo">
+      <img src="/images/press/logos/512x512.png" alt="Rocket.Chat Logo">
     </div>
     <div class="clear"></div>
   </div>
@@ -39,7 +39,7 @@ class: press
 <section class="gabriel">
   <div class="wrapper">
     <div class="left">
-      <img src="{{ site.url }}/images/team/member/gabriel-engel-02.jpg" alt="Gabriel Engel">
+      <img src="/images/team/member/gabriel-engel-02.jpg" alt="Gabriel Engel">
     </div>
     <div class="right">
       <h2>Gabriel Engel</h2>
@@ -63,15 +63,15 @@ class: press
       {% for logo in site.data.logos %}
       <li>
         <div class="img-wrapper">
-          <img src="{{ site.url }}/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
+          <img src="/images/press/logos/{{ logo.file }}.{{ logo.main }}" alt="{{ logo.name }}">
         </div>
         <h3>{{ logo.name }}</h3>
         <div class="download">
           {% if logo.png %}
-          <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
+          <a target="_blank" href="/images/press/logos/{{ logo.file }}.png" target="_blank" title="{{ logo.name }} PNG">PNG</a>
           {% endif %}
           {% if logo.svg %}
-          <a target="_blank" href="{{ site.url }}/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
+          <a target="_blank" href="/images/press/logos/{{ logo.file }}.svg" target="_blank" title="{{ logo.name }} SVG">SVG</a>
           {% endif %}
         </div>
       </li>

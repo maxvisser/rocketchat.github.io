@@ -40,7 +40,7 @@ class: contact
   <div class="wrapper">
     <h2>Send us a message</h2>
 
-    <input onclick="message()" class="primary" type="button" value="Start Chatting"> or email us at <a href="mailto: contact@rocket.chat" title="contact@rocket.chat" target="_blank">contact@rocket.chat</a>
+    Message us on LiveChat or email us at <a href="mailto: contact@rocket.chat" title="contact@rocket.chat" target="_blank">contact@rocket.chat</a>
     or <a href="mailto: sales@rocket.chat" title="sales@rocket.chat" target="_blank">sales@rocket.chat</a>
 
     <div class="address">
@@ -54,13 +54,4 @@ class: contact
   </div>
 </section>
 
-<!-- Start of Rocket.Chat Livechat Script -->
-<script type="text/javascript">
-(function(w, d, s, u) {
-	w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
-	var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
-	j.async = true; j.src = 'https://rocketchatsales.rocket.chat/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944';
-	h.parentNode.insertBefore(j, h);
-})(window, document, 'script', 'https://rocketchatsales.rocket.chat/livechat');
-</script>
-<!-- End of Rocket.Chat Livechat Script -->
+{% include livechat.html %}

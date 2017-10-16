@@ -16,5 +16,19 @@
 
 {{ content }}
 
+{% if jekyll.environment != "development" %}
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-63218225-1"></script>
+<script type="text/javascript">
+if (document.location.hostname.search("rocket.chat") !== -1) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-63218225-1');
+}
+</script>
+
+{% endif %}
+
 </body>
 </html>

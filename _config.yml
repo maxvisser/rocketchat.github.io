@@ -12,7 +12,7 @@ version: 13
 # read speed
 wpm: 200
 
-latest_server_release: https://github.com/RocketChat/Rocket.Chat/archive/0.57.4.tar.gz
+latest_server_release: https://s3.amazonaws.com/download.rocket.chat/build/rocket.chat-0.58.4.tgz
 
 # set default template for posts
 defaults:

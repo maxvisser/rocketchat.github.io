@@ -12,6 +12,15 @@ body.community {
   .connect {
     padding-bottom: 1em;
     
+    a {
+      position: relative;
+      top: 11px;
+    }
+    
+    a.button {
+      top: 0;
+    }
+    
     ul {
       list-style: none;
       padding: 0;

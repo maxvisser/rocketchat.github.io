@@ -2,14 +2,30 @@
 body.contact {
   
   .hero {
-    padding-bottom: 12em;
+    padding-bottom: 0;
+    background-color: rgb(63, 81, 181);
   }
   
   section {
     padding-bottom: 6em;
   }
+
+  #contact {
+    margin: 0;
+    padding-top: 0;
+            
+    iframe {
+      width: 100%;
+      height: 1000px;
+      border-bottom: 1px solid #ccc;
+    }
+  }
   
-  #message {
+  #chat {
+    padding-top: 0;    
+  }
+  
+  #address {
     padding-top: 0;
     
     .address {

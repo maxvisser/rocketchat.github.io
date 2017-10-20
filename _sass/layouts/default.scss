@@ -372,6 +372,12 @@ table {
 // mobile
 
 @media all and (max-width: 600px) {
+  header {
+    ul {
+      padding-top: 1em;
+    }
+  }
+  
   footer {
     ul {
       width: 50%;

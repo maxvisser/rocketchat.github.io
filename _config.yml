@@ -1,7 +1,7 @@
 title: Rocket.Chat
 description: The portal for all your Rocket.Chat documentation needs
 
-url:
+url: https://rocket.chat
 permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 8

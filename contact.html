@@ -62,9 +62,12 @@ class: contact
   </div>
 </section>
 
-<script type="text/javascript">(function(){'use strict';var XHR=XMLHttpRequest||ActiveXObject;var request=new XHR('MSXML2.XMLHTTP.3.0');window.count=(window.count||0)+1;function createForm(url,id){var vid=window.count;url+="&v="+vid;var form_div;setTimeout(function(){form_div=document.getElementById(id);form_div.id=id+vid},10+window.count);request.open('GET',url,!0);request.onreadystatechange=function(){if(request.readyState===4){var result;try{result=JSON.parse(request.responseText)}catch(e){result=request.responseText}
+<!-- Pipz Contact Form -->
+<script type="text/javascript">
+(function(){'use strict';var XHR=XMLHttpRequest||ActiveXObject;var request=new XHR('MSXML2.XMLHTTP.3.0');window.count=(window.count||0)+1;function createForm(url,id){var vid=window.count;url+="&v="+vid;var form_div;setTimeout(function(){form_div=document.getElementById(id);form_div.id=id+vid},10+window.count);request.open('GET',url,!0);request.onreadystatechange=function(){if(request.readyState===4){var result;try{result=JSON.parse(request.responseText)}catch(e){result=request.responseText}
 if(form_div){if(typeof result==="string"){form_div.innerHTML=result;return}
 form_div.innerHTML=result.html;var webform=form_div.getElementsByTagName('form')[0];var input_cookie=document.createElement('input');input_cookie.name='cookie';input_cookie.type='hidden';input_cookie.value=document.cookie;webform.appendChild(input_cookie);var script=document.createElement('script');script.id="pipz_script_f907d76a"+vid;script.innerHTML=result.script;document.head.appendChild(script)}}};request.send()}
 function getCookie(cookiename){var cookiestring=RegExp(""+cookiename+"[^;]+").exec(document.cookie);return unescape(!!cookiestring?cookiestring.toString().replace(/^[^=]+./,""):"").replace(/"/igm,"")}
 var uuid=getCookie("ec_anonymous_id").replace(/"/igm,"");createForm("https://forms.pipz.io/?h=91e45f64543dfffe1322c1.d5263335&uuid="+uuid,"form_f907d76a")})();
 </script>
+<!-- Pipz Contact Form -->

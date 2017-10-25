@@ -12,8 +12,6 @@ version: 14
 # read speed
 wpm: 200
 
-latest_server_release: https://s3.amazonaws.com/download.rocket.chat/build/rocket.chat-0.58.4.tgz
-
 # set default template for posts
 defaults:
   - scope:

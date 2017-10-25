@@ -1,5 +1,7 @@
-title: Rocket.Chat
-description: The portal for all your Rocket.Chat documentation needs
+title: "Free, Open Source, Enterprise Team Chat"
+description:  |
+  Rocket.Chat is the leading open source team chat software solution.
+  Free, unlimited and completely customizable with on-premise and SaaS cloud hosting.
 
 url: https://rocket.chat
 permalink: /:year/:month/:day/:title/

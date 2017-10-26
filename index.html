@@ -3,35 +3,37 @@ layout: en/default
 class: index
 ---
 
-<section class="hero">
-  <div class="wrapper">
-    <div class="left">
-      <h1><span>Open Source</span> <br>Communication</h1>
-      <div class="solution">
-        <h2>On-premise</h2>
-        <p>
-          Run Rocket.Chat on your infrastructure<br>
-          Be in complete control of your data and platform
-        </p>
-        <a class="button primary" href="/download/">Download</a>
-        <a class="button primary" href="/download/index.html#support">Get Support</a>
+<div class="twinkle">
+  <section class="hero">
+    <div class="wrapper">
+      <div class="left">
+        <h1><span>Open Source</span> <br>Communication</h1>
+        <div class="solution">
+          <h2>On-Premise</h2>
+          <p>
+            Run Rocket.Chat on your infrastructure<br>
+            Be in complete control of your data and platform
+          </p>
+          <a class="button primary" href="/download/">Download</a>
+          <a class="button primary" href="/download/index.html#support">Get Support</a>
+        </div>
+        <div class="solution">
+          <h2>On Rocket.Chat Cloud</h2>
+          <p>
+            Run Rocket.Chat on our scalable &amp; secure cloud <br>
+            Open source without the burden of infrastructure
+          </p>
+          <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Start Your Free Trial</a>
+        </div>
       </div>
-      <div class="solution">
-        <h2>On Rocket.Chat Cloud</h2>
-        <p>
-          Run Rocket.Chat on our scalable &amp; secure cloud <br>
-          Open source without the burden of infrastructure
-        </p>
-        <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Start Your Free Trial</a>
+      <div class="right">
+        <img src="/images/index/screenshot.png" alt="">
+        <img class="rocket" src="/images/index/rocket.png" alt="">
       </div>
+      <div class="clear"></div>
     </div>
-    <div class="right">
-      <img src="/images/index/screenshot.png" alt="">
-      <img class="rocket" src="/images/index/rocket.png" alt="">
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
+  </section>
+</div>
 
 <section class="focus community">
   <div class="wrapper">
@@ -41,7 +43,7 @@ class: index
         Rocket.Chat is the leading free open source team chat Slack alternative.
       </p>
       <p>
-        With <strong>14.5k stars on GitHub</strong> and more than <strong>600 contributors</strong>
+        With <strong>{{ site.stars }}k stars on GitHub</strong> and more than <strong>600 contributors</strong>
         across our products, we are the largest and most active open source team chat community.
       </p>
       <p>
@@ -56,11 +58,11 @@ class: index
           </div>
           <div class="stars">
             Stars
-            <span>14.2k</span>
+            <span>{{ site.stars }}k</span>
           </div>
           <div class="forks">
             Forks
-            <span>3k</span>
+            <span>{{ site.forks }}k</span>
           </div>
         </a>
         <div class="clear"></div>

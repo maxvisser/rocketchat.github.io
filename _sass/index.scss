@@ -3,9 +3,9 @@ body.index {
   
   .hero {
     background-image: url('images/index/clouds.png');
-    padding: 4em 0 12em;
+    padding: 4em 0 1em;
     text-align: left;
-                        
+                            
     h1 {
       font-size: 2.5em;
       margin-bottom: 2em;
@@ -26,7 +26,18 @@ body.index {
 
     .right {
       width: 62%;
+      height: 100%;
       padding: 0;
+    }
+    
+    .rocket {
+      margin: 0;
+      overflow: overlay;
+      height: 200px;
+      float: right;
+      top: -45px;
+      position: relative;
+      right: -35px;
     }
   }
   
@@ -241,6 +252,8 @@ body.index {
   @media all and (max-width: 900px) {
     
     .hero {
+      padding-bottom: 4em;
+      
       .left {
         float: none;
         width: 100%;
@@ -257,6 +270,10 @@ body.index {
       
       br {
         content: " ";
+        display: none;
+      }
+      
+      .rocket {
         display: none;
       }
     }

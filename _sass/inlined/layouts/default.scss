@@ -33,6 +33,20 @@ body {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1em;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2em;
+  margin: 0 0 1rem 0;
+
+  a, a:visited {
+    text-decoration: none;
+    color: $color-dark;
+  }
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -128,7 +142,7 @@ header {
 section {
   background-color: #fff;
   margin: 0;
-  padding: 9em 0;
+  padding: 9em 0 6em;
   
   &.hero {
     background-repeat: no-repeat;

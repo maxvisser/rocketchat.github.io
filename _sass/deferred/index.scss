@@ -1,0 +1,167 @@
+
+body.index {
+
+  .features {
+    ul {
+      list-style: none;
+      padding: 0;
+      color: #000;
+    }
+    
+    li {
+      width: 50%;
+      float: left;
+      height: 2em;
+      
+      &:nth-child(4) {
+        float: right;
+      }
+
+      .img-wrapper {
+        display: inline-block;
+        width: 38px;
+      }
+
+      img {
+        margin-bottom: -4px;
+        text-align: left;
+      }
+    }
+    
+    .right {
+      margin-top: 4em;
+    }
+  }
+
+  .livechat {
+    background-color: #f7f8fa;
+    padding-bottom: 0;
+
+    .left {
+      margin-top: 6em;
+    }
+    
+    img {
+      max-height: none;
+    }
+  }
+
+  .translation {
+    padding-top: 6em;
+    background-color: #f7f8fa;
+
+    .right {
+      margin-top: 8em;
+    }
+  }
+
+  .apps {
+    background-image: url('../images/index/clients.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 12em;
+    
+    .left {
+      margin-top: 5em;
+    }
+  }
+
+  .own {
+    .right {
+      margin-top: 7em;
+    }
+  }
+
+  .clients {
+    text-align: center;
+    padding: 0;
+    line-height: 6em;
+        
+    img {
+      margin-top: -20px;
+      display: inline-block;
+      max-width: 140px;
+      margin-right: 35px;
+    }
+    
+    .steadymd {
+      margin-bottom: -7px;
+    }
+    
+    .classuite {
+      margin-bottom: -10px;
+    }
+    
+    .lisk {
+      margin-bottom: -19px;
+    }
+    
+    .selu {
+      margin-bottom: -7px;
+    }
+    
+    .infoshift {
+      margin-bottom: -10px;
+    }
+  }
+
+  .cta {
+    text-align: center;
+    color: #fff;
+    
+    .wrapper, .content {
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px;
+    }
+    
+    .wrapper {
+      background-color: $color-primary;
+      padding: 0 0 0 1.5em;
+    }
+    
+    .content {
+      background-color: $color-dark;
+      padding: 4em 0;
+    }
+    
+    h2 {
+      font-size: 42px;
+      font-weight: 400;
+      margin: 0;
+      color: #fff;
+    }
+    
+    .button {
+      margin-top: 26px;
+      font-size: 20px;
+    }
+  }
+  
+  
+  @media all and (max-width: 900px) {
+    .focus {
+      padding: 3em 0;
+    }
+
+    .apps {
+      background-image: none;
+    }
+
+    .community, .features, .livechat, .translation, .apps, .own {
+
+      .left, .right {
+        margin: 0;
+      }
+
+      img {
+        display: none;
+      }
+      
+      li img {
+        display: inline;
+      }
+    }
+  }
+  
+  
+}

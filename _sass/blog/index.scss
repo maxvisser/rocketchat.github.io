@@ -4,14 +4,14 @@ body.blog {
   .posts ul {
     margin: 0;
     list-style: none;
-    padding: 0;
+    padding: 0 50px;
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
-    grid-gap: 30px;
+    grid-gap: 28px;
     
     li {
-      border: 1px solid #eee !important;
-      border-radius: 2px;
+      border: 1px solid #ccc !important;
+      border-radius: 4px;
       height: 460px;
       
       .header {
@@ -19,7 +19,7 @@ body.blog {
         height: 240px;
         width: 100%;
         background-position: 50% 50%;
-        filter: opacity(0.5);
+        filter: opacity(0.75);
       }
       
       .content {

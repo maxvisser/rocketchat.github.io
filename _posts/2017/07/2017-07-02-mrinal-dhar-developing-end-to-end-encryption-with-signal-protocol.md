@@ -2,7 +2,7 @@
 title: "Mrinal Dhar :  Developing End to End Encryption with Signal Protocol"
 date: 2017-07-02 22:07:50
 author: Sing Li
-cover: /images/posts/2017/07/mrinal-dhar-developing-end-to-end-encryption-with-signal-protocol/gsocprofile.png
+cover: /images/posts/2017/07/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/gsoc.png
 ---
 
 _This series of blogs brings you a little closer to our active student contributors for the [Google Summer of Code 2017](https://rocket.chat/docs/contributing/google-summer-of-code) summer season. You will see their ongoing work featured throughout our [GitHub repositories](https://github.com/RocketChat) . Feel free to drop by and say "hello", or start collaborating on any of the projects._

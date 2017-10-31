@@ -2,10 +2,10 @@
 title: "Rocket.Chat Helps Lisk Connect with Their Community"
 date: 2016-06-09 19:58:37
 author: Marcelo Schmidt
-cover: /images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/lisk-featured.jpg
+cover: /images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/lisk-big.jpg
 ---
 
-![](/images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/lisk_logo.jpeg? "lisk_logo.jpeg")
+![](/images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/lisk-logo.jpg? "lisk-logo.jpg")
 
 We're excited to be the community interface of choice for [Lisk, an inspiring cryptocurrency company](http://lisk.io/) doing amazing things with sidechains. Lisk was founded by Max Kordek and Oliver Beddows earlier this year, after raising 14,000 bitcoin (the equivalent of roughly $6.4 million) in a crowdfunding campaign for their decentralized application and sidechain platform. The platform is fully open-source and extremely community dependent, which is why Lisk needed an extraordinary platform for connecting with that community--so earlier this year they switched from Slack to Rocket.Chat. "I think it's an awesome platform and a serious alternative to Slack," says Kordek. "We use Rocket.Chat as the interface to our community, a general community chat. As a crypto-currency and platform the community is extremely important, therefore we maintain a healthy relationship to any individual member. Rocket.Chat helps us with that."
 

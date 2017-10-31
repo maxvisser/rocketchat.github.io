@@ -2,30 +2,19 @@
 <html lang="en">
 <head>
   <title>Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
-
   <link rel="shortcut icon" href="/favicon.ico?v=1"/>
-  
-  {% capture scss %}{% include css/inlined.scss %}{% endcapture %}
-  <style>{{ scss | scssify }}</style>
-    
-  <!-- Pipz -->
-  <script>!function(){var a=window.pipz=window.pipz||[];if(!a.initialize)if(a.invoked)window.console&&console.error&&console.error('Snippet included twice.');else{a.invoked=!0;a.methods='trackSubmit trackClick trackLink trackForm pageview reset identify group track ready alias page once off on'.split(' ');a.factory=function(c){return function(){var b=Array.prototype.slice.call(arguments);b.unshift(c);a.push(b);return a}};for(var c=0;c<a.methods.length;c++){var d=a.methods[c];a[d]=a.factory(d)}a.load=function(c){var b=document.createElement('script');b.type='text/javascript';b.async=!0;var d=document.getElementsByTagName('script')[0];d.parentNode.insertBefore(b,d);b.onload=function(){a=window.pipz;a.initialize({'eCentrack.io':{apiKey:c}},{plan:{track:{}}});};b.src='//app.pipz.io/v3/js/pipz.min.js'};a.SNIPPET_VERSION='3.1.0';a.load('c1b57b6ebdedfffc13220c')}}();</script>
-  <!-- Pipz -->
-  
+  {% capture scss %}{% include css/inlined.scss %}{% endcapture %}<style>{{ scss | scssify }}</style>
 </head>
 <body class="{{ page.class }}">
-
 {{ content }}
 
 {% include livechat.html %}
+{% include pipz.html %}
 {% include deferred.html %}
 {% include analytics.html %}
 </body>

@@ -16,7 +16,7 @@ body.blog {
       li {
         border: 1px solid #ccc !important;
         border-radius: 4px;
-        height: 460px;
+        height: 500px;
         background-color: #fff;
         box-shadow: 0 3px 3px rgba(0,0,0,0.1);
         
@@ -44,7 +44,7 @@ body.blog {
           }
                   
           .top {
-            height: 160px;
+            height: 200px;
           }
         }
       }
@@ -73,16 +73,18 @@ body.blog {
   @media all and (max-width: 900px) {
     .posts ul {
       display: block;
+      padding: 0;
       
       li {
-        height: 300px;
+        height: 420px;
+        margin-bottom: 30px;
         
         .header {
           height: 120px;
         }
         
         .content .top {
-          height: 130px;
+          height: 250px;
         }
       }
     }

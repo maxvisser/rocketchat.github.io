@@ -33,10 +33,15 @@ body.post {
     font-size: 20px;
     line-height: 1.58;
     letter-spacing: -.003em;
+    margin-bottom: 3em;
     
     img {
-      max-width: $post-width - 34px;
+      max-width: 100%;
     }
+    
+    a img {
+      display: inline;
+    }    
   }
   
   twitterwidget {

@@ -9,10 +9,10 @@ paginate_path: /blog/page/:num/
 paginate: 8
 
 # bump if alterting styles
-version: 20
+version: 21
 
 # read speed
-wpm: 200
+wpm: 160
 
 # on GitHub project
 stars: 14.6

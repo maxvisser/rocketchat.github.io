@@ -73,16 +73,18 @@ body.blog {
   @media all and (max-width: 900px) {
     .posts ul {
       display: block;
+      padding: 0;
       
       li {
-        height: 300px;
+        height: 420px;
+        margin-bottom: 30px;
         
         .header {
           height: 120px;
         }
         
         .content .top {
-          height: 130px;
+          height: 250px;
         }
       }
     }

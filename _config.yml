@@ -12,7 +12,7 @@ paginate: 8
 version: 20
 
 # read speed
-wpm: 200
+wpm: 160
 
 # on GitHub project
 stars: 14.6

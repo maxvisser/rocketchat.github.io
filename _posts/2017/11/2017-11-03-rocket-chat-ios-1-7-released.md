@@ -8,6 +8,8 @@ We are excited to announce the release of Rocket.Chat iOS 1.7.1 with the followi
 feature highlights: support for custom OAuth providers, custom registration
 fields, channel creation from the app and various performance improvements.
 
+<a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="/images/download/itunes-store.svg"></a>
+
 ## Featured Contributor
 
 Our featured contributor for this release is <a target="\_blank" href="https://github.com/macabeus">Bruno Macabeus</a>.

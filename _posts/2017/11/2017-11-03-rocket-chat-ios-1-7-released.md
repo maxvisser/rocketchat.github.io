@@ -2,13 +2,12 @@
 title: "Rocket.Chat iOS 1.7 Released"
 date: 2017-11-03 10:00:00
 author: Sean Packham
+ios_release: true
 ---
 
 We are excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
 feature highlights: support for custom OAuth providers, custom registration
 fields, channel creation from the app and various performance improvements.
-
-<a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="/images/download/itunes-store.svg"></a>
 
 ## Featured Contributor
 
@@ -99,7 +98,7 @@ This release was made possible by the hard work of the following contributors.
   <li><a target="\_blank" href="https://github.com/naruthk">naruthk</a></li>
   <li><a target="\_blank" href="https://github.com/rafaelks">rafaelks</a></li>
   <li><a target="\_blank" href="https://github.com/sowenjub">sowenjub</a></li>
-  <li><a target="\_blank" href="(https://github.com/vadimue">vadimue</a></li>
+  <li><a target="\_blank" href="https://github.com/vadimue">vadimue</a></li>
 </ul>
 
 ### Release changelog

@@ -15,8 +15,12 @@ class: post
       <span class="date"> {{ page.date | date: "%b %-d, %Y" }}</span>
     </div>
     <h1>{{ page.title | escape }}</h1>
-
+    
     <div class="content">
+      {% if page.ios_release %}
+      <a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="/images/download/itunes-store.svg"></a>
+      {% endif %}
+
       {{ content }}
     </div>
     

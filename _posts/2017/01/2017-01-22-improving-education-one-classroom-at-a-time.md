@@ -47,4 +47,4 @@ The first version of the Classuite platform launched on January 3rd 2017 and it 
   
 This is only the beginning for Classuite and Ricardo.He is looking to greatly increase the user base and expand the development team in the months to come.
   
-Find Classuite at [http://classuite.com/](http://classuite.com/).Their mobile apps are available on Apple App Store and Google Play.You can often find Ricardo as @ricksgs on the Rocket.Chat community server [https://demo.rocket.chat](https://demo.rocket.chat), or email him at rgarcia@classuite.com
+Find Classuite at [http://classuite.com/](http://classuite.com/).Their mobile apps are available on Apple App Store and Google Play.You can often find Ricardo as @ricksgs on the Rocket.Chat community server [https://open.rocket.chat](https://open.rocket.chat), or email him at rgarcia@classuite.com

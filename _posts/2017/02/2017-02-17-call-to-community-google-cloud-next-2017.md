@@ -24,7 +24,7 @@ The [repository milestone](https://github.com/RocketChat/Rocket.Chat/milestone/6
 
 Between March 3 and March 5 - we will be airing a portion of our remote Hackathon with key Rocket.Chat developers participating, including Gabriel Engel at the helm, to kick this into high gear!
 
-Join us in our hackathon by joining [#nexthackathon17](https://demo.rocket.chat/channel/nexthackathon17) on our community server; where we will be hanging out and live streaming!
+Join us in our hackathon by joining [#nexthackathon17](https://open.rocket.chat/channel/nexthackathon17) on our community server; where we will be hanging out and live streaming!
 
 ### After Event Meetup
 

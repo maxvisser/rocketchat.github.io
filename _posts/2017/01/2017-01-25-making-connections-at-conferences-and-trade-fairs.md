@@ -26,4 +26,4 @@ Beyond the Virtual Event Platform, Arvato Systems has also started to use Rocket
 
 For Arvato Systems' German customers, Maria and Brian plan to offer Rocket.Chat as a customized SaaS collaboration platform, deployed on their managed private OpenStack based cloud platform.  They are currently operating on the latest Mikata Release of OpenStack, according to Brian.  
 When asked why they selected Rocket.Chat, Brian says: "We are positively surprised about the service and like the permanent availability and the quick response times of the Rocket Chat developers. For us, this represents an unique service. "   
-Additionally, Brian, @TheReal, is an active member on the Rocket.Chat community server at [https://demo.rocket.chat](https://demo.rocket.chat). You can often find him helping out a new user or discussing deployment strategies with our core team.
+Additionally, Brian, @TheReal, is an active member on the Rocket.Chat community server at [https://open.rocket.chat](https://open.rocket.chat). You can often find him helping out a new user or discussing deployment strategies with our core team.

@@ -21,7 +21,7 @@ Slack was up next, and the team used that for a few months before realizing that
 
 In the meantime, Matt came across the okTurtles blog entry [Five Open Source Slack Alternatives](https://blog.okturtles.com/2015/11/five-open-source-slack-alternatives/), which led him to Rocket.Chat.
 
-"I remember initially fiddling with MatterMost," he says. "But when I jumped into the public RC demo server and tested out the features, I was a believer!" That version was a little buggy at the time, he says, but he immediately saw the potential.
+"I remember initially fiddling with MatterMost," he says. "But when I jumped into the public RC open server and tested out the features, I was a believer!" That version was a little buggy at the time, he says, but he immediately saw the potential.
 
 Matt created a VM to host the Rocket.Chat and MongoDB server, and installed and configured the system without container management. In retrospect, he says he might have deployed using Docker, but hosting the system on a VM allowed them to migrate easily to an existing Disaster Recovery site, create near-instant clones, which was useful.
 

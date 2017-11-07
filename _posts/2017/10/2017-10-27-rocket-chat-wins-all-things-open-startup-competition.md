@@ -23,8 +23,5 @@ As a community, we are unified around creating the ultimate open communication p
 
 In the past few months Rocket.Chat has seen a surge of adoption from blockchain and cryptocurrency communities who made the move from closed solutions such as Slack, where it was not possible to customize workflows to provide a more secure environment for their users or add their own integrated features to their server and client apps.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;<a href="https://twitter.com/RocketChat?ref_src=twsrc%5Etfw">@RocketChat</a> now has over 150 million users. And blockchain companies use us because of our agility.&quot; -<a href="https://twitter.com/gabriel_engel?ref_src=twsrc%5Etfw">@gabriel_engel</a> at <a href="https://twitter.com/hashtag/MoNage?src=hash&amp;ref_src=twsrc%5Etfw">#MoNage</a> <a href="https://t.co/TPicZndstZ">pic.twitter.com/TPicZndstZ</a></p>&mdash; MoNage (@MoNageConf) <a href="https://twitter.com/MoNageConf/status/922826254767808517?ref_src=twsrc%5Etfw">October 24, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">lots of blockchain communities leveraging <a href="https://twitter.com/RocketChat?ref_src=twsrc%5Etfw">@rocketchat</a> including <a href="https://twitter.com/hashtag/steemit?src=hash&amp;ref_src=twsrc%5Etfw">#steemit</a> 👍 <a href="https://t.co/1mmYQ2kxIb">pic.twitter.com/1mmYQ2kxIb</a></p>&mdash; Ned Scott (@certainassets) <a href="https://twitter.com/certainassets/status/922825739254321152?ref_src=twsrc%5Etfw">October 24, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

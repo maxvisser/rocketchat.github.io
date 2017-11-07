@@ -34,7 +34,44 @@ title: "Contact Us for Sales, Features, Bugs &amp; Feedback"
     </div>
     <div class="right">
       <h2>Contact us</h2>
-      <div id="form_f907d76a"></div>
+      <!-- Frontapp Contact Form -->
+      <script type="text/javascript">
+        var onloadCallback = function() {
+          grecaptcha.render('html_element', {sitekey: '6Lf9sjcUAAAAAA1cesiL_k6tKYp5Bu_ttWaybR9r'});
+        };
+      </script>
+      <form
+        method="POST"
+        name="fa-form-1"
+        action="https://webhook.frontapp.com/forms/rocket_chat_technologies_corp/fb47bb0156d5fde1b7e9622a13e164b2e6677f499e23e1cf92c33d84a82ea2035af418be98b969e6a56d20641a1a6a1a03b5993091eff7969d99573aee48dbdb"
+        enctype="multipart/form-data"
+        accept-charset="utf-8"
+      >
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email">
+        </div>
+
+        <div>
+          <textarea name="body"></textarea>
+        </div>
+
+        <div>
+          <input type="file" name="attachment">
+        </div>
+
+         <div id="html_element"></div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+      </form>
+      <!-- Frontapp Contact Form -->
     </div>
     <div class="clear"></div>
   </div>
@@ -62,13 +99,3 @@ title: "Contact Us for Sales, Features, Bugs &amp; Feedback"
     <div class="clear"></div>
   </div>
 </section>
-
-<!-- Pipz Contact Form -->
-<script type="text/javascript">
-(function(){'use strict';var XHR=XMLHttpRequest||ActiveXObject;var request=new XHR('MSXML2.XMLHTTP.3.0');window.count=(window.count||0)+1;function createForm(url,id){var vid=window.count;url+="&v="+vid;var form_div;setTimeout(function(){form_div=document.getElementById(id);form_div.id=id+vid},10+window.count);request.open('GET',url,!0);request.onreadystatechange=function(){if(request.readyState===4){var result;try{result=JSON.parse(request.responseText)}catch(e){result=request.responseText}
-if(form_div){if(typeof result==="string"){form_div.innerHTML=result;return}
-form_div.innerHTML=result.html;var webform=form_div.getElementsByTagName('form')[0];var input_cookie=document.createElement('input');input_cookie.name='cookie';input_cookie.type='hidden';input_cookie.value=document.cookie;webform.appendChild(input_cookie);var script=document.createElement('script');script.id="pipz_script_f907d76a"+vid;script.innerHTML=result.script;document.head.appendChild(script)}}};request.send()}
-function getCookie(cookiename){var cookiestring=RegExp(""+cookiename+"[^;]+").exec(document.cookie);return unescape(!!cookiestring?cookiestring.toString().replace(/^[^=]+./,""):"").replace(/"/igm,"")}
-var uuid=getCookie("ec_anonymous_id").replace(/"/igm,"");createForm("https://forms.pipz.io/?h=91e45f64543dfffe1322c1.d5263335&uuid="+uuid,"form_f907d76a")})();
-</script>
-<!-- Pipz Contact Form -->

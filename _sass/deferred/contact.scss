@@ -5,23 +5,10 @@ body.contact {
     padding-top: 0;
   }
   
-  .pipz-webform {
-    padding: 0 !important;
-  }
-  
-  #container_f907d76a1 .pipz-input {
-    font-family: $ui-font-family;
-    line-height: $line-height !important;
-    font-size: $font-size !important;
-  }
-  
-  .pipz-button {
-    padding: 10px 20px !important;
-    float: right !important;
-  }
-  
-  .pipz-icon {
-    display: none !important;
+  .webform {
+    wide {
+      width: 100%;
+    }
   }
   
   #address {

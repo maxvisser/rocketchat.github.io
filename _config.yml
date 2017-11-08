@@ -4,7 +4,7 @@ description:  |
   Free, unlimited and completely customizable with on-premise and SaaS cloud hosting.
 
 url: https://rocket.chat
-# permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 8
 

@@ -5,13 +5,12 @@ body.contact {
     padding-top: 0;
   }
   
-  .webform {
-    .large {
-      width: 100%;
-    }
-    textarea {
-      height: 150px;
-    }
+  .large {
+    width: 100%;
+  }
+
+  textarea.large {
+    height: 150px;
   }
   
   #address {

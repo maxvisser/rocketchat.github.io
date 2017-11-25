@@ -57,7 +57,7 @@ redirect_from:
         Rocket.Chat is the leading free open source team chat Slack alternative.
       </p>
       <p>
-        With <strong>{{ site.stars }}k stars on GitHub</strong> and more than <strong>600 contributors</strong>
+        With <strong><span class="star_count"></span> stars on GitHub</strong> and more than <strong>600 contributors</strong>
         across our products, we are the largest and most active open source team chat community.
       </p>
       <p>
@@ -72,11 +72,11 @@ redirect_from:
           </div>
           <div class="stars">
             Stars
-            <span>{{ site.stars }}k</span>
+            <span class="star_count"></span>
           </div>
           <div class="forks">
             Forks
-            <span>{{ site.forks }}k</span>
+            <span class="fork_count"></span>
           </div>
         </a>
         <div class="clear"></div>
@@ -240,3 +240,18 @@ redirect_from:
     <div class="clear"></div>
   </div>
 </section>
+<script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     var data = JSON.parse(this.responseText);
+     var stars = Math.round( (data["stargazers_count"] / 1000) * 10 ) / 10;
+     var forks = Math.round( (data["forks_count"] / 1000) * 10 ) / 10;
+     document.getElementsByClassName("star_count")[0].innerHTML = stars + "k";
+     document.getElementsByClassName("star_count")[1].innerHTML = stars + "K";
+     document.getElementsByClassName("fork_count")[0].innerHTML = forks + "K";
+    }
+  };
+  xhttp.open("GET", "https://api.github.com/repos/RocketChat/Rocket.Chat", true);
+  xhttp.send();
+</script>

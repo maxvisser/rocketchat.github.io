@@ -5,9 +5,13 @@ author: Sean Packham
 ios_release: true
 ---
 
-The Rocket.Chat team is excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
-feature highlights: support for custom OAuth providers, custom registration
-fields, channel creation from the app and various performance improvements.
+We're excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
+feature highlights: 
+
+- Support for custom OAuth providers
+- Custom registration
+fields
+- Channel creation from the app and various performance improvements.
 
 ## Featured Contributor
 
@@ -18,15 +22,15 @@ Thank you for your great work on [channel creation](#create-channels) and helpin
 
 <div class="left copy">
 <p>
-Rocket.Chat iOS now recognizes and supports custom OAuth providers on any
-Rocket.Chat server, making it possible to use your OAuth authentication
-workflow to securely login from Rocket.Chat iOS.
+Rocket.Chat iOS recognizes and supports custom OAuth providers on any
+Rocket.Chat server, meaning it is now possible to use your OAuth authentication
+workflow to securely log in from Rocket.Chat iOS.
 </p>
 <p>
 To add or enable custom OAuth providers for your server, open the server
-administration and navigate to <strong>OAuth Apps</strong> and click
-<strong>Add Custom OAuth</strong> or <strong>enable/disable</strong> for
-already added providers.
+administration, navigate to <strong>OAuth Apps</strong>, and click
+<strong>Add Custom OAuth</strong>, or <strong>enable/disable</strong> for
+providers that have already been added. 
 </p>
 </div>
 <div class="right image">
@@ -40,13 +44,13 @@ already added providers.
 
 <div class="left copy">
 <p>
-Rocket.Chat iOS now recognizes and supports custom fields added to any server's
+Rocket.Chat iOS recognizes and supports custom fields added to any server's
 registration process.
 </p>
 <p>
-For example if you've configured your server's registration process to require
-additional information like a person's job role and Twitter handle, Rocket.Chat
-iOS will now support those custom registration fields.
+For example, if you've configured your server's registration process to require
+additional information, such as a user's job role and Twitter handle, Rocket.Chat
+iOS will now support these custom registration fields.
 </p>
 </div>
 <div class="right image">
@@ -61,7 +65,7 @@ iOS will now support those custom registration fields.
 <div class="left copy">
 <p>
 It is now possible for users with the required permission levels to create
-private, public channels and read-only from Rocket.Chat iOS.
+private, public and read-only channels from Rocket.Chat iOS.
 </p>
 </div>
 <div class="right image">
@@ -73,8 +77,7 @@ private, public channels and read-only from Rocket.Chat iOS.
 
 ## Improved performance
 
-With Rocket.Chat iOS 1.7, we've reduced the size and improved the overall
-performance and reliability of the app.
+With Rocket.Chat iOS 1.7, we've reduced the size and improved the app's overall performance and reliability. 
 
 ### Support for additional localizations
 
@@ -87,7 +90,7 @@ or username from anywhere in the app.
 
 ### Release contributors
 
-This release was made possible by the hard work of the following contributors.
+This release was made possible by the hard work of the following contributors:
 
 <ul>
   <li><a target="_blank" href="https://github.com/artrmz">artrmz</a></li>
@@ -103,5 +106,5 @@ This release was made possible by the hard work of the following contributors.
 
 ### Release changelog
 
-For a full list of features added and bugs fixed please see the full
+For a full list of features added and bugs fixed, please see the full
 [Rocket.Chat iOS 1.7.1 release changelog](https://github.com/RocketChat/Rocket.Chat.iOS/releases/tag/v1.7.1) on GitHub.

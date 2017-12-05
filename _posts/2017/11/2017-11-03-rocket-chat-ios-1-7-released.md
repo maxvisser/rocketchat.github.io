@@ -12,13 +12,13 @@ new features:
 - Support for custom OAuth providers
 - Custom registration
 fields
-- Channel creation from the app
+- In-app channel creation
 - Various performance improvements.
 
-## Featured Contributor
+## Contributor spotlight
 
 Our featured contributor for this release is <a target="\_blank" href="https://github.com/macabeus">Bruno Macabeus</a>.
-Thank you for your great work on [channel creation](#create-channels) and helping us squash bugs.
+Thank you for your great work on [channel creation](#create-channels) and helping us squash bugs in their tracks!
 
 ## Custom OAuth providers
 
@@ -51,7 +51,7 @@ registration process.
 </p>
 <p>
 For example, if you've configured your server's registration process to require
-additional information, such as a user's job role and Twitter handle, Rocket.Chat
+additional information like a user's job role and Twitter handle, Rocket.Chat
 iOS will now support these custom registration fields.
 </p>
 </div>
@@ -62,7 +62,7 @@ iOS will now support these custom registration fields.
 </div>
 <div class="clear"></div>
 
-## Create channels
+## Channel creation
 
 <div class="left copy">
 <p>
@@ -79,18 +79,18 @@ private, public and read-only channels from Rocket.Chat iOS.
 
 ## Improved performance
 
-With Rocket.Chat iOS 1.7, we've reduced the size and improved the app's overall performance and reliability. 
+With Rocket.Chat iOS 1.7, we've reduced the size of the app and improved overall performance and reliability. 
 
 ### Support for additional localizations
 
-Added Czech, French and Polish localization support.
+Added Czech, French, and Polish localization support.
 
 ### Easily open direct messages
 
 You can now open your direct messages with another user by tapping their avatar
 or username from anywhere in the app.
 
-### Release contributors
+## Release contributors
 
 This release was made possible by the hard work of the following contributors:
 
@@ -106,7 +106,7 @@ This release was made possible by the hard work of the following contributors:
   <li><a target="_blank" href="https://github.com/vadimue">vadimue</a></li>
 </ul>
 
-### Release changelog
+## Release changelog
 
 For a full list of features added and bugs fixed, please see the full
 [Rocket.Chat iOS 1.7.1 release changelog](https://github.com/RocketChat/Rocket.Chat.iOS/releases/tag/v1.7.1) on GitHub.

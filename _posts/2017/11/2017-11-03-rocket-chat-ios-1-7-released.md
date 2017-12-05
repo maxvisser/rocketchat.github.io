@@ -5,6 +5,7 @@ author: Sean Packham
 ios_release: true
 ---
 
+
 We're excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
 feature highlights: 
 

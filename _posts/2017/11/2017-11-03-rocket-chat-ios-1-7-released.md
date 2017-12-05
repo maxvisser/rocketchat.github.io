@@ -90,15 +90,15 @@ or username from anywhere in the app.
 This release was made possible by the hard work of the following contributors.
 
 <ul>
-  <li><a target="\_blank" href="https://github.com/artrmz">artrmz</a></li>
-  <li><a target="\_blank" href="https://github.com/cardoso">cardoso</a></li>
-  <li><a target="\_blank" href="https://github.com/flashbackcz">flashbackcz</a></li>
-  <li><a target="\_blank" href="https://github.com/hthole">hthole</a></li>
-  <li><a target="\_blank" href="https://github.com/macabeus">macabeus</a></li>
-  <li><a target="\_blank" href="https://github.com/naruthk">naruthk</a></li>
-  <li><a target="\_blank" href="https://github.com/rafaelks">rafaelks</a></li>
-  <li><a target="\_blank" href="https://github.com/sowenjub">sowenjub</a></li>
-  <li><a target="\_blank" href="https://github.com/vadimue">vadimue</a></li>
+  <li><a target="_blank" href="https://github.com/artrmz">artrmz</a></li>
+  <li><a target="_blank" href="https://github.com/cardoso">cardoso</a></li>
+  <li><a target="_blank" href="https://github.com/flashbackcz">flashbackcz</a></li>
+  <li><a target="_blank" href="https://github.com/hthole">hthole</a></li>
+  <li><a target="_blank" href="https://github.com/macabeus">macabeus</a></li>
+  <li><a target="_blank" href="https://github.com/naruthk">naruthk</a></li>
+  <li><a target="_blank" href="https://github.com/rafaelks">rafaelks</a></li>
+  <li><a target="_blank" href="https://github.com/sowenjub">sowenjub</a></li>
+  <li><a target="_blank" href="https://github.com/vadimue">vadimue</a></li>
 </ul>
 
 ### Release changelog

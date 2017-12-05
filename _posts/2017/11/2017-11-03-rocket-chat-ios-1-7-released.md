@@ -7,12 +7,13 @@ ios_release: true
 
 
 We're excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
-feature highlights: 
+new features: 
 
 - Support for custom OAuth providers
 - Custom registration
 fields
-- Channel creation from the app and various performance improvements.
+- Channel creation from the app
+- Various performance improvements.
 
 ## Featured Contributor
 
@@ -24,7 +25,7 @@ Thank you for your great work on [channel creation](#create-channels) and helpin
 <div class="left copy">
 <p>
 Rocket.Chat iOS recognizes and supports custom OAuth providers on any
-Rocket.Chat server, meaning it is now possible to use your OAuth authentication
+Rocket.Chat server, meaning you can now use your OAuth authentication
 workflow to securely log in from Rocket.Chat iOS.
 </p>
 <p>

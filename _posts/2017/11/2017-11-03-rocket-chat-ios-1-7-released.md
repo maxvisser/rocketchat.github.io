@@ -5,7 +5,7 @@ author: Sean Packham
 ios_release: true
 ---
 
-We are excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
+The Rocket.Chat team is excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
 feature highlights: support for custom OAuth providers, custom registration
 fields, channel creation from the app and various performance improvements.
 

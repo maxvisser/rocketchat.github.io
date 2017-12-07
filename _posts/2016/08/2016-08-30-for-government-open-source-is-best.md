@@ -3,6 +3,7 @@ title: "For Government, Open Source is Best."
 date: 2016-08-30 15:40:57
 author: Marcelo Schmidt
 cover: /images/posts/2016/08/for-government-open-source-is-best/bulgaria-open-source-e1468045782370-300x160.jpg
+redirect_from: /blog/for-government-open-source-is-best
 ---
 
 If you've been paying attention to open source news this month, you already know that [Bulgaria recently passed a law requiring the government to use open-source software](https://thepolicy.us/bulgaria-got-a-law-requiring-open-source-98bf626cf70a#.f9angczfq). What you might not know is what the law actually means in practice, and how it might affect the open source community in other parts of the world.

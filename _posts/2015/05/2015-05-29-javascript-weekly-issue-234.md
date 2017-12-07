@@ -3,6 +3,7 @@ title: "JavaScript Weekly, Issue 234"
 date: 2015-05-29 15:00:00
 author: Marcelo Schmidt
 cover: /images/posts/2015/05/javascript-weekly-issue-234/javascriptweekly.jpg
+redirect_from: /blog/javascript-weekly-issue-234
 ---
 
 ![](/images/posts/2015/05/javascript-weekly-issue-234/JavaScript-Weekly---May-29-2015.jpg?)

@@ -3,6 +3,7 @@ title: "20 Things You Should Be Doing with Rocket.Chat"
 date: 2016-09-01 14:13:25
 author: Marcelo Schmidt
 cover: /images/posts/2016/09/20-things-you-should-be-doing-with-rocketchat/technology-791029_1280.jpg
+redirect_from: /blog/20-things-you-should-be-doing-with-rocketchat
 ---
 
 Whether you're thinking of introducting your team to Rocket.Chat or you're already a loyal user, you might be wondering about ALL the ways Rocket.Chat can streamline your workflow.

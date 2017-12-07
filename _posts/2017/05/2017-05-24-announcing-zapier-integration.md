@@ -3,6 +3,7 @@ title: "Announcing the Rocket.Chat Zapier Integration"
 date: 2017-05-24 10:30:05
 author: Bradley Hilton
 cover: /images/posts/2017/05/announcing-zapier-integration/zapier-logo-colored.png
+redirect_from: /blog/announcing-zapier-integration
 ---
 
 Do you want to connect all of your most valued resources and use Rocket.Chat as your hub of communication?  

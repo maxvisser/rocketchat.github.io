@@ -3,6 +3,7 @@ title: "Rocket.Chat: Enabling Privately Hosted Chat Services"
 date: 2016-06-14 15:00:00
 author: Marcelo Schmidt
 cover: /images/posts/2016/06/rocketchat-enabling-privately-hosted-chat-services/blackduck.jpg
+redirect_from: /blog/rocketchat-enabling-privately-hosted-chat-services
 ---
 
 ![](/images/posts/2016/06/rocketchat-enabling-privately-hosted-chat-services/Black-Duck-Software---Jun-14-2016.jpg?)

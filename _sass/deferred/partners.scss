@@ -1,9 +1,8 @@
-
 section {
-
   padding: 5em 0 6em;
+}
 
-  &.category {
+section.category {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -17,9 +16,7 @@ section {
     em {
       font-style: normal;
     }
-  }
 }
-
 
 
 body.partners {

@@ -4,11 +4,27 @@ date: 2017-12-06 10:00:00
 author: Louise Message
 ---
 
-Open source software, like Rocket.Chat, can reduce licensing fees, time and cost to develop software. Classuite used Rocket.Chat's SDKs, customized the UI and features to rapidly and affordably create their classroom chat product for teachers and students.
+Open source software, like Rocket.Chat, can reduce licensing fees, time and cost to develop software. Classuite used Rocket.Chat's mobile SDKs, customized the UI and features to rapidly and affordably create their classroom chat product for teachers and students.
 
-### Custom Rocket.Chat User Interface
+## Custom Rocket.Chat User Interface
 
 Classuite created a custom theme with bold colors and more spacing. They customized the right sidebar by removing advanced features, giving teachers and students easy access to essential actions like searching for users, viewing profiles and shared resources. The result is a clean and simplified user experience, which is easy to learn but still lets students and teachers communicate and collaborate in real time.
+
+One sentence on how you can theme.
+
+## Custom Bot (feature)
+
+
+## Classrooms (privacy through invite codes) (feature)
+
+
+## Mobile Apps using SDKs
+
+
+
+
+
+RC's movbile SDKs easily allow you to add real time chat backed by a RC server to native Android and iOS apps.
 
 #### **Do it yourself**: Customization using Rocket.Chat’s API
 

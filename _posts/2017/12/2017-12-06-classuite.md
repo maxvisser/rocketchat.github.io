@@ -4,23 +4,11 @@ date: 2017-12-06 10:00:00
 author: Louise Message
 ---
 
-## Open source and customization
+Open source software, like Rocket.Chat, can reduce licensing fees, time and cost to develop software. Classuite used Rocket.Chat's SDKs, customized the UI and features to rapidly and affordably create their classroom chat product for teachers and students.
 
-Open source software, like Rocket.Chat, can reduce licensing fees and the time and cost to develop software. Classuite used Rocket.Chat's SDKs, customized the UI, added and removed features to rapidly and affordably create their classroom chat product for teachers and students. 
+### Custom Rocket.Chat User Interface
 
-### Simplicity meets functionality
-
-Classuite couldn’t guarantee that its audience would be tech savvy, so they needed a chat interface that was simple and comfortable to use. Functionality was also important, as teachers and students would be using the platform to collaborate on projects, set and complete homework and take part in private and group conversations.
-
-### Customizing Classuite using Rocket.Chat
-
-#### Personalized chat interface
-
-Classuite used Rocket.Chat’s personalizable API to create a tailored user experience. The chat was reskinned in bold colours and features such as notification settings in the profile tab were removed
-
-Classuite used Rocket.Chat’s personalizable API to reskin their product in bold, appealing colours. They also created simplified profiles and removed features like starrings and pinning messages for a clean, simplified experience.
-
-Simplified profile featuring bold colours
+Classuite created a custom theme with bold colors and more spacing. They customized the right sidebar by removing advanced features, giving teachers and students easy access to essential actions like searching for users, viewing profiles and shared resources. The result is a clean and simplified user experience, which is easy to learn but still lets students and teachers communicate and collaborate in real time.
 
 #### **Do it yourself**: Customization using Rocket.Chat’s API
 

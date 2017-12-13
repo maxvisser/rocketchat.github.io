@@ -6,9 +6,7 @@ author: Louise Message
 
 ## Open source and customization
 
-Rocket.Chat is open source and provides easy options to customize every aspect including the UI, features, server, desktop and mobile apps. A good example of how Rocket.Chat can be customized to save businesses time and money is Classuite, a classroom chat app that connects students and teachers.
-
-This post will look at how Classuite used Rocket.Chat’s customization features and how you can apply these to your own chat interface.
+Open source software, like Rocket.Chat, can reduce licensing fees and the time and cost to develop software. Classuite used Rocket.Chat's SDKs, customized the UI, added and removed features to rapidly and affordably create their classroom chat product for teachers and students. 
 
 ### Simplicity meets functionality
 

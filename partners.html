@@ -6,14 +6,66 @@ title: Partners
 
 <section class="hero">
   <div class="wrapper">
-    <h1>Rocket.Chat Hosting Partners</h1>
-    <em>Join our growing global resellers and services partner network, email to partners@rocket.chat</em>
+    <h1>Rocket.Chat Partners</h1>
+    <em>Join our growing global resellers, technology, and hosting partners network today</em>
   </div>
 </section>
 
+<!--  Other categories of partners - TODO
+<section class="category">
+    <div class="wrapper">
+      <h1>Global Resellers</h1>
+    </div>
+  </section>
+
 <section>
-  <div class="wrapper">
+  <div class="wrapper">  
     <ul class="partners">
+    
+      {% for partner in site.data.partners %}
+      <li>
+        <div style="background-image: url('{{ partner.logo }}')"></div>
+        <h2>{{ partner.name }}</h2>
+        <p>{{ partner.description }}</p>
+        <a href="{{ partner.website }}">Website</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <section class="category">
+      <div class="wrapper">
+        <h1>Technology Partners</h1>
+      </div>
+    </section>
+  
+  <section>
+    <div class="wrapper">  
+      <ul class="partners">
+      
+        {% for partner in site.data.partners %}
+        <li>
+          <div style="background-image: url('{{ partner.logo }}')"></div>
+          <h2>{{ partner.name }}</h2>
+          <p>{{ partner.description }}</p>
+          <a href="{{ partner.website }}">Website</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  
+  -->
+  
+<section class="category">
+    <div class="wrapper">
+      <h1>Hosting Partners</h1>
+    </div>
+  </section>
+
+<section>
+  <div class="wrapper">  
+    <ul class="partners">
+    
       {% for partner in site.data.partners %}
       <li>
         <div style="background-image: url('{{ partner.logo }}')"></div>

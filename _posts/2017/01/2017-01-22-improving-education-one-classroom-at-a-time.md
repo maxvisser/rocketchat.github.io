@@ -3,7 +3,9 @@ title: "Classuite: Improving education one classroom at a time"
 date: 2017-01-22 00:42:53
 author: Sing Li
 cover: /images/posts/2017/01/improving-education-one-classroom-at-a-time/classuitelogo.jpg
-redirect_from: /blog/improving-education-one-classroom-at-a-time
+redirect_from:
+  - /blog/improving-education-one-classroom-at-a-time
+  - /2017/10/06/success-story-rotogrinders/
 ---
 
 It is no secret that education systems across the modern world are running behind the times.  Regional governments around the globe have education reform and modernization on their agenda, but often fall short on execution due to bureaucratic resistance, lack of expertise and vision.

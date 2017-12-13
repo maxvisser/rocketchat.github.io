@@ -6,7 +6,7 @@ In development, latest `master` viewable on [GitHub Pages](https://rocketchat.gi
 
 ## Site structure
 
-We chose Jekyll and GitLab pages because together they offer the most supported and user friendly way for others to fork, edit, preview and contribute documentation without having to setup a local development environment just to write copy, add images or manage files.
+We chose Jekyll and GitHub pages because together they offer the most supported and user friendly way for others to fork, edit, preview and contribute documentation without having to setup a local development environment just to write copy, add images or manage files.
 
 For developers, only use templates and includes when they are needed. Creating a template per page or splitting templates into many parts that are only included once makes it challenging to maintain and contribute to the project.
 

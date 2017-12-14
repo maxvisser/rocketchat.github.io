@@ -15,6 +15,8 @@ body, label, input, textarea, select {
   -webkit-font-smoothing: antialiased;
 }
 
+// elements
+
 a, a:visited {
   color: $color-primary;
   text-decoration: none;
@@ -23,6 +25,109 @@ a, a:visited {
 a:hover {
   color: $color-secondary;
   text-decoration: underline;
+}
+
+ul, ol {
+  padding: 0 0 0 1.5em;
+  margin: 0 0 1.5em;
+}
+
+code, pre {
+  font-family: $code-font-family;
+  color: $color-light;
+}
+
+blockquote {
+  margin: 2em 0;
+  font-style: italic;
+  font-size: 1.25em;
+  color: $color-dark;
+  opacity: 0.6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: $color-dark;
+  
+  tr {
+    width: 100%;
+    border-top: 1px solid #eef0f3;
+  }
+  
+  td {
+    width: 26%;
+    padding: 0.75em;
+    border-left: 1px solid #eef0f3;
+    text-align: center;
+  }
+  
+  tr:nth-child(1) {
+    border: none;
+    
+    td {
+      padding: 0 1em 1em;
+    }
+
+    .description {
+      min-height: 80px;
+      vertical-align: top;
+    }
+    
+    .pricing {
+      margin-top: 1em;
+      font-size: 1.25em;
+      
+      span {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: $color-dark;
+      }
+    }
+  }
+
+  td:nth-child(1) {
+    width: 22%;
+    border: none;
+    text-align: left;
+  }
+  
+  .seperator {
+    background: #f7f8fa;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+      
+  span.yes:before {
+    content: '';
+    height: 3px;
+    background-color: #26d198;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    margin-left: -15px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  span.yes:after {
+    content: '';
+    height: 3px;
+    background-color: #26d198;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    margin-left: -11px;
+    margin-top: -6px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
 }
 
 // structure
@@ -149,7 +254,7 @@ section {
     background-size: contain;
     background-position: bottom;
     background-color: $color-dark;
-    padding: 6em 0 12em;
+    padding: 6em 0 8em;
     text-align: center;
     color: #fff;
 
@@ -160,6 +265,49 @@ section {
     em {
       font-style: normal;
     }
+  }
+}
+
+.testimonials {
+  .wrapper {
+    max-width: 800px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .left {
+    width: 200px;
+  }
+  
+  .right {
+    width: 550px;
+  }
+}
+
+footer {
+  padding: 4em 0 3em;
+  background-color: $color-dark;
+  color: #fff;
+
+  ul {
+    width: 25%;
+    float: left;
+    padding: 0;
+    list-style: none;
+
+    li {
+      line-height: 2;
+    }
+  }
+
+  a, a:visited {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #fff;
   }
 }
 
@@ -189,6 +337,10 @@ section {
     width: 100%;
     padding: 0;
   }
+  
+  .testimonials {
+    margin: 0;
+  }
 }
 
 // mobile
@@ -197,6 +349,13 @@ section {
   header {
     ul {
       padding-top: 1em;
+    }
+  }
+  
+  footer {
+    ul {
+      width: 50%;
+      padding-left: 0;
     }
   }
 }

@@ -309,6 +309,34 @@ footer {
   a:hover {
     color: #fff;
   }
+  
+  .partners {
+    text-align: center;
+    
+    h2 {
+      margin-bottom: 0;
+    }
+    
+    a {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    
+    img {
+      max-width: 125px;
+      display: inline;
+    }
+    
+    .rackspace {
+      position: relative;
+      bottom: -16px;
+      
+      img {
+        max-width: 160px;
+      }
+    }
+  }
+  
 }
 
 // tablet

@@ -3,7 +3,7 @@ date: 2017-12-06 10:00:00
 title: How Classuite built their product with Rocket.Chat
 date: 2017-12-18 08:00:00
 author: Louise Message
-cover: ![How Classuite built their product with Rocket.Chat](/images/posts/2017/12/how-classuite-built-their-product-with-rocket-chat/cover.png)
+cover: /images/posts/2017/12/how-classuite-built-their-product-with-rocket-chat/cover.png
 
 ---
 Open source software, like Rocket.Chat, can reduce licensing fees, time and cost to develop software. Classuite used Rocket.Chat's mobile SDKs, customized the UI and features to rapidly and affordably create their classroom chat product for teachers and students.

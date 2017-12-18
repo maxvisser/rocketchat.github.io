@@ -1,8 +1,8 @@
 ---
-title: How Classuite built their product using Rocket.Chat
+title: How Classuite built their product with Rocket.Chat
 date: 2017-12-18 08:00:00
 author: Louise Message
-cover: /images/posts/2017/12/how-classuite-built-their-product-using-rocket-chat/cover.png
+cover: /images/posts/2017/12/how-classuite-built-their-product-with-rocket-chat/cover.png
 ---
 
 Open source software, like Rocket.Chat, can reduce licensing fees, time and cost to develop software. Classuite used Rocket.Chat's mobile SDKs, customized the UI and features to rapidly and affordably create their classroom chat product for teachers and students.
@@ -11,7 +11,7 @@ Open source software, like Rocket.Chat, can reduce licensing fees, time and cost
 
 Classuite created a custom theme with bold colors and more spacing. They customized the right sidebar by removing advanced features, giving teachers and students easy access to essential actions like searching for users, viewing profiles and shared resources. The result is a clean and simplified user experience, which is easy to learn but still lets students and teachers communicate and collaborate in real time.
 
-![Classuite teacher profile](/images/posts/2017/12/how-classuite-built-their-product-using-rocket-chat/12-15-2017-classuite-teacher-profile.png)
+![Classuite teacher profile](/images/posts/2017/12/how-classuite-built-their-product-with-rocket-chat/12-15-2017-classuite-teacher-profile.png)
 
 [Read Rocket.Chat's documentation](https://rocket.chat/docs/developer-guides/ui-and-theming/themes/#custom-themes) on retheming a chat client.
 
@@ -21,7 +21,7 @@ Rocket.Chat's channels have been renamed to classes and are private by default. 
 
 > _“We want everyone - especially the students, who are oftentimes nervous or shy about expressing their opinions and experiences - to feel comfortable discussing their ideas, knowing that only their classmates and teacher will have access to the conversations.”_
 
-![Classbot sends a unique class invitation code to a teacher](/images/posts/2017/12/how-classuite-built-their-product-using-rocket-chat/12-15-2017-classuite-teacher-class-creation.png)
+![Classbot sends a unique class invitation code to a teacher](/images/posts/2017/12/how-classuite-built-their-product-with-rocket-chat/12-15-2017-classuite-teacher-class-creation.png)
 
 Learn how to customize [Rocket.Chat's permissions](https://rocket.chat/docs/developer-guides/realtime-api/method-calls/create-private-groups/#create-private-groups) in the documentation.
 
@@ -29,7 +29,7 @@ Learn how to customize [Rocket.Chat's permissions](https://rocket.chat/docs/deve
 
 Classbot is a custom chatbot that greets users and introduces Classuite. Personalized user interactions show teachers how to create their first class. Students are encouraged to begin collaborating with peers through private and group messaging. Joining a new community can be challenging but Classbot explains where to begin and the next steps to take.
 
-![Classbot shows a teacher how to start using Classuite](/images/posts/2017/12/how-classuite-built-their-product-using-rocket-chat/12-15-2017-classuite-classbot-teacher.png)
+![Classbot shows a teacher how to start using Classuite](/images/posts/2017/12/how-classuite-built-their-product-with-rocket-chat/12-15-2017-classuite-classbot-teacher.png)
 
 Learn how to set up your own chatbot with [Rocket.Chat's Hubot](https://rocket.chat/docs/administrator-guides/hubot/) in our documentation.
 

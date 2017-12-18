@@ -3,6 +3,7 @@ title: "Product Hunt"
 date: 2015-05-28 15:00:00
 author: Marcelo Schmidt
 cover: /images/posts/2015/05/product-hunt/producthunt.jpg
+redirect_from: /blog/product-hunt
 ---
 
 ![](/images/posts/2015/05/product-hunt/ProductHunt---May-28-2015.jpg?)

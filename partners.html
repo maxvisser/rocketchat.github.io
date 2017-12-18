@@ -9,13 +9,65 @@ redirect_from: /partners/
 <section class="hero">
   <div class="wrapper">
     <h1>Rocket.Chat Partners</h1>
-    <em>Let's work together to improve communication and collaboration</em>
+    <em>Join our growing global resellers, technology, and hosting partners network today</em>
   </div>
 </section>
 
+<!--  Other categories of partners - TODO
+<section class="category">
+    <div class="wrapper">
+      <h1>Global Resellers</h1>
+    </div>
+  </section>
+
 <section>
-  <div class="wrapper">
+  <div class="wrapper">  
     <ul class="partners">
+    
+      {% for partner in site.data.partners %}
+      <li>
+        <div style="background-image: url('{{ partner.logo }}')"></div>
+        <h2>{{ partner.name }}</h2>
+        <p>{{ partner.description }}</p>
+        <a href="{{ partner.website }}">Website</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <section class="category">
+      <div class="wrapper">
+        <h1>Technology Partners</h1>
+      </div>
+    </section>
+  
+  <section>
+    <div class="wrapper">  
+      <ul class="partners">
+      
+        {% for partner in site.data.partners %}
+        <li>
+          <div style="background-image: url('{{ partner.logo }}')"></div>
+          <h2>{{ partner.name }}</h2>
+          <p>{{ partner.description }}</p>
+          <a href="{{ partner.website }}">Website</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  
+  -->
+  
+<section class="category">
+    <div class="wrapper">
+      <h1>Hosting Partners</h1>
+    </div>
+  </section>
+
+<section>
+  <div class="wrapper">  
+    <ul class="partners">
+    
       {% for partner in site.data.partners %}
       <li>
         <div style="background-image: url('{{ partner.logo }}')"></div>

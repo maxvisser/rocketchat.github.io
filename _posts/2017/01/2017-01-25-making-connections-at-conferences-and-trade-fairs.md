@@ -3,6 +3,7 @@ title: "Arvato Systems:  Making Connections at Conferences and Trade Fairs"
 date: 2017-01-25 06:01:00
 author: Sing Li
 cover: /images/posts/2017/01/making-connections-at-conferences-and-trade-fairs/avartologo.jpg
+redirect_from: /blog/making-connections-at-conferences-and-trade-fairs
 ---
 With an active community of over 100,000, Rocket.Chat regularly receives global success stories of incredibly innovative use-cases of our open source platform.   Topping the list in 2016 is [Arvato Systems'](https://it.arvato.com) (Germany) Virtual Event Platform.  
 

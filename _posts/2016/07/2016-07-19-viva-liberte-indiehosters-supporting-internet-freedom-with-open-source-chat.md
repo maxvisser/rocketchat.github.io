@@ -3,6 +3,7 @@ title: "Viva Liberté: IndieHosters, Supporting Internet Freedom with Open Sourc
 date: 2016-07-19 12:31:59
 author: Marcelo Schmidt
 cover: /images/posts/2016/07/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat/ir_attachment_121.jpg
+redirect_from: /blog/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat
 ---
 
 One of the most rewarding developments for our team over the past year has been the success of [IndieHosters](https://indiehosters.net/), a company that exists largely to help organizations achieve more freedom and individual security.

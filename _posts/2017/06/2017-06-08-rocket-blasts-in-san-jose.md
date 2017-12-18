@@ -3,6 +3,7 @@ title: "Rocket Blasts in San Jose"
 date: 2017-06-08 18:57:52
 author: Sing Li
 cover: /images/posts/2017/06/rocket-blasts-in-san-jose/meetupfront.jpg
+redirect_from: /blog/rocket-blasts-in-san-jose
 ---
 
 Hi everyone, A very quick follow-up on our "A round of drinks with Rocket.Chat"  meet-up in San Jose  yesterday evening: It was a resounding success!

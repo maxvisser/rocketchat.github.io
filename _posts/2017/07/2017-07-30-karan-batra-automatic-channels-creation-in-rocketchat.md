@@ -3,6 +3,7 @@ title: "Karan Batra:  Automatic Channels creation in Rocket.Chat"
 date: 2017-07-30 11:27:23
 author: Sing Li
 cover: /images/posts/2017/07/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation/gsoc.png
+redirect_from: /blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation
 ---
 _This series of blogs brings you a little closer to our active student contributors for the [Google Summer of Code 2017](https://rocket.chat/docs/contributing/google-summer-of-code) summer season. You will see their ongoing work featured throughout our [GitHub repositories](https://github.com/RocketChat) . Feel free to drop by and say "hello", or start collaborating on any of the projects._  
 

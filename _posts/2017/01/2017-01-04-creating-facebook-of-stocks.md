@@ -3,6 +3,7 @@ title: "TechMeetsTrader: Creating the Facebook of Stocks"
 date: 2017-01-04 16:35:43
 author: Sing Li
 cover: /images/posts/2017/01/creating-facebook-of-stocks/business-1730089_1920.jpg
+redirect_from: /blog/creating-facebook-of-stocks
 ---
 
 The wide availability of inexpensive electronic stock trading services democratized the investment field, and offers more people the opportunity to become investors than ever before.  Stocks and options trading are no longer the restricted domains of the wealthy and elite.  Modern traders no longer need to be physically on Wall Street or buy seats in elusive trading pits.  

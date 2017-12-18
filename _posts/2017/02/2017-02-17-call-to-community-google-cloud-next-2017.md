@@ -3,6 +3,7 @@ title: "Call to Community: Meet the Rocket.Chat Gang at Google Cloud Next 2017"
 date: 2017-02-17 12:22:57
 author: Sing Li
 cover: /images/posts/2017/02/call-to-community-google-cloud-next-2017/Next17-1.jpg
+redirect_from: /blog/call-to-community-google-cloud-next-2017
 ---
 Rocket.Chat has been invited by Google to showcase the open source project at [Google Cloud Next 2017](https://cloudnext.withgoogle.com/) on March 8 - 10 2017.
 

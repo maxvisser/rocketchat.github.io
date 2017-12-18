@@ -5,8 +5,8 @@ author: Sean Packham
 ios_release: true
 ---
 
-We're excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
-new features:
+Rocket.Chat is excited to announce our new release for iOS (1.7.1) with the
+following features:
 
 - Support for custom OAuth providers
 - Custom registration fields
@@ -15,16 +15,15 @@ new features:
 
 ## Contributor spotlight
 
-Our featured contributor for this release is <a target="\_blank" href="https://github.com/macabeus">Bruno Macabeus</a>.
-Thank you for your great work on [channel creation](#create-channels) and helping us squash bugs in their tracks!
+<a target="\_blank" href="https://github.com/macabeus">Bruno Macabeus</a> is our
+featured contributor for this release. Thank you for your great work on [channel creation](#create-channels) and stopping bugs in their tracks!
 
 ## Custom OAuth providers
 
 <div class="left copy">
 <p>
 Rocket.Chat iOS recognizes and supports custom OAuth providers on any
-Rocket.Chat server, meaning you can now use your OAuth authentication
-workflow to securely log in from Rocket.Chat iOS.
+server.
 </p>
 <p>
 To add or enable custom OAuth providers for your server, open the server
@@ -44,13 +43,9 @@ providers that have already been added.
 
 <div class="left copy">
 <p>
-Rocket.Chat iOS recognizes and supports custom fields added to any server's
-registration process.
-</p>
-<p>
-For example, if you've configured your server's registration process to require
-additional information like a user's job role and Twitter handle, Rocket.Chat
-iOS will now support these custom registration fields.
+If you've configured your server's registration process to require
+additional information like a user's job role and Twitter handle, these fields
+are supported on iOS.
 </p>
 </div>
 <div class="right image">
@@ -64,8 +59,8 @@ iOS will now support these custom registration fields.
 
 <div class="left copy">
 <p>
-It is now possible for users with the required permission levels to create
-private, public and read-only channels from Rocket.Chat iOS.
+Users with the required permission levels can create private, public and
+read-only channels from iOS.
 </p>
 </div>
 <div class="right image">
@@ -77,16 +72,16 @@ private, public and read-only channels from Rocket.Chat iOS.
 
 ## Improved performance
 
-With Rocket.Chat iOS 1.7, we've reduced the size of the app and improved overall performance and reliability.
+This release is smaller, faster and more reliable.
 
 ### Support for additional localizations
 
-Added Czech, French, and Polish localization support.
+We've added support for Czech, French, and Polish locales.
 
 ### Easily open direct messages
 
-You can now open your direct messages with another user by tapping their avatar
-or username from anywhere in the app.
+Open direct messages between another user by tapping their avatar or username
+anywhere in the app.
 
 ## Release contributors
 

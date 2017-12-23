@@ -65,6 +65,10 @@ server_release: true
 
 <p>Numerous notification improvements are available in this release, including the widely requested option to set mobile devices to be notified of new messages regardless of presence status.</p>
 
+### Better support for mobile clients
+
+This new version adds APIs that make communicating with our native mobile clients significantly faster and enable features such as slash-commands, and reply from notification on iOS.
+
 ### More Information on Release 0.60.0
 
 <p>For details of what is included in this exciting 0.60.0 release, please see our release notes (link to release note).</p>

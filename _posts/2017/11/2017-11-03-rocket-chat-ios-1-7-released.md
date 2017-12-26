@@ -5,28 +5,31 @@ author: Sean Packham
 ios_release: true
 ---
 
-We are excited to announce the release of Rocket.Chat iOS 1.7.1 with the following
-feature highlights: support for custom OAuth providers, custom registration
-fields, channel creation from the app and various performance improvements.
+Rocket.Chat is excited to announce our new release for iOS (1.7.1) with the
+following features:
 
-## Featured Contributor
+- Support for custom OAuth providers
+- Custom registration fields
+- In-app channel creation
+- Various performance improvements.
 
-Our featured contributor for this release is <a target="\_blank" href="https://github.com/macabeus">Bruno Macabeus</a>.
-Thank you for your great work on [channel creation](#create-channels) and helping us squash bugs.
+## Contributor spotlight
+
+<a target="\_blank" href="https://github.com/macabeus">Bruno Macabeus</a> is our
+featured contributor for this release. Thank you for your great work on [channel creation](#create-channels) and stopping bugs in their tracks!
 
 ## Custom OAuth providers
 
 <div class="left copy">
 <p>
-Rocket.Chat iOS now recognizes and supports custom OAuth providers on any
-Rocket.Chat server, making it possible to use your OAuth authentication
-workflow to securely login from Rocket.Chat iOS.
+Rocket.Chat iOS recognizes and supports custom OAuth providers on any
+server.
 </p>
 <p>
 To add or enable custom OAuth providers for your server, open the server
-administration and navigate to <strong>OAuth Apps</strong> and click
-<strong>Add Custom OAuth</strong> or <strong>enable/disable</strong> for
-already added providers.
+administration, navigate to <strong>OAuth Apps</strong>, and click
+<strong>Add Custom OAuth</strong>, or <strong>enable/disable</strong> for
+providers that have already been added.
 </p>
 </div>
 <div class="right image">
@@ -40,13 +43,9 @@ already added providers.
 
 <div class="left copy">
 <p>
-Rocket.Chat iOS now recognizes and supports custom fields added to any server's
-registration process.
-</p>
-<p>
-For example if you've configured your server's registration process to require
-additional information like a person's job role and Twitter handle, Rocket.Chat
-iOS will now support those custom registration fields.
+If you've configured your server's registration process to require
+additional information like a user's job role and Twitter handle, these fields
+are supported on iOS.
 </p>
 </div>
 <div class="right image">
@@ -56,12 +55,12 @@ iOS will now support those custom registration fields.
 </div>
 <div class="clear"></div>
 
-## Create channels
+## Channel creation
 
 <div class="left copy">
 <p>
-It is now possible for users with the required permission levels to create
-private, public channels and read-only from Rocket.Chat iOS.
+Users with the required permission levels can create private, public and
+read-only channels from iOS.
 </p>
 </div>
 <div class="right image">
@@ -73,35 +72,34 @@ private, public channels and read-only from Rocket.Chat iOS.
 
 ## Improved performance
 
-With Rocket.Chat iOS 1.7, we've reduced the size and improved the overall
-performance and reliability of the app.
+This release is smaller, faster and more reliable.
 
 ### Support for additional localizations
 
-Added Czech, French and Polish localization support.
+We've added support for Czech, French, and Polish locales.
 
 ### Easily open direct messages
 
-You can now open your direct messages with another user by tapping their avatar
-or username from anywhere in the app.
+Open direct messages between another user by tapping their avatar or username
+anywhere in the app.
 
-### Release contributors
+## Release contributors
 
-This release was made possible by the hard work of the following contributors.
+This release was made possible by the hard work of the following contributors:
 
 <ul>
-  <li><a target="\_blank" href="https://github.com/artrmz">artrmz</a></li>
-  <li><a target="\_blank" href="https://github.com/cardoso">cardoso</a></li>
-  <li><a target="\_blank" href="https://github.com/flashbackcz">flashbackcz</a></li>
-  <li><a target="\_blank" href="https://github.com/hthole">hthole</a></li>
-  <li><a target="\_blank" href="https://github.com/macabeus">macabeus</a></li>
-  <li><a target="\_blank" href="https://github.com/naruthk">naruthk</a></li>
-  <li><a target="\_blank" href="https://github.com/rafaelks">rafaelks</a></li>
-  <li><a target="\_blank" href="https://github.com/sowenjub">sowenjub</a></li>
-  <li><a target="\_blank" href="https://github.com/vadimue">vadimue</a></li>
+  <li><a target="_blank" href="https://github.com/artrmz">artrmz</a></li>
+  <li><a target="_blank" href="https://github.com/cardoso">cardoso</a></li>
+  <li><a target="_blank" href="https://github.com/flashbackcz">flashbackcz</a></li>
+  <li><a target="_blank" href="https://github.com/hthole">hthole</a></li>
+  <li><a target="_blank" href="https://github.com/macabeus">macabeus</a></li>
+  <li><a target="_blank" href="https://github.com/naruthk">naruthk</a></li>
+  <li><a target="_blank" href="https://github.com/rafaelks">rafaelks</a></li>
+  <li><a target="_blank" href="https://github.com/sowenjub">sowenjub</a></li>
+  <li><a target="_blank" href="https://github.com/vadimue">vadimue</a></li>
 </ul>
 
-### Release changelog
+## Release changelog
 
-For a full list of features added and bugs fixed please see the full
+For a full list of features added and bugs fixed, please see the full
 [Rocket.Chat iOS 1.7.1 release changelog](https://github.com/RocketChat/Rocket.Chat.iOS/releases/tag/v1.7.1) on GitHub.

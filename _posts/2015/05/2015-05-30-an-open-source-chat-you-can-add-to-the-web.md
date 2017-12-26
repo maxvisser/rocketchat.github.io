@@ -3,6 +3,7 @@ title: "An Open Source Chat you can add to the web"
 date: 2015-05-30 15:00:00
 author: Marcelo Schmidt
 cover: /images/posts/2015/05/an-open-source-chat-you-can-add-to-the-web/clasesdeperiodismo.jpg
+redirect_from: /blog/an-open-source-chat-you-can-add-to-the-web
 ---
 
 ![](/images/posts/2015/05/an-open-source-chat-you-can-add-to-the-web/Clases-de-Periodismo---Jun-9-2015.jpg?)

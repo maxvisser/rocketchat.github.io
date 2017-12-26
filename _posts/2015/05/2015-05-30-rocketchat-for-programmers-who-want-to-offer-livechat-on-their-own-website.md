@@ -3,6 +3,7 @@ title: "Rocket.Chat, for programmers who want to offer Livechat on their own web
 date: 2015-05-30 15:00:00
 author: Marcelo Schmidt
 cover: /images/posts/2015/05/rocketchat-for-programmers-who-want-to-offer-livechat-on-their-own-website/logowwwhatsnew2.jpg
+redirect_from: /blog/rocketchat-for-programmers-who-want-to-offer-livechat-on-their-own-website
 ---
 
 ![](/images/posts/2015/05/rocketchat-for-programmers-who-want-to-offer-livechat-on-their-own-website/WWWHAT'S-NEW---Jun-1-2015.jpg?)

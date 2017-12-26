@@ -1,0 +1,181 @@
+
+body.download {
+    
+  .hero {
+    background-color: $color-dark;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 6em;
+    
+    em {
+      margin-bottom: 2em;
+      display: block;
+      font-style: normal;
+    }
+  }
+  
+    .desktop {
+      width: 55%;
+      float: left;
+      
+      li {
+        width: 33.3%;
+      }
+    }
+    
+    .mobile {
+      width: 40%;
+      float: right;
+      
+      li {
+        width: 50%;
+      }
+    }
+    
+    .desktop, .mobile {
+      display: block;
+      
+      h2 {
+        margin-bottom: 3em;
+        text-align: center;
+      }
+      
+      img {
+        width: 44px;
+      }
+      
+      a {
+        display: block;
+      
+        img {
+          width: 160px;
+          height: 40px;
+        
+          &.itunes {
+            height: 42px;
+            margin-top: -1px;
+          }
+        }
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      li {
+        float: left;
+        text-align: center;
+        
+        div {
+          height: 60px;
+        }
+      }
+    }
+    
+    #server {
+      background-color: $color-dark;
+      color: #fff;
+          
+      p {
+        color: #929db3;
+      }
+          
+      .left {
+        float: left;
+        width: 500px;
+        padding: 0 40px;
+                
+        code {
+          background-color: #272b33;
+          color: #fff;
+          display: block;
+          padding: 0.75em 1em;
+          margin-top: 2em;
+          border: 1px solid #2f343d;
+          border-radius: 5px;
+          max-width: 370px;
+        }
+      }
+      
+      .right {
+        float: right;
+        width: 40%;
+
+        h2 {
+          text-align: center;
+        }
+              
+        a, a:visited {
+          display: block;
+          color: #fff;
+        }
+
+        img {
+          width: 50px;
+          margin-bottom: 1em;
+        }
+
+        ul {
+          margin-top: 2em;
+          list-style: none;
+        }
+        
+        li {
+          text-align: center;
+          float: left;
+          width: 33.3%;
+          padding-top: 1em;
+        }
+      }
+    }
+    
+    #support {
+      padding-bottom: 3em;
+      
+      .header {
+        text-align: center;
+        margin-bottom: 9em;
+      }
+      
+      h2 {
+        font-size: 2.2em;
+        margin-bottom: 10px;
+      }
+    }
+    
+    // tablet
+        
+    @media all and (max-width: 900px) {
+
+      .server {
+        padding: 0;
+        
+        .main {
+          padding: 4em 2em;
+        }
+        
+        .left, .right {
+          float: none;
+          width: 100%;
+        }
+        
+        .right {
+          margin-top: 2em;
+        }
+      }
+
+      .desktop {
+        margin: 2em 0;
+        float: none;
+        width: 100%;
+      }
+      
+      .mobile {
+        margin: 2em 0;
+        float: none;
+        width: 100%;
+      }
+    }
+  
+}

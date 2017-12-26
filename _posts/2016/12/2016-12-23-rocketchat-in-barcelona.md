@@ -3,6 +3,7 @@ title: "Rocket.Chat in Barcelona"
 date: 2016-12-23 10:51:42
 author: Marcelo Schmidt
 cover: /images/posts/2016/12/rocketchat-in-barcelona/Action_Camera_Casa_Batllo.jpg
+redirect_from: /blog/rocketchat-in-barcelona
 ---
 
 Governments around the world are turning to open source software for its communication, operation and administration needs. In addition to the obvious cost benefits, popular open source systems such as Rocket.Chat provide transparency of source and design, freedom from lock-in of a single software vendor, and the growing availability of a global pool of development and consulting talents.

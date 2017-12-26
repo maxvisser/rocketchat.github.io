@@ -3,6 +3,7 @@ title: "Customer Success Story:  RotoGrinders"
 date: 2017-10-06 16:45:10
 author: Sing Li
 cover: /images/posts/2017/10/success-story-rotogrinders/rotogrinders.png
+redirect_from: /blog/success-story-rotogrinders
 ---
 
 Using their own knowledge and research, sports fans can now get in on the action by assembling their own virtual teams of professional athletes from a particular league or competition to compete against others' virtual teams online; the virtual teams earn points based on the actual statistical performance of the players in real-world competitions. Daily fantasy sports (DFS) ups the ante of traditional fantasy sports by allowing players to compete for short-term periods, such as a week or single day of competition (as opposed to those that are played across an entire season). For some, this is a friendly competition but the fact that fantasy sports is now a multibillion dollar industry suggests that for many, this has become a serious sport in and of itself.

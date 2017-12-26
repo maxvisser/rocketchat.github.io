@@ -3,6 +3,7 @@ title: "Rocket.Chat Customer Story: Radically Open Security"
 date: 2016-08-03 12:13:19
 author: Marcelo Schmidt
 cover: /images/posts/2016/08/rocketchat-customer-story-radically-open-security/ros-logo.jpg
+redirect_from: /blog/rocketchat-customer-story-radically-open-security
 ---
 
 ### Instant Communication in a Radically New Business Model

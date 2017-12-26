@@ -3,6 +3,7 @@ title: "A Fistful of Slack Clones: Chat Apps with Meteor"
 date: 2015-06-03 15:00:00
 author: Marcelo Schmidt
 cover: /images/posts/2015/06/a-fistful-of-slack-clones-chat-apps-with-meteor/meteor.jpg
+redirect_from: /blog/a-fistful-of-slack-clones-chat-apps-with-meteor
 ---
 
 ![](/images/posts/2015/06/a-fistful-of-slack-clones-chat-apps-with-meteor/Meteor-Blog---Jun-3-2015.jpg?)

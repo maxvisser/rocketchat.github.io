@@ -3,6 +3,7 @@ title: "Bots or Not? Looking at the Potential for Bot Integration"
 date: 2017-06-05 16:08:20
 author: Sing Li
 cover: /images/posts/2017/06/bots-or-not-looking-at-the-potential-for-bot-integration/robotfront.png
+redirect_from: /blog/bots-or-not-looking-at-the-potential-for-bot-integration
 ---
 Bots have been around forever, and they continue to be somewhat imperfect. For those who aren't up on bots, they're programs that let you carry out "conversations" (ie. type a question or command) from within an app, and get an answer or accomplish your goal, whatever it was, within the app.
 

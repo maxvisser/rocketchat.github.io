@@ -3,6 +3,7 @@ title: "Rocket.Chat Funds More Students to Take Part in Google Summer of Code"
 date: 2017-05-22 17:20:01
 author: Sing Li
 cover: /images/posts/2017/05/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code/gsoc17.png
+redirect_from: /blog/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code
 ---
 
 We're excited to announce that seven keen coders will be taking part in the Google Summer of Code 2017 - four funded by Google and three funded by us!

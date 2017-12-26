@@ -1,6 +1,11 @@
+- name: Curvestone
+  description: London based Rocket.Chat Hosting. GDPR specialists.
+  website: https://www.curvestone.io/managed-rocketchat-hosting
+  logo: /images/partners/curvestone.png
+
 - name: Spinups by Whogloo
   description: Spinup Rocket.Chat - The Business Chat Platform
-  website: https://products.spinups.io/spinups-rocket
+  website: https://spinups.io/rocket-chat/
   logo: /images/partners/spinups.png
 
 - name: Layershift PaaS

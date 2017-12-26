@@ -3,6 +3,7 @@ title: "Celebrate with us!"
 date: 2017-05-31 22:03:40
 author: Sing Li
 cover: /images/posts/2017/05/celebrate-with-us/balloons.jpg
+redirect_from: /blog/celebrate-with-us
 ---
 
 As many of you know, Rocket.Chat turned two the other day -- Friday, May 26th marked the day we went live back in 2015\.  We fondly remember the excitement when, within a few hours, it went viral on Hacker News, Product Hunt and others, like it was yesterday. Your overwhelming enthusiasm took down our community server :)

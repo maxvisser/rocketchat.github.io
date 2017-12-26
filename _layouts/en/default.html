@@ -12,7 +12,7 @@ class: index
       <li><a {% if page.class == 'download' %}class="active"{%endif%} href="/download">Download</a></li>
       <li><a {% if page.class == 'cloud' %}class="active"{%endif%} href="/cloud">Cloud</a></li>
       <li><a {% if page.class == 'community' %}class="active"{%endif%} href="/community">Community</a></li>
-      <li><a {% if page.class == 'docs' %}class="active"{%endif%} href="/docs/">Docs</a></li>
+      <li><a href="https://rocket.chat/docs/">Docs</a></li>
       <li><a {% if page.class == 'blog' %}class="active"{%endif%} href="/blog/">Blog</a></li>
       <li><a {% if page.class == 'contact' %}class="active"{%endif%} href="/contact">Contact</a></li>
     </ul>
@@ -27,7 +27,7 @@ class: index
     <ul>
       <li><a href="/download">Download</a></li>
       <li><a href="/cloud">Cloud</a></li>
-      <li><a href="https://rocket.chat/docs">Docs</a></li>
+      <li><a href="https://rocket.chat/docs/">Docs</a></li>
     </ul>
     <ul>
       <li><a href="/team">Team</a></li>
@@ -44,5 +44,14 @@ class: index
       <li><a href="https://www.stickermule.com/user/1070688638/stickers" target="_blank">Stickers</a></li>
     </ul>
     <div class="clear"></div>
+    <div class="partners">
+      <h2>Our Partners</h3>
+      <a class="keycdn" target="_blank" href="https://www.keycdn.com/">
+        <img src='{{ site.url }}/images/default/keycdn.svg' alt="KeyCDN" />
+      </a>
+      <a class="rackspace" target="_blank" href="https://www.rackspace.com/">
+				<img src='{{ site.url }}/images/default/rackspace.png' alt="Rackspace" />
+			</a>
+    </div>
   </div>
 </footer>

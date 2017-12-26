@@ -17,37 +17,30 @@ redirect_from:
   - /mobile/
 ---
 
-<div class="twinkle">
-  <section class="hero">
-    <div class="wrapper">
-      <div class="left">
-        <h1><span>Open Source</span> <br>Communication</h1>
-        <div class="solution">
-          <h2>On-Premises</h2>
-          <p>
-            Run Rocket.Chat on your infrastructure<br>
-            Be in complete control of your data and platform
-          </p>
-          <a class="button primary" href="/download">Download</a>
-          <a class="button primary" href="/download.html#support">Get Support</a>
-        </div>
-        <div class="solution">
-          <h2>On Rocket.Chat Cloud</h2>
-          <p>
-            Run Rocket.Chat on our scalable &amp; secure cloud <br>
-            Open source without the burden of infrastructure
-          </p>
-          <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Start Your Free Trial</a>
-        </div>
-      </div>
-      <div class="right">
-        <img src="/images/index/screenshot.png" alt="">
-        <img class="rocket" src="/images/index/rocket.png" alt="">
-      </div>
-      <div class="clear"></div>
+<section class="hero">
+  <div class="wrapper">
+    <h1>Open Source Communication</h1>
+    <div class="left">
+      <h2>On-Premises</h2>
+      <p>
+        Run Rocket.Chat on your infrastructure<br>
+        Complete control of your data and platform
+      </p>
+      <a class="button primary" href="/download">Install Rocket.Chat</a>
     </div>
-  </section>
-</div>
+    <div class="right">
+      <h2>On Rocket.Chat Cloud</h2>
+      <p>
+        Run Rocket.Chat on our scalable &amp; secure cloud <br>
+        Open source without the burden of infrastructure
+      </p>
+      <a class="button secondary" href="/cloud#pricing">Start Your Free Trial</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  </div>
+</section>
 
 <section class="focus community">
   <div class="wrapper">
@@ -57,7 +50,7 @@ redirect_from:
         Rocket.Chat is the leading free open source team chat Slack alternative.
       </p>
       <p>
-        With <strong>{{ site.stars }}k stars on GitHub</strong> and more than <strong>600 contributors</strong>
+        With <strong><span class="star_count">{{site.stars}}k</span> stars on GitHub</strong> and more than <strong>600 contributors</strong>
         across our products, we are the largest and most active open source team chat community.
       </p>
       <p>
@@ -72,11 +65,11 @@ redirect_from:
           </div>
           <div class="stars">
             Stars
-            <span>{{ site.stars }}k</span>
+            <span class="star_count">{{site.stars}}K</span>
           </div>
           <div class="forks">
             Forks
-            <span>{{ site.forks }}k</span>
+            <span class="fork_count">{{site.forks}}K</span>
           </div>
         </a>
         <div class="clear"></div>
@@ -104,7 +97,7 @@ redirect_from:
         <strong>Free</strong> audio and video conferencing, guest access,
         screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor
         authentication (2FA), E2E encryption, SSO, dozens of OAuth providers and
-        <strong>unlimted:</strong>
+        <strong>unlimited:</strong>
       </p>
       <ul>
         <li><div class="img-wrapper"><img src="/images/index/icons/users.svg" alt=""></div>Users</li>
@@ -187,7 +180,7 @@ redirect_from:
       <h2>Customizable</h2>
       <p>
         <strong>Integrations</strong>, <strong>plugins</strong>, <strong>themes</strong>,
-        data importers, powerful <strong>APIs</strong>, <a target="_blank" href="https://rocket.chat/docs">documentation</a>
+        data importers, powerful <strong>APIs</strong>, <a target="_blank" href="https://rocket.chat/docs/">documentation</a>
         and marketplace (coming late 2017).
       </p>
       <p>
@@ -207,7 +200,7 @@ redirect_from:
       <div class="">
         No credit card required, no commitments, stop at anytime
       </div>
-      <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Start Your Free Trial Today</a>
+      <a class="button secondary" href="/cloud#pricing">Start Your Free Trial Today</a>
     </div>
   </div>
 </section>
@@ -240,3 +233,18 @@ redirect_from:
     <div class="clear"></div>
   </div>
 </section>
+<script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     var data = JSON.parse(this.responseText);
+     var stars = Math.round( (data["stargazers_count"] / 1000) * 10 ) / 10;
+     var forks = Math.round( (data["forks_count"] / 1000) * 10 ) / 10;
+     document.getElementsByClassName("star_count")[0].innerHTML = stars + "k";
+     document.getElementsByClassName("star_count")[1].innerHTML = stars + "K";
+     document.getElementsByClassName("fork_count")[0].innerHTML = forks + "K";
+    }
+  };
+  xhttp.open("GET", "https://api.github.com/repos/RocketChat/Rocket.Chat", true);
+  xhttp.send();
+</script>

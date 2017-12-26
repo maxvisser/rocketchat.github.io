@@ -5,12 +5,18 @@ author: Sing Li
 server_release: true
 ---
 
+**WARNING:** BREAKING change when upgrading to 0.60.0. Any user running directly from source/compiled code and upgrading from older versions to 0.60.0 *must* first install [Node.js 8.x](https://nodejs.org/en/download/) in their environment. Rocket.Chat 0.60.0 requires Node 8 to run correctly. If you are using Docker or Snaps just ignore this warning.
+
 ## Rocket.Chat Server Release 0.60.0 Available Immediately
 
 Today, the Rocket.Chat team is delighted to announce the immediate availability of Rocket.Chat server release 0.60.0.
 
 
 This release brings together over a month of features development and bug fixes, and significantly improves the stability and usability of the new UI introduced since 0.59.0.
+
+### Node 8 Support for Developers
+
+Our developers community need to note that this version upgrades Meteor to version 1.6 and brings with it the long awaited Node 8 support.
 
 ### LDAP Improvements and TCA
 
@@ -24,10 +30,6 @@ This release brings together over a month of features development and bug fixes,
 	</p>
 </div>
 <div class="clear"></div>
-
-### Node 8 Support for Developers
-
-Our developers community need to note that this version upgrades Meteor to version 1.6 and brings with it the long awaited node 8 support. This development environment upgrade may introduce breaking changes in your project.
 
 ### LiveChat Agent for Facebook Page's Messenger
 

@@ -67,4 +67,4 @@ Numerous notification improvements are available in this release, including the 
 
 ### More Information on Release 0.60.0
 
-For details of what is included in this exciting 0.60.0 release, please see our [release notes](https://github.com/RocketChat/Rocket.Chat/releases/tag/0.60.0-rc.5).
+For details of what is included in this exciting 0.60.0 release, please see our [release notes](https://github.com/RocketChat/Rocket.Chat/releases/tag/0.60.0).

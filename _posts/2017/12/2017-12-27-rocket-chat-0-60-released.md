@@ -1,6 +1,6 @@
 ---
 title: "Rocket.Chat 0.60.0 Released"
-date: 2017-12-26 10:00:00
+date: 2017-12-27 10:00:00
 author: Sing Li
 server_release: true
 ---

@@ -13,7 +13,6 @@ redirect_from: /partners/
   </div>
 </section>
 
-<!--  Other categories of partners - TODO
 <section class="category">
     <div class="wrapper">
       <h1>Global Resellers</h1>
@@ -24,7 +23,7 @@ redirect_from: /partners/
   <div class="wrapper">  
     <ul class="partners">
     
-      {% for partner in site.data.partners %}
+      {% for partner in site.data.resellers %}
       <li>
         <div style="background-image: url('{{ partner.logo }}')"></div>
         <h2>{{ partner.name }}</h2>
@@ -35,6 +34,7 @@ redirect_from: /partners/
     </ul>
   </div>
 
+ 
   <section class="category">
       <div class="wrapper">
         <h1>Technology Partners</h1>
@@ -45,7 +45,7 @@ redirect_from: /partners/
     <div class="wrapper">  
       <ul class="partners">
       
-        {% for partner in site.data.partners %}
+        {% for partner in site.data.techpartners %}
         <li>
           <div style="background-image: url('{{ partner.logo }}')"></div>
           <h2>{{ partner.name }}</h2>
@@ -56,7 +56,7 @@ redirect_from: /partners/
       </ul>
     </div>
   
-  -->
+  
   
 <section class="category">
     <div class="wrapper">

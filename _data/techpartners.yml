@@ -1,0 +1,29 @@
+- name: Chef
+  description: 
+  website: https://www.chef.io
+  logo: /images/partners/cheflogo.png
+
+- name: Tokenly
+  description:
+  website: https://tokenly.com
+  logo: /images/partners/tokenlylogo.png
+
+- name: Brave
+  description:
+  website: https://brave.com
+  logo: /images/partners/bravelogo.png
+
+- name: KeyCDN
+  description: 
+  website: https://keycdn.com
+  logo: /images/partners/keycdnlogo.png
+
+- name: Rackspace
+  description: 
+  website: https://www.rackspace.com
+  logo: /images/partners/rackspacelogo.png
+
+- name: Google Cloud Platform
+  description: 
+  website: https://cloud.google.com
+  logo: /images/partners/gcplogo.png

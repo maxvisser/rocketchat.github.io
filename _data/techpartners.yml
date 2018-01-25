@@ -1,5 +1,5 @@
 - name: Chef
-  description: 
+  description:
   website: https://www.chef.io
   logo: /images/partners/cheflogo.png
 
@@ -14,16 +14,11 @@
   logo: /images/partners/bravelogo.png
 
 - name: KeyCDN
-  description: 
+  description:
   website: https://keycdn.com
   logo: /images/partners/keycdnlogo.png
 
-- name: Rackspace
-  description: 
-  website: https://www.rackspace.com
-  logo: /images/partners/rackspacelogo.png
-
 - name: Google Cloud Platform
-  description: 
+  description:
   website: https://cloud.google.com
   logo: /images/partners/gcplogo.png

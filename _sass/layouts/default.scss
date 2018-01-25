@@ -81,17 +81,6 @@ table {
       min-height: 80px;
       vertical-align: top;
     }
-
-    .pricing {
-      margin-top: 1em;
-      font-size: 1.25em;
-
-      span {
-        font-size: 1.5em;
-        font-weight: 600;
-        color: $color-dark;
-      }
-    }
   }
 
   td:nth-child(1) {
@@ -104,6 +93,17 @@ table {
     background: #f7f8fa;
     font-size: 1.2em;
     font-weight: 600;
+  }
+
+  .pricing {
+    margin-top: 1em;
+    font-size: 1.25em;
+
+    span {
+      font-size: 1.5em;
+      font-weight: 600;
+      color: $color-dark;
+    }
   }
 
   span.yes:before {

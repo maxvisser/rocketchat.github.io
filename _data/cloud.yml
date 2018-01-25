@@ -13,7 +13,11 @@ keys:
   backup: Backups
   monitoring: Monitoring and alerts
   reporting: Statistics and reporting
+
   support: Support
+  basic: <a href="../support#support">Basic Support</a>
+  premium: <a href="../support#support">Premium Support</a>
+  uptime: Monthly Uptime Guarantee
 
 small:
   name: Small
@@ -23,14 +27,21 @@ small:
     </div>
     <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Start Trial</a>
     <div class="pricing"><span>$50</span>/month</div>
+
   total: 500
   concurrent: Up to 50
+
   storage: 50 GB
   messages: Unlimited
+
   backup: Daily backup
   monitoring: 24x7
   reporting: Weekly
-  support: Rocket.Chat Cloud SLA
+
+  basic: Included
+  premium: From $749/month
+  uptime: 99.9%
+
 
 medium:
   name: Medium
@@ -40,14 +51,21 @@ medium:
     </div>
     <a class="button secondary" href="https://cloud.rocket.chat/trial/medium">Start Trial</a>
     <div class="pricing"><span>$200</span>/month</div>
+
   total: 5,000
   concurrent: Up to 200
+
   storage: 1 TB
   messages: Unlimited
+
   backup: Twice daily backup
   monitoring: 24x7
   reporting: Daily
-  support: Rocket.Chat Cloud SLA
+
+  basic: Included
+  premium: From $749/month
+  uptime: 99.9%
+
 
 large:
   name: Large
@@ -57,11 +75,17 @@ large:
     </div>
     <a class="button secondary" href="https://cloud.rocket.chat/trial/large">Start Trial</a>
     <div class="pricing"><span>$500</span>/month</div>
+
   total: 50,000
   concurrent: Up to 500
+
   storage: 5 TB
   messages: Unlimited
+
   backup: Hourly backup
   monitoring: 24x7
   reporting: Hourly
-  support: Rocket.Chat Cloud SLA
+
+  basic: Included
+  premium: From $749/month
+  uptime: 99.9%

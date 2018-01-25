@@ -33,7 +33,7 @@ The Blockstack Signature Fund, which is aimed at building a system of open sourc
 
 ### Take part
 
-Teams and individuals can view full details and register for the bounty <a href="(https://www.eventbrite.com/e/signature-bounties-community-messaging-app-registration-41319189809?aff=rocket)" target="_blank">here</a>.
+Teams and individuals can view full details and register for the bounty <a href="https://www.eventbrite.com/e/signature-bounties-community-messaging-app-registration-41319189809?aff=rocket" target="_blank">here</a>.
 
 Participants will benefit directly from the expertise of the Blockstack and Rocket.Chat teams.
 
@@ -41,6 +41,6 @@ The deadline for the project is **16th February**.
 
 ### Support
 
-To help with your developmental efforts, architects and core team members will be available in the <a href="(https://forums.rocket.chat/t/blockstack-announces-usd-25-000-bounty-for-authentication-integration-in-rocket-chat/115)" target="_blank">Rocket.Chat forum</a> and <a href="(https://forum.blockstack.org)" target="_blank">Blockstack forum</a> to answer queries.
+To help with your developmental efforts, architects and core team members will be available in the <a href="https://forums.rocket.chat/t/blockstack-announces-usd-25-000-bounty-for-authentication-integration-in-rocket-chat/115" target="_blank">Rocket.Chat forum</a> and <a href="https://forum.blockstack.org" target="_blank">Blockstack forum</a> to answer queries.
 
 In early Febraury, both Rocket.Chat and Blockstack will be holding out-of-office hours to provide consultation to registered teams.

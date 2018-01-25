@@ -1,33 +1,52 @@
 keys:
   description:
-  response: Response time
-  critical: Critical support SLA
-  self-help: Self help resources
+
+  pricing: <span id="pricing">Pricing</span>
+  onpremise: On-premise
+  cloud: Rocket.Chat Cloud
+
+  sla: Support SLA
+  critical: Critical business impact
+  normal: Normal business impact
+  minimum: Minimal business impact
+
+  contact: Contact
+  resources: Self help resources
   ticket: Online ticket creation
+  email: Email support
   chat: 24x7 chat support
   phone: 24x7 phone support
-  on-boarding: Account on-boarding
-  migration: Migration assistance
-  product: Direct access to product team
 
-    
+  extras: Extras
+  onboarding: Account onboarding
+  migration: Migration assistance
+  access: Direct access to product team
+
+
 basic:
   name: Basic
   description: |
     <div class="description">
       Get Basic support and have the Rocket.Chat experts on-hand in case of an emergency
     </div>
-    <a class="button highlight" href="/contact/">Contact Us</a>
-    <div class="pricing">From <span>$525</span>/month</div>
-  response: 1 business day
+    <a class="button secondary" href="/contact/">Contact Us</a>
+
+  onpremise: <div class="pricing">From <span>$525</span>/month</div>
+  cloud: <div class="pricing">Included</div>
+
   critical: 1 hour
-  self-help: <span class="yes"></span>
+  normal: 12 hour business day
+  minimum: 2 business days
+
+  resources: <span class="yes"></span>
   ticket: <span class="yes"></span>
+  email:
   chat:
   phone:
-  on-boarding:
+
+  onboarding:
   migration:
-  product:
+  access:
 
 
 premium:
@@ -36,14 +55,21 @@ premium:
     <div class="description">
       For larger teams who need quicker responses and 24x7 phone support
     </div>
-    <a class="button highlight" href="/contact/">Contact Us</a>
-    <div class="pricing">From <span>$1275</span>/month</div>
-  response: 4 hour, business day
+    <a class="button secondary" href="/contact/">Contact Us</a>
+
+  onpremise: <div class="pricing">From <span>$749</span>/month</div>
+  cloud: <div class="pricing">From <span>$1275</span>/month</div>
+
   critical: 30 min
-  self-help: <span class="yes"></span>
+  normal: 8 hour business day
+  minimum: 1 business day
+
+  resources: <span class="yes"></span>
   ticket: <span class="yes"></span>
+  email: <span class="yes"></span>
   chat: <span class="yes"></span>
   phone: <span class="yes"></span>
-  on-boarding: <span class="yes"></span>
+
+  onboarding: <span class="yes"></span>
   migration: <span class="yes"></span>
-  product: <span class="yes"></span>
+  access: <span class="yes"></span>

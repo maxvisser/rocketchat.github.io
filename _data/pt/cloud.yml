@@ -1,91 +1,91 @@
 keys:
   description:
 
-  users: Users
-  total: Total users
-  concurrent: Concurrent users
+  users: Usuários
+  total: Total de Usuários
+  concurrent: Usuários simultâneos
 
-  usage: Usage
-  storage: Storage
-  messages: Messages
+  usage: Uso
+  storage: Espaço
+  messages: Mensagens
 
-  other: Services
+  other: Serviços
   backup: Backups
-  monitoring: Monitoring and alerts
-  reporting: Statistics and reporting
+  monitoring: Monitoramento e alertas
+  reporting: Estatísticas e relatórios
 
-  support: Support
+  support: Suporte
   basic: <a href="../support#support">Basic Support</a>
   premium: <a href="../support#support">Premium Support</a>
-  uptime: Monthly Uptime Guarantee
+  uptime: Garantia Mensal de Disponibilidade
 
 small:
-  name: Small
+  name: Pequeno
   description: |
     <div class="description">
-      For new teams or small communities
+      Para novos times ou pequenas comunidades
     </div>
-    <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Start Trial</a>
-    <div class="pricing"><span>$50</span>/month</div>
+    <a class="button secondary" href="https://cloud.rocket.chat/trial/small">Inicie Teste</a>
+    <div class="pricing"><span>$50</span>/mês</div>
 
   total: 500
-  concurrent: Up to 50
+  concurrent: Até 50
 
   storage: 50 GB
-  messages: Unlimited
+  messages: Ilimitadas
 
-  backup: Daily backup
+  backup: Backup diário
   monitoring: 24x7
-  reporting: Weekly
+  reporting: Semanalmente
 
-  basic: Included
-  premium: From $749/month
+  basic: Incluso
+  premium: A partir de $749/mês
   uptime: 99.9%
 
 
 medium:
-  name: Medium
+  name: Médio
   description: |
     <div class="description">
-      For growing teams or communities with increased activity
+      Para times em crescimento ou comunidades com aumento na atividade
     </div>
-    <a class="button secondary" href="https://cloud.rocket.chat/trial/medium">Start Trial</a>
+    <a class="button secondary" href="https://cloud.rocket.chat/trial/medium">Inicie Teste</a>
     <div class="pricing"><span>$200</span>/month</div>
 
   total: 5,000
-  concurrent: Up to 200
+  concurrent: Até 200
 
   storage: 1 TB
-  messages: Unlimited
+  messages: Ilimitadas
 
-  backup: Twice daily backup
+  backup: Backup duas vezes ao dia
   monitoring: 24x7
-  reporting: Daily
+  reporting: Diariamente
 
-  basic: Included
-  premium: From $749/month
+  basic: Incluso
+  premium: A partir de $749/mês
   uptime: 99.9%
 
 
 large:
-  name: Large
+  name: Grande
   description: |
     <div class="description">
-      For active or large enterprises or communities
+      Para empreendimentos e comunidades grandes e ativos
     </div>
-    <a class="button secondary" href="https://cloud.rocket.chat/trial/large">Start Trial</a>
-    <div class="pricing"><span>$500</span>/month</div>
+    <a class="button secondary" href="https://cloud.rocket.chat/trial/large">Inicie Teste</a>
+    <div class="pricing"><span>$500</span>/mês</div>
 
   total: 50,000
-  concurrent: Up to 500
+  concurrent: Até 500
 
   storage: 5 TB
-  messages: Unlimited
+  messages: Ilimitadas
 
-  backup: Hourly backup
+  backup: Backup a cada hora
   monitoring: 24x7
-  reporting: Hourly
+  reporting: De hora em hora
 
-  basic: Included
-  premium: From $749/month
+  basic: Incluso
+  premium: A partir de $749/mês
   uptime: 99.9%

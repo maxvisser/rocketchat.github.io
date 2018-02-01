@@ -11,10 +11,12 @@ body.post {
   h1 {
     padding: 0.5em 0 0.75em;
     font-size: 3em;
+    clear: both;
   }
 
   h2, h3, h4 {
     padding-top: 0.75em;
+    clear: both;
   }
 
   .meta {
@@ -41,6 +43,11 @@ body.post {
 
     a img {
       display: inline;
+    }
+
+    iframe {
+      margin: 0 auto;
+      display: block;
     }
   }
 

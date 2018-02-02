@@ -12,7 +12,7 @@ keys:
   other: Services
   backup: Backups
   monitoring: Monitoring and alerts
-  reporting: Statistics and reporting
+  reporting: Reporting
 
   support: Support
   basic: <a href="../support#support">Basic Support</a>

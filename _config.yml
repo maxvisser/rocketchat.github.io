@@ -9,7 +9,7 @@ paginate_path: /blog/page/:num/
 paginate: 8
 
 # bump if alterting styles
-version: 29
+version: 31
 
 # read speed
 wpm: 160
@@ -26,7 +26,7 @@ defaults:
       layout: post
       class: post
   - scope:
-      path: "handbook"
+      path: handbook
     values:
       layout: en/page
       class: handbook

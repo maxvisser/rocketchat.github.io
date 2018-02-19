@@ -12,7 +12,7 @@ keys:
   other: Services
   backup: Backups
   monitoring: Monitoring and alerts
-  reporting: Statistics and reporting
+  reporting: Reporting
 
   support: Support
   basic: <a href="../support#support">Basic Support</a>
@@ -35,7 +35,7 @@ small:
   messages: Unlimited
 
   backup: Daily backup
-  monitoring: 24x7
+  monitoring: 24/7
   reporting: Weekly
 
   basic: Included
@@ -59,7 +59,7 @@ medium:
   messages: Unlimited
 
   backup: Twice daily backup
-  monitoring: 24x7
+  monitoring: 24/7
   reporting: Daily
 
   basic: Included
@@ -83,7 +83,7 @@ large:
   messages: Unlimited
 
   backup: Hourly backup
-  monitoring: 24x7
+  monitoring: 24/7
   reporting: Hourly
 
   basic: Included

@@ -1,0 +1,133 @@
+---
+layout: en/default
+class: support
+title: "On-Premises, Download &amp; Install, Server &amp; Mobile Apps"
+description: |
+  Download &amp; install the latest stable or release candidate version of
+  Rocket.Chat on your desktop, server, cloud or mobile phone.
+
+permalink: /support
+
+redirect_from:
+  - /support/
+  - /help
+  - /help/
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <h1>Rocket.Chat Support</h1>
+    <em>
+      Support from the experts to keep your team connected
+    </em>
+  </div>
+</section>
+
+{% assign support = site.data.en.support %}
+
+<section id="support">
+  <div class="wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th><h2>{{ support.basic.name }}</h2></th>
+          <th><h2>{{ support.premium.name }}</h2></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        {% for key in support.keys %}
+
+        {% assign k = key[0] %}
+
+        <tr>
+        {% unless support.premium[k] %}
+          <td class="seperator" colspan="3">
+            {{ key[1] }}
+          </td>
+        {% else %}
+          <td>{{ key[1] }}</td>
+          <td>{{ support.basic[k] }}</td>
+          <td>{{ support.premium[k] }}</td>
+        {% endunless %}
+        </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<section>
+  <div class="wrapper">
+    <h2>Rocket.Chat support pricing definitions</h2>
+    <ul>
+      <div class="left">
+        <li>
+          <h3>Pricing</h3>
+          <p>
+            Displayed prices are for an annual contract.
+          </p>
+        </li>
+        <li>
+          <h3>Point of contact</h3>
+          <p>
+              Support plans do not include end users. Once a support plan has been purchased it is the business's responsiblity to inform Rocket.Chat who will be their internal point of contact for the support plan. Up to three contacts are permitted per organization.
+          </p>
+        </li>
+        <li>
+          <h3>Self-help resources</h3>
+          <p>
+              Rocket.Chat provides user information for adminstrators,
+              end users and developers at
+              <a target="_"blank href="https://rocket.chat/docs/">https://rocket.chat/docs</a>.
+          </p>
+        </li>
+        <li>
+          <h3>Consultations with the product team</h3>
+          <p>
+            Premium plan subscribers are entitled to a one-hour consultation each month with a core team member. Additional hours can be purchased for a fee.
+          </p>
+        </li>
+      </div>
+      <div class="right">
+        <li>
+          <h3>Critical business impact</h3>
+          <p>
+            An issue affecting Rocket.Chat that prevents a business from operating as normal.
+            <br>
+            <br>
+            <b></b>Examples include</b></b>: data loss or corruption; system crashes; loss of critical functionality; large numbers of users unable to work.
+            <br>
+            <br>
+           The first response time is 1 hour for the Basic plan and 30 minutes for the Premium plan.
+          </p>
+        </li>
+        <li>
+          <h3>Normal business impact</h3>
+          <p>
+            An issue affecting Rocket.Chat that causes a partial or non-critical loss of functionality.
+            <br>
+            <br>
+            Examples include: some system functions are unavailable; minor performance problems; small numbers of users unable to work.
+            <br>
+            <br>
+            The first reponse time is 12 hours for the Basic plan and 8 hours for the Premium plan.
+          </p>
+        </li>
+        <li>
+          <h3>Minimal business impact</h3>
+          <p>
+            A question, feature request or documentation issue that does not have an impact on performance.
+            <br>
+            <br>
+            The first response time is 2 business days for the Basic plan and 1 business day for the Premium plan.
+          </p>
+        </li>
+      </div>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</section>

@@ -28,7 +28,7 @@ defaults:
   - scope:
       path: handbook
     values:
-      layout: en/page
+      layout: en/handbook
       class: handbook
       title: Rocket.Chat Handbook
 

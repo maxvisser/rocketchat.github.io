@@ -15,7 +15,7 @@ keys:
   reporting: Estatísticas e relatórios
 
   support: Suporte
-  basic: <a href="../support#support">Suport Básico</a>
+  basic: <a href="../support#support">Suporte Básico</a>
   premium: <a href="../support#support">Suporte Premium</a>
   uptime: Garantia Mensal de Disponibilidade
 
@@ -50,7 +50,7 @@ medium:
       Para times em crescimento ou comunidades com aumento na atividade
     </div>
     <a class="button secondary" href="https://cloud.rocket.chat/trial/medium">Inicie Teste</a>
-    <div class="pricing"><span>$200</span>/month</div>
+    <div class="pricing"><span>$200</span>/mês</div>
 
   total: 5,000
   concurrent: Até 200

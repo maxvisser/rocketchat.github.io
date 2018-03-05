@@ -1,42 +1,42 @@
 keys:
   description:
 
-  pricing: <span id="pricing">Pricing</span>
+  pricing: <span id="pricing">Prix</span>
   onpremise: On-premise
   cloud: Rocket.Chat Cloud
 
-  sla: Support SLA
-  critical: Critical business impact
-  normal: Normal business impact
-  minimum: Minimal business impact
+  sla: APS Assistance
+  critical: Impact Administratif Critique
+  normal: Impact Administratif Normal
+  minimum: Impact Administratif Minime
 
-  contact: Contact
-  resources: Self-help resources
-  ticket: Online ticket creation
-  email: Email support
-  chat: 24/7 chat support
-  phone: 24/7 phone support
+  contact: Contacte
+  resources: Ressources de développement personnel
+  ticket: Création de ticket en ligne
+  email: Assistance par email
+  chat: Assistance chat 24/7
+  phone: Assistance téléphonique 24/7
 
-  extras: Extras
-  onboarding: Account onboarding
-  migration: Migration assistance
-  access: Direct access to product team
+  extras: Les plus
+  onboarding: Intégration du votre compte
+  migration: Assistance pour la migration de logiciels
+  access: Accès direct à l'équipe chargé de produit
 
 
 basic:
-  name: Basic
+  name: Basique
   description: |
     <div class="description">
-      For smaller teams who need basic support and help in case of emergencies
+      Pour les petites équipes qui ont besoin d'assistance basique et de l'aide en cas d'urgence
     </div>
-    <a class="button secondary" href="/contact/">Contact Us</a>
+    <a class="button secondary" href="/contact/">Contactez-nous</a>
 
-  onpremise: <div class="pricing">From <span>$525</span>/month</div>
-  cloud: <div class="pricing">Included</div>
+  onpremise: <div class="pricing">À partir de <span>$525</span>/month</div>
+  cloud: <div class="pricing">Inclus</div>
 
-  critical: 1 hour
-  normal: 12 hours
-  minimum: 2 business days
+  critical: 1 heure
+  normal: 12 heures
+  minimum: 2 jours ouvrables
 
   resources: <span class="yes"></span>
   ticket: <span class="yes"></span>
@@ -53,16 +53,16 @@ premium:
   name: Premium
   description: |
     <div class="description">
-      For larger teams who need a quicker response and 24/7 phone support
+      Pour les équipes plus larges qui nécessitent un délai de réponse plus rapide et une assistance telephonique 24/7
     </div>
-    <a class="button secondary" href="/contact/">Contact Us</a>
+    <a class="button secondary" href="/contact/">Contactez-nous</a>
 
   onpremise: <div class="pricing">From <span>$1275</span>/month</div>
   cloud: <div class="pricing">From <span>$749</span>/month</div>
 
   critical: 30 minutes
-  normal: 8 hours
-  minimum: 1 business day
+  normal: 8 heures
+  minimum: 1 jour ouvrable
 
   resources: <span class="yes"></span>
   ticket: <span class="yes"></span>

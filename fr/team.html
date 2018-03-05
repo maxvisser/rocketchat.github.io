@@ -1,17 +1,17 @@
 ---
 layout: fr/default
 class: team
-permalink: /team
+permalink: /fr/team
 redirect_from:
-  - /team/
+  - /fr/team/
   - /rocket-team
   - /rocket-team/
 ---
 
 <section class="hero">
   <div class="wrapper">
-    <h1>Team Rocket.Chat</h1>
-    <em>The core team keeping the rockets firing</em>
+    <h1>L'équipe Rocket.Chat</h1>
+    <em>L'équipe qui continue de lancer nos fusées</em>
   </div>
 </section>
 
@@ -19,18 +19,15 @@ redirect_from:
   <div class="wrapper">
     <div class="left">
       <p>
-        What started simply as a proof of concept code published to GitHub almost
-        two years ago has exploded into the ever-evolving open source platform
-        Rocket.Chat is today.
+        Un code de preuve-de-concept publié sur GitHub il y à presque trois ans
+        est aujourd'hui devenu Rocket.Chat, une plateforme open source en constante évolution.
       </p>
       <p>
-        While we have the developer community as a whole to
-        thank for that, our core team members have worked zealously to spur on growth
-        and keep Rocket.Chat always aimed towards the next level. Get to know each of
-        them below.
+        Bien que nous ayons la communauté des développeurs dans son ensemble à remercier pour cela,
+        les membres de notre équipe ont travaillé assidûment pour assurer la croissance de Rocket.Chat ainsi que son ambition de toujours viser plus haut.
       </p>
       <p>
-        <a href="http://localhost:4000/handbook/">Team Handbook</a>  (WIP).
+        <a href="http://localhost:4000/handbook/">Manuel d'Équipe</a>  (travail en cours).
       </p>
     </div>
     <div class="right">
@@ -42,7 +39,7 @@ redirect_from:
 <section>
   <div class="wrapper">
     <ul class="team">
-      {% for member in site.data.team %}
+      {% for member in site.data.fr.team %}
       <li>
         {% if member.github_username %}
           <a href="https://github.com/{{ member.github_username }}">

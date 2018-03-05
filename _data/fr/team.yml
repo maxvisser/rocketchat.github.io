@@ -1,0 +1,172 @@
+- name: Gabriel Engel
+  title: Fondateur &amp; PDG
+  github_username: engelgabriel
+  department:
+  username: gabriel.engel
+  photo: yes
+
+- name: Rodrigo Nascimento
+  title: Directeur Technique
+  github_username: rodrigok
+  department: Technologie
+  username: rodrigo.nascimento
+  photo: yes
+
+- name: Marcelo Schmidt
+  title: Chef de l'exploitation
+  github_username: marceloschmidt
+  department: Operations
+  username: marcelo.schmidt
+  photo: yes
+
+- name: Diego Sampaio
+  title: Ingénieur Principal
+  github_username: sampaiodiego
+  department:
+  username: diego.sampaio
+  photo: yes
+
+- name: Patricia Ferreira
+  title: Coordination Administrative
+  github_username:
+  department: Administration
+  username: patricia.ferreira
+  photo: yes
+
+- name: Sing-Li
+  title: Vice-Président Principal, Partenariats et Opportunités
+  github_username: Sing-Li
+  github_uid: 122633
+  department: Ventes
+  username: sing.li
+
+- name: Rafael Kellermann Streit
+  title: Ingénieur Principal, Portable/Mobile
+  github_username: rafaelks
+  department: Mobile
+  username: rafael.kellermann
+  photo: yes
+
+- name: Martin Schoeler
+  title: Ingénieur Full Stack
+  github_username: MartinSchoeler
+  department: Technologie
+  username: martin.schoeler
+  photo: yes
+
+- name: Aaron Ogle
+  title: Architect Cloud Principal
+  github_username: geekgonecrazy
+  github_uid: 51996
+  department: Cloud
+  username: aaron.ogle
+
+- name: Bradley Hilton
+  title: Specialiste, Interconnectivité
+  github_username: graywolf336
+  department: Technologie
+  username: bradley.hilton
+  photo: yes
+
+- name: Karl Prieb
+  title: Ingénieur Principal, Front End
+  github_username: karlprieb
+  department: Technologie
+  username: karl.prieb
+  photo: yes
+
+- name: Diego Dorgam
+  title: Ingénieur, Ventes et Bots
+  github_username: diegodorgam
+  github_uid: 12052193
+  department: Ventes
+  username: diego.dorgam
+
+- name: Guilherme Gazzo
+  title: Ingénieur Full Stack
+  github_username: ggazzo
+  department:
+  username: guilherme.gazzo
+  photo: yes
+
+- name: Gabriel Delavald
+  title: Ingénieur Front End
+  github_username: gdelavald
+  department: Technologie
+  username: gabriel.delavald
+  photo: yes
+
+- name: Ramon Nobre
+  title: Stagiaire, Ventes
+  github_username: RamonNobre
+  department: Ventes
+  username: ramon.nobre
+  photo: yes
+
+- name: Sean Packham
+  title: Vice-Président, Marketing
+  github_username: SeanPackham
+  github_uid: 3830791
+  department: Marketing
+  username: sean.packham
+
+- name: Filipe Brito
+  title: Ingénieur Android
+  github_username: filipedelimabrito
+  github_uid: 11776825
+  department: Developpement
+  username: filipe.brito
+
+- name: Lucio Maciel
+  title: Ingénieur Android
+  github_username: luciofm
+  github_uid: 224255
+  department: Mobile
+  username: lucio.maciel
+
+- name: Arthur Della Giustina
+  title: Directeur Créatif
+  github_username: arthurgiustina
+  department: Ventes
+  username: arthur.giustina
+  photo: yes
+
+- name: Júlia Grala
+  title: Bdéveloppement commercial
+  github_username: juliagrala
+  department: Ventes
+  username: julia.grala
+  photo: yes
+
+- name: Bernardo Trevisan
+  title: Stagiaire, Marketing
+  github_username: bernardoetrevisan
+  department: Operations
+  username: bernardo.trevisan
+  photo: yes
+
+- name: Leonardo Aramaki
+  title: Ingénieur Android
+  github_username: leonardoaramaki
+  github_uid: 625702
+  department: Mobile
+  username: leonardo.aramaki
+
+- name: Matheus Cardoso
+  title: Ingénieur iOS
+  github_username: cardoso
+  department: Mobile
+  username: matheus.cardoso
+  photo: yes
+
+- name: Louise Message
+  title: Assistante Junior, Marketing
+  department: Marketing
+  username: louise.message
+  photo: yes
+
+  - name: Isabella Russell
+  title: Rédactrice, Marketing
+  department: Marketing
+  username: louise.message
+  photo: yes

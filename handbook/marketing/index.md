@@ -14,7 +14,7 @@
   - [Blog posts](#blog-posts)
   - [Social updates](#social-updates)
 - [What we publish](#what-we-publish)
-  - [Content from Rocket.Chat team](#content-from-rocket-chat-team)
+  - [Content from Rocket.Chat team](#content-from-rocketchat-team)
   - [Content from the community](#content-from-the-community)
   - [Assessment criteria](#assessment-criteria)
   - [Marketing team approval](#marketing-team-approval)

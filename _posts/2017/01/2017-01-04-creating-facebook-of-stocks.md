@@ -1,5 +1,5 @@
 ---
-title: TechMeetsTrader:/ a social network for traders
+title: TechMeetsTrader: a social network for traders
 categories:
   - Partnerships
   - Community
@@ -28,9 +28,9 @@ San Diego-based startup TechMeetsTrader is determined to unite lone wolves throu
 
 TechMeetsTrader is:
 
-- A community where investors can fully discuss what they're trading, and the hows and whys
-- A community where investors can maximize their success by collaborating with and learning from one another
-- A community where investors can participate in what matters most to them - whether it's stocks or options investing - by creating and joining groups.    
+* A community where investors can fully discuss what they're trading, and the hows and whys
+* A community where investors can maximize their success by collaborating with and learning from one another
+* A community where investors can participate in what matters most to them - whether it's stocks or options investing - by creating and joining groups.
 
 Ultimately, TechMeetsTrader aims to streamline the process of going from idea to profit.
 
@@ -38,9 +38,9 @@ Ultimately, TechMeetsTrader aims to streamline the process of going from idea to
 
 The TechMeetsTrader team has been working with Rocket.Chat during 2016 to create this unique investment community platform. As Albert Frimpong, TechMeetTrader's CTO explains:
 
->"We loved the interactions with the Rocket.Chat team and community. It seemed as if everything we needed was already in motion from the community. For example, at one point channels and direct messages were private to the point where the Giphy integration would only work in public channels.
+> "We loved the interactions with the Rocket.Chat team and community. It seemed as if everything we needed was already in motion from the community. For example, at one point channels and direct messages were private to the point where the Giphy integration would only work in public channels.
 
->I looked through the Rocket.Chat issues for 10 minutes and BAM... there's a pull request to open the channels for bots to be able to post." 
+> I looked through the Rocket.Chat issues for 10 minutes and BAM... there's a pull request to open the channels for bots to be able to post."
 
 Although most of Rocket.Chat's features are important to the team, groups are pivotal: "groups is where true collaboration happens for everyone using TechMeetsTrader."
 

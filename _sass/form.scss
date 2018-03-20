@@ -1,0 +1,49 @@
+@mixin placeholder($color) {
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &::-moz-placeholder {
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
+  }
+}
+
+.input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 1.4;
+  color: $space;
+
+  display: inline-block;
+  padding: 0.9em 1.14em 1em;
+  width: 100%;
+  margin-bottom: 1em;
+
+  border-radius: 2px;
+  border: 1.5px solid $grey-smoke;
+
+  transition: border $tranitions;
+
+  &[disabled],
+  &.disabled {
+    background: $grey-bg;
+    color: $grey-smoke-dark;
+    @include placeholder($grey-smoke-dark);
+  }
+
+  &:focus {
+    border-color: $grey-light;
+  }
+
+  @include placeholder($grey);
+}

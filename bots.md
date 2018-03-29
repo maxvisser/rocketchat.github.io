@@ -37,6 +37,7 @@ redirect_from: /bots/
 <section>
   <div class="wrapper">
     <div class="left">
+      <!--
       <h2>Documentation</h2>
       <p>
         Learn to <a href="">administrate</a> bots and their access to your users and channels.
@@ -44,9 +45,14 @@ redirect_from: /bots/
       <p>
         Our <a href="">adapter docs</a> support community development for all popular bot builders and frameworks to run on Rocket.Chat.
       </p>
+      -->
+      <h2>Design guide</h2>
+      <p>
+        To give our community a head start in creating the highest standard user experiences, we’re working on demo implementations of bot features and patterns for common interactions. Coming soon.
+      </p>
     </div>
     <div class="right">
-        <h2>Feature and Roadmap</h2>
+        <h2>Feature and roadmap</h2>
         <p>
           Rocket.Chat has supported bots since the beginning, with our internal Hubot and adapter, enabling chat-ops workflows with multi-channel, multi-user, public and private interactions.
         </p>
@@ -61,24 +67,28 @@ redirect_from: /bots/
 <section>
   <div class="wrapper">
     <div class="left">
-      <h2>Design Guide</h2>
+      <h2>We need your help</h2>
       <p>
-        To give our community a head start in creating the highest standard user experiences, we’re working on demo implementations of bot features and patterns for common interactions. Coming soon.
-      </p>
-    </div>
-    <div class="right">
-      <h2>Getting Involved</h2>
-      <p>
-        We need your participation to inform and validate our priorities. Please follow <a href="">this link</a> if you would like to be involved or even just get updates.
+        We need your participation to inform and validate our priorities. Please follow
+        <a href="">this link</a> if you would like to be involved or even just get updates.
       </p>
       <p>
         You can also join the discussion on our <a href="https://open.rocket.chat/channel/bots">#bots channel</a>.
+      </p>
+    </div>
+    <div class="right">
+      <h2>What do you get</h2>
+      <p>
+        By participating in our bot survey you can contribute to the development roadmap, get
+        involved in the discussion to propose features, adapters etc and get early access to the
+        improved bot platform.
       </p>
     </div>
   </div>
   <div class="clear"></div>
 </section>
 
+<!--
 <section>
   <div class="wrapper">
     <div class="left">
@@ -123,3 +133,5 @@ redirect_from: /bots/
   </div>
   <div class="clear"></div>
 </section>
+
+-->

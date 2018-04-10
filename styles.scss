@@ -1,9 +1,15 @@
 ---
 ---
 
-@import "reset";
-@import "variables";
-@import "typography";
-@import "grid";
-@import "buttons";
-@import "form";
+@import "ui/reset";
+@import "ui/variables";
+@import "ui/typography";
+@import "ui/grid";
+@import "ui/buttons";
+@import "ui/form";
+
+@import "ui/header";
+@import "ui/footer";
+
+// Pages
+@import "pages/home"

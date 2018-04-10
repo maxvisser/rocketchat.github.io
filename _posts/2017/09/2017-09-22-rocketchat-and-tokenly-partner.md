@@ -25,10 +25,7 @@ Adam Levine, Tokenly CEO, is equally excited about the future opportunities of t
 
 > "Rocket.Chat has been an amazing partner, and we're very excited to be launching the first wave of our collaboration with Token Controlled Access for Rocket.chat channels. What started as a way to let Crypto communities create members-only social spaces with access governed by the blockchain has opened the door to many empowering possibilities."
 
-**Rocket.Chat** is the leading free and open source team chat alternative to Slack with more than 600 contributors and nearly 14,000 stars on GitHub.
-
-Developed in Meteor and Javascript, Rocket.chat supports over 30 server installation methods alongside its desktop, mobile and web clients.
-
+**Rocket.Chat** is the leading free and open source team chat alternative to Slack. Rocket.Chat is more than just a team chat platform, it is a passionate and active open source community of contributors. 
 **Tokenly** is a blockchain solutions company focusing on the development of token applications that empower token access, ownership and buying power.
 
 Tokenpass is a universal username and blockchain agnostic token management hub, empowering developers and users with token access, lending, rentals and more. For more information, please visit <a href="https://tokenly.com/" target="_blank">https://tokenly.com</a>.

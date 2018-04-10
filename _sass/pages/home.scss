@@ -150,3 +150,50 @@ body.index {
     }
   }
 }
+
+.home-community_list {
+  position: relative;
+  padding: 2em $gutter 0;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 0;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background-image: linear-gradient(
+      -90deg,
+      #030c1a 0%,
+      #121f33 28%,
+      #121f33 74%,
+      #030c1a 100%
+    );
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.home-community_item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2em;
+
+  @media screen and (min-width: $tablet) {
+    max-width: 21em;
+    padding: 0;
+  }
+
+  img {
+    max-width: 4em;
+    margin-right: 1em;
+  }
+
+  p {
+    margin: 0;
+  }
+}

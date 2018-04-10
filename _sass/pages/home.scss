@@ -1,3 +1,152 @@
 body.index {
   background: $space;
 }
+
+//
+//  Hero section
+//
+.home-hero {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    min-height: 70vh;
+  }
+
+  @media screen and (min-width: 75em) {
+    min-height: 90vh;
+  }
+}
+
+.home-hero_wrap {
+  margin: 3em 0;
+
+  @media screen and (min-width: $tablet) {
+    margin: 6em 0;
+    flex: 0.4;
+  }
+}
+
+.home-hero_image {
+  position: relative;
+  right: -$gutter;
+  margin-bottom: 2em;
+
+  @media screen and (min-width: $tablet) {
+    position: absolute;
+    right: 0;
+    top: 8em;
+    height: calc(70vh - 10em);
+  }
+
+  @media screen and (min-width: 75em) {
+    height: calc(90vh - 10em);
+  }
+}
+
+//
+//  Community section
+//
+.home-community {
+  background-color: $space-b;
+  border-radius: 2px;
+  position: relative;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: flex-end;
+    background-position: left center;
+    background-size: auto 100%;
+    background-image: url("../images/index/join-community.jpg");
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 50%;
+      bottom: 0;
+      background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0%,
+        $space-b 100%
+      );
+    }
+  }
+}
+
+.home-community_wrap {
+  padding: 2em $gutter;
+  font-size: 14px;
+  position: relative;
+
+  @media screen and (min-width: $tablet) {
+    padding: 4em 0;
+    flex: 0.4;
+    padding-right: 4em;
+  }
+}
+
+.home-community_github {
+  display: inline-flex;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 45%;
+  margin-right: 1em;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 3.2;
+  transition: all 0.3s ease;
+  background: #2f3f5a;
+  color: #fff;
+
+  &:hover {
+    background: $grey-dark;
+  }
+
+  span:first-child {
+    background: $grey-dark;
+    font-weight: normal;
+  }
+
+  span {
+    flex: 1;
+  }
+
+  img {
+    display: inline-block;
+    position: relative;
+    top: 0.2em;
+    margin-right: 0.5em;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    img {
+      opacity: 0.7;
+    }
+  }
+}
+
+.home-community_github-link {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 1.5em;
+  transition: all 0.3s ease;
+  color: #fff;
+
+  img {
+    display: inline-block;
+    position: relative;
+    top: 0.1em;
+    margin-right: 0.5em;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    color: $grey-light;
+
+    img {
+      opacity: 0.7;
+    }
+  }
+}

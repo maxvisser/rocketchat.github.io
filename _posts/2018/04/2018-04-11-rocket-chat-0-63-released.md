@@ -7,21 +7,38 @@ author: Sean Packham
 cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg
 ---
 
+Thanks to our passionate community who contributed all our headline features and 50% of the big fixes this realease!
+
 <ul>
-  <li><a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/9947">#9947</a> GDPR Right to be forgotten</li>
-  <li><a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/10086">#10086</a> Reply previews</li>
-  <li><a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/9726">#9726</a> mp3 encoded audio recordings</li>
-  <li><a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/9732">#9732</a> Ability to set 2FA max delta</li>
+  <li>
+    <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/9947">#9947</a> by
+    <a target="_blank" href="https://github.com/Hudell">@Hudell - Pierre H. Lehnen</a>
+    : GDPR Right to be forgotten
+  </li>
+  <li>
+    <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/9726">#9726</a> by
+    <a target="_blank" href="https://github.com/kb0304">@kb0304 - Karan Bedi</a>
+    : MP3 encoded audio recordings
+  </li>
+  <li>
+    <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/9732">#9732</a> by
+    <a target="_blank" href="https://github.com/Hudell">@Hudell - Pierre H. Lehnen</a>
+    : Ability to set 2FA max delta
+  </li>
 </ul>
+
+Rocket.Chat core team member
+<a target="_blank" href="https://github.com/MarcosSpessatto">@MarcosSpessatto - Marcos Spessatto Defendi</a>
+has added a number of new API endpoints, for a breakdown take a look at the full
+[release notes](https://github.com/RocketChat/Rocket.Chat/releases/tag/0.63.0).
 
 ## GDPR right to be forgotten
 
-When removing a users admins can choose to keep all their messages, delete all their messages) or unlink the messages from the user.
+Admins can configure what what will happen to a user's messages when they delete their accounts:
 
-## Reply previews
-
-todo
-
+- Keep: The user will be delted but their messages will be kept.
+- Delete: The user and their messages will be deleted.
+- Unlink: The user will be deleted, their messages kept but not linked to an account.
 
 ## Release changelog
 

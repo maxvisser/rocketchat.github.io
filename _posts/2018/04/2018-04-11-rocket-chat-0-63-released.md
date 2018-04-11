@@ -17,6 +17,11 @@ fixes this realease!
     : GDPR Right to be forgotten
   </li>
   <li>
+    <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/10086">#10086</a>
+    <a target="_blank" href="https://github.com/ubarsaiyan">@ubarsaiyan - Utkarsh Barsaiyan</a>
+    : Preview reply-to message
+  </li>
+  <li>
     <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/pull/9726">#9726</a> by
     <a target="_blank" href="https://github.com/kb0304">@kb0304 - Karan Bedi</a>
     : MP3 encoded audio recordings
@@ -40,6 +45,15 @@ Admins can configure what what will happen to a user's messages when they delete
 - Keep: The user will be deleted but their messages will be kept.
 - Delete: The user and their messages will be deleted.
 - Unlink: The user will be deleted, their messages kept but not linked to an account.
+
+## Preview reply-to message
+
+If a user has disabled `Collapse Embedded Media by Default` they will be able to preview the
+message they are replying.
+
+<br>
+
+![](/images/posts/2018/04/2018-04-11-rocket-chat-0-63-released/reply-preview.png)
 
 ## Release changelog
 

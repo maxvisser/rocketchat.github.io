@@ -37,7 +37,7 @@ has added a number of new API endpoints, for a breakdown take a look at the full
 
 Admins can configure what what will happen to a user's messages when they delete their accounts:
 
-- Keep: The user will be delted but their messages will be kept.
+- Keep: The user will be deleted but their messages will be kept.
 - Delete: The user and their messages will be deleted.
 - Unlink: The user will be deleted, their messages kept but not linked to an account.
 

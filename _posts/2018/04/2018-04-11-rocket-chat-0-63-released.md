@@ -49,7 +49,7 @@ Admins can configure what what will happen to a user's messages when they delete
 ## Preview reply-to message
 
 If a user has disabled `Collapse Embedded Media by Default` they will be able to preview the
-message they are replying.
+message they are replying to.
 
 <br>
 

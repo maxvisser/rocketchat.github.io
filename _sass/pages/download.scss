@@ -1,3 +1,48 @@
 body.download {
   background: $space;
 }
+
+.download-apps {
+  margin-bottom: 5em;
+
+  @media (min-width: $tablet) {
+    margin-bottom: 10em;
+  }
+}
+
+.download-mobile {
+  margin-bottom: 5em;
+  background-repeat: no-repeat;
+  background-image: url("/images/download/mobile-haft.png");
+  background-position: center bottom;
+  background-size: auto 20em;
+  padding-bottom: 20em;
+
+  @media (min-width: $tablet) {
+    display: flex;
+    padding-bottom: 0;
+    background-image: url("/images/download/mobile.png");
+    background-size: auto 90%;
+    background-position: right -40% bottom;
+    margin-bottom: 10em;
+
+    .wrap {
+      padding: 2em;
+      flex: 0.3;
+    }
+  }
+
+  @media (min-width: 62em) {
+    background-position: right bottom;
+
+    .wrap {
+      padding: 3em 4em;
+      flex: 0.5;
+    }
+  }
+
+  img {
+    width: 9em;
+    margin-right: 1em;
+  }
+}

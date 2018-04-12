@@ -12,10 +12,10 @@
 @import "ui/header";
 @import "ui/footer";
 
-// Pages
-@import "pages/home";
-@import "pages/download";
-
 // Components
 @import "components/hero";
 @import "components/card";
+
+// Pages
+@import "pages/home";
+@import "pages/download";

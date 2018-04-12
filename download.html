@@ -108,7 +108,6 @@ redirect_from:
   </div>
 </section>
 
-
 <section class="container">
   <div class="card theme_box--dark download-mobile">
     <div class="wrap">
@@ -125,86 +124,44 @@ redirect_from:
   </div>
 </section>
 
-
-{% comment %} old {% endcomment %}
-<section class="apps">
-  <div class="wrapper">
-
-    <div class="mobile">
-      <h2>Mobile Client</h2>
-      <ul>
-        <li>
-          <div>
-            <img src="/images/download/android.svg">
-          </div>
-          <h4>Android</h4>
-          <a href="https://play.google.com/store/apps/details?id=chat.rocket.android"><img src="/images/download/google-play.svg"></a>
-        </li>
-        <li>
-          <div>
-            <img src="/images/download/apple.svg">
-          </div>
-          <h4>iOS</h4>
-          <a href="https://itunes.apple.com/app/rocket-chat/id1148741252"><img class="itunes" src="/images/download/itunes-store.svg"></a>
-        </li>
-      </ul>
-      <div class="clear"></div>
+<section class="container download-server">
+  <div class="flex-grid grid--justify-around">
+    <div class="col--third">
+      <h2 class="display theme_type--dark">Installl Rocket.Chat on your Server</h2>
     </div>
+    <div class="col--third"></div>
   </div>
-  <div class="clear"></div>
-</section>
 
-<section id="server">
-  <div class="wrapper">
-    <div class="left">
-      <h2>Server Snap</h2>
-      <p>
-        <a target="_blank" href="https://snapcraft.io/">Snaps</a> are an easy and secure way to install and manage apps and their dependencies.
-      </p>
-      <p>
-        On a Snaps enabled system run:
-      </p>
-      <code>
-        $ snap install rocketchat-server
-      </code>
-    </div>
-    <div class="right">
-      <h2>Server Source</h2>
-      <ul>
-        <li>
-          <img src="/images/download/rocket.svg">
-          <a target="_blank" href="https://releases.rocket.chat/latest/download">Latest Stable</a>
-        </li>
-        <li>
-          <img src="/images/download/ruler.svg">
-          <a href="https://releases.rocket.chat/release-candidate/download">Beta</a>
-        </li>
-        <li>
-          <img src="/images/download/ruler.svg">
-          <a target="_blank" href="https://github.com/RocketChat/Rocket.Chat/releases">Past Releases</a>
-        </li>
-      </ul>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
+  <br />
+  <br />
 
-<section class="testimonials">
-  <div class="wrapper">
-    <div class="left">
-      <img src="/images/testimonials/sicoob.jpg" alt="">
+  <div class="flex-grid grid--justify-around">
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark"><strong>Server Snap</strong></h3>
+      <p class="theme_type--grey">Snaps are an easy and secure way to install and manage apps and their dependencies.</p>
+      <br />
+      <p class="label theme_type--dark">On a Snaps enabled system run</p>
+      <pre class="code--dark">$ snap install rocketchat-server</pre>
     </div>
-    <div class="right">
-      <h3>Sicoob Credipinho</h3>
-      <h4>Guilherme Corrêa - <span>Technology Supervisor</span></h4>
-      <p>
-        I found Rocket.Chat when I was looking for an alternate team chat solution.
-        I installed it in less than 5 minutes and since then our
-        communication problems have been resolved. The platform is exceptional!
-        Safe, fast, easy to use and with excellent support from the developer team and community.
-      </p>
+
+    <div class="col--third">
+      <h3 class="display--small theme_type--dark"><strong>Server Source</strong></h3>
+      <p class="theme_type--grey">Something can say here about how server source that can be helpful to the users.</p>
+      <br />
+      <p class="label theme_type--dark">Select version</p>
+      <div class="flex-grid--nobreak">
+        <div class="col no-margin">
+          <div class="select--theme-dark">
+            <select class="js-select-download" data-target="server">
+              <option value="https://releases.rocket.chat/latest/download">Latest Stable</option>
+              <option value="https://releases.rocket.chat/release-candidate/download">Beta</option>
+              <option value="https://github.com/RocketChat/Rocket.Chat/releases">Past Releases</option>
+            </select>
+          </div>
+        </div>
+        <a href="" download="" data-download="server" class="button no-margin col">Download Bundle</a>
+      </div>
     </div>
-    <div class="clear">
   </div>
 </section>
 

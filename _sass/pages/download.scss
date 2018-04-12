@@ -46,3 +46,11 @@ body.download {
     margin-right: 1em;
   }
 }
+
+.download-server {
+  margin-bottom: 5em;
+
+  @media (min-width: $tablet) {
+    margin-bottom: 10em;
+  }
+}

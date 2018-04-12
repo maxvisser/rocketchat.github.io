@@ -14,11 +14,6 @@
 }
 
 .input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  outline: none;
-
   font-weight: 500;
   font-size: 0.8em;
   line-height: 1.4;
@@ -46,4 +41,56 @@
   }
 
   @include placeholder($grey);
+}
+
+.select--theme-light {
+  font-size: 0.8em;
+  border: 1px solid $grey-smoke;
+  border-radius: 2px;
+  position: relative;
+
+  &:after {
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    display: block;
+    border-top: 1.5px solid $space;
+    border-right: 1.5px solid $space;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
+  select {
+    width: 100%;
+    padding: 0.6em 1em;
+  }
+}
+
+.select--theme-dark {
+  font-size: 0.8em;
+  border: 1px solid $grey-dark;
+  border-radius: 2px;
+  position: relative;
+  background: $space-b;
+
+  &:after {
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    display: block;
+    border-top: 1.5px solid #fff;
+    border-right: 1.5px solid #fff;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
+  select {
+    width: 100%;
+    padding: 0.6em 1em;
+    color: #fff;
+  }
 }

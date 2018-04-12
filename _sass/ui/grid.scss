@@ -12,18 +12,37 @@
 }
 
 .flex-grid {
+  display: block;
+
+  @media (min-width: $tablet) {
+    display: flex;
+    margin-left: -$gutter / 2;
+    margin-right: -$gutter / 2;
+  }
+}
+
+.col {
+  margin-bottom: 1em;
+
+  @media (min-width: $tablet) {
+    flex: 1;
+    padding-left: $gutter / 2;
+    padding-right: $gutter / 2;
+  }
+
+  &.no-margin {
+    margin-bottom: 0;
+  }
+}
+
+.flex-grid--nobreak {
   display: flex;
   margin-left: -$gutter / 2;
   margin-right: -$gutter / 2;
-}
-.col {
-  flex: 1;
-  padding-left: $gutter / 2;
-  padding-right: $gutter / 2;
-}
 
-@media (max-width: $tablet) {
-  .flex-grid {
-    display: block;
+  .col {
+    flex: 1;
+    padding-left: $gutter / 2;
+    padding-right: $gutter / 2;
   }
 }

@@ -16,50 +16,103 @@ redirect_from:
   - /download/
 ---
 
-<section class="hero">
-  <div class="wrapper">
-    <h1>Download Rocket.Chat</h1>
-    <em>
-      Download Rocket.Chat for your desktop, mobile or server.
-    </em>
-    <img src="/images/download/clients.svg" alt="">
+<section class="container hero">
+  <h1 class="display--big theme_type--dark">Download Rocket.Chat</h1>
+  <p class="display--small theme_type--grey">For your desktop, mobile or server</p>
+</section>
+
+<section class="download-apps container">
+  <div class="flex-grid">
+
+    {% comment %} Windows {% endcomment %}
+    <div class="col">
+      <div class="card theme_box--dark">
+        <div class="flex-grid--nobreak">
+          <div><img class="col" src="/images/download/windows.svg" alt="Rocket.Chat for Windows" /></div>
+          <div class="col">
+            <h2 class="theme_type--dark"><strong>Rocket.Chat for Windows</strong></h2>
+            <p class="label--small theme_type--grey"><strong>Version {{site.data.download.desktop.version}} — {{site.data.download.desktop.windowsSize}}</strong></p>
+          </div>
+        </div>
+
+        <div class="card_footer theme_box--dark-strong">
+          <div class="flex-grid--nobreak">
+            <div class="col no-margin">
+              <div class="select--theme-dark">
+                <select class="js-select-download" data-target="windows">
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-setup-{{ site.data.download.desktop.version }}.exe">64-bit</option>
+                </select>
+              </div>
+            </div>
+            <a href="" download="" data-download="windows" class="button col no-margin">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% comment %} MacOS {% endcomment %}
+    <div class="col">
+      <div class="card theme_box--dark">
+        <div class="flex-grid--nobreak">
+          <div><img class="col" src="/images/download/macos.svg" alt="Rocket.Chat for MacOS" /></div>
+          <div class="col">
+            <h2 class="theme_type--dark"><strong>Rocket.Chat for MacOS</strong></h2>
+            <p class="label--small theme_type--grey"><strong>Version {{site.data.download.desktop.version}} — {{site.data.download.desktop.macosSize}}</strong></p>
+          </div>
+        </div>
+
+        <div class="card_footer theme_box--dark-strong">
+          <div class="flex-grid--nobreak">
+            <div class="col no-margin">
+              <div class="select--theme-dark">
+                <select class="js-select-download" data-target="macos">
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.dmg">dmg</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.pkg">pkg</option>
+                </select>
+              </div>
+            </div>
+            <a href="" download="" data-download="macos" class="button col no-margin">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% comment %} Linux {% endcomment %}
+    <div class="col">
+      <div class="card theme_box--dark">
+        <div class="flex-grid--nobreak">
+          <div><img class="col" src="/images/download/linux.png" alt="Rocket.Chat for Linux" /></div>
+          <div class="col">
+            <h2 class="theme_type--dark"><strong>Rocket.Chat for Linux</strong><span class="tag theme_type--dark theme_box--dark-medium">Beta</span></h2> 
+            <p class="label--small theme_type--grey"><strong>Version {{site.data.download.desktop.version}} — {{site.data.download.desktop.linuxSize}}</strong></p>
+          </div>
+        </div>
+
+        <div class="card_footer theme_box--dark-strong">
+          <div class="flex-grid--nobreak">
+            <div class="col no-margin">
+              <div class="select--theme-dark">
+                <select class="js-select-download" data-target="linux">
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_amd64.deb">deb(x64)</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_i386.deb">deb(x86)</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.x86_64.rpm">rpm(x64)</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.i686.rpm">rpm(x86)</option>
+                </select>
+              </div>
+            </div>
+            <a href="" download="" data-download="linux" class="button no-margin col">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
+
+
+{% comment %} old {% endcomment %}
 <section class="apps">
   <div class="wrapper">
-    <div class="desktop">
-      <h2>Desktop Client</h2>
-      <ul>
-        <li>
-          <div>
-            <img src="/images/download/windows.svg">
-          </div>
-          <h4>Windows</h4>
-          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-setup-{{ site.data.download.desktop.version }}.exe">Installer</a>
-        </li>
-        <li>
-          <div>
-            <img src="/images/download/finder.svg">
-          </div>
-          <h4>MacOS</h4>
-          <a href="https://itunes.apple.com/app/rocket.chat/id1086818840"><img src="/images/download/mac-store.svg"></a>
-          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.dmg">dmg</a>
-          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.pkg">pkg</a>
-        </li>
-        <li>
-          <div>
-            <img src="/images/download/linux.svg">
-          </div>
-          <h4>Linux</h4>
-          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_amd64.deb">deb(x64)</a>
-          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_i386.deb">deb(x86)</a>
-          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.x86_64.rpm">rpm(x64)</a>
-          <a href="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.i686.rpm">rpm(x86)</a>
-        </li>
-      </ul>
-      <div class="clear"></div>
-    </div>
 
     <div class="mobile">
       <h2>Mobile Client</h2>

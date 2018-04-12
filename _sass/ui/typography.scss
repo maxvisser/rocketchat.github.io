@@ -83,20 +83,21 @@ strong {
   margin-bottom: 1em;
 }
 
+.tag {
+  font-size: 0.6em;
+  line-height: 1.6;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 0.4em 1em;
+  vertical-align: middle;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 // Space rules
 .display--small + .button {
   margin-top: 2.5em;
-}
-
-// Helpers
-.type--brand {
-  color: $brand;
-}
-
-.type--dark {
-  color: #fff;
-}
-
-.type--grey {
-  color: $grey-light;
 }

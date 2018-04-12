@@ -1,0 +1,10 @@
+.hero {
+  text-align: center;
+  padding: 2em;
+  height: 50vh;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 5em;
+    height: 70vh;
+  }
+}

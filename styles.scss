@@ -4,6 +4,7 @@
 @import "ui/reset";
 @import "ui/variables";
 @import "ui/typography";
+@import "ui/theme";
 @import "ui/grid";
 @import "ui/buttons";
 @import "ui/form";
@@ -12,4 +13,9 @@
 @import "ui/footer";
 
 // Pages
-@import "pages/home"
+@import "pages/home";
+@import "pages/download";
+
+// Components
+@import "components/hero";
+@import "components/card";

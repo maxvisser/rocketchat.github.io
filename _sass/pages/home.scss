@@ -1,7 +1,3 @@
-body.index {
-  background: $space;
-}
-
 //
 //  Hero section
 //
@@ -34,11 +30,11 @@ body.index {
     position: absolute;
     right: 0;
     top: 8em;
-    height: calc(70vh - 10em);
+    height: calc(70vh - 6em);
   }
 
   @media screen and (min-width: 75em) {
-    height: calc(90vh - 10em);
+    height: calc(90vh - 6em);
   }
 }
 

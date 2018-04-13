@@ -1,3 +1,11 @@
+body.dark {
+  background: $space;
+}
+
+body.light {
+  background: #fff;
+}
+
 .theme_type--brand {
   color: $brand;
 }

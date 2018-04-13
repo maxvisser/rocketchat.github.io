@@ -80,6 +80,8 @@
   @include reset;
   @include defaultStyle;
   @include disabledStyle;
+  padding: 0;
+  font-weight: 600;
 
   &:hover {
     color: $brand-dark;
@@ -91,6 +93,44 @@
 
     &:hover {
       background: none;
+    }
+  }
+}
+
+.button--with-arrow {
+  position: relative;
+  padding-right: 2em;
+
+  &:before {
+    content: "";
+    display: block;
+    border-top: 1px solid $brand;
+    width: 1em;
+    position: absolute;
+    top: 0.6em;
+    right: 0.1em;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 0.5em;
+    height: 0.5em;
+    border-right: 1px solid $brand;
+    border-bottom: 1px solid $brand;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 0.4em;
+    right: 0;
+  }
+
+  &:hover {
+    &:before {
+      border-top: 1px solid $brand-dark;
+    }
+    &:after {
+      border-right: 1px solid $brand-dark;
+      border-bottom: 1px solid $brand-dark;
     }
   }
 }

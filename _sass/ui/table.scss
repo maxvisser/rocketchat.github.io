@@ -1,0 +1,53 @@
+.table--dark {
+  overflow: auto;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+  padding-left: $gutter;
+
+  @media screen and (min-width: $tablet) {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  table {
+    width: 100%;
+    color: $grey-light;
+  }
+
+  th {
+    background: $space-grey;
+    color: $grey-light;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 1.2;
+    padding: 1em 3.2em;
+    text-align: left;
+  }
+
+  td {
+    padding: 2em;
+    border: 1px solid $space-grey;
+    width: 50%;
+    vertical-align: top;
+    min-width: 14em;
+  }
+
+  strong {
+    color: #fff;
+  }
+
+  img {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

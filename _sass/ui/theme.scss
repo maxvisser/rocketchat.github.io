@@ -1,3 +1,4 @@
+// Body
 body.dark {
   background: $space;
 }
@@ -6,6 +7,7 @@ body.light {
   background: #fff;
 }
 
+// Type
 .theme_type--brand {
   color: $brand;
 }
@@ -18,6 +20,7 @@ body.light {
   color: $grey-light;
 }
 
+// Box
 .theme_box--space {
   background-color: $space;
 }
@@ -36,4 +39,83 @@ body.light {
 
 .theme_box--light {
   background-color: $grey-bg;
+}
+
+.code--light {
+  border: 1px solid $grey-smoke;
+}
+
+.code--dark {
+  border: 1px solid $grey-dark;
+  color: #fff;
+  background: $space-b;
+}
+
+// Forms
+.select--theme-light {
+  border: 1px solid $grey-smoke;
+
+  &:after {
+    border-top: 1.5px solid $space;
+    border-right: 1.5px solid $space;
+  }
+}
+
+.select--theme-dark {
+  border: 1px solid $grey-dark;
+  background: $space-b;
+
+  @media (min-width: $tablet) {
+    font-size: 0.8em;
+  }
+
+  &:after {
+    border-top: 1.5px solid #fff;
+    border-right: 1.5px solid #fff;
+  }
+
+  select {
+    color: #fff;
+  }
+}
+
+// Table
+.table--dark {
+  td {
+    border: 1px solid $space-grey;
+  }
+
+  table {
+    color: $grey-light;
+  }
+
+  th {
+    background: $space-grey;
+    color: $grey-light;
+  }
+
+  strong {
+    color: #fff;
+  }
+}
+
+.table--light {
+  color: $grey;
+
+  td {
+    border: 1px solid $grey-smoke;
+  }
+
+  table {
+    color: $grey-light;
+  }
+
+  th {
+    background: $grey-smoke;
+    color: $grey-dark;
+  }
+
+  strong {
+    color: $space;
+  }
 }

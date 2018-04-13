@@ -25,24 +25,25 @@
   }
 
   @mixin column {
-    margin-bottom: $gutter-larger;
+    margin-bottom: $gutter;
 
     @media (min-width: $tablet) {
       flex: 1;
+      margin-bottom: $gutter-larger;
       padding-left: $gutter-larger / 2;
       padding-right: $gutter-larger / 2;
     }
 
-    &.no-margin {
+    &.no-gutter {
       margin-bottom: 0;
     }
   }
 
-  .col {
+  > .col {
     @include column;
   }
 
-  .col--haft {
+  > .col--haft {
     @include column;
 
     @media (min-width: $tablet) {
@@ -50,7 +51,7 @@
     }
   }
 
-  .col--third {
+  > .col--third {
     @include column;
 
     @media (min-width: $tablet) {
@@ -58,7 +59,7 @@
     }
   }
 
-  .col--fourth {
+  > .col--fourth {
     @include column;
 
     @media (min-width: $tablet) {
@@ -66,7 +67,15 @@
     }
   }
 
-  .col--three-quarter {
+  > .col--fifth {
+    @include column;
+
+    @media (min-width: $tablet) {
+      max-width: 20%;
+    }
+  }
+
+  > .col--three-quarter {
     @include column;
 
     @media (min-width: $tablet) {
@@ -89,33 +98,41 @@
     flex: 1;
     padding-left: $gutter-larger / 2;
     padding-right: $gutter-larger / 2;
+    margin-bottom: $gutter;
 
     @media (min-width: $tablet) {
+      margin-bottom: $gutter-larger;
       padding-left: $gutter-larger / 2;
       padding-right: $gutter-larger / 2;
     }
 
-    &.no-margin {
+    &.no-gutter {
       margin-bottom: 0;
     }
   }
 
-  .col {
+  > .col {
     @include column;
   }
 
-  .col--haft {
+  > .col--haft {
     @include column;
     max-width: 50%;
   }
 
-  .col--third {
+  > .col--third {
     @include column;
     max-width: 33%;
   }
 
-  .col--fourth {
+  > .col--fourth {
     @include column;
     max-width: 25%;
+  }
+
+  > .col--fifth {
+    @include column;
+
+    max-width: 20%;
   }
 }

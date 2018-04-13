@@ -1,4 +1,4 @@
-.table--dark {
+.table {
   overflow: auto;
   margin-left: -$gutter;
   margin-right: -$gutter;
@@ -12,12 +12,9 @@
 
   table {
     width: 100%;
-    color: $grey-light;
   }
 
   th {
-    background: $space-grey;
-    color: $grey-light;
     font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 0.8px;
@@ -28,14 +25,9 @@
 
   td {
     padding: 2em;
-    border: 1px solid $space-grey;
     width: 50%;
     vertical-align: top;
     min-width: 14em;
-  }
-
-  strong {
-    color: #fff;
   }
 
   img {

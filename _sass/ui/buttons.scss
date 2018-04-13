@@ -16,7 +16,8 @@
   line-height: 1.4;
   text-align: center;
   display: inline-block;
-  padding: 0.8em 1.14em;
+  vertical-align: top;
+  padding: 0.9em 1.14em 0.8em;
   border-radius: 2px;
   transition: all $tranitions;
 }
@@ -153,4 +154,9 @@
   &:active {
     box-shadow: inset 0 1px 0 0 $grey-dark;
   }
+}
+
+// Button sizes
+.button--full {
+  width: 100%;
 }

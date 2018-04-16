@@ -21,7 +21,7 @@ redirect_from: /bots/
     </div>
     <div class="right">
       <h2>
-        Rocket.Chat is improving the way we do bots
+        Improving the way we do bots
       </h2>
       <p>
         We want to make it easy for bot makers to provide the best solutions and experience for their community.

@@ -1,0 +1,31 @@
+.theme_type--brand {
+  color: $brand;
+}
+
+.theme_type--dark {
+  color: #fff;
+}
+
+.theme_type--grey {
+  color: $grey-light;
+}
+
+.theme_box--space {
+  background-color: $space;
+}
+
+.theme_box--dark-strong {
+  background-color: $space-b;
+}
+
+.theme_box--dark {
+  background-color: $space-grey;
+}
+
+.theme_box--dark-medium {
+  background-color: $grey-dark;
+}
+
+.theme_box--light {
+  background-color: $grey-bg;
+}

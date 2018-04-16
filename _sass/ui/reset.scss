@@ -157,3 +157,13 @@ svg {
 table {
   border-collapse: collapse;
 }
+
+::-moz-selection {
+  color: $grey-smoke;
+  background: $brand;
+}
+
+::selection {
+  color: $grey-smoke;
+  background: $brand;
+}

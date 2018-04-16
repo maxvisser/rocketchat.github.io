@@ -36,6 +36,7 @@ pre {
   line-height: 1.4;
   letter-spacing: 0.5px;
   color: $space;
+  font-weight: 600;
 
   @media screen and (min-width: $tablet) {
     font-size: 1.25em;
@@ -98,24 +99,22 @@ strong {
   margin-right: 1em;
 }
 
-.code--light {
+.code {
   font-size: 0.8em;
-  border: 1px solid $grey-smoke;
   border-radius: 2px;
-  padding: 0.7em 1em;
-}
-
-.code--dark {
-  font-size: 0.8em;
-  border: 1px solid $grey-dark;
-  color: #fff;
-  border-radius: 2px;
-  position: relative;
-  background: $space-b;
   padding: 0.7em 1em;
 }
 
 // Space rules
 .display--small + .button {
   margin-top: 2.5em;
+}
+
+// Helpers
+.align--center {
+  text-align: center;
+}
+
+.type--nomargin {
+  margin-bottom: 0 !important;
 }

@@ -1,12 +1,12 @@
-body.download {
-  background: $space;
-}
-
 .download-apps {
   margin-bottom: 5em;
 
   @media (min-width: $tablet) {
     margin-bottom: 10em;
+  }
+
+  img {
+    margin-top: 0.2em;
   }
 }
 

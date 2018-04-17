@@ -17,17 +17,17 @@ redirect_from: /bots/
 <section>
   <div class="wrapper">
     <div class="left">
-      <img src="{{ site.url }}/images/bots/bot-lovers-cropped.jpg" alt="" style="max-height: 230px;"/>
+      <img src="{{ site.url }}/images/bots/bot-lovers-web.png" alt="" style="max-height: 266px;"/>
     </div>
     <div class="right">
       <h2>
-        Improving the way we do bots
+        We're improving the way we do bots
       </h2>
       <p>
         We want to make it easy for bot makers to provide the best solutions and experience for their community.
       </p>
       <p>
-        We’ve assigned a team and in the coming months will be producing new features and dedicated documentation for bots.
+        A team has been assigned and in the coming months will be producing new features and dedicated documentation for bots.
       </p>
       <p>
         We'd love to get your input...
@@ -93,56 +93,11 @@ redirect_from: /bots/
       </p>
       <p>
         By participating in our <a href="https://rocketchat.typeform.com/to/dK87Cl">Bot People survey</a> you can contribute to the development roadmap, get
-        involved in the discussion to propose features, adapters etc and get early access to the improved bot platform.
+        involved in the discussion to propose features, adapters and get early access to the improved bot platform.
       </p>
       <p>
         You can also join the discussion on our <a href="https://open.rocket.chat/channel/bots">#bots channel</a>.
       </p>
-    </div>
-  </div>
-  <div class="clear"></div>
-</section>
-<!--
-<section>
-  <div class="wrapper">
-    <div class="left">
-      <h2>New Features</h2>
-      <ul>
-        <li>Bot Driver node package, enabling simple framework agnostic interface for developing adapters.</li>
-        <li>Bot Helpers features will be migrated into bot driver, to run user queries and allow admins to define user field access for bots.</li>
-        <li>Payload Support for rich UI message components. In line with platforms like Facebook Messenger (buttons, menus, cards, etc).</li>
-        <li>Bot creation to be streamlined and accessible via API endpoints.</li>
-        <li>Delay sends and show “typing” indicators, to give your bots a natural pace and improve user experience.</li>
-        <li>Collect user data, via bot conversation, to update custom user fields.</li>
-        <li>Access controls for each channel, to lock out bots or humans.</li>
-        <li>Admin dashboard for bot admin / metrics / sentiment analysis.</li>
-        <li>Conversation starters for the internal bot, provide basic customisable interaction templates, e.g. for onboarding via bot.</li>
-      </ul>
-    </div>
-    <div class="right">
-      <h2>Priorities Issues</h2>
-      <ul>
-          <li>Allow “X is now typing” to be called from method
-          related <a href="https://github.com/RocketChat/Rocket.Chat/issues/9337">#9337</a></li>
-          <li>Let bot send a private notification in the channel
-          related <a href="https://github.com/RocketChat/Rocket.Chat/issues/9177">#9177</a></li>
-          <li>Bot statistics page: e.g. total messages by bots
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/8483">#8483</a></li>
-          <li>Add isBot attribute to message objects to prevent bot-to-bot loops
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/7990">#7990</a></li>
-          <li>Bot user without email address, verification
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/7785">#7785</a>, <a href="https://github.com/RocketChat/Rocket.Chat/issues/7125">#7125</a>, <a href="https://github.com/RocketChat/Rocket.Chat/issues/3818">#3818</a></li>
-          <li>Update hardcoded rocket.cat and use notifications UI instead of chat stream for system notices
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/4103">#4103</a>, <a href="https://github.com/RocketChat/Rocket.Chat/issues/3869">#3869</a>, <a href="https://github.com/RocketChat/Rocket.Chat/issues/3078">#3078</a></li>
-          <li>REST API allow bots to create users with standard permissions
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/7351">#7351</a></li>
-          <li>Add driver/adapter method to force set bot’s status
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/3292">#3292</a></li>
-          <li>Autocomplete bots commands and subcommands (by registering commands through bot driver)
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/1086">#1086</a></li>
-          <li>Temporarily mute bot in a room (as extension of bot access controls)
-          fixes <a href="https://github.com/RocketChat/Rocket.Chat/issues/555">#555</a></li>
-      </ul>
     </div>
   </div>
   <div class="clear"></div>

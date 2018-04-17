@@ -20,6 +20,10 @@ body.light {
   color: $grey-light;
 }
 
+.theme_type--light {
+  color: $grey;
+}
+
 // Box
 .theme_box--space {
   background-color: $space;
@@ -81,6 +85,8 @@ body.light {
 
 // Table
 .table--dark {
+  background: $space;
+
   td {
     border: 1px solid $space-grey;
   }
@@ -95,15 +101,20 @@ body.light {
   }
 
   strong {
-    color: #fff;
+    color: #fff !important;
   }
 }
 
 .table--light {
-  color: $grey;
+  background: #fff;
 
   td {
     border: 1px solid $grey-smoke;
+    color: $grey;
+
+    p {
+      color: $space;
+    }
   }
 
   table {
@@ -116,6 +127,6 @@ body.light {
   }
 
   strong {
-    color: $space;
+    color: $space !important;
   }
 }

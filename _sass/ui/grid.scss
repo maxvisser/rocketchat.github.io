@@ -43,6 +43,14 @@
     }
   }
 
+  > .col--free {
+    @include column;
+
+    @media (min-width: $tablet) {
+      flex: 0;
+    }
+  }
+
   > .col {
     @include column;
   }
@@ -113,6 +121,12 @@
     &.no-gutter {
       margin-bottom: 0;
     }
+  }
+
+  > .col--free {
+    @include column;
+
+    flex: 0;
   }
 
   > .col {

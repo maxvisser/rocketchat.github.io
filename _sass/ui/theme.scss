@@ -20,11 +20,19 @@ body.light {
   color: $grey-light;
 }
 
+.theme_type--grey-smoke-dark {
+  color: $grey-smoke-dark;
+}
+
 .theme_type--light {
   color: $grey;
 }
 
 // Box
+.theme_box--brand {
+  background-color: $brand;
+}
+
 .theme_box--space {
   background-color: $space;
 }
@@ -43,6 +51,10 @@ body.light {
 
 .theme_box--light {
   background-color: $grey-bg;
+}
+
+.theme_box--white {
+  background-color: #fff;
 }
 
 .code--light {

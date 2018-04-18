@@ -2,7 +2,7 @@
 ## Table of Contents
 
 - [How we publish](#how-we-publish)
-  - [Technologies](#technolgies)
+  - [Technologies](#technologies)
   - [Set up local environment](#setup-local-environment)
   - [Install a code editor](#install-a-code-editor)
   - [Clone  projects](#clone-the-projects)

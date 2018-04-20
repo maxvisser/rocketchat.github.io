@@ -1,0 +1,155 @@
+.team-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.team-item {
+  position: relative;
+  width: calc(100% / 3 - 1.5em);
+  margin-bottom: 3em;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.team-item__image {
+  padding-top: 120%;
+  background-size: cover;
+  background-position: center;
+}
+
+.team-item__wrap {
+  position: absolute;
+  left: 0.5em;
+  bottom: 0.5em;
+  right: 0.5em;
+  background: rgba($space, 0.9);
+  border-radius: 2px;
+  padding: 1em;
+  height: 7.8em;
+  max-height: 7.8em;
+  transition: all 0.5s ease;
+}
+
+.team-button__toggle {
+  display: none;
+}
+
+.team-item__name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3em;
+  height: 1.5em;
+  overflow: hidden;
+
+  img {
+    margin-left: 0.5em;
+    width: 1.5em;
+  }
+}
+
+.team-item__role {
+  height: 1.5em;
+  overflow: hidden;
+}
+
+.team-item__social {
+  height: 4em;
+  margin-top: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  transition: all 0.7s ease;
+  border-top: 1px solid transparent;
+
+  a {
+    margin-right: 0.2em;
+  }
+}
+
+.team-item__button {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  display: block;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+
+  &:after {
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    display: block;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 0.8em;
+    right: 0.5em;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transition: all 0.3s ease;
+  }
+}
+
+.team-item__bio {
+  margin-left: -1em;
+  margin-right: -1em;
+  color: #fff;
+  font-size: 0.8em;
+  overflow: auto;
+  max-height: 0;
+  transition: all 0.5s ease;
+  padding: 0 1em;
+
+  p {
+    margin-bottom: 1em;
+    transform: translateY(1em);
+    opacity: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.team-button__toggle:checked + .team-item__wrap {
+  height: calc(100% - 1em);
+  max-height: calc(100% - 1em);
+
+  .team-item__button:after {
+    transform: rotate(135deg);
+    top: 0.3em;
+  }
+
+  .team-item__bio {
+    padding: 1em;
+    max-height: calc(100% - 8em);
+    height: calc(100% - 8em);
+
+    p {
+      animation: slide 0.5s 0.2s ease forwards;
+    }
+    p + p {
+      animation: slide 0.5s 0.3s ease forwards;
+    }
+  }
+
+  .team-item__social {
+    border-top: 1px solid rgba($grey-bg, 0.1);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(1.3em);
+    line-height: 2;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    line-height: 1.5;
+    opacity: 1;
+  }
+}

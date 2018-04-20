@@ -192,3 +192,10 @@
   github_uid: 8217234
   department: Development
   username: madguy02
+
+- name: Renato Becker
+  title: Senior Developer
+  github_username: renatobecker
+  department: Back-end
+  username: renato.becker
+  photo: yes

@@ -1,193 +1,209 @@
 - name: Gabriel Engel
-  title: Founder &amp; CEO
+  role: Founder &amp; CEO
   github_username: engelgabriel
+  twitter: engelgabriel
+  email: email@email.com
   department:
   username: gabriel.engel
   photo: yes
+  country: Brazil
+  description:
+    - Here will say something about the team member and the information will be relevant to those reading it. Then it can say something else like where he/she worked and the experience he or she is bringing to Rocket.Chat.
+    - Then it can say something else like where he/she worked and the experience he or she is bringing to Rocket.Chat and then another line here.
 
 - name: Rodrigo Nascimento
-  title: CTO
+  role: CTO
   github_username: rodrigok
   department: Technology
   username: rodrigo.nascimento
   photo: yes
+  country: Brazil
 
 - name: Marcelo Schmidt
-  title: COO
+  role: COO
   github_username: marceloschmidt
   department: Operations
   username: marcelo.schmidt
   photo: yes
+  country: Brazil
 
 - name: Diego Sampaio
-  title: Lead Engineer
+  role: Lead Engineer
   github_username: sampaiodiego
   department:
   username: diego.sampaio
   photo: yes
+  country: Brazil
 
 - name: Patricia Ferreira
-  title: Administrative Coordinator
+  role: Administrative Coordinator
   github_username:
   department: Admin
   username: patricia.ferreira
   photo: yes
+  country: Brazil
 
 - name: Sing-Li
-  title: Senior VP of Partnerships and Opportunities
+  role: Senior VP of Partnerships and Opportunities
   github_username: Sing-Li
   github_uid: 122633
   department: Sales
   username: sing.li
 
 - name: Rafael Kellermann Streit
-  title: Lead Mobile Engineer
+  role: Lead Mobile Engineer
   github_username: rafaelks
   department: Mobile
   username: rafael.kellermann
   photo: yes
+  country: Brazil
 
 - name: Martin Schoeler
-  title: Full Stack Engineer
+  role: Full Stack Engineer
   github_username: MartinSchoeler
   department: Technology
   username: martin.schoeler
   photo: yes
+  country: Brazil
 
 - name: Aaron Ogle
-  title: Lead Cloud Architect
+  role: Lead Cloud Architect
   github_username: geekgonecrazy
   github_uid: 51996
   department: Cloud
   username: aaron.ogle
+  country: EUA
 
 - name: Bradley Hilton
-  title: Interconnectivity Specialist
+  role: Interconnectivity Specialist
   github_username: graywolf336
   department: Technology
   username: bradley.hilton
   photo: yes
 
 - name: Karl Prieb
-  title: Lead Front End Engineer
+  role: Lead Front End Engineer
   github_username: karlprieb
   department: Technology
   username: karl.prieb
   photo: yes
 
 - name: Diego Dorgam
-  title: Sales & Bots Engineer
+  role: Sales & Bots Engineer
   github_username: diegodorgam
   github_uid: 12052193
   department: Sales
   username: diego.dorgam
+  country: Brazil
 
 - name: Guilherme Gazzo
-  title: Full Stack Engineer
+  role: Full Stack Engineer
   github_username: ggazzo
   department:
   username: guilherme.gazzo
   photo: yes
 
 - name: Gabriel Delavald
-  title: Front End Engineer
+  role: Front End Engineer
   github_username: gdelavald
   department: Technology
   username: gabriel.delavald
   photo: yes
 
 - name: Ramon Nobre
-  title: Sales Intern
+  role: Sales Intern
   github_username: RamonNobre
   department: Sales
   username: ramon.nobre
   photo: yes
 
 - name: Sean Packham
-  title: VP of Marketing
+  role: VP of Marketing
   github_username: SeanPackham
   github_uid: 3830791
   department: Marketing
   username: sean.packham
+  country: GreatBritain
 
 - name: Filipe Brito
-  title: Android Engineer
+  role: Android Engineer
   github_username: filipedelimabrito
   github_uid: 11776825
   department: Development
   username: filipe.brito
 
 - name: Lucio Maciel
-  title: Android Engineer
+  role: Android Engineer
   github_username: luciofm
   github_uid: 224255
   department: Mobile
   username: lucio.maciel
 
 - name: Arthur Della Giustina
-  title: Creative Director
+  role: Creative Director
   github_username: arthurgiustina
   department: Sales
   username: arthur.giustina
   photo: yes
 
 - name: Júlia Grala
-  title: Business Development
+  role: Business Development
   github_username: juliagrala
   department: Sales
   username: julia.grala
   photo: yes
 
 - name: Bernardo Trevisan
-  title: Marketing Intern
+  role: Marketing Intern
   github_username: bernardoetrevisan
   department: Operations
   username: bernardo.trevisan
   photo: yes
 
 - name: Leonardo Aramaki
-  title: Android Engineer
+  role: Android Engineer
   github_username: leonardoaramaki
   github_uid: 625702
   department: Mobile
   username: leonardo.aramaki
 
 - name: Matheus Cardoso
-  title: iOS Engineer
+  role: iOS Engineer
   github_username: cardoso
   department: Mobile
   username: matheus.cardoso
   photo: yes
 
 - name: Isabella Russell
-  title: Content Editor
+  role: Content Editor
   department: Marketing
   username: isabella.russell
   photo: yes
 
 - name: Tom Tostanoski
-  title: Support Lead
+  role: Support Lead
   github_username: tostanoski
   github_uid: 6999314
   department: Support
   username: tom.tostanoski
 
 - name: Jonas Friedmann
-  title: Support
+  role: Support
   github_username: frdmn
   github_uid: 944459
   department: Support
   username: jonas.friedmann
 
 - name: Mrinal Dhar
-  title: Software Engineer
+  role: Software Engineer
   github_username: mrinaldhar
   github_uid: 5917608
   department: Development
   username: mrinal.dhar
+  country: India
 
 - name: Manish Kakoti
-  title: Federation Engineer
+  role: Federation Engineer
   github_username: madguy02
   github_uid: 8217234
   department: Development

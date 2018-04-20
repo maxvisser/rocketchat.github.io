@@ -72,6 +72,10 @@ theme: dark
             {% else %}
               <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
             {% endif %}
+
+            {% if forloop.last %}
+              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% endif %}
           {% endfor %}
         </div>
         <p>
@@ -90,7 +94,10 @@ theme: dark
             {% else %}
               <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
             {% endif %}
-            <!-- {{forloop.index}} -->
+            
+            {% if forloop.last %}
+              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% endif %}
           {% endfor %}
         </div>
         <p>
@@ -109,7 +116,10 @@ theme: dark
             {% else %}
               <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
             {% endif %}
-            <!-- {{forloop.index}} -->
+            
+            {% if forloop.last %}
+              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% endif %}
           {% endfor %}
         </div>
         <p>

@@ -11,63 +11,125 @@ theme: dark
 ---
 
 {% assign teamList = site.data.team %}
-<!-- 
-<div class="brazil">
-  {% for member in teamList %}
-    {% if member.country %}
-      {% if member.country == "Brazil" %} 
-          {% if member.photo %}
-            <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
-          {% else %}
-            <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
-          {% endif %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</div>
 
-<div class="england">
-  {% for member in teamList %}
-    {% if member.country %}
-      {% if member.country == "GreatBritain" %} 
-          {% if member.photo %}
-            <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
-          {% else %}
-            <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
-          {% endif %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</div>
+{% assign BrazilTeam = "" | split: "" %}
+{% assign UnitedkingdomTeam = "" | split: "" %}
+{% assign USATeam = "" | split: "" %}
+{% assign IndiaTeam = "" | split: "" %}
 
-<div class="eua">
-  {% for member in teamList %}
-    {% if member.country %}
-      {% if member.country == "EUA" %} 
-          {% if member.photo %}
-            <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
-          {% else %}
-            <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
-          {% endif %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</div>
+{% for member in teamList %}
+  {% if member.country == "Brazil" %}
+    {% assign BrazilTeam = BrazilTeam | push: member %}
+  {% elsif member.country == "Unitedkingdom" %}
+    {% assign UnitedkingdomTeam = UnitedkingdomTeam | push: member %}
+  {% elsif member.country == "USA" %}
+    {% assign USATeam = USATeam | push: member %}
+  {% elsif member.country == "India" %}
+    {% assign IndiaTeam = IndiaTeam | push: member %}
+  {% endif %}
+{% endfor %}
 
-<div class="india">
-  {% for member in teamList %}
-    {% if member.country %}
-      {% if member.country == "India" %} 
-          {% if member.photo %}
-            <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
-          {% else %}
-            <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
-          {% endif %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-</div>
- -->
+<section class="container hero team-map">
+  <div class="team-map__wrap">
+    <h1 class="display--big theme_type--dark">Team Rocket.Chat</h1>
+    <p class="display--small theme_type--grey">A global team to keep the rockets firing</p>
+  </div>
+
+  <img class="team-map__map" src="/images/team/world-map.svg" alt="World map" />
+
+
+  <div>
+    <div class="team-map__pin brazil">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in BrazilTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.last %}
+              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Brazil</strong>
+          <span><img src="/images/flags/Brazil.png" alt="Brazil" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin unitedkingdom">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in UnitedkingdomTeam %}
+            {% if member.photo %}
+              <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+            {% else %}
+              <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+            {% endif %}
+
+            {% if forloop.last %}
+              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>United kingdom</strong>
+          <span><img src="/images/flags/Unitedkingdom.png" alt="Unitedkingdom" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin usa">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in USATeam %}
+            {% if member.photo %}
+              <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+            {% else %}
+              <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+            {% endif %}
+            
+            {% if forloop.last %}
+              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>USA</strong>
+          <span><img src="/images/flags/USA.png" alt="USA" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin india">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in IndiaTeam %}
+            {% if member.photo %}
+              <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+            {% else %}
+              <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+            {% endif %}
+            
+            {% if forloop.last %}
+              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>India</strong>
+          <span><img src="/images/flags/India.png" alt="India" /></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="container">
   <ul class="team-grid">

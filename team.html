@@ -51,8 +51,8 @@ theme: dark
               {% endif %}
             {% endif %}
 
-            {% if forloop.last %}
-              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
             {% endif %}
           {% endfor %}
         </div>
@@ -67,14 +67,16 @@ theme: dark
       <div class="team-map__profile">
         <div class="flags">
           {% for member in UnitedkingdomTeam %}
-            {% if member.photo %}
-              <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
-            {% else %}
-              <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+              {% endif %}
             {% endif %}
 
-            {% if forloop.last %}
-              <span class="count">+{{forloop.length | minus:5 }}</span>
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
             {% endif %}
           {% endfor %}
         </div>
@@ -89,14 +91,16 @@ theme: dark
       <div class="team-map__profile">
         <div class="flags">
           {% for member in USATeam %}
-            {% if member.photo %}
-              <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
-            {% else %}
-              <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+              {% endif %}
             {% endif %}
-            
-            {% if forloop.last %}
-              <span class="count">+{{forloop.length | minus:5 }}</span>
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
             {% endif %}
           {% endfor %}
         </div>
@@ -111,14 +115,16 @@ theme: dark
       <div class="team-map__profile">
         <div class="flags">
           {% for member in IndiaTeam %}
-            {% if member.photo %}
-              <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
-            {% else %}
-              <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt=""></span>
+              {% endif %}
             {% endif %}
-            
-            {% if forloop.last %}
-              <span class="count">+{{forloop.length | minus:5 }}</span>
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
             {% endif %}
           {% endfor %}
         </div>

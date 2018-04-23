@@ -1,6 +1,7 @@
 ---
 layout: en/default
 class: blog
+theme: dark
 redirect_from:
   - /blog
   - /2015/05/30/an-open-source-chat-you-can-add-to-the-web/
@@ -15,96 +16,138 @@ redirect_from:
   - /2017/10/06/success-story-rotogrinders/
 ---
 
-<h1 class="display">Categories</h1>
-<ul>
-  {% assign categories_list = site.categories %}
-    {% if categories_list.first[0] == null %}
-      {% for category in categories_list %}
-        <li><a href="/category/{{ category | slugify }}">{{ category }}</a></li>
-      {% endfor %}
-    {% else %}
-      {% for category in categories_list %}
-        <li><a href="/category/{{ category[0] | slugify }}">{{ category[0] }}</a></li>
-      {% endfor %}
-    {% endif %}
-  {% assign categories_list = nil %}
-</ul>
+<div class="container">
 
+  <div class="blog__header flex-grid">  
+    <p class="blog__list-cat col no-gutter">
+      <a class="label theme_type--dark" href="/blog">Home</a>
+      {% assign categories_list = site.categories %}
+        {% if categories_list.first[0] == null %}
+          {% for category in categories_list %}
+            <a class="label theme_type--dark" href="/category/{{ category | slugify }}">{{ category }}</a>
+          {% endfor %}
+        {% else %}
+          {% for category in categories_list %}
+            <a class="label theme_type--dark" href="/category/{{ category[0] | slugify }}">{{ category[0] }}</a>
+          {% endfor %}
+        {% endif %}
+      {% assign categories_list = nil %}
+    </p>
 
-<div class="super-search" id="js-super-search">
-  <a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn">X</a>
-  <input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
-  <ul class="super-search__results" id="js-super-search__results"></ul>
-</div>
-
-<h1 class="display">Featured</h1>
-{% for post in site.posts %}
-  {% if post.featured == true %}
-    {{ post.title }}
-  {% endif %}
-{% endfor %}
-
-<h1 class="display">Recents</h1>
-<ul class="list-posts">
-  {% for post in paginator.posts limit:6 %}
-  <li class="posts">
-    <a class="header" href="{{ post.url | remove: "index.html" }}"
-      {% if post.cover %}
-      style="background-image: url('{{ post.cover }}')">
-      {% else %}
-      style="background-image: url('/images/blog/post.jpg')">
-      {% endif %}
-    </a>
-    <div class="content">
-      <div class="top">
-        <h2><a href="{{ post.url | remove: "index.html" }}">{{ post.title }}</a></h2>
-        <p class="summary">
-          {{ post.excerpt | strip_html | truncatewords: 20 }}
-        </p>
-      </div>
-      <div class="bottom">
-        <div class="meta">
-          <span class="read">
-            {% assign words = post.content | number_of_words %}
-            {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-          </span>
-          <span class="date"> {{ post.date | date: "%b %-d, %Y" }}</span>
-        </div>
+    <div class="col--fourth no-gutter">
+      <div class="blog__search">
+        <input type="search" class="blog__search-input">
+        <ul class="blog__search-results"></ul>
       </div>
     </div>
-  </li>
-  {% endfor %}
-</ul>
+  </div>
 
-<h1 class="display">More Featured</h1>
-{% for post in site.posts %}
-  {% if post.featured == true and forloop.index > 5 %}
-    {{ post.title }}
-  {% endif %}
-{% endfor %}
+  <div class="blog__featured">
+    {% for post in site.posts limit:5 %}
+      {% if post.featured == true %}
+      <a 
+        class="card--blog"
+        href="{{ post.url | remove: "index.html" }}"
+        {% if post.cover %}
+          style="background-image: url('{{ post.cover }}')"
+        {% else %}
+          style="background-image: url('/images/blog/post.jpg')"
+        {% endif %}
+      >
+        <div class="card--blog__wrap">
+          <p class="card--blog__meta label--small theme_type--grey">
+            {% assign words = post.content | number_of_words %}
+            {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+            — {{ post.date | date: "%b %-d, %Y" }}
+          </p>
+          
+          <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
+          <div class="flex-grid--nobreak">
+            <div class="col--free no-gutter">
+              <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories }}</p>
+            </div>
+            <div class="col no-gutter">
+              <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <strong>{{ page }}</strong>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+  <div class="flex-grid">
+    <div class="col--three-quarter">
+      <h3 class="display--small theme_type--dark blog__section">Recents</h3>
+      <div class="blog__recents">
+        {% for post in paginator.posts limit:6 %}
+        <a 
+          class="card--blog card--horizontal"
+          href="{{ post.url | remove: "index.html" }}"
+          {% if post.cover %}
+            style="background-image: url('{{ post.cover }}')"
+          {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+          {% endif %}
+        >
+          <div class="card--blog__wrap">
+            <p class="card--blog__meta label--small theme_type--grey">
+              {% assign words = post.content | number_of_words %}
+              {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+              — {{ post.date | date: "%b %-d, %Y" }}
+            </p>
+            
+            <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
+
+            <div class="flex-grid--nobreak">
+              <div class="col--free no-gutter">
+                <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories }}</p>
+              </div>
+              <div class="col no-gutter">
+                <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+
+
+  <h1 class="display">More Featured</h1>
+  {% for post in site.posts %}
+    {% if post.featured == true and forloop.index > 5 %}
+      {{ post.title }}
     {% endif %}
   {% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next">Next</span>
-  {% endif %}
+
+<!--   <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <strong>{{ page }}</strong>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next">Next</span>
+    {% endif %}
+  </div> -->
 </div>
 
 

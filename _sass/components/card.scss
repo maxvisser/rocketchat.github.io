@@ -38,3 +38,63 @@
 .card--shadow {
   box-shadow: 0 15px 30px 0 rgba(3, 12, 26, 0.15);
 }
+
+// Blog
+.card--blog {
+  min-height: 18em;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  margin-bottom: 1em;
+
+  &.card--horizontal {
+    @media screen and (min-width: $tablet) {
+      .card--blog__wrap {
+        top: 0.5em;
+        width: 21em;
+      }
+    }
+
+    .card--blog__meta {
+      margin-bottom: 13em;
+    }
+  }
+}
+
+.card--blog__wrap {
+  background: rgba($space, 0.9);
+  border-radius: 2px;
+  padding: 1.5em;
+  position: absolute;
+  left: 0.5em;
+  right: 0.5em;
+  bottom: 0.5em;
+}
+
+.card--blog__title {
+  font-weight: 600;
+}
+
+.card--blog__title {
+  margin-bottom: 0.7em;
+  height: 3em;
+  overflow: hidden;
+}
+
+.card--blog__category {
+  margin: 0;
+  display: inline-block;
+}
+
+.card--blog__author {
+  margin: 0;
+  display: inline-block;
+}
+
+.blog__section {
+  border-bottom: 1px solid $space-grey;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+}

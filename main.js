@@ -122,9 +122,14 @@ MIT Licensed
         searchResultsEl.classList.remove("is-hidden");
         searchResultsEl.innerHTML = matchingPosts
           .map(function(post) {
-            console.log(post.category);
             return (
-              '<li><a href="' + post.link + '">' + post.title + "</a></li>"
+              "<li>" +
+              '<a href="' +
+              (post.id || post.link) +
+              '">' +
+              post.title +
+              "</a>" +
+              "</li>"
             );
           })
           .join("");
@@ -184,8 +189,8 @@ MIT Licensed
 
   superSearch({
     searchFile: "/feed.xml",
-    searchSelector: "#js-super-search",
-    inputSelector: "#js-super-search__input",
-    resultsSelector: "#js-super-search__results"
+    searchSelector: ".blog__search",
+    inputSelector: ".blog__search-input",
+    resultsSelector: ".blog__search-results"
   });
 }

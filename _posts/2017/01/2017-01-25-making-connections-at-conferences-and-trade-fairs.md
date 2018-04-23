@@ -1,7 +1,7 @@
 ---
 title: "Arvato Systems: creating connections at conferences and trade fairs"
 categories:
-  - Partnership
+  - Partnerships
   - Customer Success
 date: 2017-01-25 06:01:00
 author: Sing Li

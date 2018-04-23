@@ -15,7 +15,7 @@ redirect_from:
   - /2017/10/06/success-story-rotogrinders/
 ---
 
-<h1>Categories</h1>
+<h1 class="display">Categories</h1>
 <ul>
   {% assign categories_list = site.categories %}
     {% if categories_list.first[0] == null %}
@@ -31,9 +31,22 @@ redirect_from:
 </ul>
 
 
-<h1>Recents</h1>
+<div class="super-search" id="js-super-search">
+  <a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn">X</a>
+  <input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
+  <ul class="super-search__results" id="js-super-search__results"></ul>
+</div>
+
+<h1 class="display">Featured</h1>
+{% for post in site.posts %}
+  {% if post.featured == true %}
+    {{ post.title }}
+  {% endif %}
+{% endfor %}
+
+<h1 class="display">Recents</h1>
 <ul class="list-posts">
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts limit:6 %}
   <li class="posts">
     <a class="header" href="{{ post.url | remove: "index.html" }}"
       {% if post.cover %}
@@ -62,6 +75,13 @@ redirect_from:
   </li>
   {% endfor %}
 </ul>
+
+<h1 class="display">More Featured</h1>
+{% for post in site.posts %}
+  {% if post.featured == true and forloop.index > 5 %}
+    {{ post.title }}
+  {% endif %}
+{% endfor %}
 
 <div class="pagination">
   {% if paginator.previous_page %}

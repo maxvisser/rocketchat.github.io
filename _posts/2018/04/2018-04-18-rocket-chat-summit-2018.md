@@ -5,6 +5,7 @@ categories:
 date: 2018-04-18 10:00:00
 author: Isabella Russell
 cover: /images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg
+featured: true
 ---
 
 ## Obrigado! (Thank you!) Rocket.Chat Summit 2018, Bonito, Brazil
@@ -23,13 +24,13 @@ for us all to meet and get to know each other in person.
 
 Team members were able to hang out while discovering ancient caves, trekking through lush forest, swimming in the scenic Estância Mimosa waterfalls, and exploring the Pantanal on a wildlife safari and piranha-fishing trip!
 
-*Some healthy competition was also encouraged at times, such as during our raft water fight!*
+_Some healthy competition was also encouraged at times, such as during our raft water fight!_
 ![Water fight!](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Water fight 1.jpg)
 
-*Those who snorkel together, stay together!*
+_Those who snorkel together, stay together!_
 ![RC Snorkelling](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Snorkelling.JPG)
 
-*The Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes*
+_The Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes_
 ![Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Pantanal.jpg)
 
 The moments we spent together between activities and meetings, at breakfast, over caipirinhas or with a beer in hand at dinner time (and in the swimming pool!) were also invaluable. We discovered that Rafael is very, very good at ping pong, that Bradley is a gifted horn-player, and that Gabriel loves his gadgets ('GoPro: take a photo' will stay with us forever). Things we could never have discovered over a conference call.
@@ -53,6 +54,6 @@ Gabriel's presentation on Rocket.Chat's history reminded us all of how far Rocke
 
 All in all, the Rocket.Chat Summit was an incredible way for everyone to meet, get to know each other and openly discuss how the team collectively wants Rocket.Chat to grow.
 
-*Last but not least, a huge thank you goes to Marcelo Schmidt, our COO, for organising and championing our 2018 Summit!*
+_Last but not least, a huge thank you goes to Marcelo Schmidt, our COO, for organising and championing our 2018 Summit!_
 
 <img src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Marcelo.jpg" style="border-radius: 50%; border: 1px solid #fff; max-width: 200px;"/>

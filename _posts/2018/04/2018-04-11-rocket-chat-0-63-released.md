@@ -5,6 +5,7 @@ categories:
 date: 2018-04-11 08:00:00
 author: Rocket.Chat Team
 cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg
+featured: true
 ---
 
 Thanks to our passionate community who contributed all our headline features and 50% of the bug
@@ -42,9 +43,9 @@ has added a number of new API endpoints, for a breakdown take a look at the full
 
 Admins can configure what what will happen to a user's messages when they delete their accounts:
 
-- Keep: The user will be deleted but their messages will be kept.
-- Delete: The user and their messages will be deleted.
-- Unlink: The user will be deleted, their messages kept but not linked to an account.
+* Keep: The user will be deleted but their messages will be kept.
+* Delete: The user and their messages will be deleted.
+* Unlink: The user will be deleted, their messages kept but not linked to an account.
 
 ## Preview reply-to message
 

@@ -60,6 +60,13 @@
   }
 }
 
+.blog__col-recents {
+  justify-content: space-between;
+  .col {
+    max-width: 40em;
+  }
+}
+
 // Featured
 .blog__featured {
   @media screen and (min-width: $tablet) {
@@ -72,4 +79,10 @@
       grid-row: 1/3;
     }
   }
+}
+
+.blog__section {
+  border-bottom: 1px solid $space-grey;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
 }

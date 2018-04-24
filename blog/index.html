@@ -16,6 +16,18 @@ redirect_from:
   - /2017/10/06/success-story-rotogrinders/
 ---
 
+{% assign FeaturedList = "" | split: "" %}
+{% assign EventList = "" | split: "" %}
+
+{% for post in site.posts %}
+  {% if post.featured == true %}
+    {% assign FeaturedList = FeaturedList | push: post %}
+  {% endif %}
+  {% if post.categories contains "Events" and post.type and post.location %}
+    {% assign EventList = EventList | push: post %}
+  {% endif %}
+{% endfor %}
+
 <div class="container">
   <div class="blog__header flex-grid">  
     <p class="blog__list-cat col no-gutter">
@@ -44,8 +56,7 @@ redirect_from:
   </div>
 
   <div class="blog__featured">
-    {% for post in site.posts limit:5 %}
-      {% if post.featured == true %}
+    {% for post in FeaturedList limit:5 %}
       <a 
         class="card--blog card--blog__image"
         href="{{ post.url | remove: "index.html" }}"
@@ -68,11 +79,20 @@ redirect_from:
           </div>
         </div>
       </a>
-      {% endif %}
     {% endfor %}
   </div>
 
-  <div class="space--6"></div>
+  <div class="flex-grid">
+    <div class="col">
+      <h3 class="display theme_type--dark">Events</h3>
+      <p class="theme_type--grey">Workshops, Demos &amp; Conferences</p>
+      <a href="/category/events/" class="button--link button--with-arrow">View all</a>
+    </div>
+
+    {% for post in EventList limit:3 %}
+      {{ post.title }}
+    {% endfor %}
+  </div>
 
   <div class="flex-grid blog__col-recents">
     <div class="col">
@@ -107,8 +127,8 @@ redirect_from:
 
     <div class="col--third">
       <h3 class="display--small theme_type--dark blog__section">More Featured</h3>
-      {% for post in site.posts %}
-        {% if post.featured == true and forloop.index > 5 %}
+      {% for post in FeaturedList %}
+        {% if forloop.index > 5 %}
         <div class="flex-grid--nobreak">
           <a 
             href="{{ post.url | remove: "index.html" }}"

@@ -17,7 +17,7 @@ redirect_from:
 ---
 
 {% assign FeaturedList = "" | split: "" %}
-{% assign EventList = "" | split: "" %}
+{% assign EventList = "" | split: "" | sort: "dateEvent"  %}
 
 {% for post in site.posts %}
   {% if post.featured == true %}
@@ -27,6 +27,8 @@ redirect_from:
     {% assign EventList = EventList | push: post %}
   {% endif %}
 {% endfor %}
+
+{% assign EventListSorted = EventList | sort: "dateEvent"  %}
 
 <div class="container">
   <div class="blog__header flex-grid">  
@@ -82,17 +84,31 @@ redirect_from:
     {% endfor %}
   </div>
 
+  <div class="space--6"></div>
+
   <div class="flex-grid">
-    <div class="col">
+    <div class="col--fourth no-gutter">
+      <div class="space--2"></div>
       <h3 class="display theme_type--dark">Events</h3>
       <p class="theme_type--grey">Workshops, Demos &amp; Conferences</p>
       <a href="/category/events/" class="button--link button--with-arrow">View all</a>
+      <div class="space--1"></div>
     </div>
 
-    {% for post in EventList limit:3 %}
-      {{ post.title }}
-    {% endfor %}
+    <div class="flex-grid theme_box--brand blog__event">
+      {% for post in EventListSorted limit:3 %}
+        <a href="{{ post.link }}" class="col blog__event-item no-gutter">
+          <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
+          <h4 class="display theme_type--dark">{{ post.dateEvent | date: "%m.%d" }}</h4>
+          <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
+          <div class="space--1"></div>
+          <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
+        </a>
+      {% endfor %}
+    </div>
   </div>
+
+  <div class="space--5"></div>
 
   <div class="flex-grid blog__col-recents">
     <div class="col">

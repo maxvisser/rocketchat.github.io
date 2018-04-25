@@ -97,7 +97,7 @@ redirect_from:
 
     <div class="flex-grid theme_box--brand blog__event">
       {% for post in EventListSorted limit:3 %}
-        <a href="{{ post.link }}" class="col blog__event-item no-gutter">
+        <a href="{{ post.url }}" class="col blog__event-item no-gutter">
           <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
           <h4 class="display theme_type--dark">{{ post.dateEvent | date: "%m.%d" }}</h4>
           <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>

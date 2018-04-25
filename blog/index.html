@@ -92,7 +92,7 @@ redirect_from:
       <h3 class="display theme_type--dark">Events</h3>
       <p class="theme_type--grey">Workshops, Demos &amp; Conferences</p>
       <a href="/category/events/" class="button--link button--with-arrow">View all</a>
-      <div class="space--1"></div>
+      <div class="space--2"></div>
     </div>
 
     <div class="flex-grid theme_box--brand blog__event">
@@ -112,7 +112,11 @@ redirect_from:
 
   <div class="flex-grid blog__col-recents">
     <div class="col">
-      <h3 class="display--small theme_type--dark blog__section">Recents</h3>
+      <h3 class="display--small theme_type--dark blog__section">
+        <span>Recents </span>
+        <small><a href="/recents/" class="button--link">View all</a></small>
+      </h3>
+
       <div class="blog__recents">
         {% for post in paginator.posts limit:6 %}
         <a 
@@ -175,6 +179,12 @@ redirect_from:
         <div class="card--blog__separator"></div>
         {% endif %}
       {% endfor %}
+
+      <div class="card theme_box--dark">
+        <p class="label theme_type--grey">Blog subscription</p>
+        <p class="theme_type--dark">Stay up to date with all things open source communication!</p>
+        <a href="/feed.xml" target="_blank" class="button--link button--with-arrow">Subscribe to updates</a>
+      </div>
     </div>
   </div>
 </div>

@@ -14,7 +14,7 @@ if ! cat ~/.bash_profile | grep -qFe "rbenv init" ; then
 fi
 
 # upgrade ruby build
-cd /Users/sean/.rbenv/plugins/ruby-build && git pull && cd -
+cd ~/.rbenv/plugins/ruby-build && git pull && cd -
 
 # install ruby
 rbenv install 2.4.2

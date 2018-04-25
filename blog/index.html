@@ -30,8 +30,11 @@ redirect_from:
 
 {% assign EventListSorted = EventList | sort: "dateEvent"  %}
 
+
 <div class="container">
   {% include blog/header.html %}
+  
+  {% if paginator.page == 1 %}
 
   <div class="blog__featured">
     {% for post in FeaturedList limit:5 %}
@@ -90,11 +93,11 @@ redirect_from:
     <div class="col">
       <h3 class="display--small theme_type--dark blog__section">
         <span>Recents </span>
-        <small><a href="/recents/" class="button--link">View all</a></small>
+        <small><a href="/blog/page/2" class="button--link">View all</a></small>
       </h3>
 
       <div class="blog__recents">
-        {% for post in paginator.posts limit:6 %}
+        {% for post in paginator.posts %}
         <a 
           class="card--blog card--blog__image card--horizontal"
           href="{{ post.url | remove: "index.html" }}"
@@ -163,6 +166,88 @@ redirect_from:
       </div>
     </div>
   </div>
+
+  {% endif %}
+
+  {% if paginator.page > 1 %}
+  <h1 class="display--big theme_type--dark">Recents</h1>
+
+  <div class="space--4"></div>
+
+  <div class="blog__category">
+    {% for post in paginator.posts %}
+
+      {% if post.categories contains "Events" and post.type and post.location %}
+        <a 
+          class="card--blog card--blog__image"
+          href="{{ post.url | remove: "index.html" }}"
+          {% if post.cover %}
+            style="background-image: url('{{ post.cover }}')"
+          {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+          {% endif %}
+        >
+          <div class="card--blog__wrap">
+            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
+            <h4 class="display theme_type--dark">{{ post.dateEvent | date: "%m.%d" }}</h4>
+            <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
+            <div class="space--1"></div>
+            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
+          </div>
+        </a>
+      {% else %}
+        <a 
+          class="card--blog card--blog__image"
+          href="{{ post.url | remove: "index.html" }}"
+          {% if post.cover %}
+            style="background-image: url('{{ post.cover }}')"
+          {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+          {% endif %}
+        >
+          <div class="card--blog__wrap">
+            <p class="card--blog__meta label--small theme_type--grey">
+              {% assign words = post.content | number_of_words %}
+              {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
+              — {{ post.date | date: "%b %-d, %Y" }}
+            </p>
+            <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
+            <div class="card--blog__data">
+              <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories[0] }}</p>
+              <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
+            </div>
+          </div>
+        </a>
+      {% endif %}
+
+    {% endfor %}
+
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous">Previous</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <strong>{{ page }}</strong>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next">Next</span>
+      {% endif %}
+    </div>
+  </div>
 </div>
 
+<div class="space--4"></div>
+{% endif %}
 

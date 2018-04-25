@@ -27,7 +27,7 @@ Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
 */
   (function() {
-    var searchFile = "/feed.xml",
+    var searchFile = "/sitemap.xml",
       searchEl,
       searchInputEl,
       searchResultsEl,
@@ -69,10 +69,10 @@ MIT Licensed
 
     function getPostsFromXml(xml) {
       var json = xmlToJson(xml);
-      if (json.entry && json.entry instanceof Array) {
-        return json.entry;
+      if (json.url && json.url instanceof Array) {
+        return json.url;
       } else {
-        return json.channel.item;
+        return [];
       }
     }
 
@@ -92,23 +92,29 @@ MIT Licensed
       var currentResultHash;
 
       currentInputValue = (searchInputEl.value + "").toLowerCase();
+
       if (!currentInputValue || currentInputValue.length < 3) {
         lastSearchResultHash = "";
         searchResultsEl.classList.add("is-hidden");
         return;
       }
+
       searchResultsEl.style.offsetWidth;
 
-      var matchingPosts = posts.filter(function(post) {
-        if (
-          (post.title + "").toLowerCase().indexOf(currentInputValue) !== -1 ||
-          ((post.description || post.content) + "")
-            .toLowerCase()
-            .indexOf(currentInputValue) !== -1
-        ) {
-          return true;
-        }
-      });
+      var matchingPosts = posts
+        .filter(function(post) {
+          if (post.loc.toLowerCase().indexOf(currentInputValue) !== -1) {
+            return true;
+          }
+        })
+        .map(function(item) {
+          var title = item.loc.match(/\/([^\/]+)\/?$/)[1].replace(/-/g, " ");
+
+          return {
+            link: item.loc,
+            title: title
+          };
+        });
 
       if (!matchingPosts.length) {
         searchResultsEl.classList.add("is-hidden");
@@ -125,7 +131,7 @@ MIT Licensed
             return (
               "<li>" +
               '<a href="' +
-              (post.id || post.link) +
+              post.link +
               '">' +
               post.title +
               "</a>" +
@@ -134,6 +140,7 @@ MIT Licensed
           })
           .join("");
       }
+
       lastSearchResultHash = currentResultHash;
     }
 
@@ -180,6 +187,17 @@ MIT Licensed
       searchInputEl.addEventListener("input", function onInputChange() {
         handleInput();
       });
+
+      searchInputEl.addEventListener("focus", function() {
+        this.classList.add("focus");
+      });
+
+      searchInputEl.addEventListener("blur", function() {
+        var self = this;
+        setTimeout(function() {
+          self.classList.remove("focus");
+        }, 100);
+      });
     }
 
     init.toggle = toggleSearch;
@@ -188,7 +206,7 @@ MIT Licensed
   })();
 
   superSearch({
-    searchFile: "/feed.xml",
+    searchFile: "/sitemap.xml",
     searchSelector: ".blog__search",
     inputSelector: ".blog__search-input",
     resultsSelector: ".blog__search-results"

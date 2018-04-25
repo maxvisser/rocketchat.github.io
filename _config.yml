@@ -40,11 +40,13 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 whitelist:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 exclude:
   - Gemfile

@@ -138,7 +138,7 @@
   @media screen and (min-width: $tablet) {
     display: grid;
     grid-gap: 1em 2em;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
 
     a:first-child {
@@ -198,8 +198,8 @@ body.category {
 .blog__category {
   @media screen and (min-width: $tablet) {
     display: grid;
-    grid-gap: 1em 2em;
-    grid-template-columns: repeat(3, auto);
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
 
     a:first-child {
       grid-row: 1/3;
@@ -213,6 +213,159 @@ body.category {
   a:not(:first-child) {
     .card--blog__wrap {
       top: 0.5em;
+    }
+  }
+}
+
+//
+// Blog post
+//
+.blog-post__header {
+  background: $space;
+  padding: 10vw 0 26vw 0;
+}
+
+.blog-post__header-wrap {
+  max-width: 46rem;
+  width: 100%;
+}
+
+.blog-post__cover {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: -18vw;
+  margin-bottom: 6em;
+  border-radius: 2px;
+  width: calc(100% - 1em);
+
+  @media screen and (min-width: $tablet) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 58em;
+    width: 100%;
+  }
+}
+
+.blog-post__wrap {
+  color: $space;
+  max-width: 34em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $gutter;
+
+  p {
+    font-weight: normal;
+
+    + h2,
+    + h3,
+    + h4 {
+      margin-top: 3em;
+    }
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-weight: 500;
+    font-size: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  code {
+    font-size: 0.8em;
+    border-radius: 2px;
+    padding: 0.72em 1em;
+    border: 1px solid $grey-smoke;
+  }
+
+  a {
+    transition: all $tranitions;
+    color: $brand;
+
+    &:hover {
+      color: $brand-dark;
+    }
+  }
+
+  .full-image {
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    border-radius: 2px;
+    width: calc(100% + 1em);
+    max-width: calc(100% + 1em);
+
+    @media screen and (min-width: $tablet) {
+      margin-left: -7rem;
+      margin-right: -7rem;
+      width: calc(100% + 14rem);
+      max-width: calc(100% + 14rem);
+    }
+
+    + em {
+      font-size: 0.8em;
+      font-style: normal;
+      text-align: center;
+      border-bottom: 1px solid $grey-smoke;
+      padding: 0.8rem 0;
+      display: block;
+
+      @media screen and (min-width: $tablet) {
+        margin-left: -7rem;
+        margin-right: -7rem;
+        width: calc(100% + 14rem);
+        max-width: calc(100% + 14rem);
+      }
+    }
+  }
+
+  li {
+    list-style: disc;
+    margin-left: 1.2em;
+    margin-bottom: 0.8em;
+  }
+
+  blockquote {
+    margin-left: -7rem;
+    margin-right: -7rem;
+    width: calc(100% + 14rem);
+    max-width: calc(100% + 14rem);
+    font-size: 2em;
+
+    p {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.blog-post__social {
+  max-width: 34em;
+  margin-left: auto;
+  margin-right: auto;
+
+  .share {
+    > * {
+      margin-right: 1em;
+    }
+
+    .pocket {
+      display: inline-block;
+      width: 44px;
+      height: 44px;
+      margin-right: 1em;
+      background: url(../images/blog/pocket.svg) center;
+      overflow: hidden;
+    }
+
+    .pocket-btn {
+      opacity: 0;
     }
   }
 }

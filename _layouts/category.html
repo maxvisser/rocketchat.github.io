@@ -55,9 +55,10 @@ permalink: /categories/
         >
           <div class="card--blog__wrap">
             <p class="card--blog__meta label--small theme_type--grey">
+              {{ post.date | date: "%b %-d, %Y" }}
+              — 
               {% assign words = post.content | number_of_words %}
               {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-              — {{ post.date | date: "%b %-d, %Y" }}
             </p>
             <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
             <div class="card--blog__data">

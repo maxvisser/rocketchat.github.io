@@ -49,9 +49,10 @@ redirect_from:
       >
         <div class="card--blog__wrap">
           <p class="card--blog__meta label--small theme_type--grey">
+            {{ post.date | date: "%b %-d, %Y" }}
+            — 
             {% assign words = post.content | number_of_words %}
             {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-            — {{ post.date | date: "%b %-d, %Y" }}
           </p>
           <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
           <div class="card--blog__data">
@@ -109,9 +110,10 @@ redirect_from:
         >
           <div class="card--blog__wrap">
             <p class="card--blog__meta label--small theme_type--grey">
+              {{ post.date | date: "%b %-d, %Y" }}
+              — 
               {% assign words = post.content | number_of_words %}
               {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-              — {{ post.date | date: "%b %-d, %Y" }}
             </p>
             <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
             <div class="card--blog__data">
@@ -144,9 +146,10 @@ redirect_from:
           </a>
           <a class="no-gutter col" href="{{ post.url | remove: "index.html" }}">
             <p class="card--blog__meta label--small theme_type--grey">
+              {{ post.date | date: "%b %-d, %Y" }}
+              — 
               {% assign words = post.content | number_of_words %}
               {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-              — {{ post.date | date: "%b %-d, %Y" }}
             </p>
             <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
             <div class="card--blog__data">
@@ -160,7 +163,7 @@ redirect_from:
       {% endfor %}
 
       <div class="card theme_box--dark">
-        <p class="label theme_type--grey">Blog subscription</p>
+        <p class="label theme_type--grey">RSS feed</p>
         <p class="theme_type--dark">Stay up to date with all things open source communication!</p>
         <a href="/feed.xml" target="_blank" class="button--link button--with-arrow">Subscribe to updates</a>
       </div>
@@ -207,9 +210,10 @@ redirect_from:
         >
           <div class="card--blog__wrap">
             <p class="card--blog__meta label--small theme_type--grey">
+              {{ post.date | date: "%b %-d, %Y" }}
+              — 
               {% assign words = post.content | number_of_words %}
               {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-              — {{ post.date | date: "%b %-d, %Y" }}
             </p>
             <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
             <div class="card--blog__data">
@@ -221,30 +225,36 @@ redirect_from:
       {% endif %}
 
     {% endfor %}
+  </div>
 
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous"><img src="/images/default/arrow--left.svg" /></a>
+    {% else %}
+      <span class="previous inactive"><img src="/images/default/arrow--left.svg" /></span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="current">
+          <span>{{ page }}</span>
+        </span>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+          <span>{{ page }}</span>
+        </a>
       {% else %}
-        <span class="previous">Previous</span>
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+          <span>{{ page }}</span>
+        </a>
       {% endif %}
+    {% endfor %}
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <strong>{{ page }}</strong>
-        {% elsif page == 1 %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-      {% else %}
-        <span class="next">Next</span>
-      {% endif %}
-    </div>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next"><img src="/images/default/arrow--right.svg" /></a>
+    {% else %}
+      <span class="next inactive"><img src="/images/default/arrow--right.svg" /></span>
+    {% endif %}
   </div>
 </div>
 

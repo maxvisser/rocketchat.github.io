@@ -222,7 +222,7 @@ body.category {
 //
 .blog-post__header {
   background: $space;
-  padding: 10vw 0 26vw 0;
+  padding: 6vw 0 24vw 0;
 }
 
 .blog-post__header-wrap {
@@ -373,21 +373,15 @@ body.category {
   }
 
   .share {
-    > * {
+    a {
       margin-right: 1em;
+      width: 36px;
+      height: 36px;
     }
 
-    .pocket {
-      display: inline-block;
-      width: 44px;
-      height: 44px;
-      margin-right: 1em;
-      background: url(../images/blog/pocket.svg) center;
-      overflow: hidden;
-    }
-
-    .pocket-btn {
-      opacity: 0;
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }

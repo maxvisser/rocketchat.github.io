@@ -16,7 +16,11 @@ class: post
           </p>
           <h3 class="display--big theme_type--dark">{{ page.title }}</h3>
           <div class="card--blog__data">
-            <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ page.categories[0] }}</p>
+            <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">
+              <a href="/category/{{ page.categories[0] | slugify}}">
+                {{ page.categories[0] }}
+              </a>
+            </p>
             <p class="card--blog__author text--small theme_type--grey">by {{ page.author }}</p>
           </div>
         </div>
@@ -69,32 +73,13 @@ class: post
         onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://rocket.chat{{ page.url }}','Facebook Share','width=800,height=600');">
         <img src="/images/blog/facebook.svg" alt="Share on Facebook" />
       </a>
-
-      <a 
-        href="//pinterest.com/pin/create/%20button?url==https://rocket.chat{{ page.url }}{% if page.cover %}&media={{ page.cover }}{% endif %}&description={{ page.title }}" 
-        data-pin-custom="true" 
-        target="_blank">
-        <img src="/images/blog/pinterest.svg" alt="Share on Pinterest"/>
-      </a>
-
+      
       <a 
         href="#social"
         target="_blank"
         onclick="window.open('//www.reddit.com/submit?url=https://rocket.chat{{ page.url }}','Reddit Share','width=800,height=600');"> 
         <img src="/images/blog/reddit.svg" alt="Share on Reddit" />
       </a>
-
-      <a 
-        data-flip-widget="shareflip" 
-        href="https://flipboard.com">
-        <img src="/images/blog/flipboard.svg" alt="Share on Flipboard" />
-      </a>
-      <script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
-
-      <div class="pocket">
-        <a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a>
-        <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
-      </div>
 
       <a
         href="mailto:?subject=I%20just%20read%20{{ page.title }}&body=Hey%2C%20I%20just%20read%20{{ page.title }}%20https://rocket.chat{{ page.url }}."

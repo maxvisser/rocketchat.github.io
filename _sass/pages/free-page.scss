@@ -1,10 +1,11 @@
 .double-column__sidebar {
   background: $grey-bg;
-  box-shadow: 1px 0 0 0 $grey-smoke;
-  position: relative;
-  padding: 2em 0;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
 
   @media screen and (min-width: $tablet) {
+    box-shadow: 1px 0 0 0 $grey-smoke;
+    position: relative;
     padding: 5em 0;
   }
 
@@ -20,13 +21,46 @@
 }
 
 .double-column__links {
-  position: fixed;
+  position: relative;
+  padding: 1em;
+  white-space: nowrap;
+
+  @media screen and (min-width: $tablet) {
+    position: fixed;
+    white-space: normal;
+    padding: 0;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0em;
+    width: 3em;
+    background-image: linear-gradient(-90deg, $grey-bg 0%, transparent 100%);
+
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+  }
+
+  > div {
+    overflow: auto;
+  }
 
   li {
     list-style: none;
     padding: 0;
-    margin-bottom: 1em;
+    margin-right: 1em;
     color: $space;
+    display: inline-block;
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 1em;
+      display: block;
+    }
   }
 }
 
@@ -36,8 +70,6 @@
 
 .double-column__content {
   .free-content {
-    padding: 2em;
-
     @media screen and (min-width: $tablet) {
       padding: 4.3em 5em;
     }

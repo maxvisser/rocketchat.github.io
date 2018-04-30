@@ -10,10 +10,24 @@
     }
   }
 
+  @media screen and (min-width: $tablet) {
+    &.table--two-column {
+      table {
+        max-width: 50%;
+      }
+    }
+
+    &.table--three-column {
+      table {
+        max-width: calc(100% / 3);
+      }
+    }
+  }
+
   table {
     table-layout: fixed;
-    width: 100%;
     margin-bottom: 2em;
+    width: 100%;
 
     @media screen and (min-width: $tablet) {
       flex: 1;

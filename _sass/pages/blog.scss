@@ -141,7 +141,7 @@
 .blog__featured {
   @media screen and (min-width: $tablet) {
     display: grid;
-    grid-gap: 1em 2em;
+    grid-gap: 2em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
 

@@ -31,21 +31,6 @@
     padding: 0;
   }
 
-  &:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0em;
-    width: 3em;
-    background-image: linear-gradient(-90deg, $grey-bg 0%, transparent 100%);
-
-    @media screen and (min-width: $tablet) {
-      display: none;
-    }
-  }
-
   > div {
     overflow: auto;
   }

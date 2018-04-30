@@ -17,22 +17,22 @@
   margin-right: -$gutter / 2;
 
   @media (min-width: $tablet) {
-    display: flex;
+    @include flexbox();
     margin-left: -$gutter-larger / 2;
     margin-right: -$gutter-larger / 2;
   }
 
   &.grid--center {
-    align-items: center;
+    @include align-items(center);
   }
 
   &.grid--justify-around {
-    justify-content: space-around;
+    @include justify-content(space-around);
   }
 
   &.grid--reverse {
     @media screen and (min-width: $tablet) {
-      flex-direction: row-reverse;
+      @include flex-direction(row-reverse);
     }
   }
 
@@ -40,9 +40,10 @@
     padding-left: $gutter / 2;
     padding-right: $gutter / 2;
     margin-bottom: $gutter;
+    width: 100%;
 
     @media (min-width: $tablet) {
-      flex: 1;
+      @include flex(1);
       margin-bottom: $gutter-larger;
       padding-left: $gutter-larger / 2;
       padding-right: $gutter-larger / 2;
@@ -70,6 +71,7 @@
 
     @media (min-width: $tablet) {
       max-width: 50%;
+      @include flex-basis(50%);
     }
   }
 
@@ -78,6 +80,7 @@
 
     @media (min-width: $tablet) {
       max-width: 33%;
+      @include flex-basis(33%);
     }
   }
 
@@ -86,6 +89,7 @@
 
     @media (min-width: $tablet) {
       max-width: 25%;
+      @include flex-basis(25%);
     }
   }
 
@@ -94,6 +98,7 @@
 
     @media (min-width: $tablet) {
       max-width: 20%;
+      @include flex-basis(20%);
     }
   }
 
@@ -102,12 +107,13 @@
 
     @media (min-width: $tablet) {
       max-width: 75%;
+      @include flex-basis(75%);
     }
   }
 }
 
 .flex-grid--nobreak {
-  display: flex;
+  @include flexbox();
   margin-left: -$gutter / 2;
   margin-right: -$gutter / 2;
 
@@ -117,10 +123,11 @@
   }
 
   @mixin column {
-    flex: 1;
+    @include flex(1);
     padding-left: $gutter / 2;
     padding-right: $gutter / 2;
     margin-bottom: $gutter;
+    width: 100%;
 
     @media (min-width: $tablet) {
       margin-bottom: $gutter-larger;
@@ -146,21 +153,25 @@
   > .col--haft {
     @include column;
     max-width: 50%;
+    @include flex-basis(50%);
   }
 
   > .col--third {
     @include column;
     max-width: 33%;
+    @include flex-basis(33%);
   }
 
   > .col--fourth {
     @include column;
     max-width: 25%;
+    @include flex-basis(25%);
   }
 
   > .col--fifth {
     @include column;
 
     max-width: 20%;
+    @include flex-basis(20%);
   }
 }

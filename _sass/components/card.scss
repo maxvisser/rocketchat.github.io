@@ -32,7 +32,7 @@
 .card_icon--mini {
   padding-left: $gutter;
   padding-right: $gutter;
-  align-self: flex-start;
+  @include align-self(flex-start);
 }
 
 .card--shadow {
@@ -116,8 +116,8 @@
 }
 
 .card--blog__data {
-  display: flex;
-  align-items: center;
+  @include flexbox();
+  @include align-items(center);
 }
 
 .card--blog__category {

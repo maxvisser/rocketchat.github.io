@@ -37,9 +37,11 @@ permalink: /categories/
       {% endif %}
     {% endfor %}
 
+    {% assign UpcomingSorted = Upcoming | sort: "dateEvent"  %}
+
     <h3 class="display--small theme_type--dark blog__section">Upcoming</h3>
     <div class="{% if Upcoming.size > 3 %}blog__category{% else %}blog__category--no-highlight{% endif %}">
-      {% for post in Upcoming %}
+      {% for post in UpcomingSorted %}
         <a 
           class="card--blog card--blog__image"
           href="{{ post.url | remove: "index.html" }}"

@@ -19,7 +19,7 @@
   padding-bottom: 20em;
 
   @media (min-width: $tablet) {
-    display: flex;
+    @include flexbox();
     padding-bottom: 0;
     background-image: url("/images/download/mobile.png");
     background-size: auto 90%;
@@ -28,7 +28,7 @@
 
     .wrap {
       padding: 2em;
-      flex: 0.3;
+      max-width: 30%;
     }
   }
 
@@ -37,7 +37,7 @@
 
     .wrap {
       padding: 3em 4em;
-      flex: 0.5;
+      max-width: 50%;
     }
   }
 

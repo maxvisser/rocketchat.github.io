@@ -129,7 +129,13 @@
 }
 
 .blog__col-recents {
-  justify-content: space-between;
+  @include justify-content(space-between);
+
+  // only IE
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @include justify-content(start);
+  }
+
   .col {
     max-width: 40em;
   }
@@ -156,9 +162,9 @@
   border-bottom: 1px solid $space-grey;
   padding-bottom: 1em;
   margin-bottom: 2em;
-  justify-content: space-between;
-  align-items: flex-end;
-  display: flex;
+  @include justify-content(space-between);
+  @include align-items(flex-end);
+  @include flexbox();
   line-height: 1;
   @media screen and (min-width: $tablet) {
     margin-top: 0;
@@ -170,7 +176,7 @@
   padding: 0 0 0.5em 0 !important;
   border-radius: 2px;
   margin: 4em 0 0;
-  flex: 1;
+  @include flex(1);
   @media screen and (min-width: $tablet) {
     margin: 0 1em 0 0;
   }

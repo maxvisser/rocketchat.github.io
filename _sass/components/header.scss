@@ -15,9 +15,9 @@
   }
 
   .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flexbox();
+    @include justify-content(space-between);
+    @include align-items(center);
   }
 
   &:after {
@@ -29,11 +29,11 @@
 }
 
 .app-header_logo {
-  display: flex;
+  @include flexbox();
   padding: 1.5em 0;
 
   @media screen and (min-width: 60em) {
-    flex: 1;
+    @include flex(1);
   }
 
   img {
@@ -53,9 +53,9 @@
   transition: all 0.3s ease;
 
   @media screen and (min-width: $tablet) {
-    display: flex;
-    flex: 3;
-    justify-content: space-between;
+    @include flexbox();
+    @include justify-content(space-between);
+    @include flex(3);
     position: static;
     padding: 0 !important;
     height: auto !important;
@@ -82,7 +82,7 @@
     margin-top: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
-    display: flex;
+    @include flexbox();
     transition: color 0.3s ease;
 
     @media screen and (min-width: $tablet) {

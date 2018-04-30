@@ -3,7 +3,7 @@
 //
 .home-hero {
   @media screen and (min-width: $tablet) {
-    display: flex;
+    @include flexbox();
     min-height: 70vh;
   }
 
@@ -27,7 +27,7 @@
 
   @media screen and (min-width: $tablet) {
     margin: 6em 0;
-    flex: 0.4;
+    @include flex-basis(40%);
   }
 }
 
@@ -56,19 +56,19 @@
   position: relative;
 
   @media screen and (min-width: $tablet) {
-    display: flex;
+    @include flexbox();
     background-position: left top;
   }
 }
 
 .home_box-wrap {
   padding: 2em $gutter;
-  flex: 0.38;
   font-size: 14px;
   position: relative;
   z-index: 2;
 
   @media screen and (min-width: $tablet) {
+    max-width: 48.5%;
     padding: 4em 6.5em 4em 7em;
   }
 }
@@ -78,7 +78,7 @@
 //
 .home-community {
   background-color: $space-b;
-  justify-content: flex-end;
+  @include justify-content(flex-end);
 
   @media screen and (min-width: $tablet) {
     background-size: 60% auto;
@@ -149,7 +149,7 @@
   }
 
   span {
-    flex: 1;
+    @include flex(1);
   }
 
   img {
@@ -168,6 +168,10 @@
 }
 
 .home-community_github-link {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-inline-flex;
   display: inline-flex;
   width: 100%;
   margin-top: 1.5em;
@@ -290,7 +294,7 @@
   padding-bottom: 20em;
 
   @media (min-width: $tablet) {
-    display: flex;
+    @include flexbox();
     padding-bottom: 0;
     background-image: url("/images/download/mobile.png");
     background-size: auto 90%;
@@ -298,7 +302,6 @@
 
     .wrap {
       padding: 2em;
-      flex: 0.3;
     }
   }
 
@@ -307,7 +310,7 @@
 
     .wrap {
       padding: 3em 4em;
-      flex: 0.4;
+      max-width: 50%;
     }
   }
 }
@@ -340,13 +343,13 @@
 //  Home clients
 //
 .home-clients {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  @include flexbox();
+  @include align-items(center);
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
 
   @media (min-width: $tablet) {
-    flex-wrap: nowrap;
+    @include flex-wrap(nowrap);
   }
 
   span {

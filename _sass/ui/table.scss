@@ -1,6 +1,6 @@
 .table {
   @media screen and (min-width: $tablet) {
-    display: flex;
+    @include flexbox();
   }
 
   .table--layout {
@@ -30,7 +30,7 @@
     width: 100%;
 
     @media screen and (min-width: $tablet) {
-      flex: 1;
+      @include flex(1);
       margin-bottom: 0;
 
       ~ table {

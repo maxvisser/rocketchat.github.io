@@ -1,6 +1,4 @@
-
 body.index {
-
   section {
     padding-bottom: 9em;
   }
@@ -15,7 +13,8 @@ body.index {
     color: #fff;
     padding: 0;
 
-    .left, .right {
+    .left,
+    .right {
       margin-bottom: 3em;
     }
 
@@ -29,7 +28,7 @@ body.index {
 
     .wrapper {
       padding-bottom: 285px;
-      background-image: url('../images/index/devices.png');
+      background-image: url("../images/index/devices.png");
       background-repeat: no-repeat;
       background-position: bottom;
       background-size: contain;
@@ -68,11 +67,14 @@ body.index {
     .github {
       margin-top: 2em;
 
-      .name, .stars, .forks {
+      .name,
+      .stars,
+      .forks {
         float: left;
       }
 
-      a, a:visited {
+      a,
+      a:visited {
         color: $color-dark;
       }
 
@@ -95,7 +97,8 @@ body.index {
         font-weight: 600;
       }
 
-      .stars, .forks {
+      .stars,
+      .forks {
         padding: 0 1.2em;
         border-left: 1px solid #fff;
         text-transform: uppercase;
@@ -173,7 +176,7 @@ body.index {
   }
 
   .apps {
-    background-image: url('../images/index/clients.png');
+    background-image: url("../images/index/clients.png");
     background-position: right;
     background-repeat: no-repeat;
     padding-top: 12em;
@@ -222,7 +225,8 @@ body.index {
     text-align: center;
     color: #fff;
 
-    .wrapper, .content {
+    .wrapper,
+    .content {
       border-top-right-radius: 7px;
       border-bottom-right-radius: 7px;
     }
@@ -260,7 +264,8 @@ body.index {
         padding-bottom: 220px;
       }
 
-      .left, .right {
+      .left,
+      .right {
         float: none;
         width: 100%;
         padding: 0 2em;
@@ -274,7 +279,10 @@ body.index {
     .mwc {
       margin-top: 5em;
 
-      a, div, .logo, .date {
+      a,
+      div,
+      .logo,
+      .date {
         float: none;
         display: block;
       }
@@ -288,9 +296,14 @@ body.index {
       background-image: none;
     }
 
-    .community, .features, .livechat, .translation, .apps, .own {
-
-      .left, .right {
+    .community,
+    .features,
+    .livechat,
+    .translation,
+    .apps,
+    .own {
+      .left,
+      .right {
         margin: 0;
       }
 
@@ -313,5 +326,4 @@ body.index {
       }
     }
   }
-
 }

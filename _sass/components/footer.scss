@@ -5,8 +5,8 @@
     @media screen and (min-width: $tablet) {
       padding-top: 5em;
       padding-bottom: 5em;
-      display: flex;
-      justify-content: space-between;
+      @include flexbox();
+      @include justify-content(space-between);
     }
   }
 
@@ -25,7 +25,7 @@
   @media screen and (min-width: $tablet) {
     margin-top: 0;
     max-width: 13em;
-    order: -1;
+    @include order(-1);
   }
 }
 
@@ -33,9 +33,9 @@
   display: none;
 
   @media screen and (min-width: $tablet) {
-    display: flex;
+    @include flexbox();
     margin-bottom: 3em;
-    flex: 1;
+    @include flex(1);
   }
 
   img {
@@ -182,7 +182,7 @@ input:checked + .app-footer_pre-menu:after {
 }
 
 .app-footer_download {
-  display: flex;
+  @include flexbox();
   transition: color 0.3s ease;
 
   span {

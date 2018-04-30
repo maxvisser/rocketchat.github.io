@@ -5,11 +5,12 @@ categories:
 date: 2018-04-18 10:00:00
 author: Isabella Russell
 cover: /images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/rocket-chat-team-summit-2018.jpg
+featured: true
 ---
 
 ## Obrigado! (Thank you!) Rocket.Chat Summit 2018, Bonito, Brazil
 
-![Rocket.Chat Team, March 2018](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Summit-2018-Team-Photo-1.jpg)
+<img class="full-image" alt="Rocket.Chat Team, March 2018" src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Summit-2018-Team-Photo-1.jpg" />
 
 In March this year, Rocket.Chat’s 41-strong team and significant others
 travelled to Bonito in Brazil’s Mato Grosso do Sul for its 2018 Summit,
@@ -23,14 +24,14 @@ for us all to meet and get to know each other in person.
 
 Team members were able to hang out while discovering ancient caves, trekking through lush forest, swimming in the scenic Estância Mimosa waterfalls, and exploring the Pantanal on a wildlife safari and piranha-fishing trip!
 
-*Some healthy competition was also encouraged at times, such as during our raft water fight!*
-![Water fight!](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Water fight 1.jpg)
+<img class="full-image" alt="Water fight!" src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Water fight 1.jpg" />
+_Some healthy competition was also encouraged at times, such as during our raft water fight!_
 
-*Those who snorkel together, stay together!*
-![RC Snorkelling](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Snorkelling.JPG)
+<img class="full-image" alt="RC Snorkelling" src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Snorkelling.JPG" />
+_Those who snorkel together, stay together!_
 
-*The Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes*
-![Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Pantanal.jpg)
+<img class="full-image" alt="Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes" src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Pantanal.jpg" />
+_The Pantanal: home to a dazzling array of wildlife- and millions of thirsty mosquitoes_
 
 The moments we spent together between activities and meetings, at breakfast, over caipirinhas or with a beer in hand at dinner time (and in the swimming pool!) were also invaluable. We discovered that Rafael is very, very good at ping pong, that Bradley is a gifted horn-player, and that Gabriel loves his gadgets ('GoPro: take a photo' will stay with us forever). Things we could never have discovered over a conference call.
 
@@ -53,6 +54,6 @@ Gabriel's presentation on Rocket.Chat's history reminded us all of how far Rocke
 
 All in all, the Rocket.Chat Summit was an incredible way for everyone to meet, get to know each other and openly discuss how the team collectively wants Rocket.Chat to grow.
 
-*Last but not least, a huge thank you goes to Marcelo Schmidt, our COO, for organising and championing our 2018 Summit!*
+_Last but not least, a huge thank you goes to Marcelo Schmidt, our COO, for organising and championing our 2018 Summit!_
 
 <img src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Marcelo.jpg" style="border-radius: 50%; border: 1px solid #fff; max-width: 200px;"/>

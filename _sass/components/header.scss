@@ -71,6 +71,11 @@
       margin-bottom: 0;
       display: inline-block;
     }
+
+    // only IE
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      margin-top: 1.2em;
+    }
   }
 
   a {
@@ -93,6 +98,18 @@
     img {
       margin-top: 0.2em;
       margin-right: 0.5em;
+    }
+
+    // only IE
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      float: right;
+      margin-top: 1.2em;
+      margin-left: 4em;
+
+      img,
+      span {
+        display: inline-block;
+      }
     }
   }
 }

@@ -27,6 +27,11 @@
     max-width: 13em;
     @include order(-1);
   }
+
+  // only IE
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    margin-right: 3em;
+  }
 }
 
 .app-footer_logo {
@@ -89,6 +94,11 @@
 }
 
 .app-footer_col {
+  // only IE
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    width: 20%;
+  }
+
   &:after {
     content: "";
     display: block;

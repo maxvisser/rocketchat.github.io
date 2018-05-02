@@ -1,4 +1,4 @@
-@mixin transform-origin ($origin) {
+@mixin transform-origin($origin) {
   moz-transform-origin: $origin;
   -o-transform-origin: $origin;
   -ms-transform-origin: $origin;
@@ -100,7 +100,7 @@
   -moz-justify-content: $justify;
   -ms-justify-content: $justify;
   justify-content: $justify;
-  -ms-flex-pack: $justify;
+  -ms-flex-pack: center;
 }
 
 @mixin align-content($align) {

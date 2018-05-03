@@ -27,12 +27,11 @@ redirect_from: /bots/
         We want to make it easy for bot makers to provide the best solutions and experience for their community.
       </p>
       <p>
-        A team has been assigned and in the coming months will be producing new features and dedicated documentation for bots.
+        A team has been assigned and in the coming months will be analyzing the data we recently collected through our Bots Survey and producing new features based on the feedback we received.
       </p>
       <p>
-        We'd love to get your input...
+        Thank you to all those who completed this survey; as ever the community's input is vital to the work we do.
       </p>
-      <a class="button primary" target="_blank" href="https://rocketchat.typeform.com/to/dK87Cl">Take the Bot People survey</a>
     </div>
   </div>
   <div class="clear"></div>
@@ -87,20 +86,15 @@ redirect_from: /bots/
       <p>See our <a href="https://github.com/RocketChat/Rocket.Chat/projects/16">Bots project issues</a> to contribute or follow progress.</p>
     </div>
     <div class="right">
-      <h2>We need your help</h2>
+      <h2>Using Bots</h2>
       <p>
-        We need your participation to inform and validate our priorities.
+        Rocket.Chat encourages chatbot and messaging automation integrations and has released comprehensive <a href="https://rocket.chat/docs/developer-guides/using-bots/">bot documentation</a> to guide you through the bot-making process, from creating bot users to configuring the bot environment.
       </p>
       <p>
-        By participating in our <a href="https://rocketchat.typeform.com/to/dK87Cl">Bot People survey</a> you can contribute to the development roadmap, get
-        involved in the discussion to propose features, adapters and get early access to the improved bot platform.
-      </p>
-      <p>
-        You can also join the discussion on our <a href="https://open.rocket.chat/channel/bots">#bots channel</a>.
+        Although our Bot Survey is now closed, you can continue contributing ideas by joining the discussion on our <a href="https://open.rocket.chat/channel/bots">#bots channel</a>.
       </p>
     </div>
   </div>
   <div class="clear"></div>
 </section>
 
--->

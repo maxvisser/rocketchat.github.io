@@ -1,5 +1,5 @@
 ---
-title: "Rocket.Chat Android 2.1 Released"
+title: "Rocket.Chat Android 2.1.1 Released"
 categories:
   - Releases
 date: 2018-05-04 08:00:00
@@ -7,7 +7,7 @@ author: Rocket.Chat Team
 cover: /images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/cover.jpg
 ---
 
-Rocket.Chat is proud to announce its Rocket.Chat Android 2.1 release with the following features and changes:
+Rocket.Chat is proud to announce its Rocket.Chat Android 2.1.1 release with the following features and changes:
 
 - New authentication methods
 - Improved attachments
@@ -49,10 +49,13 @@ Rocket.Chat is proud to announce its Rocket.Chat Android 2.1 release with the fo
 ## Additional features
 
 - French and Spanish language support
-
 - See other users' statuses and change your own status
-
 - Password recovery (requires server version 0.64 or greater)
+
+## 2.1.1 Bug fixes
+
+- Allow redirections on the server when connecting to a new host
+- Fixed a crash on a specific kind of room with specific permissions
 
 ## Requirements
 

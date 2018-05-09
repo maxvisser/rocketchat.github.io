@@ -11,23 +11,47 @@ Rocket.Chat is proud to announce its Rocket.Chat Android 2.1 release with the fo
 
 - New authentication methods
 - Improved attachments
-- Bug fixes
+- Bug fixes (such as: users will now receive notifications when the app is in the background)
 - Additional features (see below)
 
 ## New authentication methods
 
-Custom OAuth and GitLab URL authentication are now supported.
+<div class="left copy">
+<p>
+  Custom OAuth and GitLab URL authentication are now supported.
+</p>
+</div>
+<div class="right image">
+  <p>
+    <img src="/images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/github oath.jpg"/>
+  </p>
+</div>
+<div class="clear"></div>
 
 ## Improved attachments
 
- All types of attachment files are now supported (PDFs, documents, spreadsheets, etc) and you can now save image attachments in your gallery when viewing it in fullscreen.
-
+<div class="left copy">
+<p>
+  All types of attachment files are now supported (PDFs, documents, spreadsheets, etc) and you can now save image attachments in your gallery when viewing it in fullscreen.
+</p>
+<p>
+'Real name' mentions are now supported.
+</p>
+</div>
+<div class="right image">
+  <p>
+    <img src="/images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/pdf attachment supported.png"/>
+  </p>
+</div>
+<div class="clear"></div>
 
 
 ## Additional features
 
 - French and Spanish language support
+
 - See other users' statuses and change your own status
+
 - Password recovery (requires server version 0.64 or greater)
 
 ## Requirements

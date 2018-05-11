@@ -23,7 +23,7 @@ redirect_from:
   <p class="display--small theme_type--grey">For your desktop, mobile or server</p>
 </section>
 
-<section class="download-apps container">
+<section class="download-apps container js-download">
   <div class="flex-grid">
 
     {% comment %} Windows {% endcomment %}
@@ -31,7 +31,7 @@ redirect_from:
       <div class="card theme_box--dark">
         <div class="flex-grid--nobreak">
           <div class="col--fifth no-gutter"><img src="/images/download/windows.svg" alt="Rocket.Chat for Windows" /></div>
-          <div class="col no-gutter">
+          <div>
             <h2 class="theme_type--dark"><strong>Rocket.Chat for Windows</strong></h2>
             <p class="label--small theme_type--grey"><strong>Version {{site.data.download.desktop.version}} — {{site.data.download.desktop.windowsSize}}</strong></p>
           </div>
@@ -40,7 +40,7 @@ redirect_from:
         <div class="card_footer theme_box--dark-strong">
           <div class="flex-grid--nobreak">
             <div class="col no-gutter">
-              <div class="select select--theme-dark">
+              <div class="select select-download">
                 <select class="js-select-download" data-target="windows">
                   <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-setup-{{ site.data.download.desktop.version }}.exe">64-bit</option>
                 </select>
@@ -57,7 +57,7 @@ redirect_from:
       <div class="card theme_box--dark">
         <div class="flex-grid--nobreak">
           <div class="col--fifth no-gutter"><img src="/images/download/macos.svg" alt="Rocket.Chat for MacOS" /></div>
-          <div class="col no-gutter">
+          <div>
             <h2 class="theme_type--dark"><strong>Rocket.Chat for MacOS</strong></h2>
             <p class="label--small theme_type--grey"><strong>Version {{site.data.download.desktop.version}} — {{site.data.download.desktop.macosSize}}</strong></p>
           </div>
@@ -66,7 +66,7 @@ redirect_from:
         <div class="card_footer theme_box--dark-strong">
           <div class="flex-grid--nobreak">
             <div class="col no-gutter">
-              <div class="select select--theme-dark">
+              <div class="select select-download">
                 <select class="js-select-download" data-target="macos">
                   <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.dmg">dmg</option>
                   <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat-{{ site.data.download.desktop.version }}.pkg">pkg</option>
@@ -84,7 +84,7 @@ redirect_from:
       <div class="card theme_box--dark">
         <div class="flex-grid--nobreak">
           <div class="col--fifth no-gutter"><img src="/images/download/linux.png" alt="Rocket.Chat for Linux" /></div>
-          <div class="col no-gutter">
+          <div>
             <h2 class="theme_type--dark"><strong>Rocket.Chat for Linux</strong><span class="tag theme_type--dark theme_box--dark-medium">Beta</span></h2> 
             <p class="label--small theme_type--grey"><strong>Version {{site.data.download.desktop.version}} — {{site.data.download.desktop.linuxSize}}</strong></p>
           </div>
@@ -93,7 +93,7 @@ redirect_from:
         <div class="card_footer theme_box--dark-strong">
           <div class="flex-grid--nobreak">
             <div class="col no-gutter">
-              <div class="select select--theme-dark">
+              <div class="select select-download">
                 <select class="js-select-download" data-target="linux">
                   <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_amd64.deb">deb(x64)</option>
                   <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.download.desktop.version }}/rocketchat_{{ site.data.download.desktop.version }}_i386.deb">deb(x86)</option>
@@ -116,10 +116,10 @@ redirect_from:
       <p class="label theme_type--grey">iOS &amp; Android</p>
       <h2 class="display theme_type--dark">Chat on the move with our mobile apps</h2>
       <p class="theme_type--grey">Take your conversations with you and never miss the action with our mobile apps for iOS and Android.</p>
-      <a target="_blank" href="//play.google.com/store/apps/details?id=chat.rocket.android">
+      <a target="_blank" rel="noopener noreferrer" href="//play.google.com/store/apps/details?id=chat.rocket.android">
         <img src="/images/download/google-play.svg">
       </a>
-      <a target="_blank" href="//itunes.apple.com/app/rocket-chat/id1148741252">
+      <a target="_blank" rel="noopener noreferrer" href="//itunes.apple.com/app/rocket-chat/id1148741252">
         <img class="itunes" src="/images/download/itunes-store.svg">
       </a>
     </div>
@@ -141,19 +141,19 @@ redirect_from:
     <div class="col--third">
       <h3 class="display--small theme_type--dark">Server Snap</h3>
       <p class="theme_type--grey">Snaps are an easy and secure way to install and manage apps and their dependencies.</p>
-      <br />
-      <p class="label theme_type--dark">On a Snaps enabled system run</p>
+      
+      <p class="label--small theme_type--dark">On a Snaps enabled system run</p>
       <pre class="code code--dark">$ snap install rocketchat-server</pre>
     </div>
 
     <div class="col--third">
       <h3 class="display--small theme_type--dark">Server Source</h3>
       <p class="theme_type--grey">Something can say here about how server source that can be helpful to the users.</p>
-      <br />
-      <p class="label theme_type--dark">Select version</p>
+      
+      <p class="label--small theme_type--dark">Select version</p>
       <div class="flex-grid--nobreak">
         <div class="col no-gutter">
-          <div class="select select--theme-dark">
+          <div class="select select-download">
             <select class="js-select-download" data-target="server">
               <option value="https://releases.rocket.chat/latest/download">Latest Stable</option>
               <option value="https://releases.rocket.chat/release-candidate/download">Beta</option>

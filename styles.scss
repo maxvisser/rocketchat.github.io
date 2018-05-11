@@ -5,11 +5,11 @@
 @import "ui/variables";
 @import "ui/reset";
 @import "ui/typography";
-@import "ui/theme";
 @import "ui/grid";
 @import "ui/buttons";
 @import "ui/form";
 @import "ui/table";
+@import "ui/theme";
 
 // Component
 @import "components/header";
@@ -19,6 +19,7 @@
 @import "components/divider";
 @import "components/spaces";
 @import "components/pagination";
+@import "components/modal";
 
 // Pages
 @import "pages/home";
@@ -26,3 +27,8 @@
 @import "pages/team";
 @import "pages/blog";
 @import "pages/free-page";
+@import "pages/community";
+@import "pages/partner";
+@import "pages/become-partner";
+@import "pages/contact";
+@import "pages/press";

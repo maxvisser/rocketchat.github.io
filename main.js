@@ -289,16 +289,16 @@ if (document.querySelector(".js-download")) {
     var homeStars = document.querySelector('.home-landingpage__stars');
     var homeMail =  document.querySelector('.home-landingpage__mail');
     var homeChat = document.querySelector('.home-landingpage__chat');
-    var support = document.querySelector('body.support');
-    var cloud = document.querySelector('body.cloud');
-    var download = document.querySelector('body.download');
+    var support = document.querySelector('.support-hero__image');
+    var cloud = document.querySelector('.cloud-hero__image');
+    var download = document.querySelector('.download-hero__image');
 
     if (homeStars) homeStars.style.transform = 'translate3d(0, ' + scrollY / 15 + 'px, 0)';
     if (homeMail) homeMail.style.transform = 'translate3d(' + scrollY / 30 + 'px, ' + scrollY / 20 + 'px, 0)';
     if (homeChat) homeChat.style.transform = 'translate3d(0, 0, 0) rotate(' + scrollY / 230 + 'deg)';
-    if (onlyDesktop && support) support.style.backgroundPositionY = scrollY / 15 + 'px';
-    if (onlyDesktop && cloud) cloud.style.backgroundPositionY = scrollY / 15 + 'px';
-    if (onlyDesktop && download) download.style.backgroundPositionY = scrollY / 15 + 'px';                     
+    if (onlyDesktop && support) support.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
+    if (onlyDesktop && cloud) cloud.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
+    if (onlyDesktop && download) download.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
 
     window.requestAnimationFrame(Animations);
   }

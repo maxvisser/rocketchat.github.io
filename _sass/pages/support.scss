@@ -1,8 +1,15 @@
-body.support {
+.support-hero__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
   background-image: url('../images/support/hero.jpg');
   background-position: center 8em;
   background-repeat: no-repeat;
   background-size: 150% auto;
+  will-change: all;
 
   @media screen and (min-width: 31em) {
     background-position: center 0;

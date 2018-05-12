@@ -1,4 +1,10 @@
-body.cloud {
+.cloud-hero__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
   background-image: url('../images/cloud/hero.jpg');
   background-position: center top;
   background-repeat: no-repeat;
@@ -8,7 +14,9 @@ body.cloud {
     background-image: url('../images/cloud/hero@2x.jpg');
     background-size: 100% auto;
   }
+}
 
+body.cloud {
   .headroom--top {
     &.app-header_wrap {
       background: none !important;

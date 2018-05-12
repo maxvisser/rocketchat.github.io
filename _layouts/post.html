@@ -51,11 +51,7 @@ class: post
     <p class="label--small theme_type--light">Share article</p>
 
     <div class="share">
-      <script
-        type="text/javascript"
-        async defer
-        src="//assets.pinterest.com/js/pinit.js">
-      </script>
+      <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
       <a 
         class="twitter-share-button"
@@ -82,7 +78,7 @@ class: post
       </a>
 
       <a
-        href="mailto:?subject=I%20just%20read%20{{ page.title }}&body=Hey%2C%20I%20just%20read%20{{ page.title }}%20https://rocket.chat{{ page.url }}."
+        href="mailto:?subject=I%20just%20read%20{{ page.title }}&body=Hey%2C%20I%20just%20read%20{{ page.title }}%20https://rocket.chat{{ page.url }}"
       > 
         <img src="/images/blog/email.svg" alt="Share by Email" />
       </a>
@@ -92,6 +88,7 @@ class: post
   <div class="space--4"></div>
 </article>
 
+<div class="space--4"></div>
 
 {% assign RelatedList = "" | split: "" %}
 
@@ -142,4 +139,3 @@ class: post
   </div>
 {% endif %}
 
-<div class="space--4"></div>

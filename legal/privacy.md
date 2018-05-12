@@ -4,6 +4,7 @@ class: legal
 title: Rocket.Chat Privacy Policy
 permalink: /privacy
 type: privacy
+theme: light
 redirect_from:
   - /privacy/
 ---

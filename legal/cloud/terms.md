@@ -4,6 +4,7 @@ title: Rocket.Chat Terms of Service
 class: legal
 permalink: /terms
 type: terms
+theme: light
 redirect_from:
   - /terms/
 ---

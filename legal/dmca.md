@@ -4,6 +4,7 @@ title: Digital Millennium Copyright Act (DMCA) Policy
 class: legal
 permalink: /dmca
 type: dmca
+theme: light
 redirect_from:
   - /dmca/
 ---

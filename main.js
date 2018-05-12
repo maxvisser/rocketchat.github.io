@@ -288,15 +288,15 @@ if (document.querySelector("body.index")) {
 
     // stars
     document.querySelector('.home-landingpage__stars')
-      .style.transform = 'translateY(' + scrollY / 15 + 'px)';
+      .style.transform = 'translate3d(0, ' + scrollY / 15 + 'px, 0)';
       
     // mail
     document.querySelector('.home-landingpage__mail')
-      .style.transform = 'translateX(' + scrollY / 40 + 'px)';
+      .style.transform = 'translate3d(' + scrollY / 30 + 'px, ' + scrollY / 20 + 'px, 0)';
 
     // chat
     document.querySelector('.home-landingpage__chat')
-      .style.transform = 'rotate(' + scrollY / 250 + 'deg)';
+      .style.transform = 'translate3d(0, 0, 0) rotate(' + scrollY / 230 + 'deg)';
                           
     window.requestAnimationFrame(Animations);
   }

@@ -65,7 +65,7 @@
   @include disabledStyle;
 
   background: $grey-light;
-  color: #fff;
+  color: $space;
 
   &:hover {
     background: $grey;

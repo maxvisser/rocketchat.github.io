@@ -1,12 +1,33 @@
 .home-backgrounds {
-  @include transform(translateZ(0));
   position: relative;
   overflow: hidden;
 }
 
-.home-landingpage {
+.home-landingpage img {
   @include transform(translateZ(0));
+} 
+
+.home-landingpage__bg {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background: #0a1321;
+    border-radius: 2px;
+  }
 }
+
+.home-landingpage__bg--mail:after {
+  transform: scale(.8);
+}
+
 
 .home-landingpage__planets {
   @include transform(translateZ(0));
@@ -107,6 +128,10 @@
       text-align: left;
     }
   }
+
+  a {
+    font-size: .9em;
+  }
 }
 
 .home-hero_wrap {
@@ -166,8 +191,8 @@
     right: 0px;
     bottom: 0em;
     border-bottom-right-radius: 2px;
-    height: 65vw;
-    max-height: 40em;
+    height: 44vw;
+    max-height: 33em;
   }
 }
 //
@@ -298,6 +323,12 @@
 .home-enterprise {
   position: relative;
   margin-bottom: -12em;
+  
+  > div  {
+    background-image: url('../images/index/landingpage-stars.png');
+    background-position: right center;
+    background-size: 85%;
+  }
   
   @media screen and (min-width: $tablet) {
     margin-bottom: -17em;

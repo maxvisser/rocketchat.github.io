@@ -295,7 +295,7 @@ if (document.querySelector(".js-download")) {
 
     if (homeStars) homeStars.style.transform = 'translate3d(0, ' + scrollY / 15 + 'px, 0)';
     if (homeMail) homeMail.style.transform = 'translate3d(' + scrollY / 25 + 'px, ' + scrollY / 20 + 'px, 0)';
-    if (homeChat) homeChat.style.transform = 'translate3d(0, 0, 0) rotate(' + scrollY / 180 + 'deg)';
+    if (homeChat) homeChat.style.transform = 'translate3d(0, 0, 0) rotate(' + (scrollY  - 1000) / 70 + 'deg)';
     if (onlyDesktop && support) support.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
     if (onlyDesktop && cloud) cloud.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
     if (onlyDesktop && download) download.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';

@@ -281,3 +281,25 @@ if (document.querySelector(".js-download")) {
     });
   }
 }
+
+if (document.querySelector("body.index")) {
+  var Animations = function () {
+    var scrollY = window.scrollY
+
+    // stars
+    document.querySelector('.home-landingpage__stars')
+      .style.transform = 'translateY(' + scrollY / 15 + 'px)';
+      
+    // mail
+    document.querySelector('.home-landingpage__mail')
+      .style.transform = 'translateX(' + scrollY / 40 + 'px)';
+
+    // chat
+    document.querySelector('.home-landingpage__chat')
+      .style.transform = 'rotate(' + scrollY / 250 + 'deg)';
+                          
+    window.requestAnimationFrame(Animations);
+  }
+
+  window.requestAnimationFrame(Animations);
+}

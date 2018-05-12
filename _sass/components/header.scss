@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
-  transition: transform 0.4s ease;
+  transition: all 0.4s ease;
   z-index: 9999;
 
   &.headroom--unpinned {
@@ -38,6 +38,13 @@
 
   img {
     width: 7.5em;
+    transition: all .3s ease;
+  }
+
+  .dark {
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
   }
 }
 
@@ -162,11 +169,19 @@
 
 // Dark version
 .app-header--black {
-  background: $space;
-
-  .app-header_wrap,
-  .app-header_menu {
+  .headroom--not-top {
     background: $space;
+
+    .app-header_wrap,
+    .app-header_menu {
+      background: $space;
+    }
+  }
+
+  .app-header_menu {
+    @media screen and (max-width: $tablet) {
+      background: $space;
+    }
   }
 
   .app-header_wrap:after {
@@ -216,6 +231,12 @@
   .app-header_wrap,
   .app-header_menu {
     background: #fff;
+  }
+
+  .app-header_logo  {
+    .dark {
+      opacity: 1;
+    }
   }
 
   .app-header_wrap:after {

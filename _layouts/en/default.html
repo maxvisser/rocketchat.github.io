@@ -97,7 +97,7 @@ layout: default
         {% else %}
           <span><img src="/images/default/star.svg" alt="GitHub Stars"></span>
         {% endif %}
-        {{site.stars}}K
+        <span class="star-count">{{site.stars}}K</span>
       </a>
       <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/fork" rel="noopener noreferrer">
         {% if page.theme == 'light' %}
@@ -105,7 +105,7 @@ layout: default
         {% else %}
           <span><img src="/images/default/fork.svg" alt="GitHub forks"></span>
         {% endif %}
-        {{site.forks}}K
+        <span class="fork-count">{{site.forks}}K</span>
       </a>
       <a class="app-footer_github-link" target="_blank" href="//github.com/RocketChat/Rocket.Chat" rel="noopener noreferrer">
         {% if page.theme == 'light' %}

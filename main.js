@@ -305,3 +305,26 @@ if (document.querySelector(".js-download")) {
 
   window.requestAnimationFrame(Animations);
 }());
+
+(function () {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     var data = JSON.parse(this.responseText);
+     var stars = Math.round( (data["stargazers_count"] / 1000) * 10 ) / 10;
+     var forks = Math.round( (data["forks_count"] / 1000) * 10 ) / 10;
+     var starsElements = document.getElementsByClassName("star-count")
+     var forksElements = document.getElementsByClassName("fork-count")
+
+     for (let i = 0; i < starsElements.length; i++) {
+       starsElements[i].innerHTML = stars + "k";
+     }
+
+     for (let i = 0; i < forksElements.length; i++) {
+       forksElements[i].innerHTML = forks + "k";
+     }
+    }
+  };
+  xhttp.open("GET", "https://api.github.com/repos/RocketChat/Rocket.Chat", true);
+  xhttp.send();
+}())

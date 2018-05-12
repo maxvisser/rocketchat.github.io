@@ -16,8 +16,8 @@ version: 34
 wpm: 160
 
 # on GitHub project
-stars: 16.4
-forks: 3.5
+stars: 17.8
+forks: 3.8
 
 # set default template for posts
 defaults:

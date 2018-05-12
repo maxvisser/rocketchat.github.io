@@ -27,7 +27,6 @@ category: home
   {% endif %}
 
   {% if post.categories contains "Events" and post.location and post.dateEvent %}
-  {{post}}
     {% if post.dateEvent > site.time %}
       {% assign EventList = EventList | push: post %}
     {% endif %}

@@ -19,8 +19,8 @@ theme: dark
 
       <form class="form-validate" data-validate>
         <fieldset>
-          <label class="label--small theme_type--grey" for="Name">Name</label>
-          <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="Name" name="Name" placeholder="Type your name" />
+          <label class="label--small theme_type--grey" for="name">Name</label>
+          <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="name" name="name" placeholder="Type your name" />
         </fieldset>
 
         <fieldset>
@@ -29,17 +29,12 @@ theme: dark
         </fieldset>
 
         <fieldset>
-          <label class="label--small theme_type--grey" for="Subject">Subject</label>
-          <div class="select select--theme-dark">
-            <select required id="Subject" name="Subject">
-              <option value="">Select subject</option>
-              <option value="1">1</option>
-            </select>
-          </div>
+          <label class="label--small theme_type--grey" for="subject">Subject</label>
+          <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="subject" email="email" placeholder="Type the subject" />
         </fieldset>
 
         <fieldset>
-          <label class="label--small theme_type--grey" for="message">message</label>
+          <label class="label--small theme_type--grey" for="message">Message</label>
           <textarea required rows="7" class="input input--dark" name="message" id="message" placeholder="Type your message"></textarea>
         </fieldset>
 

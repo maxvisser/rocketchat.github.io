@@ -60,27 +60,17 @@ theme: dark
             <form
               class="form-validate"
               data-validate
-              action="https://crm.zoho.com/crm/WebToLeadForm"
-              name=WebToLeads2982481000001728001
               method="POST"
-              accept-charset="UTF-8"
             >
-
-              <input type="text" style="display:none;" name="xnQsjsdp" value="96b118485996dc2547c37fc8650b520a7e1d58b5d470b1390a3f560ed46df03b"/>
-              <input type="hidden" name="zc_gad" id="zc_gad" value=""/>
-              <input type="text" style="display:none;" name="xmIwtLD" value="8ea917c61ae7f2f107ac548ac534375cad699d5a18031bffd383bf0f2502f949"/>
-              <input type="text" style="display:none;"  name="actionType" value="TGVhZHM="/>
-              <input type="text" style="display:none;" name="returnURL" id="js-return-url" value="" />
-
               <fieldset>
-                <label class="label--small theme_type--grey" for="Company">Company</label>
-                <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="Company" name="Company" placeholder="Type company name" />
+                <label class="label--small theme_type--grey" for="company">Company</label>
+                <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="company" placeholder="Type company name" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="Country">Country</label>
+                <label class="label--small theme_type--grey" for="country">Country</label>
                 <div class="select select--theme-dark">
-                  <select required id="Country" name="Country">
+                  <select required id="country" name="country">
                     <option value="">Select Country</option>
                     {% include select-countries.html %}
                   </select>
@@ -88,9 +78,9 @@ theme: dark
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="Industry">Industry</label>
+                <label class="label--small theme_type--grey" for="industry">Industry</label>
                 <div class="select select--theme-dark">
-                  <select required name="Industry">
+                  <select required name="industry">
                     <option value="">Select industry type</option>
                     <option value="Blockchain">Blockchain</option>
                     <option value="Consulting">Consulting</option>
@@ -122,41 +112,41 @@ theme: dark
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="Website">Website</label>
+                <label class="label--small theme_type--grey" for="website">Website</label>
                 <div data-prefix="https://" class="input-child input-child--dark">
-                  <input type="text" id="Website" name="Website" pattern="[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)" placeholder="Type website" />
+                  <input type="text" id="website" name="website" pattern="[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)" placeholder="Type website" />
                 </div>
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="No of Employees">No. of Employees</label>
-                <input class="input input--dark" type="text" id="No of Employees" name="No of Employees" placeholder="Type no. of employees" />
+                <label class="label--small theme_type--grey" for="employees">No. of Employees</label>
+                <input class="input input--dark" type="text" id="employees" name="employees" placeholder="Type no. of employees" />
               </fieldset>
 
               <fieldset>
                 <label class="label--small theme_type--grey" for="name">First Name</label>
-                <input class="input input--dark" type="text" id="First Name" name="First Name" placeholder="Type first name" />
+                <input class="input input--dark" type="text" id="name" name="name" placeholder="Type first name" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="name">Last Name</label>
-                <input required minlength="3" class="input input--dark" type="text" id="Last Name" name="Last Name" placeholder="Type Last name" />
+                <label class="label--small theme_type--grey" for="lastname">Last Name</label>
+                <input required minlength="3" class="input input--dark" type="text" id="lastname" name="lastname" placeholder="Type Last name" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="Designation">Job title</label>
-                <input required minlength="3" class="input input--dark" type="text" id="Designation" name="Designation" placeholder="Type job title" />
+                <label class="label--small theme_type--grey" for="jobtitle">Job title</label>
+                <input required minlength="3" class="input input--dark" type="text" id="jobtitle" name="jobtitle" placeholder="Type job title" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="Email">Email address</label>
-                <input required minlength="3" class="input input--dark" type="email" id="Email" name="Email" placeholder="Type email address" />
+                <label class="label--small theme_type--grey" for="email">Email address</label>
+                <input required minlength="3" class="input input--dark" type="email" id="email" name="email" placeholder="Type email address" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="LEADCF6">Partnership interest</label>
+                <label class="label--small theme_type--grey" for="interest">Partnership interest</label>
                 <div class="select select--theme-dark">
-                  <select required id="LEADCF6" name="LEADCF6">
+                  <select required id="interest" name="interest">
                     <option value="">Select partnership type</option>
                     <option value="Consultation">Consultation</option>
                     <option value="Installation">Installation</option>
@@ -168,9 +158,9 @@ theme: dark
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="LEADCF7">Have you done a project using Rocket.Chat&#x3f;</label>
+                <label class="label--small theme_type--grey" for="projectdone">Have you done a project using Rocket.Chat&#x3f;</label>
                 <div class="select select--theme-dark">
-                  <select required id="LEADCF7" name="LEADCF7">
+                  <select required id="projectdone" name="projectdone">
                     <option value="">Select an option</option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>

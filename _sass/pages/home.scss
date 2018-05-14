@@ -22,7 +22,7 @@
   background-size: 10em auto;
 
   @media screen and (min-width: $tablet) {
-    background-position: right -14% bottom 26%;
+    background-position: right -14% bottom 24%;
     background-size: 30em auto;
   }
 }
@@ -166,7 +166,7 @@
     background-size: 60% auto;
     background-image: url("../images/index/join-community.jpg");
     background-repeat: repeat-y;
-    animation: positionX 30s linear infinite;
+    animation: positionXHome 50s linear infinite;
 
     &:before {
       content: "";
@@ -198,12 +198,12 @@
   }
 }
 
-@keyframes positionX {
+@keyframes positionXHome {
   0% {
-    background-position: left -150%;
+    background-position: left 3244px;
   }
   100% {
-    background-position: left -100%;
+    background-position: left 0;
   }
 }
 

@@ -11,7 +11,7 @@
       background-size: 60% auto;
       background-image: url("../images/index/join-community.jpg");
       background-repeat: repeat-y;
-      animation: positionX 30s linear infinite;
+      animation: positionXCommunity 50s linear infinite;
     }
 
     &:before {
@@ -46,12 +46,12 @@
   }
 }
 
-@keyframes positionX {
+@keyframes positionXCommunity {
   0% {
-    background-position: left -150%;
+    background-position: left 3244px;
   }
   100% {
-    background-position: left -100%;
+    background-position: left 0;
   }
 }
 

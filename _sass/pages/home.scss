@@ -15,33 +15,15 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: 
-    url('../images/index/landingpage-whiteplanet.png'),
-    url('../images/index/landingpage-orangeplanet.png')
-  ;
-  background-repeat: 
-    no-repeat,
-    no-repeat
-  ;
+  background-image: url('../images/index/landingpage-orangeplanet.png');
+  background-repeat: no-repeat;
 
-  background-position: 
-    left 4% bottom -1%,
-    right -14% bottom 30%
-  ;
-  background-size: 
-    5em auto,
-    10em auto
-  ;
+  background-position: right -14% bottom 30%;
+  background-size: 10em auto;
 
   @media screen and (min-width: $tablet) {
-    background-position: 
-      left 4% bottom 1%,
-      right -14% bottom 26%
-    ;
-    background-size: 
-      10em auto,
-      30em auto
-    ;
+    background-position: right -14% bottom 26%;
+    background-size: 30em auto;
   }
 }
 

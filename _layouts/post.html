@@ -111,7 +111,7 @@ class: post
           <div class="col">
             <a 
               class="card--blog card--blog__image"
-              href="{{ post.url | remove: "index.html" }}"
+              href="{{ related.url | remove: "index.html" }}"
               {% if related.cover %}
                 style="background-image: url('{{ related.cover }}')"
               {% else %}

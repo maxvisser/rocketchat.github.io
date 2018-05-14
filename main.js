@@ -295,6 +295,7 @@ if (document.querySelector(".js-download")) {
     var cloud = document.querySelector('.cloud-hero__image');
     var download = document.querySelector('.download-hero__image');
     var partners = document.querySelector('.partners-hero__image');
+    var partnersBody = document.querySelector('body.partners');
 
     if (homeStars) homeStars.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
     if (homeMail) homeMail.style.transform = 'translate3d(' + scrollY / 25 + 'px, ' + scrollY / 15 + 'px, 0)';
@@ -302,7 +303,8 @@ if (document.querySelector(".js-download")) {
     if (onlyDesktop && support) support.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
     if (onlyDesktop && cloud) cloud.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
     if (onlyDesktop && download) download.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
-    if (onlyDesktop && partners) partners.style.transform = 'translate3d(0, ' + scrollY / - 7 + 'px, 0)';
+    // if (onlyDesktop && partners) partners.style.transform = 'translate3d(0, ' + scrollY / 7 + 'px, 0)';
+    if (onlyDesktop && partnersBody) partnersBody.style.backgroundPositionY = (scrollY - 3300) / -7 + 'px';
 
     window.requestAnimationFrame(Animations);
   }

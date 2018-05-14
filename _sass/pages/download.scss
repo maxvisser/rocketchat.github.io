@@ -6,9 +6,9 @@
   bottom: 0;
   z-index: -1;
   background-image: url('../images/download/hero.jpg');
-  background-position: center 8em;
+  background-position: center 21em;
   background-repeat: no-repeat;
-  background-size: auto 32em;
+  background-size: 100% auto;
 
   @media screen and (min-width: $tablet) {
     background-image: url('../images/download/hero@2x.jpg');

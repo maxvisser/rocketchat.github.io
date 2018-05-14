@@ -115,7 +115,7 @@
   @media screen and (min-width: $tablet) {
     position: absolute;
     right: 0;
-    top: 8em;
+    top: 5em;
     height: calc(70vh - 6em);
   }
 
@@ -301,6 +301,7 @@
     padding-top: 16em;
     @media screen and (min-width: $tablet) {
       padding-top: 23em;
+      padding-bottom: 15em;
     }
   }
 
@@ -349,7 +350,10 @@
     max-width: 290%;
 
     @media screen and (min-width: $tablet) {
-      max-width: 100%;
+      max-width: none;
+      width: calc(100% + 12em);
+      margin-left: -6em;
+      margin-right: -6em;
     }
   }
 
@@ -393,8 +397,9 @@
     @include flexbox();
     padding-bottom: 0;
     background-image: url("/images/download/mobile.png");
-    background-size: auto 90%;
+    background-size: auto 110%;
     background-position: right -40% bottom;
+    margin-top: -19em;
 
     .wrap {
       padding: 2em;

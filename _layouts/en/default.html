@@ -119,7 +119,11 @@ layout: default
       </a>
 
       <a href="//keycdn.com" target="_blank" rel="noopener noreferrer" class="app-footer_partner">
-        <img src="/images/partners/keycdnlogo.png" alt="KeyCDN">
+        {% if page.theme == 'light' %}
+          <img src="/images/partners/keycdnlogo--dark.png" alt="KeyCDN">
+        {% else %}
+          <img src="/images/partners/keycdnlogo.png" alt="KeyCDN">
+        {% endif %}
       </a>
     </div>
   </div>  

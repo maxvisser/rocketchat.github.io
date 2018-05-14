@@ -579,23 +579,24 @@ var formHelpers = {
 		}
 
 		http.open("POST", finalEndpoint, true);
-		http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		http.setRequestHeader("Content-type", "application/json");
 		http.onload = function() {
-			if (this.response.message === "success") {
-				this.toggleModal();
+			var response = JSON.parse(this.response);
+			if (response.message === "success") {
+				formHelpers.toggleModal();
 			} else {
-				console.error(JSON.parse(this.response).message)
+				console.error(response.message)
 			}
 		}
 
-		http.send(jsonData);
+		http.send(JSON.stringify(jsonData));
 	},
 	toggleModal: function(hide) {
 		var element = document.querySelector(".modal");
 
 		if (hide) {
 			element.classList.remove("modal--show");
-			this.cleanForm();
+			formHelpers.cleanForm();
 		} else {
 			element.classList.add("modal--show");
 		}

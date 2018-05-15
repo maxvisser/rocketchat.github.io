@@ -222,7 +222,7 @@
   country: India
 
 - name: Renato Becker
-  title: Senior Developer
+  role: Senior Developer
   github_username: renatobecker
   department: Back-end
   username: renato.becker
@@ -230,7 +230,7 @@
   country: Brazil
 
 - name: Marcos Defendi
-  title: Software Engineer
+  role: Software Engineer
   github_username: MarcosSpessatto
   department: Back-end
   username: marcos.defendi
@@ -238,7 +238,7 @@
   country: Brazil
 
 - name: Pierre Lehnen
-  title: Software Engineer
+  role: Software Engineer
   github_username: Hudell
   department: Back-end
   username: pierre.lehnen
@@ -246,7 +246,7 @@
   country: Brazil
 
 - name: Leandro Coletti
-  title: VP of Sales
+  role: VP of Sales
   github_username: coletti
   department: Sales
   username: leandro.coletti
@@ -254,7 +254,7 @@
   country: Brazil
 
 - name: Diego Mello
-  title: Mobile Engineer
+  role: Mobile Engineer
   github_username: diegolmello
   department: Mobile
   username: diego.mello
@@ -262,7 +262,7 @@
   country: Brazil
 
 - name: Theo Renck
-  title: Project Manager
+  role: Project Manager
   github_username: dtheorenck
   department: Operations
   username: theo.renck

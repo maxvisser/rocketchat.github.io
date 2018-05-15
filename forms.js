@@ -559,7 +559,7 @@ validate.init({
 });
 
 var formHelpers = {
-	url: "//rocket-chat.appspot.com",
+	url: "//20180514t225325-dot-rocket-chat.appspot.com",
 	form: document.querySelector(".form-validate"),
 	allField: function() {
 		return this.form.querySelectorAll("input, select, textarea");

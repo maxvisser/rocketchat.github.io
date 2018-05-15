@@ -559,7 +559,7 @@ validate.init({
 });
 
 var formHelpers = {
-	url: "//0.0.0.0:8000",
+	url: "//rocket-chat.appspot.com",
 	form: document.querySelector(".form-validate"),
 	allField: function() {
 		return this.form.querySelectorAll("input, select, textarea");

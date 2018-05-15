@@ -90,7 +90,7 @@
     transition: color 0.3s ease;
   }
 
-  .app-header_download {
+  .app-header_install {
     margin-top: 1em;
     margin-bottom: 1em;
     padding-top: 1em;
@@ -194,7 +194,7 @@
     );
   }
 
-  .app-header_download,
+  .app-header_install,
   .app-header_menu li {
     color: #fff;
 
@@ -203,7 +203,7 @@
     }
   }
 
-  .app-header_download {
+  .app-header_install {
     border-top: 1px solid #121f33;
 
     @media screen and (min-width: $tablet) {
@@ -249,7 +249,7 @@
     );
   }
 
-  .app-header_download,
+  .app-header_install,
   .app-header_menu li {
     color: $space;
 
@@ -258,7 +258,7 @@
     }
   }
 
-  .app-header_download {
+  .app-header_install {
     border-top: 1px solid #e7ebf2;
 
     @media screen and (min-width: $tablet) {

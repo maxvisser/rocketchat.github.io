@@ -193,7 +193,7 @@ input:checked + .app-footer_pre-menu:after {
   top: 0.9em;
 }
 
-.app-footer_download {
+.app-footer_install {
   @include flexbox();
   transition: color 0.3s ease;
 

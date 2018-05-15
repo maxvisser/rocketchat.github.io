@@ -293,7 +293,7 @@ if (document.querySelector(".js-download")) {
     var homeChat = document.querySelector('.home-landingpage__chat');
     var support = document.querySelector('.support-hero__image');
     var cloud = document.querySelector('.cloud-hero__image');
-    var download = document.querySelector('.download-hero__image');
+    var install = document.querySelector('.install-hero__image');
     var partners = document.querySelector('.partners-hero__image');
     var partnersBody = document.querySelector('body.partners');
 
@@ -302,7 +302,7 @@ if (document.querySelector(".js-download")) {
     if (homeChat) homeChat.style.transform = 'translate3d(0, 0, 0) rotate(' + (scrollY  - 1000) / 140 + 'deg)';
     if (onlyDesktop && support) support.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
     if (onlyDesktop && cloud) cloud.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
-    if (onlyDesktop && download) download.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
+    if (onlyDesktop && install) install.style.transform = 'translate3d(0, ' + scrollY / 10 + 'px, 0)';
     // if (onlyDesktop && partners) partners.style.transform = 'translate3d(0, ' + scrollY / 7 + 'px, 0)';
     if (onlyDesktop && partnersBody) partnersBody.style.backgroundPositionY = (scrollY - 3300) / -7 + 'px';
 

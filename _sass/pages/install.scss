@@ -1,23 +1,23 @@
-.download-hero__image {
+.install-hero__image {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url('../images/download/hero.jpg');
+  background-image: url('../images/install/hero.jpg');
   background-position: center 21em;
   background-repeat: no-repeat;
   background-size: 100% auto;
 
   @media screen and (min-width: $tablet) {
-    background-image: url('../images/download/hero@2x.jpg');
+    background-image: url('../images/install/hero@2x.jpg');
     background-position: center top;
     background-size: 100% auto;
   }
 }
 
-.download-apps {
+.install-apps {
   margin-bottom: 5em;
 
   @media (min-width: $tablet) {
@@ -29,7 +29,7 @@
   }
 }
 
-.select-download {
+.select-install {
   border: 1px solid $grey-dark;
   background: $space-b;
 
@@ -47,10 +47,10 @@
   }
 }
 
-.download-mobile {
+.install-mobile {
   margin-bottom: 5em;
   background-repeat: no-repeat;
-  background-image: url("/images/download/mobile-haft.png");
+  background-image: url("/images/install/mobile-haft.png");
   background-position: center bottom;
   background-size: auto 20em;
   padding-bottom: 20em;
@@ -58,7 +58,7 @@
   @media (min-width: $tablet) {
     @include flexbox();
     padding-bottom: 1.5em;
-    background-image: url("/images/download/mobile.png");
+    background-image: url("/images/install/mobile.png");
     background-size: auto 90%;
     background-position: right -40% bottom;
     margin-bottom: 10em;
@@ -84,7 +84,7 @@
   }
 }
 
-.download-server {
+.install-server {
   margin-bottom: 5em;
 
   @media (min-width: $tablet) {

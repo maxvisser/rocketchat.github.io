@@ -83,7 +83,7 @@
     min-height: 90vh;
   }
 
-  .download {
+  .install {
     text-align: center;
     margin: 2em 0;
 
@@ -387,11 +387,11 @@
 }
 
 //
-//  Home download
+//  Home install
 //
-.home-download {
+.home-install {
   background-repeat: no-repeat;
-  background-image: url("/images/download/mobile-haft.png");
+  background-image: url("/images/install/mobile-haft.png");
   background-position: center bottom;
   background-size: auto 20em;
   padding-bottom: 20em;
@@ -399,7 +399,7 @@
   @media (min-width: $tablet) {
     @include flexbox();
     padding-bottom: 0;
-    background-image: url("/images/download/mobile.png");
+    background-image: url("/images/install/mobile.png");
     background-size: auto 110%;
     background-position: right -40% bottom;
     margin-top: -19em;
@@ -419,7 +419,7 @@
   }
 }
 
-.home-download__icons {
+.home-install__icons {
   @media (min-width: $tablet) {
     max-width: 75%;
   }
@@ -433,7 +433,7 @@
   }
 }
 
-.home-download__button {
+.home-install__button {
   text-align: center;
   margin: 2em 0;
 

@@ -45,7 +45,12 @@ First up was the Marshmallow Challenge, which tests how teams face the tough tas
 of having 18 minutes to build the tallest free-standing structure out of 20 sticks of spaghetti, one yard of tape, one yard of string and one marshmallow.
 <br/> We mixed participants from different Rocket.Chat departments to ensure that skills
 and talents were evenly balanced before getting stuck into the challenge with enthusiasm, lots of concentration and a healthy dose of competitive spirit!
-<br/> As well as being fun, the challenge gave us insight into how we work collectively when faced with a problem and reminded us of the importance of testing as we work rather than over-plan and end up with issues.
+
+
+*Everybody deep in thought over which strategy to adopt*
+![Marshmallow challenge](/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/marshmallowchallenge.jpg)
+
+As well as being fun, the Marshmallow Challenge gave us insight into how we work collectively when faced with a problem and reminded us of the importance of testing as we work rather than over-plan and end up with issues.
 
 We talked, debated, and thought about where we want to be in the coming years
 and what we have to act upon now in order to enable that roadmap.
@@ -57,4 +62,4 @@ All in all, the Rocket.Chat Summit was an incredible way for everyone to meet, g
 
 _Last but not least, a huge thank you goes to Marcelo Schmidt, our COO, for organising and championing our 2018 Summit!_
 
-<img src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Marcelo.jpg" style="border-radius: 50%; border: 1px solid #fff; max-width: 200px;"/>
+<img src="/images/posts/2018/04/2018-04-18-rocket-chat-summit-2018/Marcelo.jpg" style="margin: 0 auto;border-radius: 50%; border: 1px solid #fff; max-width: 200px;"/>

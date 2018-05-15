@@ -24,12 +24,22 @@ redirect_from:
 
 <section class="container hero">
   <h1 class="display--big theme_type--dark">Install Rocket.Chat</h1>
-  <p class="display--small theme_type--grey">For your desktop, mobile or server</p>
+  <p class="display--small theme_type--grey">on your desktop, mobile or server</p>
 </section>
 
 <section class="install-apps container js-install">
-  <div class="flex-grid">
+  <div class="flex-grid grid--justify-around">
+    <div class="col--third">
+      <h2 class="display theme_type--dark">Desktop Clients</h2>
+    </div>
+    <div class="col--third"></div>
+  </div>
 
+  <br />
+  <br />
+
+  <div class="flex-grid">
+    
     {% comment %} Windows {% endcomment %}
     <div class="col">
       <div class="card theme_box--dark">
@@ -44,13 +54,13 @@ redirect_from:
         <div class="card_footer theme_box--dark-strong">
           <div class="flex-grid--nobreak">
             <div class="col no-gutter">
-              <div class="select select-install">
-                <select class="js-select-install" data-target="windows">
-                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/install/{{ site.data.install.desktop.version }}/rocketchat-setup-{{ site.data.install.desktop.version }}.exe">64-bit</option>
+              <div class="select select-download">
+                <select class="js-select-download" data-target="windows">
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-setup-{{ site.data.install.desktop.version }}.exe">64-bit</option>
                 </select>
               </div>
             </div>
-            <div class="col no-gutter"><a href="" install="" data-install="windows" class="button button--full">Install</a></div>
+            <div class="col no-gutter"><a href="" install="" data-download="windows" class="button button--full">Download</a></div>
           </div>
         </div>
       </div>
@@ -70,14 +80,14 @@ redirect_from:
         <div class="card_footer theme_box--dark-strong">
           <div class="flex-grid--nobreak">
             <div class="col no-gutter">
-              <div class="select select-install">
-                <select class="js-select-install" data-target="macos">
-                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/install/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.dmg">dmg</option>
-                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/install/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.pkg">pkg</option>
+              <div class="select select-download">
+                <select class="js-select-download" data-target="macos">
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.dmg">dmg</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.pkg">pkg</option>
                 </select>
               </div>
             </div>
-            <div class="col no-gutter"><a href="" install="" data-install="macos" class="button button--full">Install</a></div>
+            <div class="col no-gutter"><a href="" install="" data-download="macos" class="button button--full">Download</a></div>
           </div>
         </div>
       </div>
@@ -97,16 +107,16 @@ redirect_from:
         <div class="card_footer theme_box--dark-strong">
           <div class="flex-grid--nobreak">
             <div class="col no-gutter">
-              <div class="select select-install">
-                <select class="js-select-install" data-target="linux">
-                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/install/{{ site.data.install.desktop.version }}/rocketchat_{{ site.data.install.desktop.version }}_amd64.deb">deb(x64)</option>
-                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/install/{{ site.data.install.desktop.version }}/rocketchat_{{ site.data.install.desktop.version }}_i386.deb">deb(x86)</option>
-                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/install/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.x86_64.rpm">rpm(x64)</option>
-                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/install/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.i686.rpm">rpm(x86)</option>
+              <div class="select select-download">
+                <select class="js-select-download" data-target="linux">
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat_{{ site.data.install.desktop.version }}_amd64.deb">deb(x64)</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat_{{ site.data.install.desktop.version }}_i386.deb">deb(x86)</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.x86_64.rpm">rpm(x64)</option>
+                  <option value="https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/{{ site.data.install.desktop.version }}/rocketchat-{{ site.data.install.desktop.version }}.i686.rpm">rpm(x86)</option>
                 </select>
               </div>
             </div>
-            <div class="col no-gutter"><a href="" install="" data-install="linux" class="button button--full">Install</a></div>
+            <div class="col no-gutter"><a href="" install="" data-download="linux" class="button button--full">Download</a></div>
           </div>
         </div>
       </div>
@@ -118,7 +128,7 @@ redirect_from:
   <div class="card theme_box--dark-strong install-mobile">
     <div class="wrap">
       <p class="label theme_type--grey">iOS &amp; Android</p>
-      <h2 class="display theme_type--dark">Chat on the move with our mobile apps</h2>
+      <h2 class="display theme_type--dark">Mobile Apps</h2>
       <p class="theme_type--grey">Take your conversations with you and never miss the action with our mobile apps for iOS and Android.</p>
       <a target="_blank" rel="noopener noreferrer" href="//play.google.com/store/apps/details?id=chat.rocket.android">
         <img src="/images/install/google-play.svg">
@@ -133,7 +143,7 @@ redirect_from:
 <section class="container install-server">
   <div class="flex-grid grid--justify-around">
     <div class="col--third">
-      <h2 class="display theme_type--dark">Install Rocket.Chat on your Server</h2>
+      <h2 class="display theme_type--dark">Server Installation</h2>
     </div>
     <div class="col--third"></div>
   </div>
@@ -157,15 +167,15 @@ redirect_from:
       <p class="label--small theme_type--dark">Select version</p>
       <div class="flex-grid--nobreak">
         <div class="col no-gutter">
-          <div class="select select-install">
-            <select class="js-select-install" data-target="server">
-              <option value="https://releases.rocket.chat/latest/install">Latest Stable</option>
-              <option value="https://releases.rocket.chat/release-candidate/install">Beta</option>
+          <div class="select select-download">
+            <select class="js-select-download" data-target="server">
+              <option value="https://releases.rocket.chat/latest/download">Latest Stable</option>
+              <option value="https://releases.rocket.chat/release-candidate/download">Beta</option>
               <option value="https://github.com/RocketChat/Rocket.Chat/releases">Past Releases</option>
             </select>
           </div>
         </div>
-        <a href="" install="" data-install="server" class="button no-gutter col">Install Bundle</a>
+        <a href="" install="" data-download="server" class="button no-gutter col">Download Bundle</a>
       </div>
     </div>
   </div>

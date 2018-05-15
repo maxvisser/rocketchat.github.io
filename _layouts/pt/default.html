@@ -9,9 +9,9 @@ class: index
       <img src="/images/default/logo.svg" alt="Rocket.Chat">
     </a>
     <ul>
+      <li><a {% if page.class == 'cloud' %}class="active"{%endif%} href="/pt/cloud">Cloud</a></li>
       <li><a {% if page.class == 'install' %}class="active"{%endif%} href="/pt/install">Install</a></li>
       <li><a {% if page.class == 'suppport' %}class="active"{%endif%} href="/pt/support">Suporte</a></li>
-      <li><a {% if page.class == 'cloud' %}class="active"{%endif%} href="/pt/cloud">Cloud</a></li>
       <li><a {% if page.class == 'community' %}class="active"{%endif%} href="/pt/community">Comunidade</a></li>
       <li><a href="https://rocket.chat/docs/">Documentação</a></li>
       <li><a {% if page.class == 'blog' %}class="active"{%endif%} href="/blog/">Blog</a></li>

@@ -88,7 +88,7 @@ redirect_from: /bots/
     <div class="right">
       <h2>Using Bots</h2>
       <p>
-        Rocket.Chat encourages chatbot and messaging automation integrations and has released comprehensive <a href="https://rocket.chat/docs/developer-guides/using-bots/">bot documentation</a> to guide you through the bot-making process, from creating bot users to configuring the bot environment.
+        Rocket.Chat encourages chatbot and messaging automation integrations and has released comprehensive <a href="https://rocket.chat/docs/bots/">bot documentation</a> to guide you through the bot-making process, from creating bot users to configuring the bot environment.
       </p>
       <p>
         Although our Bot Survey is now closed, you can continue contributing ideas by joining the discussion on our <a href="https://open.rocket.chat/channel/bots">#bots channel</a>.

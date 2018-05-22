@@ -44,6 +44,10 @@
 
   select {
     color: #fff;
+    
+    option {
+      background-color: $space-b; 
+    }
   }
 }
 

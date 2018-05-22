@@ -1,14 +1,16 @@
 ---
 title: 11 ways to install Rocket.Chat
 categories:
-  - Features
-  - Community
+  - Case Studies
+  - Product
 date: 2018-02-01 09:00:00
 author: Louise Message
 cover: /images/posts/2018/02/2018-02-01-10-ways-to-install-rocket-chat/cover.jpg
+featured: true
 ---
+
 From distributing just a tarball through to one-click deploys, Rocket.Chat
-<a target="_blank" href="https://rocket.chat/docs/installation/">supports more than thirty deployment methods</a>  across many on-premise and cloud solutions.
+<a target="_blank" href="https://rocket.chat/docs/installation/">supports more than thirty deployment methods</a> across many on-premise and cloud solutions.
 
 This post covers some of the most popular, easy—and unusual—ways to get started with your own open source team chat.
 

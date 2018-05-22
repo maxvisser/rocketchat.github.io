@@ -6,67 +6,276 @@ redirect_from:
   - /team/
   - /rocket-team
   - /rocket-team/
+
+theme: dark
 ---
 
-<div class="no-map-scroll"> <div class="click-map" onClick="style.pointerEvents='none'"></div>
-  <iframe width="100%" height="470" frameborder="0" scroll="no" scrolling="no" src="https://sundial.teleport.org/public/map/ar5ZyCa6Sd875BFQbrRb" frameborder="0"></iframe>
-</div>
+{% assign teamList = site.data.team %}
 
-<section class="hero">
-  <div class="wrapper">
-    <h1>Team Rocket.Chat</h1>
-    <em>The core team keeping the rockets firing</em>
+{% assign BrazilTeam = "" | split: "" %}
+{% assign CanadaTeam = "" | split: "" %}
+{% assign PeruTeam = "" | split: "" %}
+{% assign UnitedkingdomTeam = "" | split: "" %}
+{% assign USATeam = "" | split: "" %}
+{% assign IndiaTeam = "" | split: "" %}
+{% assign GermanyTeam = "" | split: "" %}
+
+{% for member in teamList %}
+  {% if member.country == "Brazil" %}
+    {% assign BrazilTeam = BrazilTeam | push: member %}
+
+  {% elsif member.country == "Canada" %}
+    {% assign CanadaTeam = CanadaTeam | push: member %}
+
+  {% elsif member.country == "Peru" %}
+    {% assign PeruTeam = PeruTeam | push: member %}
+
+  {% elsif member.country == "United Kingdom" %}
+    {% assign UnitedkingdomTeam = UnitedkingdomTeam | push: member %}
+
+  {% elsif member.country == "USA" %}
+    {% assign USATeam = USATeam | push: member %}
+
+  {% elsif member.country == "Germany" %}
+    {% assign GermanyTeam = GermanyTeam | push: member %}
+
+  {% elsif member.country == "India" %}
+    {% assign IndiaTeam = IndiaTeam | push: member %}
+  {% endif %}
+{% endfor %}
+
+<section class="container hero team-map">
+  <div class="team-map__wrap">
+    <h1 class="display--big theme_type--dark">Team Rocket.Chat</h1>
+    <p class="display--small theme_type--grey">A global team to keep the rockets firing</p>
   </div>
-</section>
 
-<section class="message">
-  <div class="wrapper">
-    <div class="left">
-      <p>
-        What started simply as a proof of concept code published to GitHub almost
-        two years ago has exploded into the ever-evolving open source platform
-        Rocket.Chat is today.
-      </p>
-      <p>
-        While we have the developer community as a whole to
-        thank for that, our core team members have worked zealously to spur on growth
-        and keep Rocket.Chat always aimed towards the next level. Get to know each of
-        them below.
-      </p>
-      <p>
-        <a href="/handbook/">Team Handbook</a>
-      </p>
-    </div>
-    <div class="right">
-      <img src="/images/index/community.svg" alt="">
-    </div>
-    <div class="clear"></div>  </div>
-</section>
+  <img class="team-map__map" src="/images/team/world-map.svg" alt="World map" />
 
-<section>
-  <div class="wrapper">
-    <ul class="team">
-      {% for member in site.data.team %}
-      <li>
-        {% if member.github_username %}
-          <a href="https://github.com/{{ member.github_username }}">
-            {% if member.photo %}
-              <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
-            {% else %}
-              <img src="https://avatars0.githubusercontent.com/u/{{ member.github_uid }}?v=4&s=140" alt="">
+  <div>
+    <div class="team-map__pin canada">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in CanadaTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
             {% endif %}
-          </a>
-        {% else %}
-          {% if member.photo %}
-            <img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt="">
-          {% else %}
-            <img src="https://github.com/identicons/RocketChat.png" alt="">
-          {% endif %}
-        {% endif %}
-        <h3>{{ member.name }}</h3>
-        <div class="title">{{ member.title }}</div>
-      </li>
-      {% endfor %}
-    </ul>
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Canada</strong>
+          <span><img src="/images/flags/Canada.png" alt="Canada" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin brazil">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in BrazilTeam %}
+            {% if forloop.index <= 3 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 3 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:3 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Brazil</strong>
+          <span><img src="/images/flags/Brazil.png" alt="Brazil" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin peru">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in PeruTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Peru</strong>
+          <span><img src="/images/flags/Peru.png" alt="Peru" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin unitedkingdom">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in UnitedkingdomTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>United kingdom</strong>
+          <span><img src="/images/flags/United-Kingdom.png" alt="Unitedkingdom" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin germany">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in GermanyTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>Germany</strong>
+          <span><img src="/images/flags/Germany.png" alt="Germany" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin usa">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in USATeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>USA</strong>
+          <span><img src="/images/flags/USA.png" alt="USA" /></span>
+        </p>
+      </div>
+    </div>
+
+    <div class="team-map__pin india">
+      <div class="team-map__profile">
+        <div class="flags">
+          {% for member in IndiaTeam %}
+            {% if forloop.index <= 5 %}
+              {% if member.photo %}
+                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
+              {% else %}
+                <span><img src="/images/team/placeholder.png" alt=""></span>
+              {% endif %}
+            {% endif %}
+
+            {% if forloop.length > 5 and forloop.last %}
+              <span class="count">+{{ forloop.length | minus:5 }}</span>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <strong>India</strong>
+          <span><img src="/images/flags/India.png" alt="India" /></span>
+        </p>
+      </div>
+    </div>
   </div>
 </section>
+
+<section class="container">
+  <ul class="team-grid">
+    {% for member in teamList %}
+    <li class="team-item">
+
+      <div 
+        class="team-item__image"
+        {% if member.photo %}
+          style="background-image: url(/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg)"
+        {% else %}
+          style="background-image: url(/images/team/placeholder.png"
+        {% endif %}
+      ></div>
+
+      <input class="team-button__toggle" id="team-button__{{ forloop.index }}" type="checkbox" />
+      <div class="team-item__wrap">
+        <h3 class="team-item__name theme_type--dark">
+          <strong>{{ member.name }}</strong>
+          <span><img src="/images/flags/{{ member.country | replace: ' ', '-'  }}.png" alt="{{ member.country }}" /></span>
+        </h3>
+
+        <p class="team-item__role label--small theme_type--grey">{{ member.role }}</p>
+
+        {% if member.description %}
+          <label class="team-item__button" for="team-button__{{ forloop.index }}"></label>
+          <div class="team-item__bio">
+            {% for desc in member.description %}
+              <p>{{ desc }}</p>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <div class="team-item__social">
+          {% if member.github_username %}
+            <a target="_blank" href="//github.com/{{ member.github_username }}" rel="noopener noreferrer">
+              <img src="/images/team/github.svg" alt="Github link" />
+            </a>
+          {% endif %}
+
+          {% if member.twitter %}
+            <a target="_blank" href="//twitter.com/{{ member.twitter }}" rel="noopener noreferrer">
+              <img src="/images/team/twitter.svg" alt="Twitter link" />
+            </a>
+          {% endif %}
+
+          {% if member.email %}
+            <a href="mailto:{{ member.email }}">
+              <img src="/images/team/email.svg" alt="{{ member.email }}" />
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+<section>

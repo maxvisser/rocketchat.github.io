@@ -1,10 +1,11 @@
 ---
 title: "Rocket.Chat 0.62.0 Released"
 date: 2018-03-06 10:00:00
-categories:
-  - Releases
+category:
+  - News
 author: Rodrigo Nascimento
 cover: /images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/cover.jpg
+featured: true
 ---
 
 ## Rocket.Chat Server Release 0.62.0 Available Immediately
@@ -95,9 +96,9 @@ their server settings `Administration > General > GraphQL API`.
 
 We have improved the sidebar layout to add more configuration options:
 
-- The sidebar can use an `Extended`, `Medium` or `Condensed` view.
-- Avatars can be shown or hidden.
-- The sidebar sorting and grouping can be changed.
+* The sidebar can use an `Extended`, `Medium` or `Condensed` view.
+* Avatars can be shown or hidden.
+* The sidebar sorting and grouping can be changed.
 
 ### [#9793](https://github.com/RocketChat/Rocket.Chat/pull/9793) Version update check
 

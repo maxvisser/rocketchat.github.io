@@ -1,18 +1,18 @@
 .cloud-hero__image {
   position: absolute;
-  top: 0;
+  top: -50%;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url('../images/cloud/hero.jpg');
-  background-position: center top;
+  background-image: url("../images/cloud/hero.jpg");
+  background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: auto 32em;
+  background-size: 100% auto;
+  background-color: #1d74f5;
 
   @media screen and (min-width: $tablet) {
-    background-image: url('../images/cloud/hero@2x.jpg');
-    background-size: 100% auto;
+    background-image: url("../images/cloud/hero@2x.jpg");
   }
 }
 
@@ -20,9 +20,9 @@ body.cloud {
   .headroom--top {
     &.app-header_wrap {
       background: none !important;
-      
+
       &:after {
-        opacity: .2;
+        opacity: 0.2;
       }
     }
 
@@ -36,7 +36,7 @@ body.cloud {
     }
 
     .current-page {
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
     }
 
     .app-header_logo .dark {
@@ -69,12 +69,12 @@ body.cloud {
       }
     }
   }
-  
+
   // only IE
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     @include headerStyle();
   }
-  
+
   // scroll
   .app-header--light {
     @include headerStyle();

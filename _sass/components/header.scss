@@ -38,7 +38,7 @@
 
   img {
     width: 7.5em;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   .dark {
@@ -58,6 +58,7 @@
   overflow: hidden;
   padding: 0 3em 0;
   transition: all 0.3s ease;
+  white-space: nowrap;
 
   @media screen and (min-width: $tablet) {
     @include flexbox();
@@ -74,9 +75,13 @@
     display: block;
 
     @media screen and (min-width: $tablet) {
-      margin-left: 2em;
+      margin-left: 0.8em;
       margin-bottom: 0;
       display: inline-block;
+    }
+
+    @media screen and (min-width: 60em) {
+      margin-left: 2em;
     }
 
     // only IE
@@ -243,7 +248,7 @@
     background: #fff;
   }
 
-  .app-header_logo  {
+  .app-header_logo {
     .dark {
       opacity: 1;
     }

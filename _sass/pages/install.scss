@@ -5,15 +5,13 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url('../images/install/hero.jpg');
-  background-position: center 21em;
+  background-image: url("../images/install/hero.jpg");
   background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: 100% auto;
 
   @media screen and (min-width: $tablet) {
-    background-image: url('../images/install/hero@2x.jpg');
-    background-position: center top;
-    background-size: 100% auto;
+    background-image: url("../images/install/hero@2x.jpg");
   }
 }
 

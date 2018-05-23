@@ -18,6 +18,12 @@ travelled to Bonito in Brazil’s Mato Grosso do Sul for its 2018 Summit,
 a week-long adventure filled with incredible activities, company-wide
 meetings and, most importantly, the chance to spend time together.
 
+## All the fun caught on camera
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RKDwl2xZH5g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Thank you to Arthur for putting together such a great video!
+
 ## Meaningful Encounters
 
 As a company with remote teams located worldwide, our Summit was a crucial opportunity

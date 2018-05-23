@@ -32,7 +32,7 @@ permalink: /categories/
     {% for post in site.categories[page.category] %}
       {% if post.dateEvent > site.time and post.location and post.dateEvent %}
         {% assign Upcoming = Upcoming | push: post %}
-      {% else if post.type and post.location %}
+      {% elsif post.dateEvent < site.time and post.location and post.dateEvent %}
         {% assign Past = Past | push: post %}
       {% endif %}
     {% endfor %}
@@ -74,54 +74,28 @@ permalink: /categories/
     <h3 class="display--small theme_type--dark blog__section"><strong>Past</strong></h3>
     <div class="blog__category">
       {% for post in Past %}
-        {% if post.categories contains "Events" and post.location and post.dateEvent %}
-          <a 
-            class="card--blog card--blog__image"
-            href="{{ post.url | remove: "index.html" }}"
-            {% if post.cover %}
-              style="background-image: url('{{ post.cover }}')"
-            {% else %}
-              style="background-image: url('/images/blog/post.jpg')"
-            {% endif %}
-          >
-            <div class="card--blog__wrap">
-              <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
-              <h4 class="display theme_type--dark">
-                {{ post.dateEvent | date: "%m.%d" }}
-                {% if post.dateEventEnd %} 
-                  — {{ post.dateEventEnd | date: "%m.%d" }}
-                {% endif %}
-              </h4>
-              <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
-              <div class="space--1"></div>
-              <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
-            </div>
-          </a>
-        {% else %}
-          <a 
-            class="card--blog card--blog__image"
-            href="{{ post.url | remove: "index.html" }}"
-            {% if post.cover %}
-              style="background-image: url('{{ post.cover }}')"
-            {% else %}
-              style="background-image: url('/images/blog/post.jpg')"
-            {% endif %}
-          >
-            <div class="card--blog__wrap">
-              <p class="card--blog__meta label--small theme_type--grey">
-                {{ post.date | date: "%b %-d, %Y" }}
-                — 
-                {% assign words = post.content | number_of_words %}
-                {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
-              </p>
-              <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
-              <div class="card--blog__data">
-                <p class="card--blog__category theme_box--dark-medium theme_type--dark tag">{{ post.categories[0] }}</p>
-                <p class="card--blog__author text--small theme_type--grey">by {{ post.author }}</p>
-              </div>
-            </div>
-          </a>
-        {% endif %}
+        <a 
+          class="card--blog card--blog__image"
+          href="{{ post.url | remove: "index.html" }}"
+          {% if post.cover %}
+            style="background-image: url('{{ post.cover }}')"
+          {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+          {% endif %}
+        >
+          <div class="card--blog__wrap">
+            <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
+            <h4 class="display theme_type--dark">
+              {{ post.dateEvent | date: "%m.%d" }}
+              {% if post.dateEventEnd %} 
+                — {{ post.dateEventEnd | date: "%m.%d" }}
+              {% endif %}
+            </h4>
+            <h3 class="text theme_type--dark type--nomargin"><strong>{{ post.type }}:</strong> {{ post.title }}</h3>
+            <div class="space--1"></div>
+            <p class="blog__event-location text--small theme_type--grey type--nomargin">{{ post.location }}</p>
+          </div>
+        </a>
       {% endfor %}
     </div>
 

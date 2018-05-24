@@ -11,6 +11,12 @@
   background-size: 100% auto;
 
   @media screen and (min-width: $tablet) {
-    bottom: -30%;
+    bottom: -15%;
+  }
+
+  @media screen and (min-width: 72em) {
+    top: -10%;
+    bottom: -40%;
+    background-position: center top;
   }
 }

@@ -303,7 +303,7 @@
     padding-top: 16em;
     @media screen and (min-width: $tablet) {
       padding-top: 26em;
-      padding-bottom: 15em;
+      // padding-bottom: 15em;
     }
   }
 
@@ -356,9 +356,7 @@
 
     @media screen and (min-width: $tablet) {
       max-width: none;
-      width: calc(100% + 12em);
-      margin-left: -6em;
-      margin-right: -6em;
+      width: 70%;
     }
   }
 
@@ -404,7 +402,7 @@
     background-image: url("/images/install/mobile.png");
     background-size: auto 90%;
     background-position: right -40% bottom;
-    margin-top: -19em;
+    // margin-top: -19em;
 
     .wrap {
       padding: 2em;

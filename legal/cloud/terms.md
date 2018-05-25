@@ -1,3 +1,14 @@
+---
+layout: en/legal
+title: Rocket.Chat Terms of Service
+class: legal
+permalink: /terms
+type: terms
+theme: light
+redirect_from:
+  - /terms/
+---
+
 _Effective date: May 22, 2018_
 
 ## Terms

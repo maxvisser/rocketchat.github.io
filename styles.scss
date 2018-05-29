@@ -1,21 +1,36 @@
 ---
 ---
 
-@import "variables";
-@import "layouts/default";
-@import "layouts/post";
-@import "highlight";
-@import "index";
-@import "download";
-@import "cloud";
-@import "community";
-@import "partners";
-@import "press";
-@import "contact";
-@import "team";
-@import "notfound";
-@import "handbook";
-@import "legal";
-@import "bots";
-@import "blog/index";
-@import "includes/social";
+@import "ui/mixins";
+@import "ui/variables";
+@import "ui/reset";
+@import "ui/typography";
+@import "ui/grid";
+@import "ui/buttons";
+@import "ui/form";
+@import "ui/table";
+@import "ui/theme";
+
+// Component
+@import "components/header";
+@import "components/footer";
+@import "components/hero";
+@import "components/card";
+@import "components/divider";
+@import "components/spaces";
+@import "components/pagination";
+@import "components/modal";
+@import "components/banner";
+
+// Pages
+@import "pages/home";
+@import "pages/install";
+@import "pages/team";
+@import "pages/blog";
+@import "pages/free-page";
+@import "pages/community";
+@import "pages/partner";
+@import "pages/contact";
+@import "pages/press";
+@import "pages/cloud";
+@import "pages/support";

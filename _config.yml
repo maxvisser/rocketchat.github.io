@@ -8,15 +8,16 @@ permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 8
 
+
 # bump if alterting styles
-version: 35
+version: 37
 
 # read speed
 wpm: 160
 
 # on GitHub project
-stars: 16.4
-forks: 3.5
+stars: 17.8
+forks: 3.8
 
 # set default template for posts
 defaults:
@@ -40,11 +41,13 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 whitelist:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 exclude:
   - Gemfile

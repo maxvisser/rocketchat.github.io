@@ -2,9 +2,11 @@
 title: 10 of the best Rocket.Chat integrations
 date: 2018-02-12 10:00:00
 categories:
-  - Releases
+  - Case Studies
+  - Product
 author: Louise Message
 cover: /images/posts/2018/02/2018-02-12-10-best-integrations/cover.jpg
+featured: true
 ---
 
 Rocket.Chat might have plenty of out-of-the-box features, but you can make it even more useful, efficient and fun with integrations.
@@ -47,7 +49,7 @@ Linking Jira saves a team the manual work of copying and pasting status updates 
 
 By writing a messaged like 'let's check out SUP-1234+' you'll receive a summary of any issues mentioned in Jira without needing to leave Rocket.Chat.
 
-Learn how to  <a href="https://github.com/gustavkarlsson/rocketchat-jira-trigger" target="_blank">integrate Jira</a>.
+Learn how to <a href="https://github.com/gustavkarlsson/rocketchat-jira-trigger" target="_blank">integrate Jira</a>.
 
 ## Google Calendar
 

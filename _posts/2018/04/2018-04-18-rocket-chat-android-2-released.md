@@ -1,20 +1,21 @@
 ---
 title: "Rocket.Chat Android 2.0 Released"
 categories:
-  - Releases
+  - News
 date: 2018-04-11 08:00:00
 author: Rocket.Chat Team
 cover: /images/posts/2017/11/rocket-chat-ios-1-7-released/cover-ios1.7.jpg
+featured: true
 ---
 
 Rocket.Chat is proud to announce its Rocket.Chat Android 2.0 release with the following features and changes:
 
-- New networking layer
-- Offline message composer
-- Improved easier to use UI
-  - New authentication layout
-  - New chat list layout
-  - Reactions and emojis keyboard
+* New networking layer
+* Offline message composer
+* Improved easier to use UI
+  * New authentication layout
+  * New chat list layout
+  * Reactions and emojis keyboard
 
 ## New networking layer
 
@@ -73,17 +74,17 @@ Rocket.Chat mobile experience yet.
 
 ## Other features
 
-- OAuth Authentication for Google, GitHub, GitLab and LinkedIn
-- LDAP and CAS Authentication
-- Edit your profile
-- Full screen images and videos
+* OAuth Authentication for Google, GitHub, GitLab and LinkedIn
+* LDAP and CAS Authentication
+* Edit your profile
+* Full screen images and videos
 
 ## Requirements
 
 Rocket.Chat Android 2.0 requires:
 
-- Rocket.Chat Server minimum version 0.63.1
-- SSL enabled server ([check](https://www.ssllabs.com/ssltest/) your server)
+* Rocket.Chat Server minimum version 0.63.1
+* SSL enabled server ([check](https://www.ssllabs.com/ssltest/) your server)
 
 ## Open source
 
@@ -94,17 +95,17 @@ Fork them, create new features, squash bugs and submit a pull request to share y
 
 This release was made possible by the amazing work of the following contributors. Thank you all for your commitment to Rocket.Chat.
 
-- <a target="_blank" href="https://github.com/divyanshub024">@divyanshub024</a>
-- <a target="_blank" href="https://github.com/Shailesh351">@Shailesh351</a>
-- <a target="_blank" href="https://github.com/robertwessen">@robertwessen</a>
-- <a target="_blank" href="https://github.com/samrmur">@samrmur</a>
-- <a target="_blank" href="https://github.com/aniketsingh03">@aniketsingh03</a>
-- <a target="_blank" href="https://github.com/SyamSundarKirubakaran">@SyamSundarKirubakaran</a>
-- <a target="_blank" href="https://github.com/pcforgeek">@pcforgeek</a>
-- <a target="_blank" href="https://github.com/TheGamer007">@TheGamer007</a>
-- <a target="_blank" href="https://github.com/leonardoaramaki">@leonardoaramaki</a>
-- <a target="_blank" href="https://github.com/luciofm">@luciofm</a>
-- <a target="_blank" href="https://github.com/filipedelimabrito">@filipedelimabrito</a>
+* <a target="_blank" href="https://github.com/divyanshub024">@divyanshub024</a>
+* <a target="_blank" href="https://github.com/Shailesh351">@Shailesh351</a>
+* <a target="_blank" href="https://github.com/robertwessen">@robertwessen</a>
+* <a target="_blank" href="https://github.com/samrmur">@samrmur</a>
+* <a target="_blank" href="https://github.com/aniketsingh03">@aniketsingh03</a>
+* <a target="_blank" href="https://github.com/SyamSundarKirubakaran">@SyamSundarKirubakaran</a>
+* <a target="_blank" href="https://github.com/pcforgeek">@pcforgeek</a>
+* <a target="_blank" href="https://github.com/TheGamer007">@TheGamer007</a>
+* <a target="_blank" href="https://github.com/leonardoaramaki">@leonardoaramaki</a>
+* <a target="_blank" href="https://github.com/luciofm">@luciofm</a>
+* <a target="_blank" href="https://github.com/filipedelimabrito">@filipedelimabrito</a>
 
 ## Download and Review
 

@@ -10,7 +10,7 @@ paginate: 8
 
 
 # bump if alterting styles
-version: 37
+version: 38
 
 # read speed
 wpm: 160

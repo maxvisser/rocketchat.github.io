@@ -19,13 +19,28 @@ theme: dark
 
       <form class="form-validate" data-validate>
         <fieldset>
-          <label class="label--small theme_type--grey" for="name">Name</label>
-          <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="name" name="name" placeholder="Type your name" />
+          <label class="label--small theme_type--grey" for="firstName">Name</label>
+          <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="firstName" name="firstName" placeholder="Type your name" />
+        </fieldset>
+
+        <fieldset>
+          <label class="label--small theme_type--grey" for="lastName">Last name</label>
+          <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="lastName" name="lastName" placeholder="Type your last name" />
         </fieldset>
 
         <fieldset>
           <label class="label--small theme_type--grey" for="email">Email Address</label>
           <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="email" placeholder="Type email address" />
+        </fieldset>
+
+        <fieldset>
+          <label class="label--small theme_type--grey" for="company">Company</label>
+          <input minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="company" placeholder="Type your company" />
+        </fieldset>
+
+        <fieldset>
+          <label class="label--small theme_type--grey" for="jobtitle">Job title</label>
+          <input required minlength="3" class="input input--dark" type="text" id="jobtitle" name="jobtitle" placeholder="Type job title" />
         </fieldset>
 
         <fieldset>

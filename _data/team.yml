@@ -156,14 +156,6 @@
   photo: yes
   country: Brazil
 
-- name: Claudia Chiroque
-  role: Intern, Business Development
-  github_username: claudia-chiroque
-  department: Sales
-  username: claudia.chiroque
-  photo: yes
-  country: Peru
-
 - name: Leonardo Aramaki
   role: Android Engineer
   github_username: leonardoaramaki

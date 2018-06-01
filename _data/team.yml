@@ -83,7 +83,7 @@
   country: USA
 
 - name: Karl Prieb
-  role: Lead Front End Engineer
+  role: Front End Engineer
   github_username: karlprieb
   department: Technology
   username: karl.prieb
@@ -100,7 +100,7 @@
   photo: yes
 
 - name: Guilherme Gazzo
-  role: Senior Full Stack Engineer
+  role: Lead Front End Engineer
   github_username: ggazzo
   department: Technology
   username: guilherme.gazzo

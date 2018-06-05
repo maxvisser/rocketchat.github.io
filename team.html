@@ -249,5 +249,9 @@ theme: dark
       </div>
     </li>
     {% endfor %}
+    {% capture modulo %}{{ teamList.size | modulo:3 }}{% endcapture %}
+    {% if modulo != '0' %}
+       <li class="team-item empty"></li>
+    {% endif %}
   </ul>
 <section>

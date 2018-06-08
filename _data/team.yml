@@ -261,11 +261,10 @@
   username: filipe.alvarenga
   country: Brazil
   
-  - name: Thiago Sanchez
+- name: Thiago Sanchez
   role: Head of Product Design
   github_username: thiagosanchz
   department: Design
   username: thiago.sanchez
   photo: yes
   country: Brazil
-

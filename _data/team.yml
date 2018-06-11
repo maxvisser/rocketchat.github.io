@@ -276,3 +276,11 @@
   username: bruno.quadros
   photo: no
   country: Brazil
+
+- name: Tasso Evangelista
+  role: Front End Engineer
+  github_username: tassoevan
+  department: Technology
+  username: tasso.evangelista
+  photo: no
+  country: Brazil

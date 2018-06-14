@@ -1,3 +1,13 @@
+---
+title: "Rocket.Chat iOS 3.0 Released"
+categories:
+- News
+date: 2018-06-7 08:00:00
+author: Rafael Kellermann Streit
+cover: /images/posts/2018/06/2018-06-7-android-2-3-release/cover.jpg
+featured: true
++---
+
 # 3.0.0
 
 - New UI;

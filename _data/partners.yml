@@ -2,13 +2,13 @@
   description: Certified implementers & experts in several of the most popular and well respected open source platforms.
   website: //sourceforte.com/our-global-collaborations/
   logo: /images/partners/sourceforte.png
-  type: global
-  
+  type: technology
+
 - name: Curve Stone
   description: Hand-on partner with expertise on configuration, customization and development of Rocket.Chat’s code.
   website: //www.curvestone.io/rocket-chat
   logo: /images/partners/curvestone.png
-  type: global
+  type: technology
 
 - name: Chef
   website: //www.chef.io
@@ -65,3 +65,8 @@
   website: //www.openenvy.com
   logo: /images/partners/openenvy.png
   type: hosting
+
+- name: Zenvia
+  website: //https://www.zenvia.com/
+  logo: /images/partners/Zenvialogo.png
+  type: value added

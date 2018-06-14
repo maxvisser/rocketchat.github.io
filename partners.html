@@ -7,13 +7,13 @@ redirect_from: /partners/
 theme: dark
 ---
 
-{% assign GlobalPartners = "" | split: "" %}
+{% assign ValueAddedPartners = "" | split: "" %}
 {% assign TechnoPartners = "" | split: "" %}
 {% assign HostingPartners = "" | split: "" %}
 
 {% for partner in site.data.partners %}
-  {% if partner.type == 'global' %}
-    {% assign GlobalPartners = GlobalPartners | push: partner %}
+  {% if partner.type == 'value added' %}
+    {% assign ValueAddedPartners = ValueAddedPartners | push: partner %}
   {% elsif partner.type == 'technology' %}
     {% assign TechnoPartners = TechnoPartners | push: partner %}
   {% elsif partner.type == 'hosting' %}
@@ -23,7 +23,7 @@ theme: dark
 
 <section class="hero">
   <h1 class="display--big theme_type--dark">Official Global Partners</h1>
-  <p class="display--small theme_type--grey">Our ecosystem of global resellers, technology and hosting partners helps us ensure that Rocket.Chat is the best match for your organization</p>
+  <p class="display--small theme_type--grey">Our ecosystem of hosting, technology and value added partners helps us ensure that Rocket.Chat is the best match for your organization</p>
   <br />
   <br />
 
@@ -37,38 +37,34 @@ theme: dark
   <div class="flex-grid grid--justify-around align--center">
     <div class="col--haft">
       <p class="label">Our partners</p>
-      <h2 class="display theme_type--dark">Global Resellers</h2>
-      <p class="display--small theme_type--grey">These partners sell Rocket.Chat on our behalf.</p>
+      <h2 class="display theme_type--dark">Hosting Partners</h2>
+      <p class="display--small theme_type--grey">Rocket.Chat offers affordable, scalable and secure <a href="{{ site.url }}/cloud"><strong>Cloud</strong></a>as well as self-hosting;
+        in addition we have also partnered with various alternative providers to give you more freedom and choice</p>
     </div>
   </div>
 
   <div class="space--2"></div>
 
-  <div class="flex-grid">
-    {% for partner in GlobalPartners %}
-      <div class="col">
-        <div class="card theme_box--dark-strong">
-          <div class="card__media">
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+  <div class="flex-grid grid--wrap">
+      {% for partner in HostingPartners %}
+        <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
+          <div class="card theme_box--dark-strong">
+            <div class="card__media">
+              <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+            </div>
           </div>
-          <div class="card_footer theme_box--dark">
-            <h3 class="display--small theme_type--dark">{{ partner.name }}</h3>
-            <p class="theme_type--grey">{{ partner.description }}</p>
-            <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">Visit Website</a>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+        </a>
+      {% endfor %}
+    </div>
 
-  <div class="space--6"></div>
+   <div class="space--6"></div>
 
   <div class="flex-grid grid--justify-around align--center">
     <div class="col--haft">
       <p class="label">Our partners</p>
       <h2 class="display theme_type--dark">Technology Partners</h2>
       <p class="display--small theme_type--grey">From installation and configuration to the development of features, bots and integrations, Technology Partners develop Rocket.Chat's code and
-        come up with new features to upgrade your platform.
+        come up with new features to upgrade your platform
       </p>
     </div>
   </div>
@@ -90,24 +86,27 @@ theme: dark
   <div class="flex-grid grid--justify-around align--center">
     <div class="col--haft">
       <p class="label">Our partners</p>
-      <h2 class="display theme_type--dark">Hosting Partners</h2>
-      <p class="display--small theme_type--grey">Rocket.Chat offers affordable, scalable and secure Cloud and to self-hosting; in addition we have also partnered with various alternative providers to give you more freedom and choice</p>
+      <h2 class="display theme_type--dark">Value Added Partners</h2>
+      <p class="display--small theme_type--grey">These partners resell Rocket.Chat in addition to other services or tools such as technical support, consultation and training services</p>
     </div>
   </div>
 
-  <div class="flex-grid grid--wrap">
-    {% for partner in HostingPartners %}
-      <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
-        <div class="card theme_box--dark-strong">
-          <div class="card__media">
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
-          </div>
-        </div>
-      </a>
-    {% endfor %}
-  </div>
-
   <div class="space--6"></div>
+
+  <div class="flex-grid grid--wrap">
+      {% for partner in ValueAddedPartners %}
+        <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
+          <div class="card theme_box--dark-strong">
+            <div class="card__media">
+              <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="space--6"></div>
+
 </section>
 
 <section class="container">

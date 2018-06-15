@@ -13,33 +13,33 @@
 - name: Chef
   website: //www.chef.io
   logo: /images/partners/cheflogo.png
-  type: technology
+  type: institutional
 
 - name: Tokenly
   description:
   website: //tokenly.com
   logo: /images/partners/tokenlylogo.png
-  type: technology
+  type: institutional
 
 - name: Brave
   website: //brave.com
   logo: /images/partners/bravelogo.png
-  type: technology
+  type: institutional
 
 - name: KeyCDN
   website: //keycdn.com
   logo: /images/partners/keycdnlogo.png
-  type: technology
+  type: institutional
 
 - name: Google Cloud Platform
   website: //cloud.google.com
   logo: /images/partners/gcplogo.png
-  type: technology
+  type: institutional
 
 - name: Mconf
   website: //mconf.com
   logo: /images/partners/mconf.png
-  type: technology
+  type: institutional
 
 - name: Curve Stone
   website: //www.curvestone.io/managed-rocketchat-hosting
@@ -49,24 +49,29 @@
 - name: Layershift PaaS
   website: //jps.layershift.com/rocketchat/deploy.html
   logo: /images/partners/layershift.png
-  type: hosting
+  type:
 
 - name: Rocket.Chat Launcher
   website: //rocketchatlauncher.com/
   logo: /images/partners/rocketchatlaucher.png
-  type: hosting
+  type:
 
 - name: Netways Web Services
   website: //nws.netways.de/products/rocket-chat?locale=en
   logo: /images/partners/netways.png
-  type: hosting
+  type:
 
 - name: Open Envy
   website: //www.openenvy.com
   logo: /images/partners/openenvy.png
-  type: hosting
+  type:
 
 - name: Zenvia
-  website: //https://www.zenvia.com/
+  website: //zenvia.com/
   logo: /images/partners/Zenvialogo.png
   type: value added
+
+- name: rtm
+  website: //www.rtm.net.br/
+  logo: /images/partners/rtm.png
+  type: hosting

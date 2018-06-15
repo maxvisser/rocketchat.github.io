@@ -1,5 +1,5 @@
 ---
-title: "Rocket.Chat Android 2.3 Released"
+title: "Rocket.Chat Android 2.4 Released"
 categories:
   - News
 date: 2018-06-7 08:00:00
@@ -8,8 +8,9 @@ cover: /images/posts/2018/06/2018-06-7-android-2-3-release/cover.jpg
 featured: true
 ---
 
-Rocket.Chat is proud to announce its Rocket.Chat Android 2.3 release with the following highlighted features and changes:
+Rocket.Chat is proud to announce its Rocket.Chat Android 2.4 release with the following highlighted features and changes:
 
+* Read receipts [#1338](https://github.com/RocketChat/Rocket.Chat.Android/pull/1338)
 * Files list now available [#1304](https://github.com/RocketChat/Rocket.Chat.Android/pull/1304)
 * Push notifications from GCM to FCM now migrated [#1312](https://github.com/RocketChat/Rocket.Chat.Android/pull/1312)
 * New notification feature that allows user [#1322](https://github.com/RocketChat/Rocket.Chat.Android/pull/1322)
@@ -17,17 +18,25 @@ Rocket.Chat is proud to announce its Rocket.Chat Android 2.3 release with the fo
 * Google Smart Lock feature improved [#1334](https://github.com/RocketChat/Rocket.Chat.Android/pull/1334)
 * Bug fixes
 
+## Read receipts
+
+You can now see who read the message and when. The feature needs to be enabled on the server that you're logged into in order to appear on the app.
+
+<img src="/images/posts/2018/06/2018-06-7-android-2-4-release/read-receipts-in-message.png">
+
+<img src="/images/posts/2018/06/2018-06-7-android-2-4-release/Read-receipts-message-info.png">
+
 ## Files list now available
 
-[add text here]
+[add text here] [add image if available]
 
 ## Push notifications from GCM to FCM now migrated
 
-[add text here]
+[add text here] [add image if available]
 
 ## Fixes related to push notifications
 
-* Better multi-server support for push notifications, related to the following issue too:
+* Better multi-server support for push notifications
 
 * Notifications will now show when a user logs in and out with different users
 
@@ -35,9 +44,13 @@ Rocket.Chat is proud to announce its Rocket.Chat Android 2.3 release with the fo
 
 Users can now hop to a chat room by tapping a notification.
 
+[add text here] [add image if available]
+
 ## Google Smart Lock feature improved
 
 Google Smart Lock has been refactored for 2.3: to use it, one must now tap the key icon on the righthand side of the username/email field.
+
+[add text here] [add image if available]
 
 ## Bugs fixed
 

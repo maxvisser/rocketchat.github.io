@@ -44,9 +44,15 @@ Also, if you were connected until you received couple of messages, if you loose 
 
 # Theming
 
-Yes!!! Now you can choose between light, dark and black themes. This project was developed by Samar Sunkaria during the GSoC project 2018. We choose this options of themes because we think it’s gonna look amazing on your iPhone and iPad, specially the black theme for the iPhone X users.
+Yes!!! Now you can choose between light, dark and black themes. This project was developed by Samar Sunkaria during the GSoC project 2018. We choose this options of themes because we think it’s gonna look amazing on your iPhone and iPad, specially the black theme for the iPhone X users. Samar will keep working on more themes, more improvements on the app and a few integrations between the mobile apps and the server (needs to rephrase this).
 
 (GIF SHOWING THE THEMES)
+
+# User Details screen
+
+Now you can see all detailed information about an user: timezone, roles, name, status and more! You can even start a new conversation with a user by pressing the "Message" button below the avatar.
+
+(GIF SHOWING THE USER SCREEN)
 
 # Sorting & Grouping
 

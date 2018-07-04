@@ -9,12 +9,7 @@ redirect_from:
   - /privacy/
 ---
 
-_Effective date: December 18, 2017_
-
-Privacy Policy
-==============
-
-_Effective date: June 11, 2018_
+_Effective date: July 2nd, 2018_
 
 Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the https://rocket.chat website, the https://open.rocket.chat community server and the Rocket.Chat mobile applications (the "Service").
 
@@ -65,8 +60,7 @@ We collect several different types of information for various purposes to provid
 
 ### Types of Data Collected
 
-Personal Data
-*************
+#### Personal Data
 
 While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:
 
@@ -76,8 +70,7 @@ While using our Service, we may ask you to provide us with certain personally id
 
 We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
 
-Usage Data
-**********
+#### Usage Data
 
 We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device ("Usage Data").
 
@@ -85,15 +78,13 @@ This Usage Data may include information such as your computer's Internet Protoco
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
-Location Data
-*************
+#### Location Data
 
 We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service, to improve and customize our Service.
 
 You can enable or disable location services when you use our Service at any time, through your device settings.
 
-Tracking &amp; Cookies Data
-************
+#### Tracking &amp; Cookies Data
 
 We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
 
@@ -231,6 +222,21 @@ We may use third-party Service Providers to monitor and analyze the use of our S
     Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
     For more information on the privacy practices of Google, please visit the Google Privacy &amp; Terms web page: <https://policies.google.com/privacy?hl=en>
+    
+  * Firebase
+
+    Firebase is analytics service provided by Google Inc.
+
+    You may opt-out of certain Firebase features through your mobile device
+    settings, such as your device advertising settings or by following the
+    instructions provided by Google in their Privacy Policy:
+    <https://policies.google.com/privacy?hl=en>
+
+    We also encourage you to review the Google's policy for safeguarding your
+    data: <https://support.google.com/analytics/answer/6004245>. For more
+    information on what type of information Firebase collects, please visit
+    please visit the Google Privacy &amp; Terms web page:
+    <https://policies.google.com/privacy?hl=en>
 
 Links to Other Sites
 --------------------

@@ -270,11 +270,11 @@
   country: Brazil
 
 - name: Bruno Quadros
-  role: Product Design
+  role: Product Designer
   github_username: brunosquadros
   department: Design
   username: bruno.quadros
-  photo: no
+  photo: yes
   country: Brazil
 
 - name: Tasso Evangelista

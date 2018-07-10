@@ -38,49 +38,19 @@ theme: dark
 
 <div class="space--2"></div>
 
-<div class="flex-grid grid--justify-around align--center">
-  <div class="col--haft">
-    <p class="label">Our partners</p>
-    <h2 class="display theme_type--dark">Technology Partners</h2>
-    <p class="display--small theme_type--grey">From installation and configuration to the development of features, bots and integrations, Technology Partners develop Rocket.Chat's code and
-      come up with new features to upgrade your platform
-    </p>
-  </div>
-</div>
-
-<div class="flex-grid">
-  {% for partner in TechnoPartners %}
-  <div class="col">
-    <div class="card theme_box--dark-strong">
-      <div class="card__media">
-        <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
-      </div>
-      <div class="card_footer theme_box--dark">
-        <h3 class="display--small theme_type--dark">{{ partner.name }}</h3>
-        <p class="theme_type--grey">{{ partner.description }}</p>
-        <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">Visit Website</a>
-      </div>
+<section class="container" id="partners">
+  <div class="flex-grid grid--justify-around align--center">
+    <div class="col--haft">
+      <p class="label">Our partners</p>
+      <h2 class="display theme_type--dark">Technology Partners</h2>
+      <p class="display--small theme_type--grey">From installation and configuration to the development of features, bots and integrations, Technology Partners develop Rocket.Chat's code and
+        come up with new features to upgrade your platform
+      </p>
     </div>
   </div>
-{% endfor %}
-</div>
 
-
-<div class="space--6"></div>
-
-
-<div class="flex-grid grid--justify-around align--center">
-  <div class="col--haft">
-    <p class="label">Our partners</p>
-    <h2 class="display theme_type--dark">Value Added Partners</h2>
-    <p class="display--small theme_type--grey">These partners resell Rocket.Chat in addition to other services or tools such as technical support, consultation and training services</p>
-  </div>
-</div>
-
-<div class="space--2"></div>
-
-<div class="flex-grid">
-    {% for partner in ValueAddedPartners %}
+  <div class="flex-grid">
+    {% for partner in TechnoPartners %}
     <div class="col">
       <div class="card theme_box--dark-strong">
         <div class="card__media">
@@ -94,12 +64,41 @@ theme: dark
       </div>
     </div>
   {% endfor %}
-</div>
+  </div>
+
 
   <div class="space--6"></div>
 
 
-<section class="container" id="partners">
+  <div class="flex-grid grid--justify-around align--center">
+    <div class="col--haft">
+      <p class="label">Our partners</p>
+      <h2 class="display theme_type--dark">Value Added Partners</h2>
+      <p class="display--small theme_type--grey">These partners resell Rocket.Chat in addition to other services or tools such as technical support, consultation and training services</p>
+    </div>
+  </div>
+
+  <div class="space--2"></div>
+
+  <div class="flex-grid grid--justify-around">
+    {% for partner in ValueAddedPartners %}
+    <div class="col--haft">
+      <div class="card theme_box--dark-strong">
+        <div class="card__media">
+          <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+        </div>
+        <div class="card_footer theme_box--dark">
+          <h3 class="display--small theme_type--dark">{{ partner.name }}</h3>
+          <p class="theme_type--grey">{{ partner.description }}</p>
+          <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">Visit Website</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="space--6"></div>
+
   <div class="flex-grid grid--justify-around align--center">
     <div class="col--haft">
       <p class="label">Our partners</p>
@@ -140,18 +139,18 @@ theme: dark
   <div class="space--2"></div>
 
   <div class="flex-grid grid--wrap">
-      {% for partner in InstitutionalPartners %}
-        <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
-          <div class="card theme_box--dark-strong">
-            <div class="card__media">
-              <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
-            </div>
+    {% for partner in InstitutionalPartners %}
+      <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
+        <div class="card theme_box--dark-strong">
+          <div class="card__media">
+            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
           </div>
-        </a>
-      {% endfor %}
-    </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
 
-    <div class="space--6"></div>
+  <div class="space--6"></div>
 </section>
 
 <section class="container">

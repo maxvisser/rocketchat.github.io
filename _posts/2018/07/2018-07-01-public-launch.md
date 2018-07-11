@@ -29,7 +29,25 @@ Improve your productivity by automating your work using the Rocket.Chat Zapier i
 
 ![triggers and actions](/images/posts/2018/07/2018-07-01-zapier-public-launch/zaps-triggers-actions.jpg)
 
-For full details on getting started with the Rocket.Chat Zapier app, check out [our first Zapier announcement blog post](https://rocketchat.github.io/2017/05/24/announcing-zapier-integration/) or [our Zapier docs](https://rocket.chat/docs/administrator-guides/integrations/zapier/using-zaps/).
+
+## Automating Rocket.Chat with Zapier: a step-by-step guide
+
+
+- Sign up for a [Rocket.Chat](https://rocket.chat) account, and make sure you have a [Zapier](https://zapier.com/sign-up/) account;
+
+- Try some pre-made [Rocket.Chat integrations](https://zapier.com/apps/RocketChat/integrations) and learn more about how Rocket.Chat works with Zapier;
+
+- Check out [our first Zapier announcement blog post](https://rocketchat.github.io/2017/05/24/announcing-zapier-integration/) or [our Zapier docs](https://rocket.chat/docs/administrator-guides/integrations/zapier/using-zaps/);
+
+- Or [login and build a custom workflow](https://zapier.com/app/editor/) with Rocket.Chat and Zapier
+
+## Automation inspiration
+
+Why not [centralize your communication](https://zapier.com/apps/gmail/integrations/rocketchat/19164/receiving-important-emails-from-gmail-on-rocketchat) by using the Zapier app to receive new emails from Gmail as private group messages on Rocket.Chat?
+
+![gmail x rocket.chat with Zapier](/images/posts/2018/07/2018-07-01-zapier-public-launch/gmail-rc.png)
+
+Have all your incoming emails delivered on your Rocket.Chat account using this integration. Whenever Gmail receives a new email, Zapier will automatically send the email as a private group message on a Rocket.Chat private channel. This is a faster way to filter through your incoming emails than opening each email manually.
 
 ## Our stability promise
 

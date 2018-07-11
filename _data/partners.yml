@@ -68,10 +68,10 @@
 
 - name: Zenvia
   website: //www.zenvia.com/produtos/chatbots/chatbot-cobranca
-  logo: /images/partners/Zenvialogo.png
+  logo: /images/partners/Zenvialogo-white.png
   type: value added
 
 - name: rtm
   website: //www.rtm.net.br/solucoes/rtm-rocketchat.asp
-  logo: /images/partners/rtm.png
+  logo: /images/partners/rtmlogo-white.png
   type: hosting

@@ -49,6 +49,8 @@ Why not [centralize your communication](https://zapier.com/apps/gmail/integratio
 
 Have all your incoming emails delivered on your Rocket.Chat account using this integration. Whenever Gmail receives a new email, Zapier will automatically send the email as a private group message on a Rocket.Chat private channel. This is a faster way to filter through your incoming emails than opening each email manually.
 
+There are plenty more options for automating your work using the Rocket.Chat Zapier app. Explore these [here](https://zapier.com/apps/rocketchat/integrations).
+
 ## Our stability promise
 
 We are committed to ensuring that the Zapier App works across several releases of Rocket.Chat and that, should something change in the internal data structures that are sent over to Zapier, we will make the required changes inside of the Zapier App to ensure there is no breakage. <br/> If you have any questions directly related to our Zapier App, please drop us a line at <strong>zapier@rocket.chat</strong>

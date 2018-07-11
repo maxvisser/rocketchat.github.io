@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-07-01 08:00:00
 author: Isabella Russell
-cover: /images/posts/2018/07/2018-07-01-zapier-public-launch/zapier-logo.jpg
+cover: /images/posts/2018/07/2018-07-01-zapier-public-launch/zapier&RC.png
 featured: true
 ---
 

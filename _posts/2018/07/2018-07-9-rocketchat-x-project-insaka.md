@@ -9,7 +9,7 @@ cover:
 featured: true
 ---
 
-## Rocket.Chat x Project Insaka – the launch of a new initiative to provide mental health support for HIV positive pregnant women and new mothers in Zambia using Rocket.Chat as the platform for the project's support groups
+## Rocket.Chat x Project Insaka – the launch of a new initiative to provide mental health support for HIV positive pregnant women and new mothers in Zambia using Rocket.Chat for the project's support groups
 
 From July, Rocket.Chat technology will be used for an exciting new initiative in Zambia called ‘Project Insaka’ that will provide much-needed support groups for HIV positive pregnant and feeding mothers. The project is being jointly run by London-based charitable foundation [The SHM Foundation](https://shmfoundation.org/?page_id=23321/) and [Zambart](http://www.zambart.org.zm/), a research-based organization in Zambia.
 

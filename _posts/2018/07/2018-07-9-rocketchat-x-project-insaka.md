@@ -5,7 +5,7 @@ categories:
   - Case Studies
 date: 2018-07-9 8:00:00
 author: Isabella Russell
-cover:
+cover: /images/posts/2018/07/2018-07-9-rocketchat-x-project-insaka/SHMxRC.png
 featured: true
 ---
 
@@ -32,4 +32,4 @@ Rocket.Chat’s own team of developers have been working with The SHM Foundation
 
 Furthermore, Rocket.Chat’s suite of optional integrations will allow The SHM Foundation and Zambart to monitor chat data in real time, and thus ensure the safety and wellbeing of participants.
 
-
+Rocket.Chat is proud to be a part of this innovative and important project. For more updates and photos as the project unfolds, follow us on Twitter [@RocketChat](https://twitter.com/RocketChat)!

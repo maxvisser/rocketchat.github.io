@@ -9,7 +9,7 @@ cover: /images/posts/2018/07/2018-07-9-rocketchat-x-project-insaka/SHMxRC.png
 featured: true
 ---
 
-## Rocket.Chat x Project Insaka – the launch of a new initiative to provide mental health support for HIV positive pregnant women and new mothers in Zambia using Rocket.Chat for the project's support groups
+## Rocket.Chat x Project Insaka – today marks the launch of a new initiative to provide mental health support for HIV positive pregnant women and new mothers in Zambia using Rocket.Chat for the project's support groups
 
 From July, Rocket.Chat technology will be used for an exciting new initiative in Zambia called ‘Project Insaka’ that will provide much-needed support groups for HIV positive pregnant and feeding mothers. The project is being jointly run by London-based charitable foundation [The SHM Foundation](https://shmfoundation.org/?page_id=23321/) and [Zambart](http://www.zambart.org.zm/), a research-based organization in Zambia.
 
@@ -23,6 +23,8 @@ Rocket.Chat’s robust client/server chat network gives The SHM Foundation the c
 
 Insaka, which means an open place to gather and talk in ChiBemba, will break down the barriers to delivering mental health support to Women Living with HIV (WLHIV). This support needs to be accessible, immediate and tailored.
 <br/> Pregnancy is frequently the point at which young women in Zambia first discover their HIV-status. Such discoveries are both highly common and intensely stigmatized. This often results in women denying their condition, not taking their medication, and ultimately increasing the risk of transmitting HIV to their child. It is essential that these women, many of whom lead isolated lives, have access to regular support.
+
+Project Insaka will be rolled out to 60 HIV positive pregnant women and new mothers aged between 15 and 24 years of age who will have access to 6 different peer-to-peer groups that will address their varying needs with suitable health professionals present in each.
 
 Through previous trials held across Guatemala, Mexico, South Africa and the UK, The SHM Foundation have developed a healthcare model that is proven to increase participants' adherence to drug therapies, and improve the mental wellbeing of people living with HIV.
 

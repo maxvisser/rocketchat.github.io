@@ -1,9 +1,9 @@
 ---
-title: "Rocket.Chat x Project Insaka"
+title: "Rocket.Chat x Project Insaka Launches Today"
 categories:
   - News
   - Case Studies
-date: 2018-07-9 8:00:00
+date: 2018-07-16 8:00:00
 author: Isabella Russell
 cover: /images/posts/2018/07/2018-07-9-rocketchat-x-project-insaka/SHMxRC.png
 featured: true

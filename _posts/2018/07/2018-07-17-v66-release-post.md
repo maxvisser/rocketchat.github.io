@@ -2,9 +2,9 @@
 title: "Rocket.Chat 0.66 Released"
 categories:
   - News
-date: 2018-07-09 08:00:00
+date: 2018-07-17 08:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2018/07/2018-07-09-v66-release-post/0.66-cover.jpg
+cover: /images/posts/2018/07/2018-07-17-v66-release-post/0.66-cover.jpg
 featured: true
 ---
 
@@ -16,8 +16,8 @@ To prevent information leaks, all REST APIs that return users' information will 
 
 ## New features:
 
-- IRC Federation
-<br/>It’s now possible to use Rocket.Chat to send and receive messages from an IRC server. The IRC server can also join and participate on channels from the Rocket.Chat server. Direct messages between users from both servers are also available. <br/>This feature will be our inaugural Feature Spotlight, coming soon to the blog. Watch this space!
+- IRC Federation - Alpha stage
+<br/>It’s now possible to use Rocket.Chat to send and receive messages from an IRC server. The IRC server can also join and participate on channels from the Rocket.Chat server. Direct messages between users from both servers are also available. <br/> With this feature, which is still in the early stages of its implementation, we are looking to have a better and stable implementation; as ever all contributions are welcome. <br/> This feature will also be our inaugural Feature Spotlight, coming soon to the blog. Watch this space!
 
 - Youtube Broadcasting
 <br/>This new feature adds an integration between Rocket.Chat and Youtube Live, when enabled and set up, your channel owners will be able to broadcast their camera feed live to the Livestream feature which allows all users on the channel to watch a common stream.

@@ -15,4 +15,9 @@ _This series of blog posts will share the [Google Summer of Code](https://rocket
 
 Welcome back to our 2018 GSoC blog series! Up next is Samar's project that aims to help users to choose from a variety of themes in the Rocket.Chat iOS app. All of us have different tastes in terms of color and style, and this project will help us make sure that a greater number of people really enjoy the app to its fullest potential!
 
+The project started from an issue on GitHub, which then graduated to the ideas list for Google Summer of Code. This is where it was picked up and brought to life over the summer.
+
+### Just in time for iOS 3.0.0
+
+This project is especially exciting as it will have tangible results
 

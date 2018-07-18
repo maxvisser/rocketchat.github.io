@@ -82,14 +82,6 @@
   photo: yes
   country: Brazil
 
-- name: Karl Prieb
-  role: Front End Engineer
-  github_username: karlprieb
-  department: Technology
-  username: karl.prieb
-  photo: yes
-  country: Brazil
-
 - name: Diego Dorgam
   role: Senior Sales & Bots Engineer
   github_username: diegodorgam

@@ -6,6 +6,7 @@ date: 2018-07-17 8:00:00
 author: Isabella Russell
 cover: /images/posts/2018/07/2018-07-17-gsoc-project-2/themes-cover.png
 featured: true
+ios_release: true
 ---
 
 _This series of blog posts will share the [Google Summer of Code](https://rocket.chat/docs/contributing/google-summer-of-code) projects that our 2018 cohort of students are working on. Community memebers are encouraged to join them in creating and testing these exciting new areas of features.<br/>Each project will have their open source repository listed.  Please feel free to drop in and say hello, or join in the action with your own issue or code contribution.<br/>_
@@ -45,4 +46,20 @@ This project is purely rooted in improving the user experience of the app. There
 
 Samar's work also goes some way towards bridging the gap between the ultra-customizability of the web interface versus the mobile apps. With the completion of this project,it is hoped that we have inched closer in the direction of customizability of the iOS app.
 
+### About the creator: Samar Sunkaria
+
+Samar Sunkaria is currently in his final year of a Computer Engineering degree. In his own words:
+> I love to tinker around with software, make stuff and see things spring to life from lines of code. This perpetual desire to make something new, and learn tons along the way brought me to code on mobile apps, just because of the instant gratification of running something on your phone, and showing it to the people around you.
+
+Working with Rocket.Chat over the summer 'was/is an absolute blast'. Samar has particularly enjoyed working on a project with multiple people working on the same codebase, 'marching towards the one unified goal of making a great app'. He feels he has learnt a lot over the past few months through contributing to several different projects and issues apart from his own designated project for GSoC, and is now  even a collaborator on the Rocket.Chat.iOS GitHub repository!
+
+We are really happy to hear that Samar feels the Rocket.Chat team have helped him identify the educational path he wishes to pursue next.
+
+Any parting thoughts?
+
+> I honestly feel that it would be a great summer for anyone who has had the privilege of enjoying it half as much as I did.
+
+Great news! Thank you for your contribution to Rocket.Chat this summer!
+
+![samar sunkaria](https://scontent-bom1-1.cdninstagram.com/vp/9678abd64209a9b3525de621d3a0c6a3/5BD38779/t51.2885-15/e35/15803605_952240744912926_8876631162315866112_n.jpg)
 

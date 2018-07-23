@@ -11,8 +11,10 @@ ios_release: true
 
 _This series of blog posts will share the [Google Summer of Code](https://rocket.chat/docs/contributing/google-summer-of-code) projects that our 2018 cohort of students are working on. Community memebers are encouraged to join them in creating and testing these exciting new areas of features.<br/>Each project will have their open source repository listed.  Please feel free to drop in and say hello, or join in the action with your own issue or code contribution.<br/>_
 
-## Project 2:Theming the Rocket.Chat iOS app <br/> by Samar Sunkaria
-**Mentors: Matheus Cardoso, Filipe Alvarenga**
+## Dark mode and Black mode - New themes for Rocket.Chat's iOS app
+**Student: Samar Sunkaria    Mentors: Matheus Cardoso, Filipe Alvarenga**
+
+Rocket.Chat's iOS native app has been rapidly gaining features and increased stability since the beginning of this year (2018).  As of July, after hundreds of revisions, feature enhancements and bug fixes - the iOS app has become a solid world-class app  comparable against the best production apps available on the AppStore.  That's when team lead Rafael Kellermann and project lead Matheus Cardoso noticed that the user experience falls just short of perfect...
 
 Welcome back to our 2018 GSoC blog series! Up next is Samar's project that aims to help users to choose from a variety of themes in the Rocket.Chat iOS app. All of us have different tastes in terms of color and style, and this project will help us make sure that a greater number of people really enjoy the app to its fullest potential!
 

@@ -1,5 +1,5 @@
 ---
-title: "Dark mode and Black mode -Themes for iOS app (GSoC 2018 project)"
+title: "Dark mode and Black mode - New themes for Rocket.Chat's iOS app (GSoC 2018 project)"
 categories:
   - News
 date: 2018-07-17 8:00:00
@@ -34,7 +34,7 @@ This is actually the form the themes have taken and so Samar feels it is very ex
 
 ### Overcoming some technical challenges
 
-One of the major technical challenges that potentially impeded this project was keeping all the theming-related code at arm’s length of the rest of the app's code. This is where Swift shines. Pretty much all of the code related to theming the application is declared in extensions, which also allowed us to provide some basic behavior for all the frequently used UIKit classes. <br/> This greatly reduced the code the team had to write to theme each view. In several cases, no extra code was required to be added to a view, to enjoy the benefits of being themed.
+One of the major technical challenges that potentially impeded this project was keeping all the theming-related code at arm’s length of the rest of the app's code. This is where Swift shines. Pretty much all of the code related to theming the application is declared in extensions,which also allowed us to provide some basic behavior for all the frequently used UIKit classes. <br/> This greatly reduced the code the team had to write to theme each view. In several cases, no extra code was required to be added to a view, to enjoy the benefits of being themed.
 
 This project touches every part of the app, and anyone else working on the codebase should also be clued into working with themes, so a doc has been created to walk them through its usage
 and implementation: <https://github.com/RocketChat/Rocket.Chat.iOS/pull/1602>
@@ -48,7 +48,7 @@ Samar's work also goes some way towards bridging the gap between the ultra-custo
 
 ### About the creator: Samar Sunkaria
 
-Samar Sunkaria is currently in the third year of a Computer Engineering degree. In his own words:
+Samar Sunkaria has finished his third year of a Computer Engineering degree. In his own words:
 > I love to tinker around with software, make stuff and see things spring to life from lines of code. This perpetual desire to make something new, and learn tons along the way brought me to code on mobile apps, just because of the instant gratification of running something on your phone, and showing it to the people around you.
 
 Working with Rocket.Chat over the summer 'was/is an absolute blast'. Samar has particularly enjoyed working on a project with multiple people working on the same codebase, 'marching towards the one unified goal of making a great app'. He feels he has learnt a lot over the past few months through contributing to several different projects and issues apart from his own designated project for GSoC, and is now  even a collaborator on the Rocket.Chat.iOS GitHub repository!

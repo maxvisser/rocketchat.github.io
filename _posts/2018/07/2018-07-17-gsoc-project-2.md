@@ -1,5 +1,5 @@
 ---
-title: "Theming the Rocket.Chat iOS app (GSoC 2018 project)"
+title: "Dark mode and Black mode -Themes for iOS app (GSoC 2018 project)"
 categories:
   - News
 date: 2018-07-17 8:00:00

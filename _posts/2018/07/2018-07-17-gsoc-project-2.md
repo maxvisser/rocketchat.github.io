@@ -14,13 +14,14 @@ _This series of blog posts will share the [Google Summer of Code](https://rocket
 ## Dark mode and Black mode - New themes for Rocket.Chat's iOS app
 **Student: Samar Sunkaria    Mentors: Matheus Cardoso, Filipe Alvarenga**
 
-Rocket.Chat's iOS native app has been rapidly gaining features and increased stability since the beginning of this year (2018).  As of July, after hundreds of revisions, feature enhancements and bug fixes - the iOS app has become a solid world-class app  comparable against the best production apps available on the AppStore.  That's when team lead Rafael Kellermann and project lead Matheus Cardoso noticed that the user experience falls just short of perfect...
-
-Welcome back to our 2018 GSoC blog series! Up next is Samar's project that aims to help users to choose from a variety of themes in the Rocket.Chat iOS app. All of us have different tastes in terms of color and style, and this project will help us make sure that a greater number of people really enjoy the app to its fullest potential!
+Welcome back to our 2018 GSoC blog series! Up next is Samar's project that aimed to help users to choose from a variety of themes in the Rocket.Chat iOS app. All of us have different tastes in terms of color and style, and this project has helped us make sure that a greater number of people really enjoy the app to its fullest potential!
 
 The project started from an issue on GitHub, which then graduated to the ideas list for Google Summer of Code. This is where it was picked up and been brought to life over the summer.
 
+
 ### Just in time for iOS 3.0.0
+
+Rocket.Chat's iOS native app has been rapidly gaining features and increased stability since the beginning of this year (2018).  As of July, after hundreds of revisions, feature enhancements and bug fixes - the iOS app has become a solid world-class app  comparable against the best production apps available on the AppStore.  That's when team lead Rafael Kellermann Streit and project lead Matheus Cardoso noticed that the user experience falls just short of perfect...
 
 This project is especially exciting as it forms part of the key features in our newest native app release, Rocket.Chat for iOS v.3.0!
 

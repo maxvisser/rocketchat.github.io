@@ -51,7 +51,7 @@ Samar's work also goes some way towards bridging the gap between the ultra-custo
 Samar Sunkaria has finished his third year of a Computer Engineering degree. In his own words:
 > I love to tinker around with software, make stuff and see things spring to life from lines of code. This perpetual desire to make something new, and learn tons along the way brought me to code on mobile apps, just because of the instant gratification of running something on your phone, and showing it to the people around you.
 
-Working with Rocket.Chat over the summer 'was/is an absolute blast'. Samar has particularly enjoyed working on a project with multiple people working on the same codebase, 'marching towards the one unified goal of making a great app'. He feels he has learnt a lot over the past few months through contributing to several different projects and issues apart from his own designated project for GSoC, and is now  even a collaborator on the Rocket.Chat.iOS GitHub repository!
+Working with Rocket.Chat over the summer 'was an absolute blast'. Samar has particularly enjoyed working on a project with multiple people working on the same codebase, 'marching towards the one unified goal of making a great app'. He feels he has learnt a lot over the past few months through contributing to several different projects and issues aside from his own designated project for GSoC, and is now even a collaborator on the Rocket.Chat.iOS GitHub repository!
 
 We are really happy to hear that Samar feels the Rocket.Chat team have helped him identify the educational path he wishes to pursue next.
 

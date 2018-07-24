@@ -14,16 +14,15 @@ _This series of blog posts will share the [Google Summer of Code](https://rocket
 ## Dark mode and Black mode - New themes for Rocket.Chat's iOS app
 **Student: Samar Sunkaria    Mentors: Matheus Cardoso, Filipe Alvarenga**
 
-Welcome back to our 2018 GSoC blog series! Up next is Samar's project that aimed to help users to choose from a variety of themes in the Rocket.Chat iOS app. All of us have different tastes in terms of color and style, and this project has helped us make sure that a greater number of people really enjoy the app to its fullest potential!
+Welcome back to our 2018 GSoC blog series! Up next is Samar's project that aimed to help users to choose from a three new themes in the Rocket.Chat iOS app. All of us have different tastes in terms of color and style, and this project has helped us make sure that a greater number of people really enjoy the app to its fullest potential!
 
 The project started from an issue on GitHub, which then graduated to the ideas list for Google Summer of Code. This is where it was picked up and been brought to life over the summer.
 
-
 ### Just in time for iOS 3.0.0
 
-Rocket.Chat's iOS native app has been rapidly gaining features and increased stability since the beginning of this year (2018).  As of July, after hundreds of revisions, feature enhancements and bug fixes - the iOS app has become a solid world-class app  comparable against the best production apps available on the AppStore.  That's when team lead Rafael Kellermann Streit and project lead Matheus Cardoso noticed that the user experience falls just short of perfect...
+Rocket.Chat's iOS native app has been rapidly gaining features and increased stability since the beginning of this year (2018).  As of July, after hundreds of revisions, feature enhancements and bug fixes - the iOS app has become a solid world-class app capable of holding its own among the best production apps available on the App Store.  That's when team lead Rafael Kellermann Streit and project lead Matheus Cardoso noticed that the user experience was falling just short of perfect...
 
-This project is especially exciting as it forms part of the key features in our newest native app release, Rocket.Chat for iOS v.3.0!
+That is where Samar's GSoC project comes in! Thanks to Samar's hard work, users will now be able to choose between Dark, Black and Light mode, which is especially exciting as the themes developed are among the key features of this newest native app release: Rocket.Chat for iOS v3.0!
 
 As Samar says, now that the app is live with its new themes,
 
@@ -35,19 +34,18 @@ In the original proposal Samar suggested
 
 This is actually the form the themes have taken and so Samar feels it is very exciting to know that the project stayed true to its original goals and intentions.
 
+### Improving UX
+
+This project is rooted in improving the user experience of the app. There are many factors that play into making an app enjoyable to use, and we really hope that this feature is one of them.
+
+Samar's work also goes some way towards bridging the gap between the ultra-customizability of the web interface versus the mobile apps. With the completion of this project,it is hoped that we have inched closer in the direction of customizability of the iOS app.
+
 ### Overcoming some technical challenges
 
 One of the major technical challenges that potentially impeded this project was keeping all the theming-related code at arm’s length of the rest of the app's code. This is where Swift shines. Pretty much all of the code related to theming the application is declared in extensions,which also allowed us to provide some basic behavior for all the frequently used UIKit classes. <br/> This greatly reduced the code the team had to write to theme each view. In several cases, no extra code was required to be added to a view, to enjoy the benefits of being themed.
 
 This project touches every part of the app, and anyone else working on the codebase should also be clued into working with themes, so a doc has been created to walk them through its usage
 and implementation: <https://github.com/RocketChat/Rocket.Chat.iOS/pull/1602>
-
-
-### Improving UX
-
-This project is purely rooted in improving the user experience of the app. There are many factors that play into making an app enjoyable to use, and we really hope that this feature is one of them.
-
-Samar's work also goes some way towards bridging the gap between the ultra-customizability of the web interface versus the mobile apps. With the completion of this project,it is hoped that we have inched closer in the direction of customizability of the iOS app.
 
 ### About the creator: Samar Sunkaria
 

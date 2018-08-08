@@ -22,7 +22,7 @@ This Migration Bundle includes:
 
 ## About Rocket.Chat
 
-[Rocket.Chat](https://rocket.chat/) is a secure, open source and fully customizable Cloud or Self-Hosted Atlassian HipChat and Slack-alternative that brings all team communication into one place across web, desktop and mobile.
+[Rocket.Chat](https://rocket.chat/) is a secure, open source and fully customizable Cloud or Self-Hosted Atlassian HipChat and Slack-alternative that brings all team communication into one place across web, desktop and mobile (Android and iOS).
 <br/>
 
 ![Rocket.Chat iOS app](/images/posts/2018/08/2018-08-07-welcome-to-rocketchat/ios_apps.png)

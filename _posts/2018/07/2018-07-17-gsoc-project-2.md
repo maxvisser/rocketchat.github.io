@@ -28,11 +28,11 @@ That is where Samar's GSoC project comes in! Thanks to Samar's hard work, users 
 
 As Samar says, now that the app is live with its new themes,
 
-> it is fascinating to compare [the finished result] with the project goal originally submitted as part of the GSoC proposal.
+> "it is fascinating to compare [the finished result] with the project goal originally submitted as part of the GSoC proposal."
 
 In the original proposal Samar suggested
 
-> adding the ability to theme the app on a per view controller basis including all the subviews contained in it.
+> "adding the ability to theme the app on a per view controller basis including all the subviews contained in it."
 
 This is actually the form the themes have taken and so Samar feels it is very exciting to know that the project stayed true to its original goals and intentions.
 
@@ -54,7 +54,7 @@ and implementation: <https://github.com/RocketChat/Rocket.Chat.iOS/pull/1602>
 ### About the creator: Samar Sunkaria
 
 Samar Sunkaria has finished his third year of a Computer Engineering degree. In his own words:
-> I love to tinker around with software, make stuff and see things spring to life from lines of code. This perpetual desire to make something new, and learn tons along the way brought me to code on mobile apps, just because of the instant gratification of running something on your phone, and showing it to the people around you.
+> "I love to tinker around with software, make stuff and see things spring to life from lines of code. This perpetual desire to make something new, and learn tons along the way brought me to code on mobile apps, just because of the instant gratification of running something on your phone, and showing it to the people around you."
 
 Working with Rocket.Chat over the summer 'was an absolute blast'. Samar has particularly enjoyed working on a project with multiple people working on the same codebase, 'marching towards the one unified goal of making a great app'. He feels he has learnt a lot over the past few months through contributing to several different projects and issues aside from his own designated project for GSoC, and is now even a collaborator on the Rocket.Chat.iOS GitHub repository!
 
@@ -62,9 +62,8 @@ We are really happy to hear that Samar feels the Rocket.Chat team have helped hi
 
 Any parting thoughts?
 
-> I honestly feel that it would be a great summer for anyone who has had the privilege of enjoying it half as much as I did.
+> "I honestly feel that it would be a great summer for anyone who has had the privilege of enjoying it half as much as I did."
 
 Great news! Thank you for your contribution to Rocket.Chat this summer!
 
 ![samar sunkaria](https://scontent-bom1-1.cdninstagram.com/vp/9678abd64209a9b3525de621d3a0c6a3/5BD38779/t51.2885-15/e35/15803605_952240744912926_8876631162315866112_n.jpg)
-

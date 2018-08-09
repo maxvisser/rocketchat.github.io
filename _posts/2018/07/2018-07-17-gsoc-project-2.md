@@ -9,7 +9,7 @@ featured: true
 ios_release: true
 ---
 
-_This series of blog posts will share the [Google Summer of Code](https://rocket.chat/docs/contributing/google-summer-of-code) projects that our 2018 cohort of students are working on. Community memebers are encouraged to join them in creating and testing these exciting new areas of features.<br/>Each project will have their open source repository listed.  Please feel free to drop in and say hello, or join in the action with your own issue or code contribution.<br/>_
+_This series of blog posts will share the [Google Summer of Code](https://rocket.chat/docs/contributing/google-summer-of-code) projects that our 2018 cohort of students are working on. Community members are encouraged to join them in creating and testing these exciting new areas of features.<br/>Each project will have their open source repository listed.  Please feel free to drop in and say hello, or join in the action with your own issue or code contribution.<br/>_
 
 ## Dark mode and Black mode - New themes for Rocket.Chat's iOS app
 **Student: Samar Sunkaria    Mentors: Matheus Cardoso, Filipe Alvarenga**
@@ -53,12 +53,15 @@ and implementation: <https://github.com/RocketChat/Rocket.Chat.iOS/pull/1602>
 
 ### About the creator: Samar Sunkaria
 
+
 Samar Sunkaria has finished his third year of a Computer Engineering degree. In his own words:
 > "I love to tinker around with software, make stuff and see things spring to life from lines of code. This perpetual desire to make something new, and learn tons along the way brought me to code on mobile apps, just because of the instant gratification of running something on your phone, and showing it to the people around you."
 
 Working with Rocket.Chat over the summer 'was an absolute blast'. Samar has particularly enjoyed working on a project with multiple people working on the same codebase, 'marching towards the one unified goal of making a great app'. He feels he has learnt a lot over the past few months through contributing to several different projects and issues aside from his own designated project for GSoC, and is now even a collaborator on the Rocket.Chat.iOS GitHub repository!
 
 We are really happy to hear that Samar feels the Rocket.Chat team have helped him identify the educational path he wishes to pursue next.
+
+What's next for Samar? He will now take some time out and pause his graduation to attend the Apple Developer Academy in Italy- exciting stuff!
 
 Any parting thoughts?
 

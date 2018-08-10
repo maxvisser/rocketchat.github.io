@@ -8,7 +8,7 @@ cover: /images/press/logos/512x512.jpg
 featured: true
 ---
 
-After Slack announced its acquisition and discontinuation of Atlassian HipChat and Stride last week, HipChat users have voiced  their concerns regarding the lack of self-hosted options for team chat and collaboration, as well as some security concerns linked to Cloud versus on-prem options.
+After Slack announced its acquisition and discontinuation of Atlassian HipChat and Stride, HipChat users have voiced  their concerns regarding the lack of self-hosted options for team chat and collaboration, as well as some security concerns linked to Cloud versus on-prem options.
 
 ![rocket.chat team chat platform](/images/posts/2018/08/2018-08-07-welcome-to-rocketchat/rc_descktop_app.png)
 
